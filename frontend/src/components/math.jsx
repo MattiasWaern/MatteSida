@@ -98,7 +98,7 @@ function checkAnswer() {
       <button onClick={checkAnswer}>Kontrollera</button>
       <button onClick={nextQuestion}>Nästa fråga</button>
 
-      <p>{result}</p>
+      <p id="results">{result}</p>
     </section>
   );
 }
