@@ -63,7 +63,7 @@ function checkAnswer() {
     <section>
       <h2>Lös ekvationen</h2>
       <h3>{randomQuestion.category}</h3>
-      <h3>{randomQuestion.difficulty}</h3>
+      <h4>{randomQuestion.difficulty}</h4>
 
       <p>{randomQuestion.text}</p>
 
