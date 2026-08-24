@@ -26,27 +26,35 @@ function MathQuiz() {
   const [randomQuestion, setRandomQuestion] = useState(
         questions[Math.floor(Math.random() * questions.length)]);
 
+function nextQuestion(){
+    setRandomQuestion(
+         questions[Math.floor(Math.random() * questions.length)]
+    );
+    setAnswer1("");
+    setAnswer2("");
+    setResult("");
+}
 
-    function checkAnswer() {
-        if (randomQuestion.type === 'single') {
-            if(answer1 === randomQuestion.answer[0]){
-                setResult("Rätt!");
-            }
+function checkAnswer() {
+    if (randomQuestion.type === "single") {
+        if (answer1 === randomQuestion.answer[0]) {
+            setResult("Rätt!");
         } else {
             setResult("Fel!");
         }
+    }
 
-        if(randomQuestion.type === 'multple'){
-            const userAnswers = [answer1, answer2].sort();
-            const correctAnswers = [...randomQuestion.answer].sort();
+    if (randomQuestion.type === "multiple") {
+        const userAnswers = [answer1, answer2].sort();
+        const correctAnswers = [...randomQuestion.answer].sort();
 
-            if(JSON.stringify(userAnswers) === JSON.stringify(correctAnswers)){
-                setResult("Rätt")
-            } else {
-                setResult("Fel");
-            }
+        if (JSON.stringify(userAnswers) === JSON.stringify(correctAnswers)) {
+            setResult("Rätt!");
+        } else {
+            setResult("Fel!");
         }
     }
+}
 
 
   console.log(randomQuestion);
@@ -59,21 +67,36 @@ function MathQuiz() {
 
       <p>{randomQuestion.text}</p>
 
-        <input
+        {randomQuestion.type === 'single' && (
+            <input
+            type="text"
+            value={answer1}
+            onChange={(event) => setAnswer1(event.target.value)}
+            placeholder="Ditt svar"
+            />
+        )}
+
+        {randomQuestion.type === 'multiple' &&(
+         <>
+            <input
             type="text"
             value={answer1}
             onChange={(event) => setAnswer1(event.target.value)}
             placeholder="x₁"
-        />
+            />
 
-        <input
+            <input
             type="text"
             value={answer2}
             onChange={(event) => setAnswer2(event.target.value)}
             placeholder="x₂"
-        />
+            /> 
+         </>
+           
+        )}
 
       <button onClick={checkAnswer}>Kontrollera</button>
+      <button onClick={nextQuestion}>Nästa fråga</button>
 
       <p>{result}</p>
     </section>
