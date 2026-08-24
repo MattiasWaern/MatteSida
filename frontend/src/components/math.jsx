@@ -1,4 +1,5 @@
 import { useState } from "react";
+import '../styles/math.css'
 
 function MathQuiz() {
   const [answer, setAnswer] = useState("");
@@ -39,6 +40,8 @@ function MathQuiz() {
   return (
     <section>
       <h2>Lös ekvationen</h2>
+      <h3>{randomQuestion.category}</h3>
+      <h3>{randomQuestion.difficulty}</h3>
 
       <p>{randomQuestion.text}</p>
 
