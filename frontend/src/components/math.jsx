@@ -15,6 +15,41 @@ function MathQuiz() {
         difficulty: "medium",
     },
     {
+        text: "x^2 - 9 = 0",
+        answer: ["3", "-3"],
+        type: "multiple",
+        category: "Enkla andragradsekvationer",
+        difficulty: "easy"
+    },
+    {
+        text: "3x^2 - 12x = 0",
+        answer: ["0", "4"],
+        type: "multiple",
+        category: "Faktorisering",
+        difficulty: "medium"
+    },
+    {
+        text: "x^2 - 6x + 8 = 0",
+        answer: ["2", "4"],
+        type: "multiple",
+        category: "pq-formeln",
+        difficulty: "medium"
+    },
+    {
+        text: "2x^2 + 8x - 24 = 0",
+        answer: ["2", "-6"],
+        type: "multiple",
+        category: "pq-formeln med koefficient",
+        difficulty: "hard"
+    },
+    {
+        text: "x^2 - 4x + 5 = 0",
+        answer: ["Saknar reella lösningar"],
+        type: "single",
+        category: "Icke-reella rötter",
+        difficulty: "hard"
+    },    
+    {
         text: "2x + 7 = 15",
         answer: ["4"],
         type: "single",
@@ -95,12 +130,14 @@ function checkAnswer() {
   console.log(randomQuestion);
 
   return (
-    <section>
+    <section className="math-quiz">
       <h2>Lös ekvationen</h2>
       <h3>{randomQuestion.category}</h3>
       <h4>{randomQuestion.difficulty}</h4>
 
-      <p>{randomQuestion.text}</p>
+      <p className="question-text">
+            {randomQuestion.text}
+      </p>
 
         {randomQuestion.type === 'single' && (
             <input
