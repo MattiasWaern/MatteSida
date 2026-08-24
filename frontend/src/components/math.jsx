@@ -21,6 +21,41 @@ function MathQuiz() {
         category: "Linjära ekvationer",
         difficulty: "easy",
     },
+    {
+        text: "4x + 7 = 23",
+        answer: ["4"],
+        type: "single",
+        category: "Linjära ekvationer",
+        difficulty: "easy"
+    },
+    {
+        text: "2(x - 3) + 4 = 3x - 5",
+        answer: ["3"],
+        type: "single",
+        category: "Linjära ekvationer med parenteser",
+        difficulty: "medium"
+    },
+    {
+        text: "Bestäm x i ekvationssystemet:\nx + y = 7\n2x - y = 2",
+        answer: ["3"],
+        type: "single",
+        category: "Ekvationssystem (introduktion)",
+        difficulty: "medium"
+    },
+    {
+        text: "Bestäm y i ekvationssystemet:\n2x + 3y = 13\n4x - y = 5",
+        answer: ["3"],
+        type: "single",
+        category: "Lösning av ekvationssystem",
+        difficulty: "hard"
+    },
+    {
+        text: "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = 2x + 3\ny = -x + 9",
+        answer: ["2"],
+        type: "single",
+        category: "Skärningspunkt för linjära funktioner",
+        difficulty: "hard"
+    }    
 ];
 
   const [randomQuestion, setRandomQuestion] = useState(
