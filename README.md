@@ -14,3 +14,8 @@ Express
 SQLite
 bcrypt
 JSON Web Tokens (JWT)
+
+
+Linjärna ekvationer
+Funktioner
+Statisitk
