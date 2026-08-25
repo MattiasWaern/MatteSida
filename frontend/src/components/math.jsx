@@ -225,27 +225,31 @@ function MathQuiz() {
     setExplanation([]);
   }
 
-  function checkAnswer() {
+function checkAnswer() {
     if (randomQuestion.type === "single") {
-      if (answer1 === randomQuestion.answer[0]) {
-        setResult("Rätt!");
-      } else {
-        setResult("Fel!");
-      }
+        if (answer1.trim() === randomQuestion.answer[0].trim()) {
+            setResult("Rätt!");
+        } else {
+            setResult("Fel!");
+        }
     }
 
     if (randomQuestion.type === "multiple") {
-      const userAnswers = [answer1, answer2].sort();
-      const correctAnswers = [...randomQuestion.answer].sort();
+        const userAnswers = [answer1, answer2]
+            .map(answer => answer.trim())
+            .sort();
 
-      if (JSON.stringify(userAnswers) === JSON.stringify(correctAnswers)) {
-        setResult("Rätt!");
-      } else {
-        setResult("Fel!");
-      }
+        const correctAnswers = [...randomQuestion.answer]
+            .map(answer => answer.trim())
+            .sort();
+
+        if (JSON.stringify(userAnswers) === JSON.stringify(correctAnswers)) {
+            setResult("Rätt!");
+        } else {
+            setResult("Fel!");
+        }
     }
-  }
-
+}
 
   function showExplanation(){
       setExplanation(randomQuestion.explanation.map((step, id) => (
