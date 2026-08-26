@@ -7,7 +7,9 @@ function Header({ setCategory }) {
 
                 <a href="/" className="logo">
                     <span className="logo-icon">β</span>
-                    <span>Matte<span>Experten</span></span>
+                    <span>
+                        Matte<span>Experten</span>
+                    </span>
                 </a>
 
                 <nav className="nav">
@@ -20,15 +22,27 @@ function Header({ setCategory }) {
 
                         <div className="category-dropdown">
 
-                            <button onClick={() => setCategory("Linjära ekvationer")}>
+                            <button
+                                onClick={() =>
+                                    setCategory("Linjära ekvationer")
+                                }
+                            >
                                 Linjära ekvationer
                             </button>
 
-                            <button onClick={() => setCategory("Andragradsekvationer")}>
+                            <button
+                                onClick={() =>
+                                    setCategory("Andragradsekvationer")
+                                }
+                            >
                                 Andragradsekvationer
                             </button>
 
-                            <button onClick={() => setCategory("Ekvationssystem")}>
+                            <button
+                                onClick={() =>
+                                    setCategory("Ekvationssystem")
+                                }
+                            >
                                 Ekvationssystem
                             </button>
 
