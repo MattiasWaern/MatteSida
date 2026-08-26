@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {useSearchParams} from "react-router-dom";
 import "../styles/math.css";
 
 function MathQuiz() {
@@ -6,9 +7,9 @@ function MathQuiz() {
   const [answer2, setAnswer2] = useState("");
   const [result, setResult] = useState("");
   const [explanation, setExplanation] = useState([]);
-
-  const questions = [
-   {
+    const [searchParams] = useSearchParams();
+    const category = searchParams.get("category");
+    const questions = [{
     text: "x² - 5x + 6 = 0",
     answer: ["2", "3"],
     type: "multiple",
@@ -212,18 +213,27 @@ function MathQuiz() {
         "Dividera med 3.",
         "x = 2"
     ]
-  }
-];
-   
-  const [randomQuestion, setRandomQuestion] = useState(questions[Math.floor(Math.random() * questions.length)]);
+}]
+    const filteredQuestions = category
+        ? questions.filter(q => q.category === category)
+        : questions;
 
-  function nextQuestion() {
-    setRandomQuestion(questions[Math.floor(Math.random() * questions.length)]);
-    setAnswer1("");
-    setAnswer2("");
-    setResult("");
-    setExplanation([]);
-  }
+    const [randomQuestion, setRandomQuestion] = useState(
+        filteredQuestions[Math.floor(Math.random() * filteredQuestions.length)]
+    );
+
+    function nextQuestion() {
+        setRandomQuestion(
+            filteredQuestions[
+                Math.floor(Math.random() * filteredQuestions.length)
+            ]
+        );
+
+        setAnswer1("");
+        setAnswer2("");
+        setResult("");
+        setExplanation([]);
+    }
 
 function checkAnswer() {
     if (randomQuestion.type === "single") {

@@ -52,20 +52,55 @@
 .nav {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 30px;
 }
 
 .nav a {
-    color: #cbd5e1;
     text-decoration: none;
-    font-size: 0.95rem;
-    font-weight: 500;
-
-    transition: color 0.2s ease;
+    color: white;
 }
 
-.nav a:hover {
-    color: white;
+.practice-menu {
+    position: relative;
+}
+
+.practice-link {
+    display: block;
+}
+
+/* Dropdown */
+.category-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 220px;
+    padding: 8px;
+
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+
+    display: none;
+}
+
+/* Visa dropdown när man hovrar över Öva */
+.practice-menu:hover .category-dropdown {
+    display: block;
+}
+
+/* Kategorierna */
+.category-dropdown a {
+    display: block;
+    padding: 12px 14px;
+    border-radius: 7px;
+    color: #333;
+    text-decoration: none;
+}
+
+.category-dropdown a:hover {
+    background-color: #f0f0f0;
 }
 
 .profile-button {

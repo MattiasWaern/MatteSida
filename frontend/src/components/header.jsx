@@ -1,6 +1,6 @@
 import "../styles/header.css";
 
-function Header() {
+function Header({ setCategory }) {
     return (
         <header className="header">
             <div className="header-content">
@@ -14,22 +14,24 @@ function Header() {
                     <a href="/">Hem</a>
 
                     <div className="practice-menu">
-                        <a href="/quiz" className="practice-link">
+                        <button className="practice-link">
                             Öva
-                        </a>
+                        </button>
 
                         <div className="category-dropdown">
-                            <a href="/quiz/linjara-ekvationer">
+
+                            <button onClick={() => setCategory("Linjära ekvationer")}>
                                 Linjära ekvationer
-                            </a>
+                            </button>
 
-                            <a href="/quiz/andragradsekvationer">
+                            <button onClick={() => setCategory("Andragradsekvationer")}>
                                 Andragradsekvationer
-                            </a>
+                            </button>
 
-                            <a href="/quiz/ekvationssystem">
+                            <button onClick={() => setCategory("Ekvationssystem")}>
                                 Ekvationssystem
-                            </a>
+                            </button>
+
                         </div>
                     </div>
 
