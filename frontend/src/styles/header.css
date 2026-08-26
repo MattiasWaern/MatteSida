@@ -71,97 +71,75 @@
     cursor: pointer;
     color: white;
 }
+.category-menu {
+    position: relative;
+    color: white;
+}
 
-/* Dropdown */
 .category-dropdown {
     position: absolute;
     top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+
+    display: none;
 
     width: 220px;
     padding: 8px;
-    margin-top: 0px;
 
     background: white;
-    border-radius: 10px;
-
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-
-    opacity: 0;
-    visibility: hidden;
-
-    transition: opacity 0.2s ease;
-    
-
-    z-index: 1000;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Visa dropdown när man hovrar över hela practice-menu */
-.practice-menu:hover .category-dropdown {
-    opacity: 1;
-    visibility: visible;
-}
-
-.category-dropdown button {
+.category-menu:hover .category-dropdown {
     display: block;
-
-    width: 100%;
-    padding: 12px;
-
-    border: none;
-    background: none;
-
-    text-align: left;
-    cursor: pointer;
-
-    border-radius: 7px;
 }
 
-.category-dropdown button:hover {
-    background: #f0f0f0;
-}
 
 .category-item {
     position: relative;
+    color: black;
 }
 
-.difficulty-dropdown {
-    position: absolute;
-    left: 100%;
-    top: 0;
-
-    width: 150px;
-    padding: 8px;
-
-    background: white;
-    border-radius: 10px;
-
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-
-    opacity: 0;
-    visibility: hidden;
-}
-
-.category-item:hover .difficulty-dropdown {
-    opacity: 1;
-    visibility: visible;
-}
-
-.difficulty-dropdown button {
+.category-item > span {
     display: block;
-    width: 100%;
     padding: 10px;
-
-    border: none;
-    background: none;
-
-    text-align: left;
     cursor: pointer;
 }
 
-.difficulty-dropdown button:hover {
-    background: #f0f0f0;
+
+/* Svårigheterna */
+.difficulty-dropdown {
+    position: absolute;
+
+    left: 100%;
+    top: 0;
+
+    display: none;
+
+    width: 120px;
+    padding: 8px;
+
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.category-item:hover .difficulty-dropdown {
+    display: block;
+}
+
+
+.difficulty-dropdown a {
+    display: block;
+    padding: 10px;
+
+    text-decoration: none;
+    color: black;
+}
+
+.difficulty-dropdown a:hover {
+    background: #f2f2f2;
 }
 
 .profile-button {

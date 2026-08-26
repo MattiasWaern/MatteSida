@@ -1,146 +1,118 @@
+import { Link } from "react-router-dom";
 import "../styles/header.css";
 
-function Header({ setCategory, setDifficulty }) {
+function Header() {
     return (
         <header className="header">
             <div className="header-content">
 
-                <a href="/" className="logo">
+                <Link to="/" className="logo">
                     <span className="logo-icon">β</span>
-                    <span>
-                        Matte<span>Experten</span>
-                    </span>
-                </a>
+                    <span>Matte<span>Experten</span></span>
+                </Link>
+
 
                 <nav className="nav">
-                    <a href="/">Hem</a>
 
-                    <div className="practice-menu">
-                        <button className="practice-link">
-                            Öva
-                        </button>
-
-                            <div className="category-dropdown">
-
-                                <div className="category-item">
-                                    <button
-                                        onClick={() => 
-                                            setCategory("Linjära ekvationer")
-
-                                        }
-                                    >
-                                        Linjära ekvationer</button>
-
-                                    <div className="difficulty-dropdown">
-                                        <button
-                                            onClick={() => {
-                                            setDifficulty("easy")
-                                            setCategory("Linjära ekvationer")
-
-                                        }
-                                    }
-                                        >Lätt</button>
-
-                                        <button
-                                            onClick={() => {
-                                            setDifficulty("medium")
-                                            setCategory("Linjära ekvationer")
-
-                                        }
-                                    }                                     
-                                        >Medel</button>
-
-                                        <button
-                                            onClick={() => {
-                                            setDifficulty("hard")
-                                            setCategory("Linjära ekvationer")
-
-                                        }
-                                    }                                         
-                                        >Svår</button>
-                                    </div>
-                                </div>
+                    <Link to="/">
+                        Hem
+                    </Link>
 
 
-                                <div className="category-item">
-                                        <button
-                                            onClick={() => 
-                                            setCategory("Andragradsekvationer")
+                    <div className="category-menu">
 
-                                        
-                                    }   
-                                    >Andragradsekvationer</button>
+                        <span>Öva</span>
 
-                                    <div className="difficulty-dropdown">
-                                        <button
-                                            onClick={() => {
-                                            setDifficulty("easy")
-                                            setCategory("Andragradsekvationer")
+                        <div className="category-dropdown">
 
-                                        }
-                                    }   
-                                        >Lätt</button>
+                            {/* Linjära ekvationer */}
+                            <div className="category-item">
 
-                                        <button
-                                            onClick={() => {
-                                            setDifficulty("medium")
-                                            setCategory("Andragradsekvationer")
+                                <span>
+                                    Linjära ekvationer
+                                </span>
 
-                                        }
-                                    } 
-                                        >Medel</button>
+                                <div className="difficulty-dropdown">
 
-                                        <button
-                                            onClick={() => {
-                                            setDifficulty("hard")
-                                            setCategory("Andragradsekvationer")
+                                    <Link to="/quiz/linjara-ekvationer/easy">
+                                        Lätt
+                                    </Link>
 
-                                        }
-                                    } 
-                                        >Svår</button>
-                                    </div>
-                                </div>
+                                    <Link to="/quiz/linjara-ekvationer/medium">
+                                        Medel
+                                    </Link>
 
+                                    <Link to="/quiz/linjara-ekvationer/hard">
+                                        Svår
+                                    </Link>
 
-                                <div className="category-item">
-                                    <button
-                                        onClick={() => 
-                                            setCategory("Ekvationssystem")
-                                        }
-                                    >Ekvationssystem</button>
-
-                                    <div className="difficulty-dropdown">
-                                    <button
-                                        onClick={() => {
-                                            setCategory("Ekvationssystem")
-                                            setDifficulty("easy")
-                                        }
-                                    }     
-                                        >Lätt</button>
-
-                                    <button
-                                        onClick={() => {
-                                            setCategory("Ekvationssystem")
-                                            setDifficulty("medium")
-                                        }
-                                    }   
-                                        >Medel</button>
-
-                                    <button
-                                        onClick={() => {
-                                            setCategory("Ekvationssystem")
-                                            setDifficulty("hard")
-                                        }
-                                    }   
-                                        >Svår</button>
-                                    </div>
                                 </div>
 
                             </div>
+
+
+                            {/* Andragradsekvationer */}
+                            <div className="category-item">
+
+                                <span>
+                                    Andragradsekvationer
+                                </span>
+
+                                <div className="difficulty-dropdown">
+
+                                    <Link to="/quiz/andragradsekvationer/easy">
+                                        Lätt
+                                    </Link>
+
+                                    <Link to="/quiz/andragradsekvationer/medium">
+                                        Medel
+                                    </Link>
+
+                                    <Link to="/quiz/andragradsekvationer/hard">
+                                        Svår
+                                    </Link>
+
+                                </div>
+
+                            </div>
+
+
+                            {/* Ekvationssystem */}
+                            <div className="category-item">
+
+                                <span>
+                                    Ekvationssystem
+                                </span>
+
+                                <div className="difficulty-dropdown">
+
+                                    <Link to="/quiz/ekvationssystem/easy">
+                                        Lätt
+                                    </Link>
+
+                                    <Link to="/quiz/ekvationssystem/medium">
+                                        Medel
+                                    </Link>
+
+                                    <Link to="/quiz/ekvationssystem/hard">
+                                        Svår
+                                    </Link>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
                     </div>
 
-                    <a href="/progress">Min progress</a>
+
+                    <Link to="/progress">
+                        Min progress
+                    </Link>
+
                 </nav>
+
 
                 <button className="profile-button">
                     <span className="profile-icon">👤</span>

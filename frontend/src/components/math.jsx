@@ -1,12 +1,21 @@
 import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import "../styles/math.css";
 
-function MathQuiz({ category, difficulty }) {
+function MathQuiz() {
 
     const [answer1, setAnswer1] = useState("");
     const [answer2, setAnswer2] = useState("");
     const [result, setResult] = useState("");
     const [explanation, setExplanation] = useState([]);
+    const { category, difficulty } = useParams();
+    const categoryNames = {
+        "linjara-ekvationer": "Linjära ekvationer",
+        "andragradsekvationer": "Andragradsekvationer",
+        "ekvationssystem": "Ekvationssystem"
+    };
+
+    const selectedCategory = categoryNames[category]
 
     const questions = [
         {
@@ -221,7 +230,7 @@ function MathQuiz({ category, difficulty }) {
     const filteredQuestions = questions.filter((question) => {
 
         const categoryMatch =
-            !category || question.category === category;
+            !category || question.category === selectedCategory;
 
         const difficultyMatch =
             !difficulty || question.difficulty === difficulty;
