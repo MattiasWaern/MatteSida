@@ -52,20 +52,94 @@
 .nav {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 30px;
 }
 
 .nav a {
-    color: #cbd5e1;
     text-decoration: none;
-    font-size: 0.95rem;
-    font-weight: 500;
-
-    transition: color 0.2s ease;
+    color: white;
 }
 
-.nav a:hover {
+.practice-menu {
+    position: relative;
+}
+
+.practice-link {
+    border: none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
     color: white;
+}
+.category-menu {
+    position: relative;
+    color: white;
+}
+
+.category-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    display: none;
+
+    width: 220px;
+    padding: 8px;
+
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.category-menu:hover .category-dropdown {
+    display: block;
+}
+
+
+.category-item {
+    position: relative;
+    color: black;
+}
+
+.category-item > span {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* Svårigheterna */
+.difficulty-dropdown {
+    position: absolute;
+
+    left: 100%;
+    top: 0;
+
+    display: none;
+
+    width: 120px;
+    padding: 8px;
+
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.category-item:hover .difficulty-dropdown {
+    display: block;
+}
+
+
+.difficulty-dropdown a {
+    display: block;
+    padding: 10px;
+
+    text-decoration: none;
+    color: black;
+}
+
+.difficulty-dropdown a:hover {
+    background: #f2f2f2;
 }
 
 .profile-button {
