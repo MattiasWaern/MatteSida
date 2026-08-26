@@ -65,7 +65,10 @@
 }
 
 .practice-link {
-    display: block;
+    border: none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
 }
 
 /* Dropdown */
@@ -80,27 +83,41 @@
 
     background: white;
     border-radius: 10px;
+
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+
+    transition: opacity 0.2s ease;
+    
+    /* Viktigt */
+    z-index: 1000;
 }
 
-/* Visa dropdown när man hovrar över Öva */
+/* Visa dropdown när man hovrar över hela practice-menu */
 .practice-menu:hover .category-dropdown {
-    display: block;
+    opacity: 1;
+    visibility: visible;
 }
 
-/* Kategorierna */
-.category-dropdown a {
+.category-dropdown button {
     display: block;
-    padding: 12px 14px;
+
+    width: 100%;
+    padding: 12px;
+
+    border: none;
+    background: none;
+
+    text-align: left;
+    cursor: pointer;
+
     border-radius: 7px;
-    color: #333;
-    text-decoration: none;
 }
 
-.category-dropdown a:hover {
-    background-color: #f0f0f0;
+.category-dropdown button:hover {
+    background: #f0f0f0;
 }
 
 .profile-button {
