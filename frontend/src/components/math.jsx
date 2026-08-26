@@ -214,7 +214,7 @@ function MathQuiz() {
     ]
   }
 ];
-
+   
   const [randomQuestion, setRandomQuestion] = useState(questions[Math.floor(Math.random() * questions.length)]);
 
   function nextQuestion() {
@@ -265,15 +265,6 @@ function checkAnswer() {
 
   return (
 <div className="container">
-    <ul className="category">
-        {randomQuestion.category.map((id, category) => (
-            <li key={id}>
-                {category}
-            </li>
-        ))}
-    </ul>
-
-    
     <section className="math-quiz">
       <h2>Lös ekvationen</h2>
       <h3>{randomQuestion.category}</h3>

@@ -12,7 +12,27 @@ function Header() {
 
                 <nav className="nav">
                     <a href="/">Hem</a>
-                    <a href="/quiz">Öva</a>
+
+                    <div className="practice-menu">
+                        <a href="/quiz" className="practice-link">
+                            Öva
+                        </a>
+
+                        <div className="category-dropdown">
+                            <a href="/quiz/linjara-ekvationer">
+                                Linjära ekvationer
+                            </a>
+
+                            <a href="/quiz/andragradsekvationer">
+                                Andragradsekvationer
+                            </a>
+
+                            <a href="/quiz/ekvationssystem">
+                                Ekvationssystem
+                            </a>
+                        </div>
+                    </div>
+
                     <a href="/progress">Min progress</a>
                 </nav>
 
