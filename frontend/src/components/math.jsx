@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import "../styles/math.css";
+import { retry } from "@reduxjs/toolkit/query";
 
-function MathQuiz({ category }) {
+function MathQuiz({ category, difficulty }) {
 
     const [answer1, setAnswer1] = useState("");
     const [answer2, setAnswer2] = useState("");
@@ -216,9 +217,15 @@ function MathQuiz({ category }) {
         }
     ];
 
-    const filteredQuestions = category
-        ? questions.filter(q => q.category === category)
-        : questions;
+    const filteredQuestions = questions.filter(questions => {
+        const categoryMatch=
+            !category || questions.category === category;
+
+        const difficultyMatch=
+            !difficulty ||questions.difficulty === difficulty;
+
+        return difficultyMatch && categoryMatch;
+    }) 
 
     const [randomQuestion, setRandomQuestion] = useState(
         filteredQuestions[
@@ -237,7 +244,7 @@ function MathQuiz({ category }) {
         setAnswer2("");
         setResult("");
         setExplanation([]);
-    }, [category]);
+    }, [category, difficulty]);
 
     function nextQuestion() {
         const randomIndex = Math.floor(
@@ -306,11 +313,11 @@ function MathQuiz({ category }) {
                 <h2>Lös ekvationen</h2>
 
                 <h3>
-                    {randomQuestion.category}
+                    {category}
                 </h3>
 
                 <h4>
-                    {randomQuestion.difficulty}
+                    {difficulty}
                 </h4>
 
                 <p className="question-text">

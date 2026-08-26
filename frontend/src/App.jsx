@@ -5,13 +5,17 @@ import MathQuiz from "./components/math.jsx";
 
 function App() {
     const [category, setCategory] = useState(null);
+    const [difficulty, setDifficulty] = useState(null);
 
     return (
         <div>
-            <Header setCategory={setCategory} />
+            <Header setCategory={setCategory}
+                    setDifficulty={setDifficulty} />
 
             <main>
-                <MathQuiz category={category} />
+                <MathQuiz 
+                category={category}
+                difficulty = {difficulty} />
             </main>
 
             <Footer />
