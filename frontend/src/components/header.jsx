@@ -33,10 +33,12 @@ function Header({ setCategory, setDifficulty }) {
 
                                     <div className="difficulty-dropdown">
                                         <button
-                                            onClick={() => 
+                                            onClick={() => {
                                             setDifficulty("easy")
+                                            setCategory("Linjära ekvationer")
 
                                         }
+                                    }
                                         >Lätt</button>
 
                                         <button

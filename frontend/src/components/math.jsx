@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "../styles/math.css";
-import { retry } from "@reduxjs/toolkit/query";
 
 function MathQuiz({ category, difficulty }) {
 
@@ -217,23 +216,33 @@ function MathQuiz({ category, difficulty }) {
         }
     ];
 
-    const filteredQuestions = questions.filter(questions => {
-        const categoryMatch=
-            !category || questions.category === category;
 
-        const difficultyMatch=
-            !difficulty ||questions.difficulty === difficulty;
+    // 1. Filtrera frågorna
+    const filteredQuestions = questions.filter((question) => {
 
-        return difficultyMatch && categoryMatch;
-    }) 
+        const categoryMatch =
+            !category || question.category === category;
 
-    const [randomQuestion, setRandomQuestion] = useState(
-        filteredQuestions[
-            Math.floor(Math.random() * filteredQuestions.length)
-        ]
-    );
+        const difficultyMatch =
+            !difficulty || question.difficulty === difficulty;
 
+        return categoryMatch && difficultyMatch;
+    });
+
+
+    // 2. Välj en slumpmässig fråga
+    const [randomQuestion, setRandomQuestion] = useState(null);
+
+
+    // 3. När kategori eller svårighet ändras
+    //    välj en ny fråga
     useEffect(() => {
+
+        if (filteredQuestions.length === 0) {
+            setRandomQuestion(null);
+            return;
+        }
+
         const randomIndex = Math.floor(
             Math.random() * filteredQuestions.length
         );
@@ -244,9 +253,13 @@ function MathQuiz({ category, difficulty }) {
         setAnswer2("");
         setResult("");
         setExplanation([]);
+
     }, [category, difficulty]);
 
+
+    // 4. Nästa fråga
     function nextQuestion() {
+
         const randomIndex = Math.floor(
             Math.random() * filteredQuestions.length
         );
@@ -259,6 +272,8 @@ function MathQuiz({ category, difficulty }) {
         setExplanation([]);
     }
 
+
+    // 5. Kontrollera svar
     function checkAnswer() {
 
         if (randomQuestion.type === "single") {
@@ -272,6 +287,7 @@ function MathQuiz({ category, difficulty }) {
                 setResult("Fel!");
             }
         }
+
 
         if (randomQuestion.type === "multiple") {
 
@@ -294,6 +310,8 @@ function MathQuiz({ category, difficulty }) {
         }
     }
 
+
+    // 6. Visa förklaring
     function showExplanation() {
 
         setExplanation(
@@ -305,6 +323,22 @@ function MathQuiz({ category, difficulty }) {
         );
     }
 
+
+    // Om inga frågor hittades
+    if (!randomQuestion) {
+        return (
+            <div className="container">
+                <section className="math-quiz">
+                    <h2>Inga frågor hittades</h2>
+                    <p>
+                        Det finns inga frågor för den här kategorin och svårighetsgraden.
+                    </p>
+                </section>
+            </div>
+        );
+    }
+
+
     return (
         <div className="container">
 
@@ -313,16 +347,17 @@ function MathQuiz({ category, difficulty }) {
                 <h2>Lös ekvationen</h2>
 
                 <h3>
-                    {category}
+                    {randomQuestion.category}
                 </h3>
 
                 <h4>
-                    {difficulty}
+                    {randomQuestion.difficulty}
                 </h4>
 
                 <p className="question-text">
                     {randomQuestion.text}
                 </p>
+
 
                 {randomQuestion.type === "single" && (
                     <input
@@ -334,6 +369,7 @@ function MathQuiz({ category, difficulty }) {
                         placeholder="Ditt svar"
                     />
                 )}
+
 
                 {randomQuestion.type === "multiple" && (
                     <>
@@ -357,6 +393,7 @@ function MathQuiz({ category, difficulty }) {
                     </>
                 )}
 
+
                 <button onClick={checkAnswer}>
                     Kontrollera
                 </button>
@@ -369,14 +406,20 @@ function MathQuiz({ category, difficulty }) {
                     Visa uträkning
                 </button>
 
+
                 <p id="results">
                     {result}
                 </p>
 
+
                 <div className="explanation">
-                    <h4>Såhär löser du:</h4>
+
+                    <h4>
+                        Såhär löser du:
+                    </h4>
 
                     {explanation}
+
                 </div>
 
             </section>
