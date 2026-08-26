@@ -1,14 +1,11 @@
 import { useState } from "react";
-import {useSearchParams} from "react-router-dom";
 import "../styles/math.css";
 
-function MathQuiz() {
+function MathQuiz({ category }) {
   const [answer1, setAnswer1] = useState("");
   const [answer2, setAnswer2] = useState("");
   const [result, setResult] = useState("");
   const [explanation, setExplanation] = useState([]);
-    const [searchParams] = useSearchParams();
-    const category = searchParams.get("category");
     const questions = [{
     text: "x² - 5x + 6 = 0",
     answer: ["2", "3"],
