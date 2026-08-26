@@ -42,38 +42,97 @@ function Header({ setCategory, setDifficulty }) {
                                         >Lätt</button>
 
                                         <button
-                                            onClick={() => 
+                                            onClick={() => {
                                             setDifficulty("medium")
-                                            }                                        
+                                            setCategory("Linjära ekvationer")
+
+                                        }
+                                    }                                     
                                         >Medel</button>
 
                                         <button
-                                            onClick={() => 
+                                            onClick={() => {
                                             setDifficulty("hard")
-                                            }                                          
+                                            setCategory("Linjära ekvationer")
+
+                                        }
+                                    }                                         
                                         >Svår</button>
                                     </div>
                                 </div>
 
 
                                 <div className="category-item">
-                                    <button>Andragradsekvationer</button>
+                                        <button
+                                            onClick={() => 
+                                            setCategory("Andragradsekvationer")
+
+                                        
+                                    }   
+                                    >Andragradsekvationer</button>
 
                                     <div className="difficulty-dropdown">
-                                        <button>Lätt</button>
-                                        <button>Medel</button>
-                                        <button>Svår</button>
+                                        <button
+                                            onClick={() => {
+                                            setDifficulty("easy")
+                                            setCategory("Andragradsekvationer")
+
+                                        }
+                                    }   
+                                        >Lätt</button>
+
+                                        <button
+                                            onClick={() => {
+                                            setDifficulty("medium")
+                                            setCategory("Andragradsekvationer")
+
+                                        }
+                                    } 
+                                        >Medel</button>
+
+                                        <button
+                                            onClick={() => {
+                                            setDifficulty("hard")
+                                            setCategory("Andragradsekvationer")
+
+                                        }
+                                    } 
+                                        >Svår</button>
                                     </div>
                                 </div>
 
 
                                 <div className="category-item">
-                                    <button>Ekvationssystem</button>
+                                    <button
+                                        onClick={() => 
+                                            setCategory("Ekvationssystem")
+                                        }
+                                    >Ekvationssystem</button>
 
                                     <div className="difficulty-dropdown">
-                                        <button>Lätt</button>
-                                        <button>Medel</button>
-                                        <button>Svår</button>
+                                    <button
+                                        onClick={() => {
+                                            setCategory("Ekvationssystem")
+                                            setDifficulty("easy")
+                                        }
+                                    }     
+                                        >Lätt</button>
+
+                                    <button
+                                        onClick={() => {
+                                            setCategory("Ekvationssystem")
+                                            setDifficulty("medium")
+                                        }
+                                    }   
+                                        >Medel</button>
+
+                                    <button
+                                        onClick={() => {
+                                            setCategory("Ekvationssystem")
+                                            setDifficulty("hard")
+                                        }
+                                    }   
+                                        >Svår</button>
                                     </div>
                                 </div>
 

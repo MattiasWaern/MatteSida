@@ -98,7 +98,7 @@ function MathQuiz({ category, difficulty }) {
 
         {
             text: "x² - 4x + 5 = 0",
-            answer: ["Saknar reella lösningar"],
+            answer: [""],
             type: "single",
             category: "Andragradsekvationer",
             difficulty: "hard",
@@ -230,12 +230,10 @@ function MathQuiz({ category, difficulty }) {
     });
 
 
-    // 2. Välj en slumpmässig fråga
     const [randomQuestion, setRandomQuestion] = useState(null);
 
 
-    // 3. När kategori eller svårighet ändras
-    //    välj en ny fråga
+
     useEffect(() => {
 
         if (filteredQuestions.length === 0) {
@@ -257,7 +255,7 @@ function MathQuiz({ category, difficulty }) {
     }, [category, difficulty]);
 
 
-    // 4. Nästa fråga
+    //Nästa fråga
     function nextQuestion() {
 
         const randomIndex = Math.floor(
@@ -273,7 +271,6 @@ function MathQuiz({ category, difficulty }) {
     }
 
 
-    // 5. Kontrollera svar
     function checkAnswer() {
 
         if (randomQuestion.type === "single") {
@@ -311,7 +308,6 @@ function MathQuiz({ category, difficulty }) {
     }
 
 
-    // 6. Visa förklaring
     function showExplanation() {
 
         setExplanation(
