@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import questions from "../data/questions.json";
-import GeometryRender from "./geometryRender";
+import GeometryRender from "../components/geometryRender";
 import "../styles/math.css";
 
 function MathQuiz() {
