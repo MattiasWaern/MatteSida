@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Inter:wght@400;500;600&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background: #f5f7fb;
-    color: #172033;
-    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #fdfcf9;
+    color: #1e2a44;
+    font-family: "Inter", system-ui, sans-serif;
 }
 
 /* MATTE QUIZ */
@@ -23,46 +26,73 @@ body {
     gap: 16px;
 
     background: white;
-    border-radius: 20px;
+    border: 1.5px solid #e7e2d6;
+    border-radius: 24px;
 
-
+    box-shadow: 0 12px 28px rgba(30, 42, 68, 0.08);
 }
 
-/*RUBRIKER*/
+/* RUBRIKER */
 
 .math-quiz h2 {
     margin: 0;
+    font-family: "Baloo 2", "Inter", sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    color: #172554;
+    color: #1e2a44;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .math-quiz h3 {
     margin: 0;
     font-size: 0.85rem;
     font-weight: 600;
-    color: #6366f1;
+    color: #2563eb;
 
-    background: #eef2ff;
-    padding: 6px 12px;
-    border-radius: 20px;
+    background: #eaf1ff;
+    padding: 6px 14px;
+    border-radius: 999px;
 }
 
 .math-quiz h4 {
     margin: 0;
-    font-size: 1.1rem;
-    color: #6366f1;
+    font-size: 0.85rem;
+    font-weight: 700;
+
+    padding: 6px 14px;
+    border-radius: 999px;
+}
+
+.diff-easy {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.diff-medium {
+    background: #fef3c7;
+    color: #b45309;
+}
+
+.diff-hard {
+    background: #ffe4e8;
+    color: #e11d48;
 }
 
 
 /* FRÅGAN */
 
 .question-text {
-    margin: 20px 0;
+    margin: 12px 0;
 
+    font-family: "Baloo 2", "Inter", sans-serif;
     font-size: 2rem;
     font-weight: 600;
-    color: #111827;
+    color: #1e2a44;
 
     text-align: center;
 }
@@ -70,17 +100,22 @@ body {
 
 /* INPUT */
 
+.answer-row {
+    display: flex;
+    gap: 12px;
+}
+
 .math-quiz input {
     width: 100%;
     max-width: 300px;
 
     padding: 13px 16px;
 
-    border: 2px solid #e5e7eb;
-    border-radius: 10px;
+    border: 2px solid #e7e2d6;
+    border-radius: 12px;
 
-    background: #f9fafb;
-    color: #111827;
+    background: #fdfcf9;
+    color: #1e2a44;
 
     font-size: 1rem;
     text-align: center;
@@ -93,12 +128,16 @@ body {
         background 0.2s ease;
 }
 
+.answer-row input {
+    max-width: 130px;
+}
+
 .math-quiz input:focus {
-    border-color: #6366f1;
+    border-color: #2563eb;
     background: white;
 
     box-shadow:
-        0 0 0 4px rgba(99, 102, 241, 0.12);
+        0 0 0 4px rgba(37, 99, 235, 0.12);
 }
 
 .math-quiz input::placeholder {
@@ -106,40 +145,57 @@ body {
 }
 
 
-/* KNAPP */
+/* KNAPPAR */
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 8px;
+}
 
 .math-quiz button {
-    margin-top: 8px;
-
-    padding: 12px 24px;
+    padding: 12px 22px;
 
     border: none;
-    border-radius: 10px;
+    border-radius: 999px;
 
-    background: #4f46e5;
-    color: white;
-
-    font-size: 0.95rem;
-    font-weight: 600;
+    font-family: inherit;
+    font-size: 0.92rem;
+    font-weight: 700;
 
     cursor: pointer;
 
-    box-shadow:
-        0 4px 10px rgba(79, 70, 229, 0.25);
-
     transition:
         background 0.2s ease,
-        transform 0.2s ease,
+        color 0.2s ease,
+        transform 0.15s ease,
         box-shadow 0.2s ease;
 }
 
-.math-quiz button:hover {
-    background: #4338ca;
+.btn-primary {
+    background: #2563eb;
+    color: white;
 
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
     transform: translateY(-2px);
+    box-shadow: 0 7px 15px rgba(37, 99, 235, 0.3);
+}
 
-    box-shadow:
-        0 7px 15px rgba(79, 70, 229, 0.3);
+.btn-secondary {
+    background: #eaf1ff;
+    color: #1d4ed8;
+}
+
+.btn-secondary:hover {
+    background: #d9e6ff;
+    transform: translateY(-2px);
 }
 
 .math-quiz button:active {
@@ -162,14 +218,14 @@ body {
     margin: 10px 0 0;
     padding: 14px 18px;
 
-    border-radius: 10px;
+    border-radius: 12px;
 
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
 
     text-align: center;
 
-    background: #f0fdf4;
+    background: #dcfce7;
     color: #166534;
 
     animation: resultAppear 0.3s ease;
@@ -179,17 +235,17 @@ body {
 /* RESULTAT - RÄTT */
 
 .result-correct {
-    background: #f0fdf4;
+    background: #dcfce7;
     color: #166534;
 
     border: 1px solid #bbf7d0;
 }
 
 
-/*  RESULTAT  FEL */
+/* RESULTAT - FEL */
 
 .result-wrong {
-    background: #fef2f2;
+    background: #ffe4e8;
     color: #991b1b;
 
     border: 1px solid #fecaca;
@@ -211,6 +267,30 @@ body {
 }
 
 
+/* UTRÄKNING */
+
+.explanation {
+    width: 100%;
+    max-width: 500px;
+
+    padding: 16px 20px;
+
+    background: #fdfcf9;
+    border: 1.5px solid #e7e2d6;
+    border-radius: 16px;
+}
+
+.explanation h4 {
+    margin: 0 0 8px;
+    font-family: "Baloo 2", "Inter", sans-serif;
+    color: #2563eb;
+    font-size: 1rem;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+
 /* RESPONSIVE */
 
 @media (max-width: 600px) {
@@ -219,7 +299,7 @@ body {
         width: calc(100% - 24px);
         margin: 30px auto;
         padding: 28px 20px;
-        border-radius: 16px;
+        border-radius: 18px;
     }
 
     .math-quiz h2 {
@@ -232,6 +312,21 @@ body {
 
     .math-quiz input {
         max-width: 100%;
+    }
+
+    .answer-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .answer-row input {
+        max-width: 300px;
+    }
+
+    .button-row {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
     }
 
     .math-quiz button {

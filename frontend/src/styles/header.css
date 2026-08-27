@@ -1,14 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Inter:wght@400;500;600&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 .header {
+    --paper: #fdfcf9;
+    --grid-line: rgba(37, 99, 235, 0.07);
+    --blue: #2563eb;
+    --blue-dark: #1d4ed8;
+    --blue-tint: #eaf1ff;
+    --sun: #f59e0b;
+    --sun-light: #fbbf24;
+    --mint: #16a34a;
+    --mint-bg: #dcfce7;
+    --amber-bg: #fef3c7;
+    --amber-text: #b45309;
+    --rose: #e11d48;
+    --rose-bg: #ffe4e8;
+    --text: #1e2a44;
+    --text-dim: #64748b;
+    --border: #e7e2d6;
+
+    position: relative;
+    z-index: 50;
+
     width: 100%;
-    background: #172554;
-    border-bottom: 1px solid #263b70;
+
+    background-color: var(--paper);
+    background-image:
+        linear-gradient(var(--grid-line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 24px 24px;
+
+    border-bottom: 2px solid var(--border);
+    font-family: "Inter", system-ui, sans-serif;
 }
 
 .header-content {
+    position: relative;
+    z-index: 1;
+
     max-width: 1200px;
     height: 72px;
     margin: 0 auto;
@@ -19,154 +51,258 @@
     justify-content: space-between;
 }
 
+/* Logga */
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 11px;
 
-    color: white;
+    color: var(--text);
     text-decoration: none;
-    font-size: 1.35rem;
-    font-weight: 700;
-}
-
-.logo span:last-child span {
-    color: #93c5fd;
 }
 
 .logo-icon {
     width: 38px;
     height: 38px;
+    flex-shrink: 0;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    border-radius: 10px;
-    background: #eb2560;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--sun-light), var(--sun));
+    box-shadow: 0 3px 0 rgba(180, 83, 9, 0.35);
+}
 
-    font-size: 1.4rem;
+.logo-text {
+    font-family: "Baloo 2", "Inter", sans-serif;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 
+.logo-text span {
+    color: var(--blue);
+}
+
+/* Nav */
 .nav {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 4px;
 }
 
-.nav a {
+.nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 9px 16px;
+
     text-decoration: none;
-    color: white;
-}
+    color: var(--text-dim);
+    font-size: 0.94rem;
+    font-weight: 500;
 
-.practice-menu {
-    position: relative;
-}
-
-.practice-link {
-    border: none;
-    background: none;
-    font: inherit;
+    border-radius: 999px;
     cursor: pointer;
-    color: white;
+    transition: background 0.18s ease, color 0.18s ease;
 }
+
+.nav-link:hover {
+    background: var(--blue-tint);
+    color: var(--blue-dark);
+}
+
+.chevron {
+    color: var(--text-dim);
+    transition: transform 0.2s ease;
+}
+
+.category-menu:hover .chevron {
+    transform: rotate(180deg);
+}
+
 .category-menu {
     position: relative;
-    color: white;
+    z-index: 60;
+}
+
+
+.category-menu::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 230px; 
+    height: 10px; 
+}
+
+.category-item {
+    position: relative;
+}
+
+
+.category-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 6px; 
+    height: 100%;
 }
 
 .category-dropdown {
     position: absolute;
-    top: 100%;
+    top: calc(100% + 10px);
     left: 0;
+    z-index: 70;
 
     display: none;
 
-    width: 220px;
+    width: 230px;
     padding: 8px;
 
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(30, 42, 68, 0.14);
 }
 
 .category-menu:hover .category-dropdown {
     display: block;
 }
 
-
 .category-item {
     position: relative;
-    color: black;
 }
 
 .category-item > span {
     display: block;
-    padding: 10px;
+    padding: 11px 12px;
+
+    color: var(--text);
+    font-size: 0.92rem;
+    font-weight: 600;
+
+    border-radius: 10px;
     cursor: pointer;
+    transition: background 0.15s ease;
 }
 
+.category-item:hover > span {
+    background: var(--blue-tint);
+    color: var(--blue-dark);
+}
 
-/* Svårigheterna */
+/* Dropdown: svårighetsgrad */
 .difficulty-dropdown {
     position: absolute;
 
     left: 100%;
     top: 0;
+    z-index: 80;
+    margin-left: 6px;
 
     display: none;
+    flex-direction: column;
+    gap: 6px;
 
-    width: 120px;
-    padding: 8px;
+    width: 130px;
+    padding: 10px;
 
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(30, 42, 68, 0.14);
 }
 
 .category-item:hover .difficulty-dropdown {
-    display: block;
+    display: flex;
 }
 
-
-.difficulty-dropdown a {
+.diff-link {
     display: block;
-    padding: 10px;
+    padding: 7px 0;
 
     text-decoration: none;
-    color: black;
+    text-align: center;
+
+    font-size: 0.84rem;
+    font-weight: 600;
+
+    border-radius: 999px;
+    transition: filter 0.15s ease, transform 0.1s ease;
 }
 
-.difficulty-dropdown a:hover {
-    background: #f2f2f2;
+.diff-link:hover {
+    filter: brightness(0.96);
+    transform: translateY(-1px);
 }
 
+.diff-easy {
+    background: var(--mint-bg);
+    color: var(--mint);
+}
+
+.diff-medium {
+    background: var(--amber-bg);
+    color: var(--amber-text);
+}
+
+.diff-hard {
+    background: var(--rose-bg);
+    color: var(--rose);
+}
+
+/* Profilknapp */
 .profile-button {
     display: flex;
     align-items: center;
     gap: 8px;
 
-    padding: 9px 14px;
+    padding: 9px 16px;
 
-    border: 1px solid #3b5285;
-    border-radius: 8px;
+    border: 1.5px solid var(--border);
+    border-radius: 999px;
 
-    background: transparent;
-    color: white;
+    background: white;
+    color: var(--text);
 
-    font-size: 0.9rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    font-family: inherit;
     cursor: pointer;
 
-    transition: background 0.2s ease;
+    transition: border-color 0.2s ease, background 0.2s ease;
 }
 
 .profile-button:hover {
-    background: #1e3a70;
+    border-color: var(--blue);
+    background: var(--blue-tint);
 }
 
 .profile-icon {
     font-size: 1rem;
+}
+
+/* Tillgänglighet: synlig fokusring */
+.nav-link:focus-visible,
+.diff-link:focus-visible,
+.profile-button:focus-visible,
+.logo:focus-visible {
+    outline: 2px solid var(--blue);
+    outline-offset: 2px;
+    border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .nav-link,
+    .chevron,
+    .diff-link,
+    .profile-button {
+        transition: none;
+    }
 }
 
 @media (max-width: 700px) {

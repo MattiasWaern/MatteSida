@@ -1,0 +1,169 @@
+.site-footer {
+    margin-top: auto;  /* Detta trycker footern längst ner */
+    width: 100%;
+    padding: 40px 24px 20px;
+    background-color: #fdfcf9;
+    background-image:
+        linear-gradient(rgba(37, 99, 235, 0.07) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(37, 99, 235, 0.07) 1px, transparent 1px);
+    background-size: 24px 24px;
+    border-top: 2px solid #e7e2d6;
+    flex-shrink: 0;  /* Förhindrar att footern krymper */
+}
+
+/* Huvudinnehåll - 3 kolumner */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e7e2d6;
+}
+
+/* Sektioner */
+.footer-section h3 {
+    margin: 0 0 12px 0;
+    color: #1e293b;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.footer-section h4 {
+    margin: 0 0 12px 0;
+    color: #1e293b;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer-section p {
+    margin: 0;
+    color: #64748b;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* Länkar */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #64748b;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #2563eb;
+}
+
+/* Sociala medier */
+.social-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #f1f5f9;
+    color: #475569;
+    transition: all 0.2s ease;
+}
+
+.social-icon:hover {
+    background-color: #2563eb;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.social-icon svg {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+}
+
+/* Bottom rad */
+.footer-bottom {
+    max-width: 1200px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #94a3b8;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.footer-legal {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-legal a {
+    color: #94a3b8;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-legal a:hover {
+    color: #2563eb;
+}
+
+.footer-legal .separator {
+    color: #cbd5e1;
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-legal {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
