@@ -135,6 +135,13 @@ function MathQuiz() {
     }
 
 
+    const difficultyClass =
+        randomQuestion.difficulty?.toLowerCase() === "easy"
+            ? "diff-easy"
+            : randomQuestion.difficulty?.toLowerCase() === "medium"
+            ? "diff-medium"
+            : "diff-hard";
+
     return (
         <div className="container">
 
@@ -142,13 +149,17 @@ function MathQuiz() {
 
                 <h2>Lös ekvationen</h2>
 
-                <h3>
-                    {randomQuestion.category}
-                </h3>
+                <div className="tags">
 
-                <h4>
-                    {randomQuestion.difficulty}
-                </h4>
+                    <h3>
+                        {randomQuestion.category}
+                    </h3>
+
+                    <h4 className={difficultyClass}>
+                        {randomQuestion.difficulty}
+                    </h4>
+
+                </div>
 
                 <p className="question-text">
                     {randomQuestion.text}
@@ -168,7 +179,7 @@ function MathQuiz() {
 
 
                 {randomQuestion.type === "multiple" && (
-                    <>
+                    <div className="answer-row">
                         <input
                             type="text"
                             value={answer1}
@@ -186,21 +197,25 @@ function MathQuiz() {
                             }
                             placeholder="x₂"
                         />
-                    </>
+                    </div>
                 )}
 
 
-                <button onClick={checkAnswer}>
-                    Kontrollera
-                </button>
+                <div className="button-row">
 
-                <button onClick={nextQuestion}>
-                    Nästa fråga
-                </button>
+                    <button className="btn-primary" onClick={checkAnswer}>
+                        Kontrollera
+                    </button>
 
-                <button onClick={showExplanation}>
-                    Visa uträkning
-                </button>
+                    <button className="btn-secondary" onClick={nextQuestion}>
+                        Nästa fråga
+                    </button>
+
+                    <button className="btn-secondary" onClick={showExplanation}>
+                        Visa uträkning
+                    </button>
+
+                </div>
 
 
                 <p id="results">
