@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import questions from "../data/questions.json";
-import geometryRender from "./geometryRender";
+import GeometryRender from "./geometryRender";
 import "../styles/math.css";
 
 function MathQuiz() {
@@ -168,7 +168,7 @@ function MathQuiz() {
 
                 {randomQuestion.geometry && (
                     <div className="geometry-container">
-                        <geometryRender geometry={randomQuestion.geometry} />
+                        <GeometryRender geometry={randomQuestion.geometry} />
                     </div>
                 )}               
 

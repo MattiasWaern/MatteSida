@@ -115,7 +115,7 @@ function Header() {
                             <div className="category-item">
 
                                 <span>
-                                    GeometriArea
+                                    Geometri Area
                                 </span>
 
                                 <div className="difficulty-dropdown">

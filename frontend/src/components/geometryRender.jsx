@@ -1,70 +1,109 @@
 import React from "react";
 
+const GeometryRender = ({ geometry }) => {
+    if (!geometry) return null;
 
-const geometryRender = ({ geometry}) => {
-    if(!geometry) return null;
+const drawTriangle = (base, height) => {
+    const scale = Math.min(220 / base, 170 / height);
 
-    const drawTriangle = (base, height) => {
-        const scale = Math.min(150 / Math.max(base, height), 1);
-        const heightPx = height * scale * 8;
+    const basePx = base * scale;
+    const heightPx = height * scale;
 
-        return (
-            <svg viewBox="0 0 300 250" className="geometry-svg">
-                <defs>
-                    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-                        <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
-                    </marker>
-                </defs>
-                
-                {/* Triangel */}
-                <polygon 
-                    points={`20,220 280,220 150,${220 - heightPx}`}
-                    fill="#e0e7ff"
-                    stroke="#2563eb"
-                    strokeWidth="3"
-                    className="geometry-shape"
-                />
-                
-                {/* Bas-linje med mått */}
-                <line 
-                    x1="20" y1="235" 
-                    x2="280" y2="235" 
-                    stroke="#dc2626" 
-                    strokeWidth="2"
-                    marker-end="url(#arrowhead)"
-                    marker-start="url(#arrowhead)"
-                />
-                <text x="130" y="255" fill="#dc2626" fontSize="16" fontWeight="600">
-                    bas = {base} cm
-                </text>
-                
-                {/* Höjd-linje med mått */}
-                <line 
-                    x1="150" y1="220" 
-                    x2="150" y2={220 - heightPx} 
-                    stroke="#16a34a" 
-                    strokeWidth="2"
-                    strokeDasharray="5,5"
-                    marker-end="url(#arrowhead)"
-                    marker-start="url(#arrowhead)"
-                />
-                <text x="160" y={220 - heightPx/2 + 5} fill="#16a34a" fontSize="16" fontWeight="600">
-                    h = {height} cm
-                </text>
-                
-                {/* Rätvinklig symbol */}
-                <rect x="140" y="210" width="10" height="10" fill="none" stroke="#16a34a" strokeWidth="2"/>
-                
-                {/* Hörn-markeringar */}
-                <circle cx="20" cy="220" r="4" fill="#2563eb" />
-                <circle cx="280" cy="220" r="4" fill="#2563eb" />
-                <circle cx="150" cy={220 - heightPx} r="4" fill="#2563eb" />
-            </svg>
-        );
-      }; 
+    const baseY = 200;
+    const leftX = (300 - basePx) / 2;
+    const rightX = leftX + basePx;
+    const topX = 150;
+    const topY = baseY - heightPx;
 
+    return (
+        <svg viewBox="0 0 300 250" className="geometry-svg">
 
-      const drawCircle = (radius) => {
+            <defs>
+                <marker
+                    id="arrowhead"
+                    markerWidth="8"
+                    markerHeight="6"
+                    refX="7"
+                    refY="3"
+                    orient="auto"
+                >
+                    <polygon
+                        points="0 0, 8 3, 0 6"
+                        fill="#64748b"
+                    />
+                </marker>
+            </defs>
+
+            {/* Triangel */}
+            <polygon
+                points={`${leftX},${baseY} ${rightX},${baseY} ${topX},${topY}`}
+                fill="#dbeafe"
+                stroke="#2563eb"
+                strokeWidth="3"
+            />
+
+            {/* Bas */}
+            <line
+                x1={leftX}
+                y1={baseY + 15}
+                x2={rightX}
+                y2={baseY + 15}
+                stroke="#dc2626"
+                strokeWidth="2"
+                markerStart="url(#arrowhead)"
+                markerEnd="url(#arrowhead)"
+            />
+
+            <text
+                x="150"
+                y={baseY + 38}
+                textAnchor="middle"
+                fill="#dc2626"
+                fontSize="16"
+                fontWeight="600"
+            >
+                bas = {base} cm
+            </text>
+
+            {/* Höjd */}
+            <line
+                x1={topX}
+                y1={baseY}
+                x2={topX}
+                y2={topY}
+                stroke="#16a34a"
+                strokeWidth="2.5"
+                strokeDasharray="6,4"
+                markerStart="url(#arrowhead)"
+                markerEnd="url(#arrowhead)"
+            />
+
+            <text
+                x={topX + 10}
+                y={(baseY + topY) / 2 + 5}
+                fill="#16a34a"
+                fontSize="16"
+                fontWeight="600"
+            >
+                h = {height} cm
+            </text>
+
+            {/* Rät vinkel */}
+            <rect
+                x={topX - 12}
+                y={baseY - 12}
+                width="12"
+                height="12"
+                fill="none"
+                stroke="#16a34a"
+                strokeWidth="2"
+            />
+
+        </svg>
+    );
+};
+
+    const drawCircle = (radius) => {
         const scale = 150 / (radius * 2);
         const r = radius * scale * 4;
         const center = 150;
@@ -77,18 +116,16 @@ const geometryRender = ({ geometry}) => {
                     </marker>
                 </defs>
                 
-                {/* Cirkel */}
                 <circle 
                     cx={center} 
                     cy={130} 
                     r={r} 
-                    fill="#e0e7ff"
+                    fill="#dbeafe"
                     stroke="#2563eb"
                     strokeWidth="3"
                     className="geometry-shape"
                 />
                 
-                {/* Radie */}
                 <line 
                     x1={center} 
                     y1={130} 
@@ -102,10 +139,8 @@ const geometryRender = ({ geometry}) => {
                     r = {radius} cm
                 </text>
                 
-                {/* Centrum-punkt */}
                 <circle cx={center} cy={130} r="5" fill="#dc2626" />
                 
-                {/* Diameter markering (halvt genomskinlig) */}
                 <line 
                     x1={center - r} 
                     y1={130} 
@@ -121,38 +156,71 @@ const geometryRender = ({ geometry}) => {
                 </text>
             </svg>
         );
-      };
+    };
 
-      const drawRectangle = (width, height) => {
-        const scale = Math.min(220 / width, 160 / height, 1);
+    const drawRectangle = (width, height) => {
+        const maxWidth = 240;
+        const maxHeight = 160;
+        const scaleX = maxWidth / width;
+        const scaleY = maxHeight / height;
+        const scale = Math.min(scaleX, scaleY, 1);
+        
         const rectangleWidth = width * scale;
         const rectangleHeight = height * scale;
         const x = (300 - rectangleWidth) / 2;
-        const y = (200 - rectangleHeight) / 2;
+        const y = (220 - rectangleHeight) / 2;
 
         return (
             <svg viewBox="0 0 300 250" className="geometry-svg">
+                <defs>
+                    <marker id="arrowhead3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+                        <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+                    </marker>
+                </defs>
+                
                 <rect
                     x={x}
                     y={y}
                     width={rectangleWidth}
                     height={rectangleHeight}
-                    fill="#e0e7ff"
+                    fill="#dbeafe"
                     stroke="#2563eb"
                     strokeWidth="3"
                     className="geometry-shape"
                 />
-                <text x="150" y={y + rectangleHeight + 25} textAnchor="middle" fill="#dc2626" fontSize="16" fontWeight="600">
+                
+                <line 
+                    x1={x} 
+                    y1={y + rectangleHeight + 20} 
+                    x2={x + rectangleWidth} 
+                    y2={y + rectangleHeight + 20} 
+                    stroke="#dc2626" 
+                    strokeWidth="2"
+                    marker-end="url(#arrowhead3)"
+                    marker-start="url(#arrowhead3)"
+                />
+                <text x={x + rectangleWidth/2} y={y + rectangleHeight + 40} textAnchor="middle" fill="#dc2626" fontSize="16" fontWeight="600">
                     bredd = {width} cm
                 </text>
-                <text x={x + rectangleWidth + 8} y={y + rectangleHeight / 2} fill="#16a34a" fontSize="16" fontWeight="600">
+                
+                <line 
+                    x1={x + rectangleWidth + 20} 
+                    y1={y} 
+                    x2={x + rectangleWidth + 20} 
+                    y2={y + rectangleHeight} 
+                    stroke="#16a34a" 
+                    strokeWidth="2"
+                    marker-end="url(#arrowhead3)"
+                    marker-start="url(#arrowhead3)"
+                />
+                <text x={x + rectangleWidth + 35} y={y + rectangleHeight/2 + 6} fill="#16a34a" fontSize="16" fontWeight="600">
                     h = {height} cm
                 </text>
             </svg>
         );
-      };
+    };
 
-      const drawCylinder = (radius, height) => {
+    const drawCylinder = (radius, height) => {
         const scale = Math.min(60 / Math.max(radius * 2, height), 1);
         const r = radius * scale * 10;
         const h = height * scale * 6;
@@ -167,40 +235,36 @@ const geometryRender = ({ geometry}) => {
                     </marker>
                 </defs>
                 
-                {/* Cylinder kropp */}
                 <rect 
                     x={centerX - r} 
                     y={centerY} 
                     width={r * 2} 
                     height={h} 
-                    fill="#e0e7ff"
+                    fill="#dbeafe"
                     stroke="#2563eb"
                     strokeWidth="2.5"
                 />
                 
-                {/* Topp oval */}
                 <ellipse 
                     cx={centerX} 
                     cy={centerY} 
                     rx={r} 
                     ry={r * 0.35} 
-                    fill="#e0e7ff"
+                    fill="#dbeafe"
                     stroke="#2563eb"
                     strokeWidth="2.5"
                 />
                 
-                {/* Botten oval (halv) */}
                 <ellipse 
                     cx={centerX} 
                     cy={centerY + h} 
                     rx={r} 
                     ry={r * 0.35} 
-                    fill="#e0e7ff"
+                    fill="#dbeafe"
                     stroke="#2563eb"
                     strokeWidth="2.5"
                 />
                 
-                {/* Radie */}
                 <line 
                     x1={centerX} 
                     y1={centerY + h/2} 
@@ -214,7 +278,6 @@ const geometryRender = ({ geometry}) => {
                     r = {radius} cm
                 </text>
                 
-                {/* Höjd */}
                 <line 
                     x1={centerX + r + 25} 
                     y1={centerY} 
@@ -230,32 +293,29 @@ const geometryRender = ({ geometry}) => {
                 </text>
             </svg>
         );
-        };
+    };
 
-        const drawPythagoras = (a, b) => {
-            const scale = 120 / Math.max(a, b);
-            const aPx = a * scale * 2;
-            const bPx = b * scale * 2;
-            const c = Math.sqrt(a * a + b * b);
+    const drawPythagoras = (a, b) => {
+        const scale = 120 / Math.max(a, b);
+        const aPx = a * scale * 2;
+        const bPx = b * scale * 2;
+        const c = Math.sqrt(a * a + b * b);
 
-            const startX = 30;
-            const startY = 200;
+        const startX = 30;
+        const startY = 200;
 
-            return (
+        return (
             <svg viewBox="0 0 300 250" className="geometry-svg">
-                {/* Rätvinklig triangel */}
                 <polygon 
                     points={`${startX},${startY} ${startX + aPx},${startY} ${startX},${startY - bPx}`}
-                    fill="#e0e7ff"
+                    fill="#dbeafe"
                     stroke="#2563eb"
                     strokeWidth="3"
                     className="geometry-shape"
                 />
                 
-                {/* Rätvinklig symbol */}
                 <rect x={startX} y={startY - 15} width="15" height="15" fill="none" stroke="#16a34a" strokeWidth="2"/>
                 
-                {/* Sidor med mått */}
                 <line 
                     x1={startX} 
                     y1={startY + 15} 
@@ -280,7 +340,6 @@ const geometryRender = ({ geometry}) => {
                     b = {b} cm
                 </text>
                 
-                {/* Hypotenusa */}
                 <line 
                     x1={startX + aPx} 
                     y1={startY} 
@@ -295,9 +354,9 @@ const geometryRender = ({ geometry}) => {
                 </text>
             </svg>      
         );
-      }
+    };
 
-      switch(geometry.type){
+    switch (geometry.type) {
         case 'triangle':
             return drawTriangle(geometry.base || 8, geometry.height || 6);
         case 'circle':
@@ -310,8 +369,7 @@ const geometryRender = ({ geometry}) => {
             return drawPythagoras(geometry.a || 3, geometry.b || 4);
         default:
             return null;
-        }
+    }
 };
 
-
-export default geometryRender;
+export default GeometryRender;
