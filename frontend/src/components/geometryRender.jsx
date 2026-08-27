@@ -6,7 +6,6 @@ const geometryRender = ({ geometry}) => {
 
     const drawTriangle = (base, height) => {
         const scale = Math.min(150 / Math.max(base, height), 1);
-        const width = base * scale * 8;
         const heightPx = height * scale * 8;
 
         return (
@@ -19,7 +18,7 @@ const geometryRender = ({ geometry}) => {
                 
                 {/* Triangel */}
                 <polygon 
-                    points={`20,220 ${280,220} ${150,${220 - heightPx}}`}
+                    points={`20,220 280,220 150,${220 - heightPx}`}
                     fill="#e0e7ff"
                     stroke="#2563eb"
                     strokeWidth="3"
@@ -124,6 +123,35 @@ const geometryRender = ({ geometry}) => {
         );
       };
 
+      const drawRectangle = (width, height) => {
+        const scale = Math.min(220 / width, 160 / height, 1);
+        const rectangleWidth = width * scale;
+        const rectangleHeight = height * scale;
+        const x = (300 - rectangleWidth) / 2;
+        const y = (200 - rectangleHeight) / 2;
+
+        return (
+            <svg viewBox="0 0 300 250" className="geometry-svg">
+                <rect
+                    x={x}
+                    y={y}
+                    width={rectangleWidth}
+                    height={rectangleHeight}
+                    fill="#e0e7ff"
+                    stroke="#2563eb"
+                    strokeWidth="3"
+                    className="geometry-shape"
+                />
+                <text x="150" y={y + rectangleHeight + 25} textAnchor="middle" fill="#dc2626" fontSize="16" fontWeight="600">
+                    bredd = {width} cm
+                </text>
+                <text x={x + rectangleWidth + 8} y={y + rectangleHeight / 2} fill="#16a34a" fontSize="16" fontWeight="600">
+                    h = {height} cm
+                </text>
+            </svg>
+        );
+      };
+
       const drawCylinder = (radius, height) => {
         const scale = Math.min(60 / Math.max(radius * 2, height), 1);
         const r = radius * scale * 10;
@@ -209,7 +237,6 @@ const geometryRender = ({ geometry}) => {
             const aPx = a * scale * 2;
             const bPx = b * scale * 2;
             const c = Math.sqrt(a * a + b * b);
-            const cPx = c * scale * 2;
 
             const startX = 30;
             const startY = 200;
@@ -266,10 +293,25 @@ const geometryRender = ({ geometry}) => {
                 <text x={startX + aPx/2 - 20} y={startY - bPx/2 - 10} fill="#8b5cf6" fontSize="16" fontWeight="600">
                     c = {c.toFixed(1)} cm
                 </text>
-            </svg>
+            </svg>      
         );
-    };
-        }
       }
-    }
-}
+
+      switch(geometry.type){
+        case 'triangle':
+            return drawTriangle(geometry.base || 8, geometry.height || 6);
+        case 'circle':
+            return drawCircle(geometry.radius || 5);
+        case 'rectangle':
+            return drawRectangle(geometry.width || 10, geometry.height || 5);
+        case 'cylinder':
+            return drawCylinder(geometry.radius || 3, geometry.height || 10);
+        case 'pythagoras':
+            return drawPythagoras(geometry.a || 3, geometry.b || 4);
+        default:
+            return null;
+        }
+};
+
+
+export default geometryRender;
