@@ -203,6 +203,73 @@ const geometryRender = ({ geometry}) => {
             </svg>
         );
         };
+
+        const drawPythagoras = (a, b) => {
+            const scale = 120 / Math.max(a, b);
+            const aPx = a * scale * 2;
+            const bPx = b * scale * 2;
+            const c = Math.sqrt(a * a + b * b);
+            const cPx = c * scale * 2;
+
+            const startX = 30;
+            const startY = 200;
+
+            return (
+            <svg viewBox="0 0 300 250" className="geometry-svg">
+                {/* Rätvinklig triangel */}
+                <polygon 
+                    points={`${startX},${startY} ${startX + aPx},${startY} ${startX},${startY - bPx}`}
+                    fill="#e0e7ff"
+                    stroke="#2563eb"
+                    strokeWidth="3"
+                    className="geometry-shape"
+                />
+                
+                {/* Rätvinklig symbol */}
+                <rect x={startX} y={startY - 15} width="15" height="15" fill="none" stroke="#16a34a" strokeWidth="2"/>
+                
+                {/* Sidor med mått */}
+                <line 
+                    x1={startX} 
+                    y1={startY + 15} 
+                    x2={startX + aPx} 
+                    y2={startY + 15} 
+                    stroke="#dc2626" 
+                    strokeWidth="2"
+                />
+                <text x={startX + aPx/2 - 10} y={startY + 35} fill="#dc2626" fontSize="16" fontWeight="600">
+                    a = {a} cm
+                </text>
+                
+                <line 
+                    x1={startX - 15} 
+                    y1={startY} 
+                    x2={startX - 15} 
+                    y2={startY - bPx} 
+                    stroke="#16a34a" 
+                    strokeWidth="2"
+                />
+                <text x={startX - 40} y={startY - bPx/2 + 6} fill="#16a34a" fontSize="16" fontWeight="600">
+                    b = {b} cm
+                </text>
+                
+                {/* Hypotenusa */}
+                <line 
+                    x1={startX + aPx} 
+                    y1={startY} 
+                    x2={startX} 
+                    y2={startY - bPx} 
+                    stroke="#8b5cf6" 
+                    strokeWidth="2.5"
+                    strokeDasharray="6,4"
+                />
+                <text x={startX + aPx/2 - 20} y={startY - bPx/2 - 10} fill="#8b5cf6" fontSize="16" fontWeight="600">
+                    c = {c.toFixed(1)} cm
+                </text>
+            </svg>
+        );
+    };
+        }
       }
     }
 }
