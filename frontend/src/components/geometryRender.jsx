@@ -425,7 +425,7 @@ const GeometryRender = ({ geometry }) => {
 
         const c = Math.sqrt(a * a + b * b);
 
-        const startX = 60;
+        const startX = 110;
         const startY = 190;
 
         return (
