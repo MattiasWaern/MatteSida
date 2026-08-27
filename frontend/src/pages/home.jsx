@@ -1,5 +1,6 @@
 import questions from "../data/questions.json";
 import { useState, useEffect } from "react";
+import GeometryRender from "../components/geometryRender";
 import "../styles/home.css";
 
 function Home() {
@@ -81,6 +82,12 @@ function Home() {
                     Svårighet: {currentQuestion.difficulty}
                 </p>
             </div>
+
+                {currentQuestion.geometry && (
+                    <div className="geometry-container">
+                        <GeometryRender geometry={currentQuestion.geometry} />
+                    </div>
+                )}    
 
             {currentQuestion.type === "single" && (
                 <input
