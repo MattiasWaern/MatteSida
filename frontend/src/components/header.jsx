@@ -143,15 +143,15 @@ function Header() {
 
                                 <div className="difficulty-dropdown">
 
-                                    <Link to="/quiz/geometriarea/easy" className="diff-link diff-easy">
+                                    <Link to="/quiz/geometricirkel/easy" className="diff-link diff-easy">
                                         Lätt
                                     </Link>
 
-                                    <Link to="/quiz/geometriarea/medium" className="diff-link diff-medium">
+                                    <Link to="/quiz/geometricirkel/medium" className="diff-link diff-medium">
                                         Medel
                                     </Link>
 
-                                    <Link to="/quiz/geometriarea/hard" className="diff-link diff-hard">
+                                    <Link to="/quiz/geometricirkel/hard" className="diff-link diff-hard">
                                         Svår
                                     </Link>
 
@@ -165,15 +165,15 @@ function Header() {
 
                                 <div className="difficulty-dropdown">
 
-                                    <Link to="/quiz/geometriarea/easy" className="diff-link diff-easy">
+                                    <Link to="/quiz/geometripythagoras/easy" className="diff-link diff-easy">
                                         Lätt
                                     </Link>
 
-                                    <Link to="/quiz/geometriarea/medium" className="diff-link diff-medium">
+                                    <Link to="/quiz/geometripythagoras/medium" className="diff-link diff-medium">
                                         Medel
                                     </Link>
 
-                                    <Link to="/quiz/geometriarea/hard" className="diff-link diff-hard">
+                                    <Link to="/quiz/geometripythagoras/hard" className="diff-link diff-hard">
                                         Svår
                                     </Link>
 
@@ -187,15 +187,15 @@ function Header() {
 
                                 <div className="difficulty-dropdown">
 
-                                    <Link to="/quiz/geometriarea/easy" className="diff-link diff-easy">
+                                    <Link to="/quiz/geometrivolym/easy" className="diff-link diff-easy">
                                         Lätt
                                     </Link>
 
-                                    <Link to="/quiz/geometriarea/medium" className="diff-link diff-medium">
+                                    <Link to="/quiz/geometrivolym/medium" className="diff-link diff-medium">
                                         Medel
                                     </Link>
 
-                                    <Link to="/quiz/geometriarea/hard" className="diff-link diff-hard">
+                                    <Link to="/quiz/geometrivolym/hard" className="diff-link diff-hard">
                                         Svår
                                     </Link>
 
