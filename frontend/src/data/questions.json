@@ -203,5 +203,94 @@
                 "Dividera med 3.",
                 "x = 2"
             ]
-        }
+        },
+        {
+        "text": "Beräkna arean av triangeln nedan.",
+        "answer": ["24"],
+        "type": "single",
+        "category": "GeometriArea",
+        "difficulty": "easy",
+        "geometry": {
+            "type": "triangle",
+            "base": 8,
+            "height": 6
+        },
+        "explanation": [
+            "Formel för triangelns area: A = (bas × höjd) / 2",
+            "A = (8 × 6) / 2",
+            "A = 48 / 2",
+            "A = 24 cm²"
+        ]
+    },
+    {
+        "text": "Vad är omkretsen av cirkeln nedan? (Använd π ≈ 3.14)",
+        "answer": ["31.4"],
+        "type": "single",
+        "category": "GeometriCirkel",
+        "difficulty": "easy",
+        "geometry": {
+            "type": "circle",
+            "radius": 5
+        },
+        "explanation": [
+            "Formel för cirkelns omkrets: O = 2 × π × r",
+            "O = 2 × 3.14 × 5",
+            "O = 31.4 cm"
+        ]
+    },
+    {
+        "text": "Vad är arean av rektangeln nedan?",
+        "answer": ["30"],
+        "type": "single",
+        "category": "GeometriArea",
+        "difficulty": "easy",
+        "geometry": {
+            "type": "rectangle",
+            "width": 10,
+            "height": 3
+        },
+        "explanation": [
+            "Formel för rektangelns area: A = längd × bredd",
+            "A = 10 × 3",
+            "A = 30 cm²"
+        ]
+    },
+    {
+        "text": "Vad är volymen av cylindern nedan? (Använd π ≈ 3.14)",
+        "answer": ["282.6"],
+        "type": "single",
+        "category": "GeometriVolym",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "cylinder",
+            "radius": 3,
+            "height": 10
+        },
+        "explanation": [
+            "Formel för cylinderns volym: V = π × r² × h",
+            "V = 3.14 × 3² × 10",
+            "V = 3.14 × 9 × 10",
+            "V = 282.6 cm³"
+        ]
+    },
+    {
+        "text": "Beräkna hypotenusan i den rätvinkliga triangeln nedan. Använd Pythagoras sats.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "GeometriPythagoras",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "pythagoras",
+            "a": 3,
+            "b": 4
+        },
+        "explanation": [
+            "Pythagoras sats: a² + b² = c²",
+            "3² + 4² = c²",
+            "9 + 16 = c²",
+            "25 = c²",
+            "c = √25",
+            "c = 5 cm"
+        ]
+    }
     ]

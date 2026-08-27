@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import questions from "../data/questions.json";
+import geometryRender from "./geometryRender";
 import "../styles/math.css";
 
 function MathQuiz() {
@@ -13,7 +14,11 @@ function MathQuiz() {
     const categoryNames = {
         "linjara-ekvationer": "Linjära ekvationer",
         "andragradsekvationer": "Andragradsekvationer",
-        "ekvationssystem": "Ekvationssystem"
+        "ekvationssystem": "Ekvationssystem",
+        "geometriarea": "GeometriArea",
+        "geometricirkel":"GeometriCirkel",
+        "geometripythagoras":"GeometriPythagoras",
+        "geometrivolym": "GeometriVolym",
     };
 
     const selectedCategory = categoryNames[category]
@@ -147,7 +152,7 @@ function MathQuiz() {
 
             <section className="math-quiz">
 
-                <h2>Lös ekvationen</h2>
+                <h2>Lös {randomQuestion.category}</h2>
 
                 <div className="tags">
 
@@ -160,6 +165,12 @@ function MathQuiz() {
                     </h4>
 
                 </div>
+
+                {randomQuestion.geometry && (
+                    <div className="geometry-container">
+                        <geometryRender geometry={randomQuestion.geometry} />
+                    </div>
+                )}               
 
                 <p className="question-text">
                     {randomQuestion.text}

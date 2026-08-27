@@ -111,6 +111,31 @@ function Header() {
 
                             </div>
 
+                            {/* Ekvationssystem */}
+                            <div className="category-item">
+
+                                <span>
+                                    GeometriArea
+                                </span>
+
+                                <div className="difficulty-dropdown">
+
+                                    <Link to="/quiz/geometriarea/easy" className="diff-link diff-easy">
+                                        Lätt
+                                    </Link>
+
+                                    <Link to="/quiz/geometriarea/medium" className="diff-link diff-medium">
+                                        Medel
+                                    </Link>
+
+                                    <Link to="/quiz/geometriarea/hard" className="diff-link diff-hard">
+                                        Svår
+                                    </Link>
+
+                                </div>
+
+                            </div>
+
                         </div>
 
                     </div>
