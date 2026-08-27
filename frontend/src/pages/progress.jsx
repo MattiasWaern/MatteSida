@@ -1,8 +1,8 @@
-function MyProgress(){
+function Prov(){
     return(
-        <h1>Här är min progress</h1>
+        <h1>Här är mitt Prov</h1>
     )
 }
 
 
-export default MyProgress;
+export default Prov;

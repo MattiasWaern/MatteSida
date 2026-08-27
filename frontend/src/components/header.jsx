@@ -116,8 +116,8 @@ function Header() {
                     </div>
 
 
-                    <Link to="/progress" className="nav-link">
-                        Min progress
+                    <Link to="/Prov" className="nav-link">
+                        Prov
                     </Link>
 
                 </nav>
