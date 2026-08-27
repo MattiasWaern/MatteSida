@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header.jsx";
 import Footer from "./components/footer.jsx";
-import MathQuiz from "./components/math.jsx";
+import MathQuiz from "./pages/math.jsx";
 import Home from "./pages/home.jsx";
 import Prov from "./pages/progress.jsx";
 

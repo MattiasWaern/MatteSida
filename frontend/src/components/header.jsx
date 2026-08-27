@@ -2,135 +2,251 @@ import { Link } from "react-router-dom";
 import "../styles/header.css";
 
 function Header() {
-    return (
-        <header className="header">
-            <div className="header-content">
+  return (
+    <header className="header">
+      <div className="header-content">
+        <Link to="/" className="logo">
+          <span className="logo-icon" aria-hidden="true">
+            β
+          </span>
+          <span className="logo-text">
+            Matte<span>Experten</span>
+          </span>
+        </Link>
 
-                <Link to="/" className="logo">
-                    <span className="logo-icon" aria-hidden="true">
-                          β  
-                    </span>
-                    <span className="logo-text">
-                        Matte<span>Experten</span>
-                    </span>
-                </Link>
+        <nav className="nav">
+          <Link to="/" className="nav-link">
+            Hem
+          </Link>
 
+          <div className="category-menu">
+            <span className="nav-link category-trigger">
+              Öva
+              <svg className="chevron" viewBox="0 0 12 8" width="10" height="7">
+                <path
+                  d="M1 1L6 6L11 1"
+                  stroke="currentColor"
+                  strokeWidth="1.6"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </span>
 
-                <nav className="nav">
+            <div className="category-dropdown">
+              {/* Linjära ekvationer */}
+              <div className="category-item">
+                <span>Linjära ekvationer</span>
 
-                    <Link to="/" className="nav-link">
-                        Hem
-                    </Link>
+                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/linjara-ekvationer/easy"
+                    className="diff-link diff-easy"
+                  >
+                    Lätt
+                  </Link>
 
+                  <Link
+                    to="/quiz/linjara-ekvationer/medium"
+                    className="diff-link diff-medium"
+                  >
+                    Medel
+                  </Link>
 
-                    <div className="category-menu">
+                  <Link
+                    to="/quiz/linjara-ekvationer/hard"
+                    className="diff-link diff-hard"
+                  >
+                    Svår
+                  </Link>
+                </div>
+              </div>
+              {/* Andragradsekvationer */}
+              <div className="category-item">
+                <span>Andragradsekvationer</span>
 
-                        <span className="nav-link category-trigger">
-                            Öva
-                            <svg className="chevron" viewBox="0 0 12 8" width="10" height="7">
-                                <path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                        </span>
+                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/andragradsekvationer/easy"
+                    className="diff-link diff-easy"
+                  >
+                    Lätt
+                  </Link>
 
-                        <div className="category-dropdown">
+                  <Link
+                    to="/quiz/andragradsekvationer/medium"
+                    className="diff-link diff-medium"
+                  >
+                    Medel
+                  </Link>
 
-                            {/* Linjära ekvationer */}
-                            <div className="category-item">
+                  <Link
+                    to="/quiz/andragradsekvationer/hard"
+                    className="diff-link diff-hard"
+                  >
+                    Svår
+                  </Link>
+                </div>
+              </div>
+              {/* Ekvationssystem */}
+              <div className="category-item">
+                <span>Ekvationssystem</span>
 
-                                <span>
-                                    Linjära ekvationer
-                                </span>
+                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/ekvationssystem/easy"
+                    className="diff-link diff-easy"
+                  >
+                    Lätt
+                  </Link>
 
-                                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/ekvationssystem/medium"
+                    className="diff-link diff-medium"
+                  >
+                    Medel
+                  </Link>
 
-                                    <Link to="/quiz/linjara-ekvationer/easy" className="diff-link diff-easy">
-                                        Lätt
-                                    </Link>
+                  <Link
+                    to="/quiz/ekvationssystem/hard"
+                    className="diff-link diff-hard"
+                  >
+                    Svår
+                  </Link>
+                </div>
+              </div>
+              {/* Geometri Area */}
+              <div className="category-item">
+                <span>Geometri Area</span>
 
-                                    <Link to="/quiz/linjara-ekvationer/medium" className="diff-link diff-medium">
-                                        Medel
-                                    </Link>
+                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/geometriarea/easy"
+                    className="diff-link diff-easy"
+                  >
+                    Lätt
+                  </Link>
 
-                                    <Link to="/quiz/linjara-ekvationer/hard" className="diff-link diff-hard">
-                                        Svår
-                                    </Link>
+                  <Link
+                    to="/quiz/geometriarea/medium"
+                    className="diff-link diff-medium"
+                  >
+                    Medel
+                  </Link>
 
-                                </div>
+                  <Link
+                    to="/quiz/geometriarea/hard"
+                    className="diff-link diff-hard"
+                  >
+                    Svår
+                  </Link>
+                </div>
+              </div>
 
-                            </div>
+             {/* Geometri Cirkel */}
 
+              <div className="category-item">
+                <span>Geometri Cirkel</span>
 
-                            {/* Andragradsekvationer */}
-                            <div className="category-item">
+                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/geometricirkel/easy"
+                    className="diff-link diff-easy"
+                  >
+                    Lätt
+                  </Link>
 
-                                <span>
-                                    Andragradsekvationer
-                                </span>
+                  <Link
+                    to="/quiz/geometricirkel/medium"
+                    className="diff-link diff-medium"
+                  >
+                    Medel
+                  </Link>
 
-                                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/geometricirkel/hard"
+                    className="diff-link diff-hard"
+                  >
+                    Svår
+                  </Link>
+                </div>
+              </div>
+              
+                {/* Geometri Pythagoras */}
 
-                                    <Link to="/quiz/andragradsekvationer/easy" className="diff-link diff-easy">
-                                        Lätt
-                                    </Link>
+              <div className="category-item">
+                <span>Geometri Pythagoras</span>
 
-                                    <Link to="/quiz/andragradsekvationer/medium" className="diff-link diff-medium">
-                                        Medel
-                                    </Link>
+                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/geometripythagoras/easy"
+                    className="diff-link diff-easy"
+                  >
+                    Lätt
+                  </Link>
 
-                                    <Link to="/quiz/andragradsekvationer/hard" className="diff-link diff-hard">
-                                        Svår
-                                    </Link>
+                  <Link
+                    to="/quiz/geometripythagoras/medium"
+                    className="diff-link diff-medium"
+                  >
+                    Medel
+                  </Link>
 
-                                </div>
+                  <Link
+                    to="/quiz/geometripythagoras/hard"
+                    className="diff-link diff-hard"
+                  >
+                    Svår
+                  </Link>
+                </div>
+              </div>
+              
+              {/* Geometri Volym */}
 
-                            </div>
+              <div className="category-item">
+                <span>Geometri Volym</span>
 
+                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/geometrivolym/easy"
+                    className="diff-link diff-easy"
+                  >
+                    Lätt
+                  </Link>
 
-                            {/* Ekvationssystem */}
-                            <div className="category-item">
+                  <Link
+                    to="/quiz/geometrivolym/medium"
+                    className="diff-link diff-medium"
+                  >
+                    Medel
+                  </Link>
 
-                                <span>
-                                    Ekvationssystem
-                                </span>
-
-                                <div className="difficulty-dropdown">
-
-                                    <Link to="/quiz/ekvationssystem/easy" className="diff-link diff-easy">
-                                        Lätt
-                                    </Link>
-
-                                    <Link to="/quiz/ekvationssystem/medium" className="diff-link diff-medium">
-                                        Medel
-                                    </Link>
-
-                                    <Link to="/quiz/ekvationssystem/hard" className="diff-link diff-hard">
-                                        Svår
-                                    </Link>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <Link to="/Prov" className="nav-link">
-                        Prov
-                    </Link>
-
-                </nav>
-
-
-                <button className="profile-button">
-                    <span className="profile-icon" aria-hidden="true">👤</span>
-                    <span>Mitt konto</span>
-                </button>
-
+                  <Link
+                    to="/quiz/geometrivolym/hard"
+                    className="diff-link diff-hard"
+                  >
+                    Svår
+                  </Link>
+                </div>
+              </div>
             </div>
-        </header>
-    );
+          </div>
+
+          <Link to="/Prov" className="nav-link">
+            Prov
+          </Link>
+        </nav>
+
+        <button className="profile-button">
+          <span className="profile-icon" aria-hidden="true">
+            👤
+          </span>
+          <span>Mitt konto</span>
+        </button>
+      </div>
+    </header>
+  );
 }
 
 export default Header;

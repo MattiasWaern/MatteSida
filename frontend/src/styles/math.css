@@ -37,7 +37,7 @@ body {
 .math-quiz h2 {
     margin: 0;
     font-family: "Baloo 2", "Inter", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: #1e2a44;
 }
@@ -46,6 +46,35 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+.geometry-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 16px 0;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 2px solid #e7e2d6;
+    min-height: 200px;
+    transition: all 0.3s ease;
+}
+
+.geometry-container:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.geometry-svg {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.geometry-svg:hover {
+    transform: scale(1.02);
 }
 
 .math-quiz h3 {
