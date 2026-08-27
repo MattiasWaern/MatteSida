@@ -15,10 +15,10 @@ function MathQuiz() {
         "linjara-ekvationer": "Linjära ekvationer",
         "andragradsekvationer": "Andragradsekvationer",
         "ekvationssystem": "Ekvationssystem",
-        "geometriarea": "GeometriArea",
-        "geometricirkel":"GeometriCirkel",
-        "geometripythagoras":"GeometriPythagoras",
-        "geometrivolym": "GeometriVolym",
+        "geometriarea": "Geometri - Area",
+        "geometricirkel": "Geometri - Cirkel",
+        "geometripythagoras": "Geometri - Pythagoras",
+        "geometrivolym": "Geometri - Volym",
     };
 
     const selectedCategory = categoryNames[category]

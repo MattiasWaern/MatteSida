@@ -1,214 +1,391 @@
-    [
-     {
-            "text": "x² - 5x + 6 = 0",
-            "answer": ["2", "3"],
-            "type": "multiple",
-            "category": "Andragradsekvationer",
-            "difficulty": "medium",
-            "explanation": [
-                "Faktorisera ekvationen.",
-                "(x - 2)(x - 3) = 0",
-                "En produkt är noll om någon av faktorerna är noll.",
-                "x - 2 = 0 → x = 2",
-                "x - 3 = 0 → x = 3",
-                "Alltså är x = 2 eller x = 3."
-            ]
-        },
-
-        {
-            "text": "x² - 9 = 0",
-            "answer": ["3", "-3"],
-            "type": "multiple",
-            "category": "Andragradsekvationer",
-            "difficulty": "easy",
-            "explanation": [
-                "Flytta -9 till högerledet.",
-                "x² = 9",
-                "Ta roten ur båda leden.",
-                "x = ±√9",
-                "√9 = 3",
-                "Alltså är x = 3 eller x = -3."
-            ]
-        },
-
-        {
-            "text": "3x² - 12x = 0",
-            "answer": ["0", "4"],
-            "type": "multiple",
-            "category": "Andragradsekvationer",
-            "difficulty": "medium",
-            "explanation": [
-                "Bryt ut den gemensamma faktorn 3x.",
-                "3x(x - 4) = 0",
-                "En produkt är noll om någon av faktorerna är noll.",
-                "3x = 0 → x = 0",
-                "x - 4 = 0 → x = 4",
-                "Alltså är x = 0 eller x = 4."
-            ]
-        },
-
-        {
-            "text": "x² - 6x + 8 = 0",
-            "answer": ["2", "4"],
-            "type": "multiple",
-            "category": "Andragradsekvationer",
-            "difficulty": "medium",
-            "explanation": [
-                "Identifiera p och q.",
-                "p = -6 och q = 8",
-                "Använd pq-formeln: x = -p/2 ± √((p/2)² - q)",
-                "x = 3 ± √(9 - 8)",
-                "x = 3 ± 1",
-                "x = 3 + 1 = 4",
-                "x = 3 - 1 = 2",
-                "Alltså är x = 2 eller x = 4."
-            ]
-        },
-
-        {
-            "text": "2x² + 8x - 24 = 0",
-            "answer": ["2", "-6"],
-            "type": "multiple",
-            "category": "Andragradsekvationer",
-            "difficulty": "hard",
-            "explanation": [
-                "Dividera hela ekvationen med 2.",
-                "x² + 4x - 12 = 0",
-                "Identifiera p och q.",
-                "p = 4 och q = -12",
-                "Använd pq-formeln.",
-                "x = -2 ± √(4 + 12)",
-                "x = -2 ± √16",
-                "x = -2 ± 4",
-                "x = -2 + 4 = 2",
-                "x = -2 - 4 = -6",
-                "Alltså är x = 2 eller x = -6."
-            ]
-        },
-
-        {
-            "text": "x² - 4x + 5 = 0",
-            "answer": [""],
-            "type": "single",
-            "category": "Andragradsekvationer",
-            "difficulty": "hard",
-            "explanation": [
-                "Identifiera p och q.",
-                "p = -4 och q = 5",
-                "Använd pq-formeln.",
-                "x = 2 ± √(4 - 5)",
-                "x = 2 ± √(-1)",
-                "√(-1) är inte ett reellt tal.",
-                "Alltså saknar ekvationen reella lösningar."
-            ]
-        },
-
-        {
-            "text": "2x + 7 = 15",
-            "answer": ["4"],
-            "type": "single",
-            "category": "Linjära ekvationer",
-            "difficulty": "easy",
-            "explanation": [
-                "Subtrahera 7 från båda leden.",
-                "2x = 8",
-                "Dividera båda leden med 2.",
-                "x = 4"
-            ]
-        },
-
-        {
-            "text": "4x + 7 = 23",
-            "answer": ["4"],
-            "type": "single",
-            "category": "Linjära ekvationer",
-            "difficulty": "easy",
-            "explanation": [
-                "Subtrahera 7 från båda leden.",
-                "4x = 16",
-                "Dividera båda leden med 4.",
-                "x = 4"
-            ]
-        },
-
-        {
-            "text": "2(x - 3) + 4 = 3x - 5",
-            "answer": ["3"],
-            "type": "single",
-            "category": "Linjära ekvationer",
-            "difficulty": "medium",
-            "explanation": [
-                "Multiplicera in 2 i parentesen.",
-                "2x - 6 + 4 = 3x - 5",
-                "Förenkla vänsterledet.",
-                "2x - 2 = 3x - 5",
-                "Subtrahera 2x från båda leden.",
-                "-2 = x - 5",
-                "Addera 5 till båda leden.",
-                "x = 3"
-            ]
-        },
-
-        {
-            "text": "Bestäm x i ekvationssystemet:\nx + y = 7\n2x - y = 2",
-            "answer": ["3"],
-            "type": "single",
-            "category": "Ekvationssystem",
-            "difficulty": "medium",
-            "explanation": [
-                "Addera de två ekvationerna för att eliminera y.",
-                "(x + y) + (2x - y) = 7 + 2",
-                "3x = 9",
-                "Dividera med 3.",
-                "x = 3"
-            ]
-        },
-
-        {
-            "text": "Bestäm y i ekvationssystemet:\n2x + 3y = 13\n4x - y = 5",
-            "answer": ["3"],
-            "type": "single",
-            "category": "Ekvationssystem",
-            "difficulty": "hard",
-            "explanation": [
-                "Börja med den andra ekvationen.",
-                "4x - y = 5",
-                "Lös ut y.",
-                "y = 4x - 5",
-                "Sätt in uttrycket för y i den första ekvationen.",
-                "2x + 3(4x - 5) = 13",
-                "2x + 12x - 15 = 13",
-                "14x = 28",
-                "x = 2",
-                "Sätt in x = 2 i y = 4x - 5.",
-                "y = 4(2) - 5",
-                "y = 3"
-            ]
-        },
-
-        {
-            "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = 2x + 3\ny = -x + 9",
-            "answer": ["2"],
-            "type": "single",
-            "category": "Ekvationssystem",
-            "difficulty": "hard",
-            "explanation": [
-                "Vid skärningspunkten har linjerna samma y-värde.",
-                "Sätt därför uttrycken lika med varandra.",
-                "2x + 3 = -x + 9",
-                "Addera x till båda leden.",
-                "3x + 3 = 9",
-                "Subtrahera 3 från båda leden.",
-                "3x = 6",
-                "Dividera med 3.",
-                "x = 2"
-            ]
-        },
-        {
+[
+    {
+        "text": "x² - 5x + 6 = 0",
+        "answer": ["2", "3"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Faktorisera ekvationen.",
+            "(x - 2)(x - 3) = 0",
+            "En produkt är noll om någon av faktorerna är noll.",
+            "x - 2 = 0 → x = 2",
+            "x - 3 = 0 → x = 3",
+            "Alltså är x = 2 eller x = 3."
+        ]
+    },
+    {
+        "text": "x² - 9 = 0",
+        "answer": ["3", "-3"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Flytta -9 till högerledet.",
+            "x² = 9",
+            "Ta roten ur båda leden.",
+            "x = ±√9",
+            "√9 = 3",
+            "Alltså är x = 3 eller x = -3."
+        ]
+    },
+    {
+        "text": "3x² - 12x = 0",
+        "answer": ["0", "4"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Bryt ut den gemensamma faktorn 3x.",
+            "3x(x - 4) = 0",
+            "En produkt är noll om någon av faktorerna är noll.",
+            "3x = 0 → x = 0",
+            "x - 4 = 0 → x = 4",
+            "Alltså är x = 0 eller x = 4."
+        ]
+    },
+    {
+        "text": "x² - 6x + 8 = 0",
+        "answer": ["2", "4"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Identifiera p och q.",
+            "p = -6 och q = 8",
+            "Använd pq-formeln: x = -p/2 ± √((p/2)² - q)",
+            "x = 3 ± √(9 - 8)",
+            "x = 3 ± 1",
+            "x = 3 + 1 = 4",
+            "x = 3 - 1 = 2",
+            "Alltså är x = 2 eller x = 4."
+        ]
+    },
+    {
+        "text": "2x² + 8x - 24 = 0",
+        "answer": ["2", "-6"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Dividera hela ekvationen med 2.",
+            "x² + 4x - 12 = 0",
+            "Identifiera p och q.",
+            "p = 4 och q = -12",
+            "Använd pq-formeln.",
+            "x = -2 ± √(4 + 12)",
+            "x = -2 ± √16",
+            "x = -2 ± 4",
+            "x = -2 + 4 = 2",
+            "x = -2 - 4 = -6",
+            "Alltså är x = 2 eller x = -6."
+        ]
+    },
+    {
+        "text": "x² - 4x + 5 = 0",
+        "answer": [""],
+        "type": "single",
+        "category": "Andragradsekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Identifiera p och q.",
+            "p = -4 och q = 5",
+            "Använd pq-formeln.",
+            "x = 2 ± √(4 - 5)",
+            "x = 2 ± √(-1)",
+            "√(-1) är inte ett reellt tal.",
+            "Alltså saknar ekvationen reella lösningar."
+        ]
+    },
+    {
+        "text": "x² + 7x + 12 = 0",
+        "answer": ["-3", "-4"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Faktorisera: (x + 3)(x + 4) = 0",
+            "x + 3 = 0 → x = -3",
+            "x + 4 = 0 → x = -4"
+        ]
+    },
+    {
+        "text": "x² - 10x + 25 = 0",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Andragradsekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Kvadratkomplettera: (x - 5)² = 0",
+            "x - 5 = 0",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "2x² - 8x = 0",
+        "answer": ["0", "4"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Bryt ut 2x: 2x(x - 4) = 0",
+            "2x = 0 → x = 0",
+            "x - 4 = 0 → x = 4"
+        ]
+    },
+    {
+        "text": "x² + 2x - 15 = 0",
+        "answer": ["3", "-5"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Faktorisera: (x + 5)(x - 3) = 0",
+            "x + 5 = 0 → x = -5",
+            "x - 3 = 0 → x = 3"
+        ]
+    },
+    {
+        "text": "3x² - 27 = 0",
+        "answer": ["3", "-3"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera med 3: x² - 9 = 0",
+            "x² = 9",
+            "x = ±3"
+        ]
+    },
+    {
+        "text": "2x + 7 = 15",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 7 från båda leden.",
+            "2x = 8",
+            "Dividera båda leden med 2.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "4x + 7 = 23",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 7 från båda leden.",
+            "4x = 16",
+            "Dividera båda leden med 4.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "2(x - 3) + 4 = 3x - 5",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 2 i parentesen.",
+            "2x - 6 + 4 = 3x - 5",
+            "Förenkla vänsterledet.",
+            "2x - 2 = 3x - 5",
+            "Subtrahera 2x från båda leden.",
+            "-2 = x - 5",
+            "Addera 5 till båda leden.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "3x + 5 = 20",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 5 från båda leden.",
+            "3x = 15",
+            "Dividera med 3.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "5x - 8 = 2x + 7",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "3x - 8 = 7",
+            "Addera 8 till båda leden.",
+            "3x = 15",
+            "Dividera med 3.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "x/4 + 2 = 6",
+        "answer": ["16"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2 från båda leden.",
+            "x/4 = 4",
+            "Multiplicera med 4.",
+            "x = 16"
+        ]
+    },
+    {
+        "text": "4(x + 2) = 24",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 4.",
+            "x + 2 = 6",
+            "Subtrahera 2.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "7x - 3 = 4x + 15",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "3x - 3 = 15",
+            "Addera 3.",
+            "3x = 18",
+            "Dividera med 3.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "2x/3 = 8",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 3.",
+            "2x = 24",
+            "Dividera med 2.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "Bestäm x i ekvationssystemet:\nx + y = 7\n2x - y = 2",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Addera de två ekvationerna för att eliminera y.",
+            "(x + y) + (2x - y) = 7 + 2",
+            "3x = 9",
+            "Dividera med 3.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "Bestäm y i ekvationssystemet:\n2x + 3y = 13\n4x - y = 5",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Börja med den andra ekvationen.",
+            "4x - y = 5",
+            "Lös ut y.",
+            "y = 4x - 5",
+            "Sätt in uttrycket för y i den första ekvationen.",
+            "2x + 3(4x - 5) = 13",
+            "2x + 12x - 15 = 13",
+            "14x = 28",
+            "x = 2",
+            "Sätt in x = 2 i y = 4x - 5.",
+            "y = 4(2) - 5",
+            "y = 3"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = 2x + 3\ny = -x + 9",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt därför uttrycken lika med varandra.",
+            "2x + 3 = -x + 9",
+            "Addera x till båda leden.",
+            "3x + 3 = 9",
+            "Subtrahera 3 från båda leden.",
+            "3x = 6",
+            "Dividera med 3.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "Lös ekvationssystemet:\n3x + 2y = 12\nx - 2y = 4",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Addera ekvationerna.",
+            "4x = 16",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "Lös ekvationssystemet:\ny = 3x + 1\ny = x + 5",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt uttrycken lika: 3x + 1 = x + 5",
+            "2x = 4",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "Bestäm x:\n2x + y = 10\nx - y = 2",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera ekvationerna: 3x = 12",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "Lös ekvationssystemet:\n5x + 2y = 19\n3x - 2y = 5",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Addera ekvationerna: 8x = 24",
+            "x = 3"
+        ]
+    },
+    {
         "text": "Beräkna arean av triangeln nedan.",
         "answer": ["24"],
         "type": "single",
-        "category": "GeometriArea",
+        "category": "Geometri - Area",
         "difficulty": "easy",
         "geometry": {
             "type": "triangle",
@@ -216,33 +393,98 @@
             "height": 6
         },
         "explanation": [
-            "Formel för triangelns area: A = (bas × höjd) / 2",
+            "Formel: A = (bas × höjd) / 2",
             "A = (8 × 6) / 2",
             "A = 48 / 2",
             "A = 24 cm²"
         ]
     },
     {
+        "text": "Vad är arean av en triangel med basen 10 cm och höjden 4 cm?",
+        "answer": ["20"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "easy",
+        "geometry": {
+            "type": "triangle",
+            "base": 10,
+            "height": 4
+        },
+        "explanation": [
+            "A = (10 × 4) / 2",
+            "A = 40 / 2",
+            "A = 20 cm²"
+        ]
+    },
+    {
+        "text": "Vad är arean av en triangel med basen 12 cm och höjden 7 cm?",
+        "answer": ["42"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "triangle",
+            "base": 12,
+            "height": 7
+        },
+        "explanation": [
+            "A = (12 × 7) / 2",
+            "A = 84 / 2",
+            "A = 42 cm²"
+        ]
+    },
+    {
         "text": "Vad är omkretsen av cirkeln nedan? (Använd π ≈ 3.14)",
         "answer": ["31.4"],
         "type": "single",
-        "category": "GeometriCirkel",
+        "category": "Geometri - Cirkel",
         "difficulty": "easy",
         "geometry": {
             "type": "circle",
             "radius": 5
         },
         "explanation": [
-            "Formel för cirkelns omkrets: O = 2 × π × r",
+            "Formel: O = 2 × π × r",
             "O = 2 × 3.14 × 5",
             "O = 31.4 cm"
+        ]
+    },
+    {
+        "text": "Vad är omkretsen av en cirkel med radien 7 cm? (Använd π ≈ 3.14)",
+        "answer": ["43.96"],
+        "type": "single",
+        "category": "Geometri - Cirkel",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "circle",
+            "radius": 7
+        },
+        "explanation": [
+            "O = 2 × 3.14 × 7",
+            "O = 43.96 cm"
+        ]
+    },
+    {
+        "text": "Vad är arean av en cirkel med radien 4 cm? (Använd π ≈ 3.14)",
+        "answer": ["50.24"],
+        "type": "single",
+        "category": "Geometri - Cirkel",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "circle",
+            "radius": 4
+        },
+        "explanation": [
+            "Formel: A = π × r²",
+            "A = 3.14 × 16",
+            "A = 50.24 cm²"
         ]
     },
     {
         "text": "Vad är arean av rektangeln nedan?",
         "answer": ["30"],
         "type": "single",
-        "category": "GeometriArea",
+        "category": "Geometri - Area",
         "difficulty": "easy",
         "geometry": {
             "type": "rectangle",
@@ -250,16 +492,48 @@
             "height": 3
         },
         "explanation": [
-            "Formel för rektangelns area: A = längd × bredd",
+            "Formel: A = längd × bredd",
             "A = 10 × 3",
             "A = 30 cm²"
+        ]
+    },
+    {
+        "text": "Vad är arean av en rektangel med längden 8 cm och bredden 5 cm?",
+        "answer": ["40"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "easy",
+        "geometry": {
+            "type": "rectangle",
+            "width": 8,
+            "height": 5
+        },
+        "explanation": [
+            "A = 8 × 5",
+            "A = 40 cm²"
+        ]
+    },
+    {
+        "text": "Vad är arean av en rektangel med längden 12 cm och bredden 6 cm?",
+        "answer": ["72"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "rectangle",
+            "width": 12,
+            "height": 6
+        },
+        "explanation": [
+            "A = 12 × 6",
+            "A = 72 cm²"
         ]
     },
     {
         "text": "Vad är volymen av cylindern nedan? (Använd π ≈ 3.14)",
         "answer": ["282.6"],
         "type": "single",
-        "category": "GeometriVolym",
+        "category": "Geometri - Volym",
         "difficulty": "medium",
         "geometry": {
             "type": "cylinder",
@@ -267,17 +541,32 @@
             "height": 10
         },
         "explanation": [
-            "Formel för cylinderns volym: V = π × r² × h",
-            "V = 3.14 × 3² × 10",
+            "Formel: V = π × r² × h",
             "V = 3.14 × 9 × 10",
             "V = 282.6 cm³"
+        ]
+    },
+    {
+        "text": "Beräkna volymen av en cylinder med radien 4 cm och höjden 8 cm. (Använd π ≈ 3.14)",
+        "answer": ["401.92"],
+        "type": "single",
+        "category": "Geometri - Volym",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "cylinder",
+            "radius": 4,
+            "height": 8
+        },
+        "explanation": [
+            "V = 3.14 × 16 × 8",
+            "V = 401.92 cm³"
         ]
     },
     {
         "text": "Beräkna hypotenusan i den rätvinkliga triangeln nedan. Använd Pythagoras sats.",
         "answer": ["5"],
         "type": "single",
-        "category": "GeometriPythagoras",
+        "category": "Geometri - Pythagoras",
         "difficulty": "medium",
         "geometry": {
             "type": "pythagoras",
@@ -292,5 +581,111 @@
             "c = √25",
             "c = 5 cm"
         ]
+    },
+    {
+        "text": "I en rätvinklig triangel är kateterna 6 cm och 8 cm. Hur lång är hypotenusan?",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Geometri - Pythagoras",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "pythagoras",
+            "a": 6,
+            "b": 8
+        },
+        "explanation": [
+            "c² = 6² + 8²",
+            "c² = 36 + 64",
+            "c² = 100",
+            "c = 10 cm"
+        ]
+    },
+    {
+        "text": "I en rätvinklig triangel är kateterna 5 cm och 12 cm. Hur lång är hypotenusan?",
+        "answer": ["13"],
+        "type": "single",
+        "category": "Geometri - Pythagoras",
+        "difficulty": "hard",
+        "geometry": {
+            "type": "pythagoras",
+            "a": 5,
+            "b": 12
+        },
+        "explanation": [
+            "c² = 5² + 12²",
+            "c² = 25 + 144",
+            "c² = 169",
+            "c = 13 cm"
+        ]
+    },
+    {
+        "text": "x² - 2x - 15 = 0",
+        "answer": ["5", "-3"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Faktorisera: (x - 5)(x + 3) = 0",
+            "x = 5 eller x = -3"
+        ]
+    },
+    {
+        "text": "x² + 4x - 21 = 0",
+        "answer": ["3", "-7"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Faktorisera: (x - 3)(x + 7) = 0",
+            "x = 3 eller x = -7"
+        ]
+    },
+    {
+        "text": "2x² - 18 = 0",
+        "answer": ["3", "-3"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera med 2: x² - 9 = 0",
+            "x = ±3"
+        ]
+    },
+    {
+        "text": "4x² - 16 = 0",
+        "answer": ["2", "-2"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera med 4: x² - 4 = 0",
+            "x = ±2"
+        ]
+    },
+    {
+        "text": "x² + 5x + 6 = 0",
+        "answer": ["-2", "-3"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Faktorisera: (x + 2)(x + 3) = 0",
+            "x = -2 eller x = -3"
+        ]
+    },
+    {
+        "text": "Bestäm x och y:\nx + 2y = 8\n2x - y = 1",
+        "answer": ["2", "3"],
+        "type": "multiple",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Lös ut y från första: y = (8 - x)/2",
+            "Sätt in i andra: 2x - (8 - x)/2 = 1",
+            "4x - 8 + x = 2",
+            "5x = 10",
+            "x = 2",
+            "y = (8 - 2)/2 = 3"
+        ]
     }
-    ]
+]
