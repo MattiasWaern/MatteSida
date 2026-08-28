@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import questions from "../data/questions.json";
 import GeometryRender from "../components/geometryRender";
+import StatisticsRender from "./statisticsRender";
 import "../styles/math.css";
 
 function MathQuiz() {
@@ -171,6 +172,14 @@ function MathQuiz() {
                         <GeometryRender geometry={randomQuestion.geometry} />
                     </div>
                 )}               
+
+                {randomQuestion.statistics && (
+                    <div className="statistics-container">
+                        <StatisticsRender
+                            statistics={randomQuestion.statistics}
+                        />
+                    </div>
+                )}                
 
                 <p className="question-text">
                     {randomQuestion.text}
