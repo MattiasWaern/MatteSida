@@ -187,4 +187,28 @@ const drawBarChart = (data) => {
             </svg>
         );
     };
+
+     const drawTable = (data) => {
+        return (
+            <table className="statistics-table">
+
+                <thead>
+                    <tr>
+                        <th>Kategori</th>
+                        <th>Antal</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {data.map(item => (
+                        <tr key={item.label}>
+                            <td>{item.label}</td>
+                            <td>{item.value}</td>
+                        </tr>
+                    ))}
+                </tbody>
+
+            </table>
+        );
+    };
 }
