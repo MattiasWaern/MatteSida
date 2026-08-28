@@ -75,6 +75,92 @@
 },
 {
     "category": "Statistik",
+    "difficulty": "hard",
+    "type": "single",
+    "text": "En elev får betygen 12 på ett prov som väger 40 % och 18 på ett prov som väger 60 %. Vad blir elevens viktade medelvärde?",
+    "statistics": {
+        "type": "weightedAverage",
+        "data": [12, 18, 40, 60]
+    },
+    "answer": ["15.6"],
+    "explanation": [
+        "Multiplicera varje resultat med dess vikt.",
+        "12 · 0.40 = 4.8.",
+        "18 · 0.60 = 10.8.",
+        "4.8 + 10.8 = 15.6.",
+        "Det viktade medelvärdet är därför 15.6."
+    ]
+},
+{
+    "category": "Statistik",
+    "difficulty": "hard",
+    "type": "single",
+    "text": "En klass har 28 elever. 75 % av eleverna klarade provet. Hur många elever klarade provet?",
+    "statistics": {
+        "type": "percentage",
+        "data": [28, 75]
+    },
+    "answer": ["21"],
+    "explanation": [
+        "Beräkna 75 % av 28.",
+        "0.75 · 28 = 21.",
+        "21 elever klarade provet."
+    ]
+},
+{
+    "category": "Statistik",
+    "difficulty": "hard",
+    "type": "single",
+    "text": "En vara kostade 800 kr och priset höjdes till 920 kr. Hur många procent ökade priset?",
+    "statistics": {
+        "type": "percentage",
+        "data": [800, 920]
+    },
+    "answer": ["15"],
+    "explanation": [
+        "Förändringen är 920 - 800 = 120 kr.",
+        "Beräkna förändringen i förhållande till ursprungspriset.",
+        "120 / 800 = 0.15.",
+        "0.15 · 100 = 15 %.",
+        "Priset ökade därför med 15 %."
+    ]
+},
+{
+    "category": "Statistik",
+    "difficulty": "hard",
+    "type": "single",
+    "text": "Vad är variationsbredden?",
+    "statistics": {
+        "type": "range",
+        "data": [18, 7, 31, 12, 25, 9, 42, 16]
+    },
+    "answer": ["35"],
+    "explanation": [
+        "Det största talet är 42.",
+        "Det minsta talet är 7.",
+        "42 - 7 = 35.",
+        "Variationsbredden är därför 35."
+    ]
+},
+{
+    "category": "Statistik",
+    "difficulty": "hard",
+    "type": "single",
+    "text": "Vilket är typvärdet?",
+    "statistics": {
+        "type": "mode",
+        "data": [4, 7, 9, 4, 12, 7, 4, 15, 9, 4]
+    },
+    "answer": ["4"],
+    "explanation": [
+        "Räkna hur många gånger varje tal förekommer.",
+        "Talet 4 förekommer fyra gånger.",
+        "Det är fler än något annat tal.",
+        "Typvärdet är därför 4."
+    ]
+},
+{
+    "category": "Statistik",
     "difficulty": "medium",
     "type": "single",
     "text": "Hur många procent föredrar pizza?",
