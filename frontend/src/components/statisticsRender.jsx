@@ -211,4 +211,115 @@ const drawBarChart = (data) => {
             </table>
         );
     };
+
+    const drawPieChart = (data) => {
+        const total = data.reduce(
+            (sum, item) => sum + item.value,
+            0
+        );
+
+        let currentAngle = 0;
+
+        const radius = 75;
+        const center = 100;
+
+        const colors = [
+            "#93c5fd",
+            "#86efac",
+            "#fde68a",
+            "#fca5a5",
+            "#c4b5fd",
+            "#fdba74"
+        ];
+
+        const slices = data.map((item, index) => {
+
+            const percentage = item.value / total;
+
+            const angle = percentage * Math.PI * 2;
+
+            const startAngle = currentAngle;
+            const endAngle = currentAngle + angle;
+
+            currentAngle = endAngle;
+
+            const x1 =
+                center + radius * Math.cos(startAngle);
+
+            const y1 =
+                center + radius * Math.sin(startAngle);
+
+            const x2 =
+                center + radius * Math.cos(endAngle);
+
+            const y2 =
+                center + radius * Math.sin(endAngle);
+
+            const largeArcFlag =
+                angle > Math.PI ? 1 : 0;
+
+            const path = `
+                M ${center} ${center}
+                L ${x1} ${y1}
+                A ${radius} ${radius}
+                0 ${largeArcFlag} 1
+                ${x2} ${y2}
+                Z
+            `;
+
+            return {
+                path,
+                label: item.label,
+                percentage,
+                color: colors[index % colors.length]
+            };
+        });
+
+        return (
+            <svg
+                viewBox="0 0 300 230"
+                className="statistics-svg"
+            >
+
+                <g transform="translate(0,10)">
+                    {slices.map(slice => (
+                        <path
+                            key={slice.label}
+                            d={slice.path}
+                            fill={slice.color}
+                            stroke="white"
+                            strokeWidth="2"
+                        />
+                    ))}
+                </g>
+
+                {/* Förklaring */}
+                {slices.map((slice, index) => (
+                    <g
+                        key={slice.label}
+                        transform={`translate(200, ${30 + index * 25})`}
+                    >
+
+                        <rect
+                            width="12"
+                            height="12"
+                            fill={slice.color}
+                        />
+
+                        <text
+                            x="18"
+                            y="11"
+                            fontSize="12"
+                            fill="#334155"
+                        >
+                            {slice.label}{" "}
+                            {Math.round(slice.percentage * 100)}%
+                        </text>
+
+                    </g>
+                ))}
+
+            </svg>
+        );
+    };
 }
