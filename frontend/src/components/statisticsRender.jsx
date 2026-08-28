@@ -1,3 +1,14 @@
+function StatisticsRender({ statistics }) {
+    return (
+        <div>
+            <p>
+                Tal: {statistics.data.join(", ")}
+            </p>
+        </div>
+    );
+}
+
+
 const statisticsRender = ({ statistics }) => {
     if (!statistics) return null;
 
@@ -270,7 +281,6 @@ const drawBarChart = (data) => {
             return {
                 path,
                 label: item.label,
-                percentage,
                 color: colors[index % colors.length]
             };
         });
@@ -313,7 +323,7 @@ const drawBarChart = (data) => {
                             fill="#334155"
                         >
                             {slice.label}{" "}
-                            {Math.round(slice.percentage * 100)}%
+                           
                         </text>
 
                     </g>
@@ -335,6 +345,7 @@ const drawAverage = (data) => {
                 {data.map((number, index) => (
                     <span key={index}>
                         {number}
+                        {index < data.length - 1 && ", "}
                     </span>
                 ))}
             </div>
@@ -353,23 +364,28 @@ const drawAverage = (data) => {
 
 
 const drawMedian = (data) => {
+    const originalData = [...data];
     const sortedData = [...data].sort((a, b) => a - b);
+    const medianIndex = Math.floor(sortedData.length / 2);
+    const medianValue = sortedData[medianIndex];
 
     return (
         <div className="statistics-calculation">
-            <h3>Tal i storleksordning</h3>
+            <h3>Tal</h3>
 
             <div className="statistics-numbers">
-                {sortedData.map((number, index) => (
+                {originalData.map((number, index) => (
                     <span
                         key={index}
                         className={
-                            index === Math.floor(sortedData.length / 2)
+                            number === medianValue && 
+                            originalData.filter(n => n === medianValue).length === 1
                                 ? "median-number"
                                 : ""
                         }
                     >
                         {number}
+                        {index < originalData.length - 1 && ", "}
                     </span>
                 ))}
             </div>
