@@ -281,6 +281,7 @@ const drawBarChart = (data) => {
             return {
                 path,
                 label: item.label,
+                percentage,
                 color: colors[index % colors.length]
             };
         });
@@ -323,7 +324,7 @@ const drawBarChart = (data) => {
                             fill="#334155"
                         >
                             {slice.label}{" "}
-                           
+                            {Math.round(slice.percentage * 100)}%
                         </text>
 
                     </g>
@@ -389,6 +390,7 @@ const drawMedian = (data) => {
                     </span>
                 ))}
             </div>
+
         </div>
     );
 };
