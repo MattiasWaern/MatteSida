@@ -1,5 +1,149 @@
 [
     {
+    "category": "Statistik",
+    "difficulty": "easy",
+    "type": "single",
+    "text": "Hur många elever fick betyget A?",
+    "statistics": {
+        "type": "barChart",
+        "data": [
+            {
+                "label": "A",
+                "value": 8
+            },
+            {
+                "label": "B",
+                "value": 12
+            },
+            {
+                "label": "C",
+                "value": 15
+            },
+            {
+                "label": "D",
+                "value": 5
+            }
+        ]
+    },
+    "answer": [
+        "8"
+    ],
+    "explanation": [
+        "Vi läser av stapeln för A.",
+        "Stapeln visar 8 elever.",
+        "Svaret är därför 8."
+    ]
+},
+{
+    "category": "Statistik",
+    "difficulty": "medium",
+    "type": "single",
+    "text": "Vilken månad såldes flest produkter?",
+    "statistics": {
+        "type": "lineChart",
+        "data": [
+            {
+                "label": "Jan",
+                "value": 20
+            },
+            {
+                "label": "Feb",
+                "value": 35
+            },
+            {
+                "label": "Mar",
+                "value": 28
+            },
+            {
+                "label": "Apr",
+                "value": 42
+            },
+            {
+                "label": "Maj",
+                "value": 31
+            }
+        ]
+    },
+    "answer": [
+        "Apr"
+    ],
+    "explanation": [
+        "Vi tittar på den högsta punkten i diagrammet.",
+        "Den högsta punkten är april.",
+        "Svaret är därför april."
+    ]
+},
+{
+    "category": "Statistik",
+    "difficulty": "medium",
+    "type": "single",
+    "text": "Hur många procent föredrar pizza?",
+    "statistics": {
+        "type": "pieChart",
+        "data": [
+            {
+                "label": "Pizza",
+                "value": 40
+            },
+            {
+                "label": "Hamburgare",
+                "value": 30
+            },
+            {
+                "label": "Tacos",
+                "value": 20
+            },
+            {
+                "label": "Sallad",
+                "value": 10
+            }
+        ]
+    },
+    "answer": [
+        "40"
+    ],
+    "explanation": [
+        "Cirkeldiagrammet visar att pizza står för 40 av 100 delar.",
+        "Det motsvarar 40 procent.",
+        "Svaret är 40 procent."
+    ]
+},
+{
+    "category": "Statistik",
+    "difficulty": "easy",
+    "type": "single",
+    "text": "Hur många personer valde alternativ B?",
+    "statistics": {
+        "type": "table",
+        "data": [
+            {
+                "label": "A",
+                "value": 14
+            },
+            {
+                "label": "B",
+                "value": 22
+            },
+            {
+                "label": "C",
+                "value": 18
+            },
+            {
+                "label": "D",
+                "value": 9
+            }
+        ]
+    },
+    "answer": [
+        "22"
+    ],
+    "explanation": [
+        "Vi läser av raden för alternativ B.",
+        "Där står 22.",
+        "Svaret är därför 22."
+    ]
+},
+    {
         "text": "x² - 5x + 6 = 0",
         "answer": ["2", "3"],
         "type": "multiple",
