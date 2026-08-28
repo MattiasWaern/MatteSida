@@ -1,18 +1,7 @@
-function StatisticsRender({ statistics }) {
-    return (
-        <div>
-            <p>
-                Tal: {statistics.data.join(", ")}
-            </p>
-        </div>
-    );
-}
-
-
 const statisticsRender = ({ statistics }) => {
     if (!statistics) return null;
 
-const drawBarChart = (data) => {
+    const drawBarChart = (data) => {
         const maxValue = Math.max(...data.map(item => item.value));
 
         const chartHeight = 150;
@@ -96,7 +85,7 @@ const drawBarChart = (data) => {
                 })}
             </svg>
         );
-    };    
+    };
 
     const drawLineChart = (data) => {
         const maxValue = Math.max(...data.map(item => item.value));
@@ -199,7 +188,7 @@ const drawBarChart = (data) => {
         );
     };
 
-     const drawTable = (data) => {
+    const drawTable = (data) => {
         return (
             <table className="statistics-table">
 
@@ -334,81 +323,55 @@ const drawBarChart = (data) => {
         );
     };
 
-const drawAverage = (data) => {
-    const sum = data.reduce((total, number) => total + number, 0);
-    const average = sum / data.length;
-
-    return (
-        <div className="statistics-calculation">
-            <h3>Tal</h3>
-
-            <div className="statistics-numbers">
-                {data.map((number, index) => (
-                    <span key={index}>
-                        {number}
-                        {index < data.length - 1 && ", "}
-                    </span>
-                ))}
+    const drawNumberList = (data) => {
+        return (
+            <div className="statistics-calculation">
+                <div className="statistics-numbers">
+                    {data.map((number, index) => (
+                        <span key={index}>
+                            {number}
+                            {index < data.length - 1 && ", "}
+                        </span>
+                    ))}
+                </div>
             </div>
+        );
+    };
 
-            <p>
-                Antal tal: {data.length}
-            </p>
+    const drawPercentage = (data) => {
+        // data: [värde, total]
+        const value = data[0];
+        const total = data[1];
 
-            <p>
-                Summa: {sum}
-            </p>
-        </div>
-    );
-};    
-
-
-
-const drawMedian = (data) => {
-    const originalData = [...data];
-    const sortedData = [...data].sort((a, b) => a - b);
-    const medianIndex = Math.floor(sortedData.length / 2);
-    const medianValue = sortedData[medianIndex];
-
-    return (
-        <div className="statistics-calculation">
-            <h3>Tal</h3>
-
-            <div className="statistics-numbers">
-                {originalData.map((number, index) => (
-                    <span
-                        key={index}
-                        className={
-                            number === medianValue && 
-                            originalData.filter(n => n === medianValue).length === 1
-                                ? "median-number"
-                                : ""
-                        }
-                    >
-                        {number}
-                        {index < originalData.length - 1 && ", "}
-                    </span>
-                ))}
+        return (
+            <div className="statistics-calculation">
+                <div className="percentage-values">
+                    <strong>{value}</strong>
+                    <span> av </span>
+                    <strong>{total}</strong>
+                </div>
             </div>
+        );
+    };
 
-        </div>
-    );
-};
+    const drawWeightedAverage = (data) => {
+        // data: [värde1, värde2, vikt1, vikt2]
+        const [v1, v2, w1, w2] = data;
 
-
-const drawPercentage = (value, total) => {
-    const percentage = (value / total) * 100;
-
-    return (
-        <div className="statistics-calculation">
-            <div className="percentage-values">
-                <strong>{value}</strong>
-                <span>av</span>
-                <strong>{total}</strong>
+        return (
+            <div className="statistics-calculation">
+                <div className="weighted-calculation">
+                    <p>
+                        <strong>{v1}</strong> · <strong>{w1}%</strong>
+                    </p>
+                    <p>
+                        <strong>{v2}</strong> · <strong>{w2}%</strong>
+                    </p>
+                </div>
             </div>
-        </div>
-    );
-};
+        );
+    };
+
     switch (statistics.type) {
 
         case "barChart":
@@ -424,16 +387,11 @@ const drawPercentage = (value, total) => {
             return drawTable(statistics.data);
 
         case "average":
-            return drawAverage(statistics.data);
-
         case "median":
-            return drawMedian(statistics.data);
+        case "range":
+        case "mode":
+            return drawNumberList(statistics.data);
 
-        case "percentage":
-            return drawPercentage(
-                statistics.value,
-                statistics.total
-            );            
         default:
             return null;
     }
