@@ -322,4 +322,25 @@ const drawBarChart = (data) => {
             </svg>
         );
     };
+
+
+    switch (statistics.type) {
+
+        case "barChart":
+            return drawBarChart(statistics.data);
+
+        case "lineChart":
+            return drawLineChart(statistics.data);
+
+        case "pieChart":
+            return drawPieChart(statistics.data);
+
+        case "table":
+            return drawTable(statistics.data);
+
+        default:
+            return null;
+    }
 }
+
+export default statisticsRender;
