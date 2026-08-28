@@ -1,5 +1,69 @@
 [
     {
+"category": "Statistik",
+"difficulty": "medium",
+"type": "single",
+"text": "Hur många fler elever fick betyget C jämfört med betyget A?",
+"statistics": {
+"type": "barChart",
+"data": [
+{ "label": "A", "value": 8 },
+{ "label": "B", "value": 12 },
+{ "label": "C", "value": 15 },
+{ "label": "D", "value": 5 }
+]
+},
+"answer": ["7"],
+"explanation": [
+"Vi läser av stapeln för C: 15 elever.",
+"Vi läser av stapeln för A: 8 elever.",
+"Skillnaden är 15 − 8 = 7."
+]
+},
+{
+    "category": "Statistik",
+    "difficulty": "medium",
+    "type": "single",
+    "text": "Vilket betyg är medianen i denna fördelning?",
+    "statistics": {
+        "type": "barChart",
+        "data": [
+            { "label": "A", "value": 3 },
+            { "label": "B", "value": 6 },
+            { "label": "C", "value": 9 },
+            { "label": "D", "value": 4 },
+            { "label": "E", "value": 2 }
+        ]
+    },
+    "answer": ["C"],
+    "explanation": [
+        "Totalt antal = 3+6+9+4+2 = 24 elever.",
+        "Medianen ligger mellan plats 12 och 13 (jämnt antal).",
+        "A+B = 9 st, nästa 9 är C (plats 10–18), alltså är både plats 12 och 13 C.",
+        "Medianen är C."
+    ]
+},
+{
+    "category": "Statistik",
+    "difficulty": "medium",
+    "type": "single",
+    "text": "Hur många procent fler fick betyget C än betyget A?",
+    "statistics": {
+        "type": "barChart",
+        "data": [
+            { "label": "A", "value": 10 },
+            { "label": "B", "value": 15 },
+            { "label": "C", "value": 25 },
+            { "label": "D", "value": 10 }
+        ]
+    },
+    "answer": ["150%"],
+    "explanation": [
+        "Skillnad i antal = 25 − 10 = 15",
+        "Procentuell ökning jämfört med A = (15/10) · 100 = 150%"
+    ]
+},
+    {
         "category": "Statistik",
         "difficulty": "easy",
         "type": "single",
