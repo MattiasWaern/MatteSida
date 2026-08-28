@@ -1,6 +1,7 @@
-import questions from "../data/questions.json";
+import questions from "../data/index.js";
 import { useState, useEffect } from "react";
 import GeometryRender from "../components/geometryRender";
+import StatisticsRender from "../components/statisticsRender.jsx";
 import "../styles/home.css";
 
 function Home() {
@@ -87,7 +88,15 @@ function Home() {
                     <div className="geometry-container">
                         <GeometryRender geometry={currentQuestion.geometry} />
                     </div>
-                )}    
+                )}  
+
+                {currentQuestion.statistics && (
+                    <div className="statistics-container">
+                        <StatisticsRender
+                            statistics={currentQuestion.statistics}
+                        />
+                    </div>
+                )}                      
 
             {currentQuestion.type === "single" && (
                 <input

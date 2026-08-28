@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import questions from "../data/questions.json";
+import questions from "../data/index.js";
 import GeometryRender from "../components/geometryRender";
+import StatisticsRender from "../components/statisticsRender";
 import "../styles/math.css";
 
 function MathQuiz() {
@@ -19,6 +20,7 @@ function MathQuiz() {
         "geometricirkel": "Geometri - Cirkel",
         "geometripythagoras": "Geometri - Pythagoras",
         "geometrivolym": "Geometri - Volym",
+        "statistik": "Statistik"
     };
 
     const selectedCategory = categoryNames[category]
@@ -77,41 +79,42 @@ function MathQuiz() {
     }
 
 
-    function checkAnswer() {
+function checkAnswer() {
 
-        if (randomQuestion.type === "single") {
+    if (randomQuestion.type === "single") {
 
-            if (
-                answer1.trim() ===
-                randomQuestion.answer[0].trim()
-            ) {
-                setResult("Rätt!");
-            } else {
-                setResult("Fel!");
-            }
-        }
+        const isCorrect = randomQuestion.answer.some(
+            correctAnswer => answer1.trim().toLowerCase() === correctAnswer.trim().toLowerCase()
+        );
 
-
-        if (randomQuestion.type === "multiple") {
-
-            const userAnswers = [answer1, answer2]
-                .map(answer => answer.trim())
-                .sort();
-
-            const correctAnswers = [...randomQuestion.answer]
-                .map(answer => answer.trim())
-                .sort();
-
-            if (
-                JSON.stringify(userAnswers) ===
-                JSON.stringify(correctAnswers)
-            ) {
-                setResult("Rätt!");
-            } else {
-                setResult("Fel!");
-            }
+        if (isCorrect) {
+            setResult("Rätt!");
+        } else {
+            setResult("Fel!");
         }
     }
+
+
+    if (randomQuestion.type === "multiple") {
+
+        const userAnswers = [answer1, answer2]
+            .map(answer => answer.trim().toLowerCase())
+            .sort();
+
+        const correctAnswers = [...randomQuestion.answer]
+            .map(answer => answer.trim().toLowerCase())
+            .sort();
+
+        if (
+            JSON.stringify(userAnswers) ===
+            JSON.stringify(correctAnswers)
+        ) {
+            setResult("Rätt!");
+        } else {
+            setResult("Fel!");
+        }
+    }
+}
 
     function showExplanation() {
 
@@ -171,6 +174,14 @@ function MathQuiz() {
                         <GeometryRender geometry={randomQuestion.geometry} />
                     </div>
                 )}               
+
+                {randomQuestion.statistics && (
+                    <div className="statistics-container">
+                        <StatisticsRender
+                            statistics={randomQuestion.statistics}
+                        />
+                    </div>
+                )}                
 
                 <p className="question-text">
                     {randomQuestion.text}

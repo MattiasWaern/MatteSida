@@ -1,0 +1,54 @@
+[
+{
+        "text": "Beräkna arean av triangeln nedan.",
+        "answer": ["24"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "easy",
+        "geometry": {
+            "type": "triangle",
+            "base": 8,
+            "height": 6
+        },
+        "explanation": [
+            "Formel: A = (bas × höjd) / 2",
+            "A = (8 × 6) / 2",
+            "A = 48 / 2",
+            "A = 24 cm²"
+        ]
+    },
+    {
+        "text": "Vad är arean av en triangel med basen 10 cm och höjden 4 cm?",
+        "answer": ["20"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "easy",
+        "geometry": {
+            "type": "triangle",
+            "base": 10,
+            "height": 4
+        },
+        "explanation": [
+            "A = (10 × 4) / 2",
+            "A = 40 / 2",
+            "A = 20 cm²"
+        ]
+    },
+    {
+        "text": "Vad är arean av en triangel med basen 12 cm och höjden 7 cm?",
+        "answer": ["42"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "triangle",
+            "base": 12,
+            "height": 7
+        },
+        "explanation": [
+            "A = (12 × 7) / 2",
+            "A = 84 / 2",
+            "A = 42 cm²"
+        ]
+    }
+]    
