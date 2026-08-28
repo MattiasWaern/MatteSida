@@ -1,0 +1,101 @@
+ [
+ {
+        "text": "Bestäm x i ekvationssystemet:\nx + y = 7\n2x - y = 2",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Addera de två ekvationerna för att eliminera y.",
+            "(x + y) + (2x - y) = 7 + 2",
+            "3x = 9",
+            "Dividera med 3.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "Bestäm y i ekvationssystemet:\n2x + 3y = 13\n4x - y = 5",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Börja med den andra ekvationen.",
+            "4x - y = 5",
+            "Lös ut y.",
+            "y = 4x - 5",
+            "Sätt in uttrycket för y i den första ekvationen.",
+            "2x + 3(4x - 5) = 13",
+            "2x + 12x - 15 = 13",
+            "14x = 28",
+            "x = 2",
+            "Sätt in x = 2 i y = 4x - 5.",
+            "y = 4(2) - 5",
+            "y = 3"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = 2x + 3\ny = -x + 9",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt därför uttrycken lika med varandra.",
+            "2x + 3 = -x + 9",
+            "Addera x till båda leden.",
+            "3x + 3 = 9",
+            "Subtrahera 3 från båda leden.",
+            "3x = 6",
+            "Dividera med 3.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "Lös ekvationssystemet:\n3x + 2y = 12\nx - 2y = 4",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Addera ekvationerna.",
+            "4x = 16",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "Lös ekvationssystemet:\ny = 3x + 1\ny = x + 5",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt uttrycken lika: 3x + 1 = x + 5",
+            "2x = 4",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "Bestäm x:\n2x + y = 10\nx - y = 2",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera ekvationerna: 3x = 12",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "Lös ekvationssystemet:\n5x + 2y = 19\n3x - 2y = 5",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Addera ekvationerna: 8x = 24",
+            "x = 3"
+        ]
+    }
+] 

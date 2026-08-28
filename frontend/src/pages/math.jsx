@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import questions from "../data/questions.json";
+import questions from "../data/index.js";
 import GeometryRender from "../components/geometryRender";
 import StatisticsRender from "../components/statisticsRender";
 import "../styles/math.css";

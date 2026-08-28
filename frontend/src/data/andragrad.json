@@ -1,0 +1,160 @@
+   [
+     {
+        "text": "x² - 5x + 6 = 0",
+        "answer": ["2", "3"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Faktorisera ekvationen.",
+            "(x - 2)(x - 3) = 0",
+            "En produkt är noll om någon av faktorerna är noll.",
+            "x - 2 = 0 → x = 2",
+            "x - 3 = 0 → x = 3",
+            "Alltså är x = 2 eller x = 3."
+        ]
+    },
+    {
+        "text": "x² - 9 = 0",
+        "answer": ["3", "-3"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Flytta -9 till högerledet.",
+            "x² = 9",
+            "Ta roten ur båda leden.",
+            "x = ±√9",
+            "√9 = 3",
+            "Alltså är x = 3 eller x = -3."
+        ]
+    },
+    {
+        "text": "3x² - 12x = 0",
+        "answer": ["0", "4"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Bryt ut den gemensamma faktorn 3x.",
+            "3x(x - 4) = 0",
+            "En produkt är noll om någon av faktorerna är noll.",
+            "3x = 0 → x = 0",
+            "x - 4 = 0 → x = 4",
+            "Alltså är x = 0 eller x = 4."
+        ]
+    },
+    {
+        "text": "x² - 6x + 8 = 0",
+        "answer": ["2", "4"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Identifiera p och q.",
+            "p = -6 och q = 8",
+            "Använd pq-formeln: x = -p/2 ± √((p/2)² - q)",
+            "x = 3 ± √(9 - 8)",
+            "x = 3 ± 1",
+            "x = 3 + 1 = 4",
+            "x = 3 - 1 = 2",
+            "Alltså är x = 2 eller x = 4."
+        ]
+    },
+    {
+        "text": "2x² + 8x - 24 = 0",
+        "answer": ["2", "-6"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Dividera hela ekvationen med 2.",
+            "x² + 4x - 12 = 0",
+            "Identifiera p och q.",
+            "p = 4 och q = -12",
+            "Använd pq-formeln.",
+            "x = -2 ± √(4 + 12)",
+            "x = -2 ± √16",
+            "x = -2 ± 4",
+            "x = -2 + 4 = 2",
+            "x = -2 - 4 = -6",
+            "Alltså är x = 2 eller x = -6."
+        ]
+    },
+    {
+        "text": "x² - 4x + 5 = 0",
+        "answer": ["no real solution"],
+        "type": "single",
+        "category": "Andragradsekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Identifiera p och q.",
+            "p = -4 och q = 5",
+            "Använd pq-formeln.",
+            "x = 2 ± √(4 - 5)",
+            "x = 2 ± √(-1)",
+            "√(-1) är inte ett reellt tal.",
+            "Alltså saknar ekvationen reella lösningar."
+        ]
+    },
+    {
+        "text": "x² + 7x + 12 = 0",
+        "answer": ["-3", "-4"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Faktorisera: (x + 3)(x + 4) = 0",
+            "x + 3 = 0 → x = -3",
+            "x + 4 = 0 → x = -4"
+        ]
+    },
+    {
+        "text": "x² - 10x + 25 = 0",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Andragradsekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Kvadratkomplettera: (x - 5)² = 0",
+            "x - 5 = 0",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "2x² - 8x = 0",
+        "answer": ["0", "4"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Bryt ut 2x: 2x(x - 4) = 0",
+            "2x = 0 → x = 0",
+            "x - 4 = 0 → x = 4"
+        ]
+    },
+    {
+        "text": "x² + 2x - 15 = 0",
+        "answer": ["3", "-5"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Faktorisera: (x + 5)(x - 3) = 0",
+            "x + 5 = 0 → x = -5",
+            "x - 3 = 0 → x = 3"
+        ]
+    },
+    {
+        "text": "3x² - 27 = 0",
+        "answer": ["3", "-3"],
+        "type": "multiple",
+        "category": "Andragradsekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera med 3: x² - 9 = 0",
+            "x² = 9",
+            "x = ±3"
+        ]
+    }
+] 

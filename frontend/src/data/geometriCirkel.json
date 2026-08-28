@@ -1,0 +1,49 @@
+[
+    {
+        "text": "Vad är omkretsen av cirkeln nedan? (Använd π ≈ 3.14)",
+        "answer": ["31.4"],
+        "type": "single",
+        "category": "Geometri - Cirkel",
+        "difficulty": "easy",
+        "geometry": {
+            "type": "circle",
+            "radius": 5
+        },
+        "explanation": [
+            "Formel: O = 2 × π × r",
+            "O = 2 × 3.14 × 5",
+            "O = 31.4 cm"
+        ]
+    },
+    {
+        "text": "Vad är omkretsen av en cirkel med radien 7 cm? (Använd π ≈ 3.14)",
+        "answer": ["43.96"],
+        "type": "single",
+        "category": "Geometri - Cirkel",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "circle",
+            "radius": 7
+        },
+        "explanation": [
+            "O = 2 × 3.14 × 7",
+            "O = 43.96 cm"
+        ]
+    },
+    {
+        "text": "Vad är arean av en cirkel med radien 4 cm? (Använd π ≈ 3.14)",
+        "answer": ["50.24"],
+        "type": "single",
+        "category": "Geometri - Cirkel",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "circle",
+            "radius": 4
+        },
+        "explanation": [
+            "Formel: A = π × r²",
+            "A = 3.14 × 16",
+            "A = 50.24 cm²"
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "text": "2x + 7 = 15",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 7 från båda leden.",
+            "2x = 8",
+            "Dividera båda leden med 2.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "4x + 7 = 23",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 7 från båda leden.",
+            "4x = 16",
+            "Dividera båda leden med 4.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "2(x - 3) + 4 = 3x - 5",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 2 i parentesen.",
+            "2x - 6 + 4 = 3x - 5",
+            "Förenkla vänsterledet.",
+            "2x - 2 = 3x - 5",
+            "Subtrahera 2x från båda leden.",
+            "-2 = x - 5",
+            "Addera 5 till båda leden.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "3x + 5 = 20",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 5 från båda leden.",
+            "3x = 15",
+            "Dividera med 3.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "5x - 8 = 2x + 7",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "3x - 8 = 7",
+            "Addera 8 till båda leden.",
+            "3x = 15",
+            "Dividera med 3.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "x/4 + 2 = 6",
+        "answer": ["16"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2 från båda leden.",
+            "x/4 = 4",
+            "Multiplicera med 4.",
+            "x = 16"
+        ]
+    },
+    {
+        "text": "4(x + 2) = 24",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 4.",
+            "x + 2 = 6",
+            "Subtrahera 2.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "7x - 3 = 4x + 15",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "3x - 3 = 15",
+            "Addera 3.",
+            "3x = 18",
+            "Dividera med 3.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "2x/3 = 8",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 3.",
+            "2x = 24",
+            "Dividera med 2.",
+            "x = 12"
+        ]
+    }
+]    

@@ -1,0 +1,35 @@
+ [
+    {
+        "text": "Vad är volymen av cylindern nedan? (Använd π ≈ 3.14)",
+        "answer": ["282.6"],
+        "type": "single",
+        "category": "Geometri - Volym",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "cylinder",
+            "radius": 3,
+            "height": 10
+        },
+        "explanation": [
+            "Formel: V = π × r² × h",
+            "V = 3.14 × 9 × 10",
+            "V = 282.6 cm³"
+        ]
+    },
+    {
+        "text": "Beräkna volymen av en cylinder med radien 4 cm och höjden 8 cm. (Använd π ≈ 3.14)",
+        "answer": ["401.92"],
+        "type": "single",
+        "category": "Geometri - Volym",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "cylinder",
+            "radius": 4,
+            "height": 8
+        },
+        "explanation": [
+            "V = 3.14 × 16 × 8",
+            "V = 401.92 cm³"
+        ]
+    }
+]   
