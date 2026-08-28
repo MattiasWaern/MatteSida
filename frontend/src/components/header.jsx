@@ -230,6 +230,36 @@ function Header() {
                   </Link>
                 </div>
               </div>
+
+              {/* Statistik */}
+
+              <div className="category-item">
+                <span>Statistik</span>
+
+                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/statistik/easy"
+                    className="diff-link diff-easy"
+                  >
+                    Lätt
+                  </Link>
+
+                  <Link
+                    to="/quiz/statistik/medium"
+                    className="diff-link diff-medium"
+                  >
+                    Medel
+                  </Link>
+
+                  <Link
+                    to="/quiz/statistik/hard"
+                    className="diff-link diff-hard"
+                  >
+                    Svår
+                  </Link>
+                </div>
+              </div>
+
             </div>
           </div>
 

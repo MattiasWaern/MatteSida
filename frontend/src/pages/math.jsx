@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import questions from "../data/questions.json";
 import GeometryRender from "../components/geometryRender";
-import StatisticsRender from "./statisticsRender";
+import StatisticsRender from "../components/statisticsRender";
 import "../styles/math.css";
 
 function MathQuiz() {
@@ -20,6 +20,7 @@ function MathQuiz() {
         "geometricirkel": "Geometri - Cirkel",
         "geometripythagoras": "Geometri - Pythagoras",
         "geometrivolym": "Geometri - Volym",
+        "statistik": "Statistik"
     };
 
     const selectedCategory = categoryNames[category]
