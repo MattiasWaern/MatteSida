@@ -143,6 +143,61 @@
         "Svaret är därför 22."
     ]
 },
+
+{
+    "category": "Statistik",
+    "difficulty": "hard",
+    "type": "single",
+    "text": "En klass har 25 elever. 15 av eleverna cyklar till skolan. Hur många procent av eleverna cyklar?",
+    "statistics": {
+        "type": "percentage",
+        "value": 15,
+        "total": 25
+    },
+    "answer": ["60"],
+    "explanation": [
+        "Vi dividerar antalet elever som cyklar med det totala antalet elever.",
+        "15 / 25 = 0,6.",
+        "0,6 × 100 = 60.",
+        "Alltså cyklar 60 % av eleverna."
+    ]
+},
+
+
+{
+    "category": "Statistik",
+    "difficulty": "hard",
+    "type": "single",
+    "text": "Vad är medianen?",
+    "statistics": {
+        "type": "median",
+        "data": [7, 12, 3, 18, 9, 14, 5]
+    },
+    "answer": ["9"],
+    "explanation": [
+        "Sortera talen från minst till störst: 3, 5, 7, 9, 12, 14, 18.",
+        "Det mittersta talet är 9.",
+        "Medianen är därför 9."
+    ]
+},
+
+{
+    "category": "Statistik",
+    "difficulty": "hard",
+    "type": "single",
+    "text": "Vad är medelvärdet av talen?",
+    "statistics": {
+        "type": "average",
+        "data": [12, 18, 15, 20, 10]
+    },
+    "answer": ["15"],
+    "explanation": [
+        "Addera alla tal: 12 + 18 + 15 + 20 + 10 = 75.",
+        "Det finns 5 tal.",
+        "75 / 5 = 15.",
+        "Medelvärdet är därför 15."
+    ]
+},
     {
         "text": "x² - 5x + 6 = 0",
         "answer": ["2", "3"],

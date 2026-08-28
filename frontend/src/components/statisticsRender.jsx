@@ -323,7 +323,74 @@ const drawBarChart = (data) => {
         );
     };
 
+const drawAverage = (data) => {
+    const sum = data.reduce((total, number) => total + number, 0);
+    const average = sum / data.length;
 
+    return (
+        <div className="statistics-calculation">
+            <h3>Tal</h3>
+
+            <div className="statistics-numbers">
+                {data.map((number, index) => (
+                    <span key={index}>
+                        {number}
+                    </span>
+                ))}
+            </div>
+
+            <p>
+                Antal tal: {data.length}
+            </p>
+
+            <p>
+                Summa: {sum}
+            </p>
+        </div>
+    );
+};    
+
+
+
+const drawMedian = (data) => {
+    const sortedData = [...data].sort((a, b) => a - b);
+
+    return (
+        <div className="statistics-calculation">
+            <h3>Tal i storleksordning</h3>
+
+            <div className="statistics-numbers">
+                {sortedData.map((number, index) => (
+                    <span
+                        key={index}
+                        className={
+                            index === Math.floor(sortedData.length / 2)
+                                ? "median-number"
+                                : ""
+                        }
+                    >
+                        {number}
+                    </span>
+                ))}
+            </div>
+        </div>
+    );
+};
+
+
+const drawPercentage = (value, total) => {
+    const percentage = (value / total) * 100;
+
+    return (
+        <div className="statistics-calculation">
+            <div className="percentage-values">
+                <strong>{value}</strong>
+                <span>av</span>
+                <strong>{total}</strong>
+            </div>
+        </div>
+    );
+};
     switch (statistics.type) {
 
         case "barChart":
@@ -338,6 +405,17 @@ const drawBarChart = (data) => {
         case "table":
             return drawTable(statistics.data);
 
+        case "average":
+            return drawAverage(statistics.data);
+
+        case "median":
+            return drawMedian(statistics.data);
+
+        case "percentage":
+            return drawPercentage(
+                statistics.value,
+                statistics.total
+            );            
         default:
             return null;
     }
