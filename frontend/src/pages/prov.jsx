@@ -20,7 +20,7 @@ function Prov() {
     function startExam() {
         const shuffledQuestions = [...questions]
             .sort(() => Math.random() - 0.5)
-            .slice(0, 20);
+            .slice(0, 20); // antal frågor
 
         setExamQuestions(shuffledQuestions);
         setCurrentQuestion(0);
