@@ -3,6 +3,8 @@ import questions from "../data";
 import GeometryRender from "../components/geometryRender";
 import statisticsRender from "../components/statisticsRender";
 import "../styles/prov.css"
+import { current } from "@reduxjs/toolkit";
+import { preview } from "vite";
 
 function Prov(){
     const [started, setStarted] = useState(false);
@@ -42,7 +44,7 @@ function Prov(){
         }
 
         const timer = setInterval(() => {
-            setTimeLeft((time) => time  1);
+            setTimeLeft((time) => time - 1);
         }, 1000);
 
         return () => clearInterval(timer);
@@ -53,6 +55,33 @@ function Prov(){
         const remainingSeconds = seconds % 60;
 
         return `${String(minutes).padStart(2, "0")}:${String(remainingSeconds).padStart(2, "0")}`;
+    }
+
+    function handleAnswer(value, answerNumber = 1){
+        setAnswers((previousAnswers) => ({
+            ...previousAnswers,
+
+            [currentQuestion]:{
+                ...previousAnswers[currentQuestion],
+                [`answer${answerNumber}`]:value,
+            },
+        }));
+    }
+
+
+    const question = examQuesions[currentQuestion];
+
+
+    function toggleMark(){
+        setMarkedQuestions((previous) => {
+            if(previous.includes(currentQuestion)){
+                return previous.filter(
+                    (questionIndex) => questionIndex !== currentQuestion
+                );
+            }
+
+            return[...previous, currentQuestion];
+        })
     }
 }
 
