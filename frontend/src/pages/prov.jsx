@@ -83,6 +83,57 @@ function Prov(){
             return[...previous, currentQuestion];
         })
     }
+
+    function submitExam(){
+        setFinished(true);
+    }
+
+
+    function calculateScore(){
+        let score = 0;
+
+        examQuesions.forEach((question, index) => {
+            const userAnswer = answers[index];
+
+            if(!userAnswer) return;
+
+            if(question.type === "single"){
+                const answer = userAnswer.answer1
+                    ?.trim()
+                    .toLowerCase();
+
+                const correct = questions.answer.some(
+                    (correctAnswer) => 
+                        answer === correctAnswer.trim().toLowerCase()
+                );
+
+                if(correct){
+                    score++
+                }
+            }
+
+            if (question.type === "multiple") {
+                const userAnswers = [
+                    userAnswer.answer1 || "",
+                    userAnswer.answer2 || "",
+                ]
+                    .map((answer) => answer.trim().toLowerCase())
+                    .sort();
+
+                const correctAnswers = [...question.answer]
+                    .map((answer) => answer.trim().toLowerCase())
+                    .sort();
+
+                if (
+                    JSON.stringify(userAnswers) ===
+                    JSON.stringify(correctAnswers)
+                ) {
+                    score++;
+                }            
+        });
+
+        return score;
+    }
 }
 
 
