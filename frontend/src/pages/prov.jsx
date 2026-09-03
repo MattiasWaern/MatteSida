@@ -16,9 +16,7 @@ function Prov() {
 
     const [timeLeft, setTimeLeft] = useState(60 * 60); // 60 minuter
 
-    /*
-     * Välj frågor till provet
-     */
+
     function startExam() {
         const shuffledQuestions = [...questions]
             .sort(() => Math.random() - 0.5)
@@ -34,9 +32,7 @@ function Prov() {
         setFinished(false);
     }
 
-    /*
-     * Timer
-     */
+
     useEffect(() => {
         if (!started || finished) return;
 
@@ -52,9 +48,7 @@ function Prov() {
         return () => clearInterval(timer);
     }, [started, finished, timeLeft]);
 
-    /*
-     * Omvandla sekunder till MM:SS
-     */
+
     function formatTime(seconds) {
         const minutes = Math.floor(seconds / 60);
         const remainingSeconds = seconds % 60;
@@ -64,9 +58,7 @@ function Prov() {
         ).padStart(2, "0")}`;
     }
 
-    /*
-     * Spara svar
-     */
+
     function handleAnswer(value, answerNumber = 1) {
         setAnswers((previousAnswers) => ({
             ...previousAnswers,
@@ -78,14 +70,10 @@ function Prov() {
         }));
     }
 
-    /*
-     * Hämta aktuell fråga
-     */
+
     const question = examQuestions[currentQuestion];
 
-    /*
-     * Markera / avmarkera fråga
-     */
+
     function toggleMark() {
         setMarkedQuestions((previous) => {
             if (previous.includes(currentQuestion)) {
@@ -98,16 +86,12 @@ function Prov() {
         });
     }
 
-    /*
-     * Rätta hela provet
-     */
+
     function submitExam() {
         setFinished(true);
     }
 
-    /*
-     * Räkna poäng
-     */
+
     function calculateScore() {
         let score = 0;
 
@@ -155,9 +139,7 @@ function Prov() {
         return score;
     }
 
-    /*
-     * STARTSIDA
-     */
+
     if (!started) {
         return (
             <div className="prov-container">
@@ -215,9 +197,7 @@ function Prov() {
         );
     }
 
-    /*
-     * RESULTAT
-     */
+
     if (finished) {
         const score = calculateScore();
 
@@ -339,10 +319,6 @@ function Prov() {
         );
     }
 
-    /*
-     * PROVET
-     */
-
     if (!question) return null;
 
     const currentAnswer = answers[currentQuestion] || {};
@@ -389,7 +365,7 @@ function Prov() {
                                 }
                                 onClick={toggleMark}
                             >
-                                ⭐ Markera
+                                Markera
                             </button>
 
                         </div>
