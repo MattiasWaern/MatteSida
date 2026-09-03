@@ -1,16 +1,14 @@
 import { useEffect, useState } from "react";
-import questions from "../data";
+import questions from "../data/index.js";
 import GeometryRender from "../components/geometryRender";
-import statisticsRender from "../components/statisticsRender";
-import "../styles/prov.css"
-import { current } from "@reduxjs/toolkit";
-import { preview } from "vite";
+import StatisticsRender from "../components/statisticsRender";
+import "../styles/prov.css";
 
-function Prov(){
+function Prov() {
     const [started, setStarted] = useState(false);
     const [finished, setFinished] = useState(false);
 
-    const [examQuesions, setExamQuestions] = useState([]);
+    const [examQuestions, setExamQuestions] = useState([]);
     const [currentQuestion, setCurrentQuestion] = useState(0);
 
     const [answers, setAnswers] = useState({});
@@ -18,27 +16,31 @@ function Prov(){
 
     const [timeLeft, setTimeLeft] = useState(60 * 60); // 60 minuter
 
-
-
-    function startExam(){
+    /*
+     * Välj frågor till provet
+     */
+    function startExam() {
         const shuffledQuestions = [...questions]
             .sort(() => Math.random() - 0.5)
             .slice(0, 20);
 
-            setExamQuestions(shuffledQuestions);
-            setCurrentQuestion(0);
-            setAnswers({});
-            setMarkedQuestions([]);
-            setTimeLeft(60 * 60);
+        setExamQuestions(shuffledQuestions);
+        setCurrentQuestion(0);
+        setAnswers({});
+        setMarkedQuestions([]);
+        setTimeLeft(60 * 60);
 
-            setStarted(true);
-            setFinished(false);
+        setStarted(true);
+        setFinished(false);
     }
 
-    useState(() => {
-        if(!started || finished) return;
+    /*
+     * Timer
+     */
+    useEffect(() => {
+        if (!started || finished) return;
 
-        if(timeLeft <=0){
+        if (timeLeft <= 0) {
             submitExam();
             return;
         }
@@ -50,65 +52,82 @@ function Prov(){
         return () => clearInterval(timer);
     }, [started, finished, timeLeft]);
 
-    function formatTime(seconds){
+    /*
+     * Omvandla sekunder till MM:SS
+     */
+    function formatTime(seconds) {
         const minutes = Math.floor(seconds / 60);
         const remainingSeconds = seconds % 60;
 
-        return `${String(minutes).padStart(2, "0")}:${String(remainingSeconds).padStart(2, "0")}`;
+        return `${String(minutes).padStart(2, "0")}:${String(
+            remainingSeconds
+        ).padStart(2, "0")}`;
     }
 
-    function handleAnswer(value, answerNumber = 1){
+    /*
+     * Spara svar
+     */
+    function handleAnswer(value, answerNumber = 1) {
         setAnswers((previousAnswers) => ({
             ...previousAnswers,
 
-            [currentQuestion]:{
+            [currentQuestion]: {
                 ...previousAnswers[currentQuestion],
-                [`answer${answerNumber}`]:value,
+                [`answer${answerNumber}`]: value,
             },
         }));
     }
 
+    /*
+     * Hämta aktuell fråga
+     */
+    const question = examQuestions[currentQuestion];
 
-    const question = examQuesions[currentQuestion];
-
-
-    function toggleMark(){
+    /*
+     * Markera / avmarkera fråga
+     */
+    function toggleMark() {
         setMarkedQuestions((previous) => {
-            if(previous.includes(currentQuestion)){
+            if (previous.includes(currentQuestion)) {
                 return previous.filter(
                     (questionIndex) => questionIndex !== currentQuestion
                 );
             }
 
-            return[...previous, currentQuestion];
-        })
+            return [...previous, currentQuestion];
+        });
     }
 
-    function submitExam(){
+    /*
+     * Rätta hela provet
+     */
+    function submitExam() {
         setFinished(true);
     }
 
-
-    function calculateScore(){
+    /*
+     * Räkna poäng
+     */
+    function calculateScore() {
         let score = 0;
 
-        examQuesions.forEach((question, index) => {
+        examQuestions.forEach((question, index) => {
             const userAnswer = answers[index];
 
-            if(!userAnswer) return;
+            if (!userAnswer) return;
 
-            if(question.type === "single"){
+            if (question.type === "single") {
                 const answer = userAnswer.answer1
                     ?.trim()
                     .toLowerCase();
 
-                const correct = questions.answer.some(
-                    (correctAnswer) => 
+                const correct = question.answer.some(
+                    (correctAnswer) =>
                         answer === correctAnswer.trim().toLowerCase()
                 );
 
-                if(correct){
-                    score++
+                if (correct) {
+                    score++;
                 }
             }
 
@@ -129,13 +148,17 @@ function Prov(){
                     JSON.stringify(correctAnswers)
                 ) {
                     score++;
-                }            
-        }});
+                }
+            }
+        });
 
         return score;
     }
 
-if (!started) {
+    /*
+     * STARTSIDA
+     */
+    if (!started) {
         return (
             <div className="prov-container">
                 <section className="prov-start">
@@ -192,8 +215,10 @@ if (!started) {
         );
     }
 
-
- if (finished) {
+    /*
+     * RESULTAT
+     */
+    if (finished) {
         const score = calculateScore();
 
         return (
@@ -312,10 +337,13 @@ if (!started) {
 
             </div>
         );
-    }  
-    
-    
- if (!question) return null;
+    }
+
+    /*
+     * PROVET
+     */
+
+    if (!question) return null;
 
     const currentAnswer = answers[currentQuestion] || {};
 
@@ -551,8 +579,7 @@ if (!started) {
             </section>
 
         </div>
-    );    
+    );
 }
-
 
 export default Prov;
