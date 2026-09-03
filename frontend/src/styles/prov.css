@@ -11,8 +11,6 @@
 }
 
 
-/* START */
-
 .prov-start {
     text-align: center;
     background: white;
@@ -72,8 +70,6 @@
 }
 
 
-/* PROV */
-
 .prov {
     background: white;
     border-radius: 16px;
@@ -99,8 +95,6 @@
     font-family: monospace;
 }
 
-
-/* CONTENT */
 
 .prov-content {
     display: grid;
@@ -157,8 +151,6 @@
 }
 
 
-/* NAVIGATION */
-
 .navigation-buttons {
     display: flex;
     justify-content: space-between;
@@ -184,7 +176,6 @@
 }
 
 
-/* SIDEBAR */
 
 .prov-sidebar {
     border-left: 1px solid #ddd;
@@ -223,7 +214,6 @@
 }
 
 
-/* RESULTAT */
 
 .prov-result {
     background: white;
@@ -265,7 +255,6 @@
 }
 
 
-/* MOBIL */
 
 @media (max-width: 700px) {
 
