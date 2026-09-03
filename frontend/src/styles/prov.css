@@ -1,0 +1,299 @@
+.prov-container {
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.prov-start,
+.prov,
+.prov-result {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* START */
+
+.prov-start {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.prov-start h1 {
+    margin-bottom: 5px;
+}
+
+.prov-start h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.prov-info {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 40px 0;
+}
+
+.prov-info div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.prov-info strong {
+    font-size: 2rem;
+}
+
+.prov-info span {
+    color: #666;
+}
+
+.prov-rules {
+    max-width: 500px;
+    margin: 0 auto 30px;
+    text-align: left;
+}
+
+.prov-start-button {
+    border: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.prov-start-button:hover {
+    opacity: 0.85;
+}
+
+
+/* PROV */
+
+.prov {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.prov-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.prov-header h1 {
+    margin: 0;
+}
+
+.timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
+/* CONTENT */
+
+.prov-content {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    min-height: 600px;
+}
+
+.prov-question {
+    padding: 40px;
+}
+
+.question-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.question-top button {
+    border: 1px solid #ccc;
+    background: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.question-top button.marked {
+    background: #fff3b0;
+}
+
+.question-text {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin: 30px 0;
+}
+
+.prov-question input {
+    width: 100%;
+    max-width: 400px;
+    padding: 14px;
+    font-size: 1rem;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+.answer-row {
+    display: flex;
+    gap: 15px;
+}
+
+.answer-row input {
+    max-width: 200px;
+}
+
+
+/* NAVIGATION */
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.navigation-buttons button {
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.navigation-buttons button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.navigation-buttons .submit-button {
+    background: #222;
+    color: white;
+}
+
+
+/* SIDEBAR */
+
+.prov-sidebar {
+    border-left: 1px solid #ddd;
+    padding: 25px;
+}
+
+.question-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.question-number {
+    aspect-ratio: 1;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.question-number.active {
+    border: 2px solid black;
+}
+
+.question-number.answered {
+    background: #d8f5d0;
+}
+
+.question-number.marked {
+    box-shadow: inset 0 -4px 0 #f0c000;
+}
+
+.legend {
+    margin-top: 30px;
+    font-size: 0.85rem;
+}
+
+
+/* RESULTAT */
+
+.prov-result {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.score {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.score strong {
+    display: block;
+    font-size: 4rem;
+}
+
+.score span {
+    font-size: 1.5rem;
+}
+
+.result-list {
+    margin: 40px 0;
+}
+
+.result-item {
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.result-item.correct {
+    background: #eef9eb;
+}
+
+.result-item.incorrect {
+    background: #fff0f0;
+}
+
+
+/* MOBIL */
+
+@media (max-width: 700px) {
+
+    .prov-content {
+        grid-template-columns: 1fr;
+    }
+
+    .prov-sidebar {
+        border-left: none;
+        border-top: 1px solid #ddd;
+    }
+
+    .prov-info {
+        gap: 25px;
+    }
+
+    .prov-start,
+    .prov-question,
+    .prov-result {
+        padding: 25px;
+    }
+
+    .answer-row {
+        flex-direction: column;
+    }
+
+    .answer-row input {
+        max-width: 100%;
+    }
+
+}
