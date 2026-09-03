@@ -19,6 +19,10 @@ function Header() {
             Hem
           </Link>
 
+          <Link to="/Prov" className="nav-link">
+            Hem
+          </Link>          
+
           <div className="category-menu">
             <span className="nav-link category-trigger">
               Öva
