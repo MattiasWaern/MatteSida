@@ -538,9 +538,9 @@ if (!started) {
 
                         <div className="legend">
 
-                            <p>🟢 Besvarad</p>
-                            <p>⚪ Ej besvarad</p>
-                            <p>⭐ Markerad</p>
+                            <p>🟩Besvarad</p>
+                            <p>⬛Ej besvarad</p>
+                            <p>🟨Markerad</p>
 
                         </div>
 
