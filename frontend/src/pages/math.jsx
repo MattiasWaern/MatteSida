@@ -199,7 +199,6 @@ function checkAnswer() {
                     />
                 )}
 
-
                 {randomQuestion.type === "multiple" && (
                     <div className="answer-row">
                         <input
