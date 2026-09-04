@@ -1,58 +1,151 @@
 [
-        {
+    {
         "text": "Beräkna hypotenusan i den rätvinkliga triangeln nedan. Använd Pythagoras sats.",
-        "answer": ["5"],
+        "answer": ["17"],
         "type": "single",
         "category": "Geometri - Pythagoras",
         "difficulty": "medium",
         "geometry": {
             "type": "pythagoras",
-            "a": 3,
-            "b": 4
+            "a": 8,
+            "b": 15
         },
         "explanation": [
             "Pythagoras sats: a² + b² = c²",
-            "3² + 4² = c²",
-            "9 + 16 = c²",
-            "25 = c²",
-            "c = √25",
-            "c = 5 cm"
+            "8² + 15² = c²",
+            "64 + 225 = c²",
+            "289 = c²",
+            "c = √289",
+            "c = 17 cm"
         ]
     },
     {
-        "text": "I en rätvinklig triangel är kateterna 6 cm och 8 cm. Hur lång är hypotenusan?",
+        "text": "I en rätvinklig triangel är kateterna 7 cm och 24 cm. Hur lång är hypotenusan?",
+        "answer": ["25"],
+        "type": "single",
+        "category": "Geometri - Pythagoras",
+        "difficulty": "hard",
+        "geometry": {
+            "type": "pythagoras",
+            "a": 7,
+            "b": 24
+        },
+        "explanation": [
+            "c² = 7² + 24²",
+            "c² = 49 + 576",
+            "c² = 625",
+            "c = 25 cm"
+        ]
+    },
+    {
+        "text": "Beräkna hypotenusan i den rätvinkliga triangeln nedan. Använd Pythagoras sats.",
         "answer": ["10"],
         "type": "single",
         "category": "Geometri - Pythagoras",
-        "difficulty": "medium",
+        "difficulty": "easy",
         "geometry": {
             "type": "pythagoras",
             "a": 6,
             "b": 8
         },
         "explanation": [
-            "c² = 6² + 8²",
-            "c² = 36 + 64",
-            "c² = 100",
+            "a² + b² = c²",
+            "6² + 8² = c²",
+            "36 + 64 = c²",
+            "100 = c²",
             "c = 10 cm"
         ]
     },
     {
-        "text": "I en rätvinklig triangel är kateterna 5 cm och 12 cm. Hur lång är hypotenusan?",
-        "answer": ["13"],
+        "text": "I en rätvinklig triangel är kateterna 9 cm och 12 cm. Hur lång är hypotenusan?",
+        "answer": ["15"],
+        "type": "single",
+        "category": "Geometri - Pythagoras",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "pythagoras",
+            "a": 9,
+            "b": 12
+        },
+        "explanation": [
+            "c² = 9² + 12²",
+            "c² = 81 + 144",
+            "c² = 225",
+            "c = 15 cm"
+        ]
+    },
+    {
+        "text": "Beräkna hypotenusan i den rätvinkliga triangeln nedan. Använd Pythagoras sats.",
+        "answer": ["25"],
+        "type": "single",
+        "category": "Geometri - Pythagoras",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "pythagoras",
+            "a": 15,
+            "b": 20
+        },
+        "explanation": [
+            "a² + b² = c²",
+            "15² + 20² = c²",
+            "225 + 400 = c²",
+            "625 = c²",
+            "c = 25 cm"
+        ]
+    },
+    {
+        "text": "I en rätvinklig triangel är kateterna 20 cm och 21 cm. Hur lång är hypotenusan?",
+        "answer": ["29"],
         "type": "single",
         "category": "Geometri - Pythagoras",
         "difficulty": "hard",
+        "geometry": {
+            "type": "pythagoras",
+            "a": 20,
+            "b": 21
+        },
+        "explanation": [
+            "c² = 20² + 21²",
+            "c² = 400 + 441",
+            "c² = 841",
+            "c = 29 cm"
+        ]
+    },
+    {
+        "text": "Beräkna hypotenusan i den rätvinkliga triangeln nedan. Använd Pythagoras sats.",
+        "answer": ["13"],
+        "type": "single",
+        "category": "Geometri - Pythagoras",
+        "difficulty": "easy",
         "geometry": {
             "type": "pythagoras",
             "a": 5,
             "b": 12
         },
         "explanation": [
-            "c² = 5² + 12²",
-            "c² = 25 + 144",
-            "c² = 169",
+            "a² + b² = c²",
+            "5² + 12² = c²",
+            "25 + 144 = c²",
+            "169 = c²",
             "c = 13 cm"
+        ]
+    },
+    {
+        "text": "I en rätvinklig triangel är kateterna 9 cm och 40 cm. Hur lång är hypotenusan?",
+        "answer": ["41"],
+        "type": "single",
+        "category": "Geometri - Pythagoras",
+        "difficulty": "hard",
+        "geometry": {
+            "type": "pythagoras",
+            "a": 9,
+            "b": 40
+        },
+        "explanation": [
+            "c² = 9² + 40²",
+            "c² = 81 + 1600",
+            "c² = 1681",
+            "c = 41 cm"
         ]
     }
 ]
