@@ -1,127 +1,146 @@
 [
     {
-        "text": "2x + 7 = 15",
+        "text": "3x + 9 = 21",
         "answer": ["4"],
         "type": "single",
         "category": "Linjära ekvationer",
         "difficulty": "easy",
         "explanation": [
-            "Subtrahera 7 från båda leden.",
-            "2x = 8",
-            "Dividera båda leden med 2.",
+            "Subtrahera 9 från båda leden.",
+            "3x = 12",
+            "Dividera båda leden med 3.",
             "x = 4"
         ]
     },
     {
-        "text": "4x + 7 = 23",
-        "answer": ["4"],
+        "text": "5x - 4 = 21",
+        "answer": ["5"],
         "type": "single",
         "category": "Linjära ekvationer",
         "difficulty": "easy",
         "explanation": [
-            "Subtrahera 7 från båda leden.",
-            "4x = 16",
-            "Dividera båda leden med 4.",
-            "x = 4"
+            "Addera 4 till båda leden.",
+            "5x = 25",
+            "Dividera med 5.",
+            "x = 5"
         ]
     },
     {
-        "text": "2(x - 3) + 4 = 3x - 5",
-        "answer": ["3"],
+        "text": "3(x + 4) - 5 = 2x + 9",
+        "answer": ["2"],
         "type": "single",
         "category": "Linjära ekvationer",
         "difficulty": "medium",
         "explanation": [
-            "Multiplicera in 2 i parentesen.",
-            "2x - 6 + 4 = 3x - 5",
+            "Multiplicera in 3 i parentesen.",
+            "3x + 12 - 5 = 2x + 9",
             "Förenkla vänsterledet.",
-            "2x - 2 = 3x - 5",
+            "3x + 7 = 2x + 9",
             "Subtrahera 2x från båda leden.",
-            "-2 = x - 5",
-            "Addera 5 till båda leden.",
-            "x = 3"
+            "x + 7 = 9",
+            "Subtrahera 7.",
+            "x = 2"
         ]
     },
     {
-        "text": "3x + 5 = 20",
-        "answer": ["5"],
-        "type": "single",
-        "category": "Linjära ekvationer",
-        "difficulty": "easy",
-        "explanation": [
-            "Subtrahera 5 från båda leden.",
-            "3x = 15",
-            "Dividera med 3.",
-            "x = 5"
-        ]
-    },
-    {
-        "text": "5x - 8 = 2x + 7",
-        "answer": ["5"],
-        "type": "single",
-        "category": "Linjära ekvationer",
-        "difficulty": "medium",
-        "explanation": [
-            "Subtrahera 2x från båda leden.",
-            "3x - 8 = 7",
-            "Addera 8 till båda leden.",
-            "3x = 15",
-            "Dividera med 3.",
-            "x = 5"
-        ]
-    },
-    {
-        "text": "x/4 + 2 = 6",
-        "answer": ["16"],
-        "type": "single",
-        "category": "Linjära ekvationer",
-        "difficulty": "medium",
-        "explanation": [
-            "Subtrahera 2 från båda leden.",
-            "x/4 = 4",
-            "Multiplicera med 4.",
-            "x = 16"
-        ]
-    },
-    {
-        "text": "4(x + 2) = 24",
-        "answer": ["4"],
-        "type": "single",
-        "category": "Linjära ekvationer",
-        "difficulty": "easy",
-        "explanation": [
-            "Dividera båda leden med 4.",
-            "x + 2 = 6",
-            "Subtrahera 2.",
-            "x = 4"
-        ]
-    },
-    {
-        "text": "7x - 3 = 4x + 15",
+        "text": "6x - 10 = 3x + 8",
         "answer": ["6"],
         "type": "single",
         "category": "Linjära ekvationer",
         "difficulty": "medium",
         "explanation": [
-            "Subtrahera 4x från båda leden.",
-            "3x - 3 = 15",
-            "Addera 3.",
+            "Subtrahera 3x från båda leden.",
+            "3x - 10 = 8",
+            "Addera 10 till båda leden.",
             "3x = 18",
             "Dividera med 3.",
             "x = 6"
         ]
     },
     {
-        "text": "2x/3 = 8",
+        "text": "x/5 + 3 = 7",
+        "answer": ["20"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 3 från båda leden.",
+            "x/5 = 4",
+            "Multiplicera med 5.",
+            "x = 20"
+        ]
+    },
+    {
+        "text": "5(x - 3) = 20",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 5.",
+            "x - 3 = 4",
+            "Addera 3.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "8x - 5 = 5x + 13",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 5x från båda leden.",
+            "3x - 5 = 13",
+            "Addera 5.",
+            "3x = 18",
+            "Dividera med 3.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "3x/4 = 9",
         "answer": ["12"],
         "type": "single",
         "category": "Linjära ekvationer",
         "difficulty": "medium",
         "explanation": [
-            "Multiplicera båda leden med 3.",
-            "2x = 24",
-            "Dividera med 2.",
+            "Multiplicera båda leden med 4.",
+            "3x = 36",
+            "Dividera med 3.",
             "x = 12"
         ]
+    },
+    {
+        "text": "2x + 3(x - 1) = 17",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "2x + 3x - 3 = 17",
+            "Förenkla vänsterledet.",
+            "5x - 3 = 17",
+            "Addera 3 till båda leden.",
+            "5x = 20",
+            "Dividera med 5.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "9 - 2x = 3x - 6",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Addera 2x till båda leden.",
+            "9 = 5x - 6",
+            "Addera 6 till båda leden.",
+            "15 = 5x",
+            "Dividera med 5.",
+            "x = 3"
+        ]
     }
-]    
+]
