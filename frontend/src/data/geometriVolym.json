@@ -1,35 +1,134 @@
- [
+[
     {
         "text": "Vad är volymen av cylindern nedan? (Använd π ≈ 3.14)",
-        "answer": ["282.6"],
+        "answer": ["150.72"],
         "type": "single",
         "category": "Geometri - Volym",
         "difficulty": "medium",
         "geometry": {
             "type": "cylinder",
-            "radius": 3,
-            "height": 10
+            "radius": 2,
+            "height": 12
         },
         "explanation": [
             "Formel: V = π × r² × h",
-            "V = 3.14 × 9 × 10",
-            "V = 282.6 cm³"
+            "V = 3.14 × 4 × 12",
+            "V = 150.72 cm³"
         ]
     },
     {
-        "text": "Beräkna volymen av en cylinder med radien 4 cm och höjden 8 cm. (Använd π ≈ 3.14)",
-        "answer": ["401.92"],
+        "text": "Beräkna volymen av en cylinder med radien 5 cm och höjden 6 cm. (Använd π ≈ 3.14)",
+        "answer": ["471"],
+        "type": "single",
+        "category": "Geometri - Volym",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "cylinder",
+            "radius": 5,
+            "height": 6
+        },
+        "explanation": [
+            "V = 3.14 × 25 × 6",
+            "V = 471 cm³"
+        ]
+    },
+    {
+        "text": "Vad är volymen av cylindern nedan? (Använd π ≈ 3.14)",
+        "answer": ["113.04"],
+        "type": "single",
+        "category": "Geometri - Volym",
+        "difficulty": "easy",
+        "geometry": {
+            "type": "cylinder",
+            "radius": 3,
+            "height": 4
+        },
+        "explanation": [
+            "Formel: V = π × r² × h",
+            "V = 3.14 × 9 × 4",
+            "V = 113.04 cm³"
+        ]
+    },
+    {
+        "text": "Beräkna volymen av en cylinder med radien 6 cm och höjden 10 cm. (Använd π ≈ 3.14)",
+        "answer": ["1130.4"],
+        "type": "single",
+        "category": "Geometri - Volym",
+        "difficulty": "hard",
+        "geometry": {
+            "type": "cylinder",
+            "radius": 6,
+            "height": 10
+        },
+        "explanation": [
+            "V = 3.14 × 36 × 10",
+            "V = 1130.4 cm³"
+        ]
+    },
+    {
+        "text": "Vad är volymen av cylindern nedan? (Använd π ≈ 3.14)",
+        "answer": ["56.52"],
+        "type": "single",
+        "category": "Geometri - Volym",
+        "difficulty": "easy",
+        "geometry": {
+            "type": "cylinder",
+            "radius": 3,
+            "height": 2
+        },
+        "explanation": [
+            "Formel: V = π × r² × h",
+            "V = 3.14 × 9 × 2",
+            "V = 56.52 cm³"
+        ]
+    },
+    {
+        "text": "Beräkna volymen av en cylinder med radien 2.5 cm och höjden 14 cm. (Använd π ≈ 3.14)",
+        "answer": ["274.75"],
+        "type": "single",
+        "category": "Geometri - Volym",
+        "difficulty": "hard",
+        "geometry": {
+            "type": "cylinder",
+            "radius": 2.5,
+            "height": 14
+        },
+        "explanation": [
+            "V = 3.14 × 6.25 × 14",
+            "V = 274.75 cm³"
+        ]
+    },
+    {
+        "text": "Vad är volymen av cylindern nedan? (Använd π ≈ 3.14)",
+        "answer": ["251.2"],
         "type": "single",
         "category": "Geometri - Volym",
         "difficulty": "medium",
         "geometry": {
             "type": "cylinder",
             "radius": 4,
-            "height": 8
+            "height": 5
         },
         "explanation": [
-            "V = 3.14 × 16 × 8",
-            "V = 401.92 cm³"
+            "Formel: V = π × r² × h",
+            "V = 3.14 × 16 × 5",
+            "V = 251.2 cm³"
+        ]
+    },
+    {
+        "text": "Beräkna volymen av en cylinder med radien 1 cm och höjden 20 cm. (Använd π ≈ 3.14)",
+        "answer": ["62.8"],
+        "type": "single",
+        "category": "Geometri - Volym",
+        "difficulty": "medium",
+        "geometry": {
+            "type": "cylinder",
+            "radius": 1,
+            "height": 20
+        },
+        "explanation": [
+            "V = 3.14 × 1 × 20",
+            "V = 62.8 cm³"
         ]
     }
-]   
+]
