@@ -19,3 +19,4 @@ JSON Web Tokens (JWT)
 Linjärna ekvationer
 Funktioner
 Statisitk
+Geometri 
