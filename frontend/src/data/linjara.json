@@ -1,146 +1,4672 @@
 [
     {
-        "text": "3x + 9 = 21",
-        "answer": ["4"],
-        "type": "single",
-        "category": "Linjära ekvationer",
-        "difficulty": "easy",
-        "explanation": [
-            "Subtrahera 9 från båda leden.",
-            "3x = 12",
-            "Dividera båda leden med 3.",
-            "x = 4"
-        ]
-    },
-    {
-        "text": "5x - 4 = 21",
-        "answer": ["5"],
-        "type": "single",
-        "category": "Linjära ekvationer",
-        "difficulty": "easy",
-        "explanation": [
-            "Addera 4 till båda leden.",
-            "5x = 25",
-            "Dividera med 5.",
-            "x = 5"
-        ]
-    },
-    {
-        "text": "3(x + 4) - 5 = 2x + 9",
+        "text": "12 - 8x = 9x - 22",
         "answer": ["2"],
         "type": "single",
         "category": "Linjära ekvationer",
-        "difficulty": "medium",
+        "difficulty": "hard",
         "explanation": [
-            "Multiplicera in 3 i parentesen.",
-            "3x + 12 - 5 = 2x + 9",
-            "Förenkla vänsterledet.",
-            "3x + 7 = 2x + 9",
-            "Subtrahera 2x från båda leden.",
-            "x + 7 = 9",
-            "Subtrahera 7.",
+            "Sortera termerna i vänsterledet.",
+            "-8x + 12 = 9x - 22",
+            "Subtrahera 9x från båda leden.",
+            "-17x + 12 = -22",
+            "Subtrahera 12 från båda leden.",
+            "-17x = -34",
+            "Dividera båda leden med -17.",
             "x = 2"
         ]
     },
     {
-        "text": "6x - 10 = 3x + 8",
-        "answer": ["6"],
-        "type": "single",
-        "category": "Linjära ekvationer",
-        "difficulty": "medium",
-        "explanation": [
-            "Subtrahera 3x från båda leden.",
-            "3x - 10 = 8",
-            "Addera 10 till båda leden.",
-            "3x = 18",
-            "Dividera med 3.",
-            "x = 6"
-        ]
-    },
-    {
-        "text": "x/5 + 3 = 7",
-        "answer": ["20"],
-        "type": "single",
-        "category": "Linjära ekvationer",
-        "difficulty": "medium",
-        "explanation": [
-            "Subtrahera 3 från båda leden.",
-            "x/5 = 4",
-            "Multiplicera med 5.",
-            "x = 20"
-        ]
-    },
-    {
-        "text": "5(x - 3) = 20",
-        "answer": ["7"],
+        "text": "6(x - 6) = -30",
+        "answer": ["1"],
         "type": "single",
         "category": "Linjära ekvationer",
         "difficulty": "easy",
         "explanation": [
-            "Dividera båda leden med 5.",
-            "x - 3 = 4",
-            "Addera 3.",
+            "Dividera båda leden med 6.",
+            "x - 6 = -5",
+            "Addera 6 till båda leden.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "9x - 15 = -51",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 15 till båda leden.",
+            "9x = -36",
+            "Dividera båda leden med 9.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "6(x - 3) - 7 = 5x - 17",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x - 18 - 7 = 5x - 17",
+            "Förenkla vänsterledet.",
+            "6x - 25 = 5x - 17",
+            "Subtrahera 5x från båda leden.",
+            "x - 25 = -17",
+            "Addera 25 till båda leden.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "7(x + 8) + 9 = 5x + 63",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 7 i parentesen.",
+            "7x + 56 + 9 = 5x + 63",
+            "Förenkla vänsterledet.",
+            "7x + 65 = 5x + 63",
+            "Subtrahera 5x från båda leden.",
+            "2x + 65 = 63",
+            "Subtrahera 65 från båda leden.",
+            "2x = -2",
+            "Dividera båda leden med 2.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "3x - 10 = x - 4",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera x från båda leden.",
+            "2x - 10 = -4",
+            "Addera 10 till båda leden.",
+            "2x = 6",
+            "Dividera båda leden med 2.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "(x + 9)/7 = 6",
+        "answer": ["33"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 7.",
+            "x + 9 = 42",
+            "Subtrahera 9 från båda leden.",
+            "x = 33"
+        ]
+    },
+    {
+        "text": "(x + 7)/7 = (x + 1)/4",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 28.",
+            "4(x + 7) = 7(x + 1)",
+            "Multiplicera in i parenteserna.",
+            "4x + 28 = 7x + 7",
+            "Subtrahera 7x från båda leden.",
+            "-3x + 28 = 7",
+            "Subtrahera 28 från båda leden.",
+            "-3x = -21",
+            "Dividera båda leden med -3.",
             "x = 7"
         ]
     },
     {
-        "text": "8x - 5 = 5x + 13",
+        "text": "4 - 2x = 7x + 13",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-2x + 4 = 7x + 13",
+            "Subtrahera 7x från båda leden.",
+            "-9x + 4 = 13",
+            "Subtrahera 4 från båda leden.",
+            "-9x = 9",
+            "Dividera båda leden med -9.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "(x - 10)/5 = 1",
+        "answer": ["15"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 5.",
+            "x - 10 = 5",
+            "Addera 10 till båda leden.",
+            "x = 15"
+        ]
+    },
+    {
+        "text": "x/4 + x/5 = 45",
+        "answer": ["100"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 20 (minsta gemensamma nämnare).",
+            "5x + 4x = 900",
+            "Förenkla vänsterledet.",
+            "9x = 900",
+            "Dividera båda leden med 9.",
+            "x = 100"
+        ]
+    },
+    {
+        "text": "7x - 14 = 5x - 2",
         "answer": ["6"],
         "type": "single",
         "category": "Linjära ekvationer",
         "difficulty": "medium",
         "explanation": [
             "Subtrahera 5x från båda leden.",
-            "3x - 5 = 13",
-            "Addera 5.",
-            "3x = 18",
-            "Dividera med 3.",
+            "2x - 14 = -2",
+            "Addera 14 till båda leden.",
+            "2x = 12",
+            "Dividera båda leden med 2.",
             "x = 6"
         ]
     },
     {
-        "text": "3x/4 = 9",
-        "answer": ["12"],
+        "text": "5(x - 8) + 8 = 3x - 16",
+        "answer": ["8"],
         "type": "single",
         "category": "Linjära ekvationer",
         "difficulty": "medium",
         "explanation": [
-            "Multiplicera båda leden med 4.",
-            "3x = 36",
-            "Dividera med 3.",
+            "Multiplicera in 5 i parentesen.",
+            "5x - 40 + 8 = 3x - 16",
+            "Förenkla vänsterledet.",
+            "5x - 32 = 3x - 16",
+            "Subtrahera 3x från båda leden.",
+            "2x - 32 = -16",
+            "Addera 32 till båda leden.",
+            "2x = 16",
+            "Dividera båda leden med 2.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "3(x - 8) = 12",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 3.",
+            "x - 8 = 4",
+            "Addera 8 till båda leden.",
             "x = 12"
         ]
     },
     {
-        "text": "2x + 3(x - 1) = 17",
+        "text": "4(x - 5) + 6 = 3x - 13",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 4 i parentesen.",
+            "4x - 20 + 6 = 3x - 13",
+            "Förenkla vänsterledet.",
+            "4x - 14 = 3x - 13",
+            "Subtrahera 3x från båda leden.",
+            "x - 14 = -13",
+            "Addera 14 till båda leden.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "8x - 10 = 38",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 10 till båda leden.",
+            "8x = 48",
+            "Dividera båda leden med 8.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "x/9 + 3 = 7",
+        "answer": ["36"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 3 från båda leden.",
+            "x/9 = 4",
+            "Multiplicera båda leden med 9.",
+            "x = 36"
+        ]
+    },
+    {
+        "text": "(x + 1)/8 = 2",
+        "answer": ["15"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 8.",
+            "x + 1 = 16",
+            "Subtrahera 1 från båda leden.",
+            "x = 15"
+        ]
+    },
+    {
+        "text": "3x/9 = 3",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 9.",
+            "3x = 27",
+            "Dividera båda leden med 3.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "7(x - 5) - 3 = x + 16",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 7 i parentesen.",
+            "7x - 35 - 3 = x + 16",
+            "Förenkla vänsterledet.",
+            "7x - 38 = x + 16",
+            "Subtrahera x från båda leden.",
+            "6x - 38 = 16",
+            "Addera 38 till båda leden.",
+            "6x = 54",
+            "Dividera båda leden med 6.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "3x - 3 = 18",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 3 till båda leden.",
+            "3x = 21",
+            "Dividera båda leden med 3.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "5(x + 2) + 1 = 3x + 5",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x + 10 + 1 = 3x + 5",
+            "Förenkla vänsterledet.",
+            "5x + 11 = 3x + 5",
+            "Subtrahera 3x från båda leden.",
+            "2x + 11 = 5",
+            "Subtrahera 11 från båda leden.",
+            "2x = -6",
+            "Dividera båda leden med 2.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "x/6 - 7 = -10",
+        "answer": ["-18"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 7 till båda leden.",
+            "x/6 = -3",
+            "Multiplicera båda leden med 6.",
+            "x = -18"
+        ]
+    },
+    {
+        "text": "(x + 31)/7 = (x + 21)/5",
         "answer": ["4"],
         "type": "single",
         "category": "Linjära ekvationer",
         "difficulty": "hard",
         "explanation": [
-            "Multiplicera in 3 i parentesen.",
-            "2x + 3x - 3 = 17",
-            "Förenkla vänsterledet.",
-            "5x - 3 = 17",
-            "Addera 3 till båda leden.",
-            "5x = 20",
-            "Dividera med 5.",
+            "Multiplicera båda leden med 35.",
+            "5(x + 31) = 7(x + 21)",
+            "Multiplicera in i parenteserna.",
+            "5x + 155 = 7x + 147",
+            "Subtrahera 7x från båda leden.",
+            "-2x + 155 = 147",
+            "Subtrahera 155 från båda leden.",
+            "-2x = -8",
+            "Dividera båda leden med -2.",
             "x = 4"
         ]
     },
     {
-        "text": "9 - 2x = 3x - 6",
+        "text": "2x + 3 = 11",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 3 från båda leden.",
+            "2x = 8",
+            "Dividera båda leden med 2.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "7(x - 3) + 5(x - 3) = -60",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "7x - 21 + 5x - 15 = -60",
+            "Förenkla vänsterledet.",
+            "12x - 36 = -60",
+            "Addera 36 till båda leden.",
+            "12x = -24",
+            "Dividera båda leden med 12.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "7x - 10 = 67",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 10 till båda leden.",
+            "7x = 77",
+            "Dividera båda leden med 7.",
+            "x = 11"
+        ]
+    },
+    {
+        "text": "4(x + 3) + 1 = 3x + 23",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 4 i parentesen.",
+            "4x + 12 + 1 = 3x + 23",
+            "Förenkla vänsterledet.",
+            "4x + 13 = 3x + 23",
+            "Subtrahera 3x från båda leden.",
+            "x + 13 = 23",
+            "Subtrahera 13 från båda leden.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "6(x - 3) + 4(x + 1) = 46",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "6x - 18 + 4x + 4 = 46",
+            "Förenkla vänsterledet.",
+            "10x - 14 = 46",
+            "Addera 14 till båda leden.",
+            "10x = 60",
+            "Dividera båda leden med 10.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "4(x + 1) + 9 = 2x + 27",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 4 i parentesen.",
+            "4x + 4 + 9 = 2x + 27",
+            "Förenkla vänsterledet.",
+            "4x + 13 = 2x + 27",
+            "Subtrahera 2x från båda leden.",
+            "2x + 13 = 27",
+            "Subtrahera 13 från båda leden.",
+            "2x = 14",
+            "Dividera båda leden med 2.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "6(x + 4) = 96",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 6.",
+            "x + 4 = 16",
+            "Subtrahera 4 från båda leden.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "19 - 6x = 8x + 103",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-6x + 19 = 8x + 103",
+            "Subtrahera 8x från båda leden.",
+            "-14x + 19 = 103",
+            "Subtrahera 19 från båda leden.",
+            "-14x = 84",
+            "Dividera båda leden med -14.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "8x + 5 = 4x + 37",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "4x + 5 = 37",
+            "Subtrahera 5 från båda leden.",
+            "4x = 32",
+            "Dividera båda leden med 4.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "5(x + 7) = 30",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 5.",
+            "x + 7 = 6",
+            "Subtrahera 7 från båda leden.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "6(x + 2) + 7(x - 3) = 17",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "6x + 12 + 7x - 21 = 17",
+            "Förenkla vänsterledet.",
+            "13x - 9 = 17",
+            "Addera 9 till båda leden.",
+            "13x = 26",
+            "Dividera båda leden med 13.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "8x - 3 = 4x + 21",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "4x - 3 = 21",
+            "Addera 3 till båda leden.",
+            "4x = 24",
+            "Dividera båda leden med 4.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "7(x + 4) + 5(x - 5) = 87",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "7x + 28 + 5x - 25 = 87",
+            "Förenkla vänsterledet.",
+            "12x + 3 = 87",
+            "Subtrahera 3 från båda leden.",
+            "12x = 84",
+            "Dividera båda leden med 12.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "16 - 7x = 2x - 56",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-7x + 16 = 2x - 56",
+            "Subtrahera 2x från båda leden.",
+            "-9x + 16 = -56",
+            "Subtrahera 16 från båda leden.",
+            "-9x = -72",
+            "Dividera båda leden med -9.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "9x - 8 = 55",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 8 till båda leden.",
+            "9x = 63",
+            "Dividera båda leden med 9.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "6(x + 2) = 6",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 6.",
+            "x + 2 = 1",
+            "Subtrahera 2 från båda leden.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "7x - 3 = 11",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 3 till båda leden.",
+            "7x = 14",
+            "Dividera båda leden med 7.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "5x + 2 = 2x - 16",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "3x + 2 = -16",
+            "Subtrahera 2 från båda leden.",
+            "3x = -18",
+            "Dividera båda leden med 3.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "x/2 - 2 = 5",
+        "answer": ["14"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 2 till båda leden.",
+            "x/2 = 7",
+            "Multiplicera båda leden med 2.",
+            "x = 14"
+        ]
+    },
+    {
+        "text": "5(x + 3) + 1 = x + 44",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x + 15 + 1 = x + 44",
+            "Förenkla vänsterledet.",
+            "5x + 16 = x + 44",
+            "Subtrahera x från båda leden.",
+            "4x + 16 = 44",
+            "Subtrahera 16 från båda leden.",
+            "4x = 28",
+            "Dividera båda leden med 4.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "(x - 2)/5 = (x - 5)/2",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 10.",
+            "2(x - 2) = 5(x - 5)",
+            "Multiplicera in i parenteserna.",
+            "2x - 4 = 5x - 25",
+            "Subtrahera 5x från båda leden.",
+            "-3x - 4 = -25",
+            "Addera 4 till båda leden.",
+            "-3x = -21",
+            "Dividera båda leden med -3.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "4x + 2 = x - 13",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera x från båda leden.",
+            "3x + 2 = -13",
+            "Subtrahera 2 från båda leden.",
+            "3x = -15",
+            "Dividera båda leden med 3.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "(x + 33)/7 = (x + 21)/4",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 28.",
+            "4(x + 33) = 7(x + 21)",
+            "Multiplicera in i parenteserna.",
+            "4x + 132 = 7x + 147",
+            "Subtrahera 7x från båda leden.",
+            "-3x + 132 = 147",
+            "Subtrahera 132 från båda leden.",
+            "-3x = 15",
+            "Dividera båda leden med -3.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "9x - 1 = -28",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 1 till båda leden.",
+            "9x = -27",
+            "Dividera båda leden med 9.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "5x - 9 = 4x - 15",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "x - 9 = -15",
+            "Addera 9 till båda leden.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "6(x - 7) = 6",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 6.",
+            "x - 7 = 1",
+            "Addera 7 till båda leden.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "8x/6 = 8",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 6.",
+            "8x = 48",
+            "Dividera båda leden med 8.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "7(x - 6) - 2(x - 4) = -59",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna (tänk på minustecknet framför den andra).",
+            "7x - 42 - 2x + 8 = -59",
+            "Förenkla vänsterledet.",
+            "5x - 34 = -59",
+            "Addera 34 till båda leden.",
+            "5x = -25",
+            "Dividera båda leden med 5.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "8x + 15 = -1",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 15 från båda leden.",
+            "8x = -16",
+            "Dividera båda leden med 8.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "6(x - 3) = 3x + 12",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x - 18 = 3x + 12",
+            "Subtrahera 3x från båda leden.",
+            "3x - 18 = 12",
+            "Addera 18 till båda leden.",
+            "3x = 30",
+            "Dividera båda leden med 3.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "3(x + 8) - 2 = 2x + 27",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 24 - 2 = 2x + 27",
+            "Förenkla vänsterledet.",
+            "3x + 22 = 2x + 27",
+            "Subtrahera 2x från båda leden.",
+            "x + 22 = 27",
+            "Subtrahera 22 från båda leden.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "7x - 5 = 4x + 31",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "3x - 5 = 31",
+            "Addera 5 till båda leden.",
+            "3x = 36",
+            "Dividera båda leden med 3.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "5(x - 8) = 3(x - 16)",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "5x - 40 = 3x - 48",
+            "Subtrahera 3x från båda leden.",
+            "2x - 40 = -48",
+            "Addera 40 till båda leden.",
+            "2x = -8",
+            "Dividera båda leden med 2.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "(x + 10)/4 = 5",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 4.",
+            "x + 10 = 20",
+            "Subtrahera 10 från båda leden.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "6(x - 3) - 1 = 5x - 12",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x - 18 - 1 = 5x - 12",
+            "Förenkla vänsterledet.",
+            "6x - 19 = 5x - 12",
+            "Subtrahera 5x från båda leden.",
+            "x - 19 = -12",
+            "Addera 19 till båda leden.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "4(x - 4) = 12",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 4.",
+            "x - 4 = 3",
+            "Addera 4 till båda leden.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "7x/3 = -42",
+        "answer": ["-18"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 3.",
+            "7x = -126",
+            "Dividera båda leden med 7.",
+            "x = -18"
+        ]
+    },
+    {
+        "text": "3(x - 4) = x - 14",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x - 12 = x - 14",
+            "Subtrahera x från båda leden.",
+            "2x - 12 = -14",
+            "Addera 12 till båda leden.",
+            "2x = -2",
+            "Dividera båda leden med 2.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "7(x + 3) = 5x + 23",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 7 i parentesen.",
+            "7x + 21 = 5x + 23",
+            "Subtrahera 5x från båda leden.",
+            "2x + 21 = 23",
+            "Subtrahera 21 från båda leden.",
+            "2x = 2",
+            "Dividera båda leden med 2.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "x/4 + x/5 = -27",
+        "answer": ["-60"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 20 (minsta gemensamma nämnare).",
+            "5x + 4x = -540",
+            "Förenkla vänsterledet.",
+            "9x = -540",
+            "Dividera båda leden med 9.",
+            "x = -60"
+        ]
+    },
+    {
+        "text": "4(x - 5) = -4",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 4.",
+            "x - 5 = -1",
+            "Addera 5 till båda leden.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "5(x + 4) = 2x + 26",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x + 20 = 2x + 26",
+            "Subtrahera 2x från båda leden.",
+            "3x + 20 = 26",
+            "Subtrahera 20 från båda leden.",
+            "3x = 6",
+            "Dividera båda leden med 3.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "x/7 + 10 = 9",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 10 från båda leden.",
+            "x/7 = -1",
+            "Multiplicera båda leden med 7.",
+            "x = -7"
+        ]
+    },
+    {
+        "text": "4x + 4 = -20",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 4 från båda leden.",
+            "4x = -24",
+            "Dividera båda leden med 4.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "5(x - 7) = 4(x - 7)",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "5x - 35 = 4x - 28",
+            "Subtrahera 4x från båda leden.",
+            "x - 35 = -28",
+            "Addera 35 till båda leden.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "3(x - 3) = 2x - 10",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x - 9 = 2x - 10",
+            "Subtrahera 2x från båda leden.",
+            "x - 9 = -10",
+            "Addera 9 till båda leden.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "4(x - 4) = x - 7",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 4 i parentesen.",
+            "4x - 16 = x - 7",
+            "Subtrahera x från båda leden.",
+            "3x - 16 = -7",
+            "Addera 16 till båda leden.",
+            "3x = 9",
+            "Dividera båda leden med 3.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "7x + 15 = 6x + 12",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 6x från båda leden.",
+            "x + 15 = 12",
+            "Subtrahera 15 från båda leden.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "x/3 + x/4 = 14",
+        "answer": ["24"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 12 (minsta gemensamma nämnare).",
+            "4x + 3x = 168",
+            "Förenkla vänsterledet.",
+            "7x = 168",
+            "Dividera båda leden med 7.",
+            "x = 24"
+        ]
+    },
+    {
+        "text": "7x + 12 = 3x + 32",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 3x från båda leden.",
+            "4x + 12 = 32",
+            "Subtrahera 12 från båda leden.",
+            "4x = 20",
+            "Dividera båda leden med 4.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "(x - 15)/5 = (x - 11)/4",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 20.",
+            "4(x - 15) = 5(x - 11)",
+            "Multiplicera in i parenteserna.",
+            "4x - 60 = 5x - 55",
+            "Subtrahera 5x från båda leden.",
+            "-x - 60 = -55",
+            "Addera 60 till båda leden.",
+            "-x = 5",
+            "Multiplicera båda leden med -1.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "8x/7 = -24",
+        "answer": ["-21"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 7.",
+            "8x = -168",
+            "Dividera båda leden med 8.",
+            "x = -21"
+        ]
+    },
+    {
+        "text": "5(x - 6) + 7 = 3x - 3",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x - 30 + 7 = 3x - 3",
+            "Förenkla vänsterledet.",
+            "5x - 23 = 3x - 3",
+            "Subtrahera 3x från båda leden.",
+            "2x - 23 = -3",
+            "Addera 23 till båda leden.",
+            "2x = 20",
+            "Dividera båda leden med 2.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "(x + 31)/5 = (x + 16)/2",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 10.",
+            "2(x + 31) = 5(x + 16)",
+            "Multiplicera in i parenteserna.",
+            "2x + 62 = 5x + 80",
+            "Subtrahera 5x från båda leden.",
+            "-3x + 62 = 80",
+            "Subtrahera 62 från båda leden.",
+            "-3x = 18",
+            "Dividera båda leden med -3.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "5(x + 4) = 2x + 35",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x + 20 = 2x + 35",
+            "Subtrahera 2x från båda leden.",
+            "3x + 20 = 35",
+            "Subtrahera 20 från båda leden.",
+            "3x = 15",
+            "Dividera båda leden med 3.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "2(x + 2) = 16",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 2.",
+            "x + 2 = 8",
+            "Subtrahera 2 från båda leden.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "9x + 15 = 114",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 15 från båda leden.",
+            "9x = 99",
+            "Dividera båda leden med 9.",
+            "x = 11"
+        ]
+    },
+    {
+        "text": "4(x + 8) = 40",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 4.",
+            "x + 8 = 10",
+            "Subtrahera 8 från båda leden.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "11x - 3 = 9x + 1",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 9x från båda leden.",
+            "2x - 3 = 1",
+            "Addera 3 till båda leden.",
+            "2x = 4",
+            "Dividera båda leden med 2.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "9(x - 4) = 9",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 9.",
+            "x - 4 = 1",
+            "Addera 4 till båda leden.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "3x + 3 = -6",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 3 från båda leden.",
+            "3x = -9",
+            "Dividera båda leden med 3.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "3x - 9 = 2x + 2",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "x - 9 = 2",
+            "Addera 9 till båda leden.",
+            "x = 11"
+        ]
+    },
+    {
+        "text": "3x - 1 = 32",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 1 till båda leden.",
+            "3x = 33",
+            "Dividera båda leden med 3.",
+            "x = 11"
+        ]
+    },
+    {
+        "text": "11x + 14 = 3x + 62",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 3x från båda leden.",
+            "8x + 14 = 62",
+            "Subtrahera 14 från båda leden.",
+            "8x = 48",
+            "Dividera båda leden med 8.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "4(x - 8) = 16",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 4.",
+            "x - 8 = 4",
+            "Addera 8 till båda leden.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "(x + 45)/7 = (x + 27)/4",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 28.",
+            "4(x + 45) = 7(x + 27)",
+            "Multiplicera in i parenteserna.",
+            "4x + 180 = 7x + 189",
+            "Subtrahera 7x från båda leden.",
+            "-3x + 180 = 189",
+            "Subtrahera 180 från båda leden.",
+            "-3x = 9",
+            "Dividera båda leden med -3.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "8(x - 5) = 2(x - 26)",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "8x - 40 = 2x - 52",
+            "Subtrahera 2x från båda leden.",
+            "6x - 40 = -52",
+            "Addera 40 till båda leden.",
+            "6x = -12",
+            "Dividera båda leden med 6.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "18 - 7x = x - 46",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-7x + 18 = x - 46",
+            "Subtrahera x från båda leden.",
+            "-8x + 18 = -46",
+            "Subtrahera 18 från båda leden.",
+            "-8x = -64",
+            "Dividera båda leden med -8.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "4(x + 6) - 3 = 2x + 27",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 4 i parentesen.",
+            "4x + 24 - 3 = 2x + 27",
+            "Förenkla vänsterledet.",
+            "4x + 21 = 2x + 27",
+            "Subtrahera 2x från båda leden.",
+            "2x + 21 = 27",
+            "Subtrahera 21 från båda leden.",
+            "2x = 6",
+            "Dividera båda leden med 2.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "6 - 3x = 6x + 60",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-3x + 6 = 6x + 60",
+            "Subtrahera 6x från båda leden.",
+            "-9x + 6 = 60",
+            "Subtrahera 6 från båda leden.",
+            "-9x = 54",
+            "Dividera båda leden med -9.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "9(x + 5) = 36",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 9.",
+            "x + 5 = 4",
+            "Subtrahera 5 från båda leden.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "2(x - 8) - 1 = x - 21",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 2 i parentesen.",
+            "2x - 16 - 1 = x - 21",
+            "Förenkla vänsterledet.",
+            "2x - 17 = x - 21",
+            "Subtrahera x från båda leden.",
+            "x - 17 = -21",
+            "Addera 17 till båda leden.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "8(x - 7) - 6(x - 2) = -34",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna (tänk på minustecknet framför den andra).",
+            "8x - 56 - 6x + 12 = -34",
+            "Förenkla vänsterledet.",
+            "2x - 44 = -34",
+            "Addera 44 till båda leden.",
+            "2x = 10",
+            "Dividera båda leden med 2.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "3(x + 2) + 9 = 2x + 25",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 6 + 9 = 2x + 25",
+            "Förenkla vänsterledet.",
+            "3x + 15 = 2x + 25",
+            "Subtrahera 2x från båda leden.",
+            "x + 15 = 25",
+            "Subtrahera 15 från båda leden.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "3x/2 = 9",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 2.",
+            "3x = 18",
+            "Dividera båda leden med 3.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "8(x + 8) + 6(x - 1) = 170",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "8x + 64 + 6x - 6 = 170",
+            "Förenkla vänsterledet.",
+            "14x + 58 = 170",
+            "Subtrahera 58 från båda leden.",
+            "14x = 112",
+            "Dividera båda leden med 14.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "3x + 12 = x + 36",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera x från båda leden.",
+            "2x + 12 = 36",
+            "Subtrahera 12 från båda leden.",
+            "2x = 24",
+            "Dividera båda leden med 2.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "3(x + 9) = x + 19",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 27 = x + 19",
+            "Subtrahera x från båda leden.",
+            "2x + 27 = 19",
+            "Subtrahera 27 från båda leden.",
+            "2x = -8",
+            "Dividera båda leden med 2.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "7x/4 = 56",
+        "answer": ["32"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 4.",
+            "7x = 224",
+            "Dividera båda leden med 7.",
+            "x = 32"
+        ]
+    },
+    {
+        "text": "4x/4 = -32",
+        "answer": ["-32"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 4.",
+            "4x = -128",
+            "Dividera båda leden med 4.",
+            "x = -32"
+        ]
+    },
+    {
+        "text": "8x + 15 = 2x + 87",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "6x + 15 = 87",
+            "Subtrahera 15 från båda leden.",
+            "6x = 72",
+            "Dividera båda leden med 6.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "3(x - 4) = 2(x - 5)",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "3x - 12 = 2x - 10",
+            "Subtrahera 2x från båda leden.",
+            "x - 12 = -10",
+            "Addera 12 till båda leden.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "3(x + 7) = 2(x + 8)",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "3x + 21 = 2x + 16",
+            "Subtrahera 2x från båda leden.",
+            "x + 21 = 16",
+            "Subtrahera 21 från båda leden.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "9(x - 9) = -90",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 9.",
+            "x - 9 = -10",
+            "Addera 9 till båda leden.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "9x - 15 = 66",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 15 till båda leden.",
+            "9x = 81",
+            "Dividera båda leden med 9.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "5(x + 2) - 9 = x + 9",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x + 10 - 9 = x + 9",
+            "Förenkla vänsterledet.",
+            "5x + 1 = x + 9",
+            "Subtrahera x från båda leden.",
+            "4x + 1 = 9",
+            "Subtrahera 1 från båda leden.",
+            "4x = 8",
+            "Dividera båda leden med 4.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "5(x + 8) = 3(x + 12)",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "5x + 40 = 3x + 36",
+            "Subtrahera 3x från båda leden.",
+            "2x + 40 = 36",
+            "Subtrahera 40 från båda leden.",
+            "2x = -4",
+            "Dividera båda leden med 2.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "7x - 2 = 40",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 2 till båda leden.",
+            "7x = 42",
+            "Dividera båda leden med 7.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "12x + 15 = 11x + 22",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 11x från båda leden.",
+            "x + 15 = 22",
+            "Subtrahera 15 från båda leden.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "x/2 + x/4 = 3",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 4 (minsta gemensamma nämnare).",
+            "2x + x = 12",
+            "Förenkla vänsterledet.",
+            "3x = 12",
+            "Dividera båda leden med 3.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "(x - 17)/6 = (x - 15)/5",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 30.",
+            "5(x - 17) = 6(x - 15)",
+            "Multiplicera in i parenteserna.",
+            "5x - 85 = 6x - 90",
+            "Subtrahera 6x från båda leden.",
+            "-x - 85 = -90",
+            "Addera 85 till båda leden.",
+            "-x = -5",
+            "Multiplicera båda leden med -1.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "5(x + 4) - 3 = 2x + 44",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x + 20 - 3 = 2x + 44",
+            "Förenkla vänsterledet.",
+            "5x + 17 = 2x + 44",
+            "Subtrahera 2x från båda leden.",
+            "3x + 17 = 44",
+            "Subtrahera 17 från båda leden.",
+            "3x = 27",
+            "Dividera båda leden med 3.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "7(x + 7) - 5 = x + 104",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 7 i parentesen.",
+            "7x + 49 - 5 = x + 104",
+            "Förenkla vänsterledet.",
+            "7x + 44 = x + 104",
+            "Subtrahera x från båda leden.",
+            "6x + 44 = 104",
+            "Subtrahera 44 från båda leden.",
+            "6x = 60",
+            "Dividera båda leden med 6.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "2(x - 2) + 8 = x + 2",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 2 i parentesen.",
+            "2x - 4 + 8 = x + 2",
+            "Förenkla vänsterledet.",
+            "2x + 4 = x + 2",
+            "Subtrahera x från båda leden.",
+            "x + 4 = 2",
+            "Subtrahera 4 från båda leden.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "8x - 8 = 7x + 3",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 7x från båda leden.",
+            "x - 8 = 3",
+            "Addera 8 till båda leden.",
+            "x = 11"
+        ]
+    },
+    {
+        "text": "7(x - 8) + 3(x + 4) = -84",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "7x - 56 + 3x + 12 = -84",
+            "Förenkla vänsterledet.",
+            "10x - 44 = -84",
+            "Addera 44 till båda leden.",
+            "10x = -40",
+            "Dividera båda leden med 10.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "x/2 + x/5 = 28",
+        "answer": ["40"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 10 (minsta gemensamma nämnare).",
+            "5x + 2x = 280",
+            "Förenkla vänsterledet.",
+            "7x = 280",
+            "Dividera båda leden med 7.",
+            "x = 40"
+        ]
+    },
+    {
+        "text": "2 - 6x = 5x + 57",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-6x + 2 = 5x + 57",
+            "Subtrahera 5x från båda leden.",
+            "-11x + 2 = 57",
+            "Subtrahera 2 från båda leden.",
+            "-11x = 55",
+            "Dividera båda leden med -11.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "6(x + 8) = 2(x + 20)",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "6x + 48 = 2x + 40",
+            "Subtrahera 2x från båda leden.",
+            "4x + 48 = 40",
+            "Subtrahera 48 från båda leden.",
+            "4x = -8",
+            "Dividera båda leden med 4.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "8x + 6 = x - 36",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera x från båda leden.",
+            "7x + 6 = -36",
+            "Subtrahera 6 från båda leden.",
+            "7x = -42",
+            "Dividera båda leden med 7.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "8(x - 6) + 5(x - 8) = -140",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "8x - 48 + 5x - 40 = -140",
+            "Förenkla vänsterledet.",
+            "13x - 88 = -140",
+            "Addera 88 till båda leden.",
+            "13x = -52",
+            "Dividera båda leden med 13.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "7x - 6 = 5x + 4",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 5x från båda leden.",
+            "2x - 6 = 4",
+            "Addera 6 till båda leden.",
+            "2x = 10",
+            "Dividera båda leden med 2.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "6x + 6 = 4x + 8",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "2x + 6 = 8",
+            "Subtrahera 6 från båda leden.",
+            "2x = 2",
+            "Dividera båda leden med 2.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "3(x + 8) = 2x + 30",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 24 = 2x + 30",
+            "Subtrahera 2x från båda leden.",
+            "x + 24 = 30",
+            "Subtrahera 24 från båda leden.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "12 - 5x = 4x - 60",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-5x + 12 = 4x - 60",
+            "Subtrahera 4x från båda leden.",
+            "-9x + 12 = -60",
+            "Subtrahera 12 från båda leden.",
+            "-9x = -72",
+            "Dividera båda leden med -9.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "(x + 6)/2 = (x + 11)/3",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 6.",
+            "3(x + 6) = 2(x + 11)",
+            "Multiplicera in i parenteserna.",
+            "3x + 18 = 2x + 22",
+            "Subtrahera 2x från båda leden.",
+            "x + 18 = 22",
+            "Subtrahera 18 från båda leden.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "2(x - 8) = x - 10",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 2 i parentesen.",
+            "2x - 16 = x - 10",
+            "Subtrahera x från båda leden.",
+            "x - 16 = -10",
+            "Addera 16 till båda leden.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "14 - 7x = 4x + 3",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-7x + 14 = 4x + 3",
+            "Subtrahera 4x från båda leden.",
+            "-11x + 14 = 3",
+            "Subtrahera 14 från båda leden.",
+            "-11x = -11",
+            "Dividera båda leden med -11.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "9x + 10 = 100",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 10 från båda leden.",
+            "9x = 90",
+            "Dividera båda leden med 9.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "11x - 5 = 5x + 55",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 5x från båda leden.",
+            "6x - 5 = 55",
+            "Addera 5 till båda leden.",
+            "6x = 60",
+            "Dividera båda leden med 6.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "9x + 15 = 3x + 75",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 3x från båda leden.",
+            "6x + 15 = 75",
+            "Subtrahera 15 från båda leden.",
+            "6x = 60",
+            "Dividera båda leden med 6.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "4x - 11 = x + 7",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera x från båda leden.",
+            "3x - 11 = 7",
+            "Addera 11 till båda leden.",
+            "3x = 18",
+            "Dividera båda leden med 3.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "x/6 - 1 = 5",
+        "answer": ["36"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 1 till båda leden.",
+            "x/6 = 6",
+            "Multiplicera båda leden med 6.",
+            "x = 36"
+        ]
+    },
+    {
+        "text": "6x + 3 = 51",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 3 från båda leden.",
+            "6x = 48",
+            "Dividera båda leden med 6.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "7 - 5x = 4x - 65",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-5x + 7 = 4x - 65",
+            "Subtrahera 4x från båda leden.",
+            "-9x + 7 = -65",
+            "Subtrahera 7 från båda leden.",
+            "-9x = -72",
+            "Dividera båda leden med -9.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "3(x + 1) = 2(x + 1)",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "3x + 3 = 2x + 2",
+            "Subtrahera 2x från båda leden.",
+            "x + 3 = 2",
+            "Subtrahera 3 från båda leden.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "x/3 - 10 = -9",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 10 till båda leden.",
+            "x/3 = 1",
+            "Multiplicera båda leden med 3.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "8(x + 5) - 7(x + 2) = 29",
         "answer": ["3"],
         "type": "single",
         "category": "Linjära ekvationer",
         "difficulty": "hard",
         "explanation": [
-            "Addera 2x till båda leden.",
-            "9 = 5x - 6",
-            "Addera 6 till båda leden.",
-            "15 = 5x",
-            "Dividera med 5.",
+            "Multiplicera in i båda parenteserna (tänk på minustecknet framför den andra).",
+            "8x + 40 - 7x - 14 = 29",
+            "Förenkla vänsterledet.",
+            "x + 26 = 29",
+            "Subtrahera 26 från båda leden.",
             "x = 3"
+        ]
+    },
+    {
+        "text": "2x/4 = 4",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 4.",
+            "2x = 16",
+            "Dividera båda leden med 2.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "8x - 7 = 5x + 2",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 5x från båda leden.",
+            "3x - 7 = 2",
+            "Addera 7 till båda leden.",
+            "3x = 9",
+            "Dividera båda leden med 3.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "(x - 4)/9 = -4",
+        "answer": ["-32"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 9.",
+            "x - 4 = -36",
+            "Addera 4 till båda leden.",
+            "x = -32"
+        ]
+    },
+    {
+        "text": "8(x + 5) = 2(x + 14)",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "8x + 40 = 2x + 28",
+            "Subtrahera 2x från båda leden.",
+            "6x + 40 = 28",
+            "Subtrahera 40 från båda leden.",
+            "6x = -12",
+            "Dividera båda leden med 6.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "x/3 - 5 = -2",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 5 till båda leden.",
+            "x/3 = 3",
+            "Multiplicera båda leden med 3.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "(x - 3)/4 = 3",
+        "answer": ["15"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 4.",
+            "x - 3 = 12",
+            "Addera 3 till båda leden.",
+            "x = 15"
+        ]
+    },
+    {
+        "text": "2(x + 2) - 1 = x + 6",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 2 i parentesen.",
+            "2x + 4 - 1 = x + 6",
+            "Förenkla vänsterledet.",
+            "2x + 3 = x + 6",
+            "Subtrahera x från båda leden.",
+            "x + 3 = 6",
+            "Subtrahera 3 från båda leden.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "3(x + 7) = 2x + 18",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 21 = 2x + 18",
+            "Subtrahera 2x från båda leden.",
+            "x + 21 = 18",
+            "Subtrahera 21 från båda leden.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "7(x - 6) - 5(x - 1) = -47",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna (tänk på minustecknet framför den andra).",
+            "7x - 42 - 5x + 5 = -47",
+            "Förenkla vänsterledet.",
+            "2x - 37 = -47",
+            "Addera 37 till båda leden.",
+            "2x = -10",
+            "Dividera båda leden med 2.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "7 - 4x = 9x - 123",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-4x + 7 = 9x - 123",
+            "Subtrahera 9x från båda leden.",
+            "-13x + 7 = -123",
+            "Subtrahera 7 från båda leden.",
+            "-13x = -130",
+            "Dividera båda leden med -13.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "7(x + 2) + 2(x - 3) = 62",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "7x + 14 + 2x - 6 = 62",
+            "Förenkla vänsterledet.",
+            "9x + 8 = 62",
+            "Subtrahera 8 från båda leden.",
+            "9x = 54",
+            "Dividera båda leden med 9.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "3(x - 1) + 1 = x - 6",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x - 3 + 1 = x - 6",
+            "Förenkla vänsterledet.",
+            "3x - 2 = x - 6",
+            "Subtrahera x från båda leden.",
+            "2x - 2 = -6",
+            "Addera 2 till båda leden.",
+            "2x = -4",
+            "Dividera båda leden med 2.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "2(x - 9) = 4",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 2.",
+            "x - 9 = 2",
+            "Addera 9 till båda leden.",
+            "x = 11"
+        ]
+    },
+    {
+        "text": "8(x - 7) + 5(x + 3) = -67",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "8x - 56 + 5x + 15 = -67",
+            "Förenkla vänsterledet.",
+            "13x - 41 = -67",
+            "Addera 41 till båda leden.",
+            "13x = -26",
+            "Dividera båda leden med 13.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "6x - 14 = 4x - 12",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "2x - 14 = -12",
+            "Addera 14 till båda leden.",
+            "2x = 2",
+            "Dividera båda leden med 2.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "x/5 + 9 = 6",
+        "answer": ["-15"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 9 från båda leden.",
+            "x/5 = -3",
+            "Multiplicera båda leden med 5.",
+            "x = -15"
+        ]
+    },
+    {
+        "text": "9x + 17 = 107",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 17 från båda leden.",
+            "9x = 90",
+            "Dividera båda leden med 9.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "3(x + 8) = x + 22",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 24 = x + 22",
+            "Subtrahera x från båda leden.",
+            "2x + 24 = 22",
+            "Subtrahera 24 från båda leden.",
+            "2x = -2",
+            "Dividera båda leden med 2.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "9x - 9 = 63",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 9 till båda leden.",
+            "9x = 72",
+            "Dividera båda leden med 9.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "(x + 2)/4 = (x + 3)/5",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 20.",
+            "5(x + 2) = 4(x + 3)",
+            "Multiplicera in i parenteserna.",
+            "5x + 10 = 4x + 12",
+            "Subtrahera 4x från båda leden.",
+            "x + 10 = 12",
+            "Subtrahera 10 från båda leden.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "x/4 + 1 = -5",
+        "answer": ["-24"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 1 från båda leden.",
+            "x/4 = -6",
+            "Multiplicera båda leden med 4.",
+            "x = -24"
+        ]
+    },
+    {
+        "text": "x/3 - 2 = 8",
+        "answer": ["30"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 2 till båda leden.",
+            "x/3 = 10",
+            "Multiplicera båda leden med 3.",
+            "x = 30"
+        ]
+    },
+    {
+        "text": "7x + 7 = 2x - 8",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "5x + 7 = -8",
+            "Subtrahera 7 från båda leden.",
+            "5x = -15",
+            "Dividera båda leden med 5.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "8 - 2x = 6x + 40",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-2x + 8 = 6x + 40",
+            "Subtrahera 6x från båda leden.",
+            "-8x + 8 = 40",
+            "Subtrahera 8 från båda leden.",
+            "-8x = 32",
+            "Dividera båda leden med -8.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "7x - 2 = 5x + 2",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 5x från båda leden.",
+            "2x - 2 = 2",
+            "Addera 2 till båda leden.",
+            "2x = 4",
+            "Dividera båda leden med 2.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "9(x + 4) = 72",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 9.",
+            "x + 4 = 8",
+            "Subtrahera 4 från båda leden.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "9x + 12 = 111",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 12 från båda leden.",
+            "9x = 99",
+            "Dividera båda leden med 9.",
+            "x = 11"
+        ]
+    },
+    {
+        "text": "11 - 2x = 5x + 46",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-2x + 11 = 5x + 46",
+            "Subtrahera 5x från båda leden.",
+            "-7x + 11 = 46",
+            "Subtrahera 11 från båda leden.",
+            "-7x = 35",
+            "Dividera båda leden med -7.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "x/3 + x/6 = -6",
+        "answer": ["-12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 6 (minsta gemensamma nämnare).",
+            "2x + x = -36",
+            "Förenkla vänsterledet.",
+            "3x = -36",
+            "Dividera båda leden med 3.",
+            "x = -12"
+        ]
+    },
+    {
+        "text": "7(x - 6) + 5(x - 3) = -21",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "7x - 42 + 5x - 15 = -21",
+            "Förenkla vänsterledet.",
+            "12x - 57 = -21",
+            "Addera 57 till båda leden.",
+            "12x = 36",
+            "Dividera båda leden med 12.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "3(x - 7) + 3(x - 3) = -12",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "3x - 21 + 3x - 9 = -12",
+            "Förenkla vänsterledet.",
+            "6x - 30 = -12",
+            "Addera 30 till båda leden.",
+            "6x = 18",
+            "Dividera båda leden med 6.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "11x + 13 = 8x + 49",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 8x från båda leden.",
+            "3x + 13 = 49",
+            "Subtrahera 13 från båda leden.",
+            "3x = 36",
+            "Dividera båda leden med 3.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "9(x + 5) = 27",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 9.",
+            "x + 5 = 3",
+            "Subtrahera 5 från båda leden.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "3(x + 3) = 2(x + 9)",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "3x + 9 = 2x + 18",
+            "Subtrahera 2x från båda leden.",
+            "x + 9 = 18",
+            "Subtrahera 9 från båda leden.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "x/4 - 9 = -12",
+        "answer": ["-12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 9 till båda leden.",
+            "x/4 = -3",
+            "Multiplicera båda leden med 4.",
+            "x = -12"
+        ]
+    },
+    {
+        "text": "8x + 17 = -15",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 17 från båda leden.",
+            "8x = -32",
+            "Dividera båda leden med 8.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "7(x - 5) - 1 = 3x - 56",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 7 i parentesen.",
+            "7x - 35 - 1 = 3x - 56",
+            "Förenkla vänsterledet.",
+            "7x - 36 = 3x - 56",
+            "Subtrahera 3x från båda leden.",
+            "4x - 36 = -56",
+            "Addera 36 till båda leden.",
+            "4x = -20",
+            "Dividera båda leden med 4.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "3(x + 7) = x + 41",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 21 = x + 41",
+            "Subtrahera x från båda leden.",
+            "2x + 21 = 41",
+            "Subtrahera 21 från båda leden.",
+            "2x = 20",
+            "Dividera båda leden med 2.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "4(x + 7) = 2(x + 18)",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "4x + 28 = 2x + 36",
+            "Subtrahera 2x från båda leden.",
+            "2x + 28 = 36",
+            "Subtrahera 28 från båda leden.",
+            "2x = 8",
+            "Dividera båda leden med 2.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "18 - 4x = 9x - 112",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-4x + 18 = 9x - 112",
+            "Subtrahera 9x från båda leden.",
+            "-13x + 18 = -112",
+            "Subtrahera 18 från båda leden.",
+            "-13x = -130",
+            "Dividera båda leden med -13.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "x/2 + 9 = 15",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 9 från båda leden.",
+            "x/2 = 6",
+            "Multiplicera båda leden med 2.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "12 - 7x = 9x - 20",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-7x + 12 = 9x - 20",
+            "Subtrahera 9x från båda leden.",
+            "-16x + 12 = -20",
+            "Subtrahera 12 från båda leden.",
+            "-16x = -32",
+            "Dividera båda leden med -16.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "x/2 + x/5 = 21",
+        "answer": ["30"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 10 (minsta gemensamma nämnare).",
+            "5x + 2x = 210",
+            "Förenkla vänsterledet.",
+            "7x = 210",
+            "Dividera båda leden med 7.",
+            "x = 30"
+        ]
+    },
+    {
+        "text": "4(x - 6) = 2(x - 14)",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "4x - 24 = 2x - 28",
+            "Subtrahera 2x från båda leden.",
+            "2x - 24 = -28",
+            "Addera 24 till båda leden.",
+            "2x = -4",
+            "Dividera båda leden med 2.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "x/4 + 7 = 12",
+        "answer": ["20"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 7 från båda leden.",
+            "x/4 = 5",
+            "Multiplicera båda leden med 4.",
+            "x = 20"
+        ]
+    },
+    {
+        "text": "3(x + 5) = 2(x + 12)",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "3x + 15 = 2x + 24",
+            "Subtrahera 2x från båda leden.",
+            "x + 15 = 24",
+            "Subtrahera 15 från båda leden.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "x/2 + x/3 = 10",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 6 (minsta gemensamma nämnare).",
+            "3x + 2x = 60",
+            "Förenkla vänsterledet.",
+            "5x = 60",
+            "Dividera båda leden med 5.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "7(x - 4) + 4 = 3x - 4",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 7 i parentesen.",
+            "7x - 28 + 4 = 3x - 4",
+            "Förenkla vänsterledet.",
+            "7x - 24 = 3x - 4",
+            "Subtrahera 3x från båda leden.",
+            "4x - 24 = -4",
+            "Addera 24 till båda leden.",
+            "4x = 20",
+            "Dividera båda leden med 4.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "3(x + 6) + 7 = 2x + 31",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 18 + 7 = 2x + 31",
+            "Förenkla vänsterledet.",
+            "3x + 25 = 2x + 31",
+            "Subtrahera 2x från båda leden.",
+            "x + 25 = 31",
+            "Subtrahera 25 från båda leden.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "6x + 11 = 83",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 11 från båda leden.",
+            "6x = 72",
+            "Dividera båda leden med 6.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "4x - 4 = 2x + 18",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "2x - 4 = 18",
+            "Addera 4 till båda leden.",
+            "2x = 22",
+            "Dividera båda leden med 2.",
+            "x = 11"
+        ]
+    },
+    {
+        "text": "x/5 + x/10 = 6",
+        "answer": ["20"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 10 (minsta gemensamma nämnare).",
+            "2x + x = 60",
+            "Förenkla vänsterledet.",
+            "3x = 60",
+            "Dividera båda leden med 3.",
+            "x = 20"
+        ]
+    },
+    {
+        "text": "9(x + 9) = 72",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 9.",
+            "x + 9 = 8",
+            "Subtrahera 9 från båda leden.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "6(x - 1) = 3x - 21",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x - 6 = 3x - 21",
+            "Subtrahera 3x från båda leden.",
+            "3x - 6 = -21",
+            "Addera 6 till båda leden.",
+            "3x = -15",
+            "Dividera båda leden med 3.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "3(x + 6) = x + 30",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 18 = x + 30",
+            "Subtrahera x från båda leden.",
+            "2x + 18 = 30",
+            "Subtrahera 18 från båda leden.",
+            "2x = 12",
+            "Dividera båda leden med 2.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "7(x + 4) - 3(x - 8) = 60",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna (tänk på minustecknet framför den andra).",
+            "7x + 28 - 3x + 24 = 60",
+            "Förenkla vänsterledet.",
+            "4x + 52 = 60",
+            "Subtrahera 52 från båda leden.",
+            "4x = 8",
+            "Dividera båda leden med 4.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "5(x - 3) - 2(x - 7) = -7",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna (tänk på minustecknet framför den andra).",
+            "5x - 15 - 2x + 14 = -7",
+            "Förenkla vänsterledet.",
+            "3x - 1 = -7",
+            "Addera 1 till båda leden.",
+            "3x = -6",
+            "Dividera båda leden med 3.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "9x + 5 = x - 3",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera x från båda leden.",
+            "8x + 5 = -3",
+            "Subtrahera 5 från båda leden.",
+            "8x = -8",
+            "Dividera båda leden med 8.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "3(x + 2) - 2 = 2x + 5",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 6 - 2 = 2x + 5",
+            "Förenkla vänsterledet.",
+            "3x + 4 = 2x + 5",
+            "Subtrahera 2x från båda leden.",
+            "x + 4 = 5",
+            "Subtrahera 4 från båda leden.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "3(x + 6) - 2 = 2x + 22",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 18 - 2 = 2x + 22",
+            "Förenkla vänsterledet.",
+            "3x + 16 = 2x + 22",
+            "Subtrahera 2x från båda leden.",
+            "x + 16 = 22",
+            "Subtrahera 16 från båda leden.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "(x + 3)/5 = 5",
+        "answer": ["22"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 5.",
+            "x + 3 = 25",
+            "Subtrahera 3 från båda leden.",
+            "x = 22"
+        ]
+    },
+    {
+        "text": "8x + 5 = 5x + 14",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 5x från båda leden.",
+            "3x + 5 = 14",
+            "Subtrahera 5 från båda leden.",
+            "3x = 9",
+            "Dividera båda leden med 3.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "9x + 14 = 104",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 14 från båda leden.",
+            "9x = 90",
+            "Dividera båda leden med 9.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "6(x + 4) - 3 = 5x + 17",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x + 24 - 3 = 5x + 17",
+            "Förenkla vänsterledet.",
+            "6x + 21 = 5x + 17",
+            "Subtrahera 5x från båda leden.",
+            "x + 21 = 17",
+            "Subtrahera 21 från båda leden.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "(x - 19)/6 = (x - 13)/4",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 24.",
+            "4(x - 19) = 6(x - 13)",
+            "Multiplicera in i parenteserna.",
+            "4x - 76 = 6x - 78",
+            "Subtrahera 6x från båda leden.",
+            "-2x - 76 = -78",
+            "Addera 76 till båda leden.",
+            "-2x = -2",
+            "Dividera båda leden med -2.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "20 - 3x = 2x - 25",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-3x + 20 = 2x - 25",
+            "Subtrahera 2x från båda leden.",
+            "-5x + 20 = -25",
+            "Subtrahera 20 från båda leden.",
+            "-5x = -45",
+            "Dividera båda leden med -5.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "15 - 6x = 6x + 75",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-6x + 15 = 6x + 75",
+            "Subtrahera 6x från båda leden.",
+            "-12x + 15 = 75",
+            "Subtrahera 15 från båda leden.",
+            "-12x = 60",
+            "Dividera båda leden med -12.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "4x + 13 = -11",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 13 från båda leden.",
+            "4x = -24",
+            "Dividera båda leden med 4.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "2(x + 1) = 22",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 2.",
+            "x + 1 = 11",
+            "Subtrahera 1 från båda leden.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "4(x - 5) = 3(x - 6)",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "4x - 20 = 3x - 18",
+            "Subtrahera 3x från båda leden.",
+            "x - 20 = -18",
+            "Addera 20 till båda leden.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "(x + 10)/5 = -1",
+        "answer": ["-15"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 5.",
+            "x + 10 = -5",
+            "Subtrahera 10 från båda leden.",
+            "x = -15"
+        ]
+    },
+    {
+        "text": "(x + 9)/9 = 3",
+        "answer": ["18"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 9.",
+            "x + 9 = 27",
+            "Subtrahera 9 från båda leden.",
+            "x = 18"
+        ]
+    },
+    {
+        "text": "x/5 + 3 = 11",
+        "answer": ["40"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 3 från båda leden.",
+            "x/5 = 8",
+            "Multiplicera båda leden med 5.",
+            "x = 40"
+        ]
+    },
+    {
+        "text": "9x/3 = 72",
+        "answer": ["24"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 3.",
+            "9x = 216",
+            "Dividera båda leden med 9.",
+            "x = 24"
+        ]
+    },
+    {
+        "text": "5x + 13 = 4x + 7",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "x + 13 = 7",
+            "Subtrahera 13 från båda leden.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "8(x - 8) = -56",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 8.",
+            "x - 8 = -7",
+            "Addera 8 till båda leden.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "4(x + 2) + 6(x + 4) = 22",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "4x + 8 + 6x + 24 = 22",
+            "Förenkla vänsterledet.",
+            "10x + 32 = 22",
+            "Subtrahera 32 från båda leden.",
+            "10x = -10",
+            "Dividera båda leden med 10.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "x/3 + x/5 = 40",
+        "answer": ["75"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 15 (minsta gemensamma nämnare).",
+            "5x + 3x = 600",
+            "Förenkla vänsterledet.",
+            "8x = 600",
+            "Dividera båda leden med 8.",
+            "x = 75"
+        ]
+    },
+    {
+        "text": "9x/3 = -54",
+        "answer": ["-18"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 3.",
+            "9x = -162",
+            "Dividera båda leden med 9.",
+            "x = -18"
+        ]
+    },
+    {
+        "text": "(x + 5)/8 = -5",
+        "answer": ["-45"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 8.",
+            "x + 5 = -40",
+            "Subtrahera 5 från båda leden.",
+            "x = -45"
+        ]
+    },
+    {
+        "text": "9x + 18 = 99",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 18 från båda leden.",
+            "9x = 81",
+            "Dividera båda leden med 9.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "5x/7 = 30",
+        "answer": ["42"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 7.",
+            "5x = 210",
+            "Dividera båda leden med 5.",
+            "x = 42"
+        ]
+    },
+    {
+        "text": "5x/4 = -5",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 4.",
+            "5x = -20",
+            "Dividera båda leden med 5.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "5(x - 8) + 7(x - 1) = -95",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "5x - 40 + 7x - 7 = -95",
+            "Förenkla vänsterledet.",
+            "12x - 47 = -95",
+            "Addera 47 till båda leden.",
+            "12x = -48",
+            "Dividera båda leden med 12.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "(x + 12)/6 = (x + 11)/5",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 30.",
+            "5(x + 12) = 6(x + 11)",
+            "Multiplicera in i parenteserna.",
+            "5x + 60 = 6x + 66",
+            "Subtrahera 6x från båda leden.",
+            "-x + 60 = 66",
+            "Subtrahera 60 från båda leden.",
+            "-x = 6",
+            "Multiplicera båda leden med -1.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "7(x + 5) - 3(x - 8) = 67",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna (tänk på minustecknet framför den andra).",
+            "7x + 35 - 3x + 24 = 67",
+            "Förenkla vänsterledet.",
+            "4x + 59 = 67",
+            "Subtrahera 59 från båda leden.",
+            "4x = 8",
+            "Dividera båda leden med 4.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "x/7 + 4 = 8",
+        "answer": ["28"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 4 från båda leden.",
+            "x/7 = 4",
+            "Multiplicera båda leden med 7.",
+            "x = 28"
+        ]
+    },
+    {
+        "text": "8(x - 2) + 4(x - 8) = -60",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "8x - 16 + 4x - 32 = -60",
+            "Förenkla vänsterledet.",
+            "12x - 48 = -60",
+            "Addera 48 till båda leden.",
+            "12x = -12",
+            "Dividera båda leden med 12.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "9(x - 2) = -45",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 9.",
+            "x - 2 = -5",
+            "Addera 2 till båda leden.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "3x/7 = 21",
+        "answer": ["49"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 7.",
+            "3x = 147",
+            "Dividera båda leden med 3.",
+            "x = 49"
+        ]
+    },
+    {
+        "text": "x/2 + x/7 = 27",
+        "answer": ["42"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 14 (minsta gemensamma nämnare).",
+            "7x + 2x = 378",
+            "Förenkla vänsterledet.",
+            "9x = 378",
+            "Dividera båda leden med 9.",
+            "x = 42"
+        ]
+    },
+    {
+        "text": "6x + 20 = 56",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 20 från båda leden.",
+            "6x = 36",
+            "Dividera båda leden med 6.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "4(x + 7) + 1 = 2x + 21",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 4 i parentesen.",
+            "4x + 28 + 1 = 2x + 21",
+            "Förenkla vänsterledet.",
+            "4x + 29 = 2x + 21",
+            "Subtrahera 2x från båda leden.",
+            "2x + 29 = 21",
+            "Subtrahera 29 från båda leden.",
+            "2x = -8",
+            "Dividera båda leden med 2.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "7(x - 1) + 2(x + 2) = 15",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "7x - 7 + 2x + 4 = 15",
+            "Förenkla vänsterledet.",
+            "9x - 3 = 15",
+            "Addera 3 till båda leden.",
+            "9x = 18",
+            "Dividera båda leden med 9.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "3x + 7 = 2x + 11",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "x + 7 = 11",
+            "Subtrahera 7 från båda leden.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "8x + 20 = 92",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 20 från båda leden.",
+            "8x = 72",
+            "Dividera båda leden med 8.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "4 - 2x = x - 26",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-2x + 4 = x - 26",
+            "Subtrahera x från båda leden.",
+            "-3x + 4 = -26",
+            "Subtrahera 4 från båda leden.",
+            "-3x = -30",
+            "Dividera båda leden med -3.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "8(x - 7) + 5(x + 3) = 76",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "8x - 56 + 5x + 15 = 76",
+            "Förenkla vänsterledet.",
+            "13x - 41 = 76",
+            "Addera 41 till båda leden.",
+            "13x = 117",
+            "Dividera båda leden med 13.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "3x + 3 = 2x + 1",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "x + 3 = 1",
+            "Subtrahera 3 från båda leden.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "8x + 8 = x + 57",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera x från båda leden.",
+            "7x + 8 = 57",
+            "Subtrahera 8 från båda leden.",
+            "7x = 49",
+            "Dividera båda leden med 7.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "2x + 18 = 12",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 18 från båda leden.",
+            "2x = -6",
+            "Dividera båda leden med 2.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "6(x + 7) + 3(x - 3) = 69",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "6x + 42 + 3x - 9 = 69",
+            "Förenkla vänsterledet.",
+            "9x + 33 = 69",
+            "Subtrahera 33 från båda leden.",
+            "9x = 36",
+            "Dividera båda leden med 9.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "8x + 15 = 7x + 25",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 7x från båda leden.",
+            "x + 15 = 25",
+            "Subtrahera 15 från båda leden.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "5(x + 3) = -10",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 5.",
+            "x + 3 = -2",
+            "Subtrahera 3 från båda leden.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "3(x + 5) = 2(x + 6)",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "3x + 15 = 2x + 12",
+            "Subtrahera 2x från båda leden.",
+            "x + 15 = 12",
+            "Subtrahera 15 från båda leden.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "6 - 7x = 6x - 33",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-7x + 6 = 6x - 33",
+            "Subtrahera 6x från båda leden.",
+            "-13x + 6 = -33",
+            "Subtrahera 6 från båda leden.",
+            "-13x = -39",
+            "Dividera båda leden med -13.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "6x + 7 = 37",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 7 från båda leden.",
+            "6x = 30",
+            "Dividera båda leden med 6.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "9(x - 1) = 2(x - 1)",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "9x - 9 = 2x - 2",
+            "Subtrahera 2x från båda leden.",
+            "7x - 9 = -2",
+            "Addera 9 till båda leden.",
+            "7x = 7",
+            "Dividera båda leden med 7.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "6(x - 6) + 7 = 5x - 24",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x - 36 + 7 = 5x - 24",
+            "Förenkla vänsterledet.",
+            "6x - 29 = 5x - 24",
+            "Subtrahera 5x från båda leden.",
+            "x - 29 = -24",
+            "Addera 29 till båda leden.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "(x - 5)/4 = -4",
+        "answer": ["-11"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 4.",
+            "x - 5 = -16",
+            "Addera 5 till båda leden.",
+            "x = -11"
+        ]
+    },
+    {
+        "text": "3(x + 7) = x + 15",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 21 = x + 15",
+            "Subtrahera x från båda leden.",
+            "2x + 21 = 15",
+            "Subtrahera 21 från båda leden.",
+            "2x = -6",
+            "Dividera båda leden med 2.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "3(x - 3) = -3",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 3.",
+            "x - 3 = -1",
+            "Addera 3 till båda leden.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "x/6 - 8 = -6",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 8 till båda leden.",
+            "x/6 = 2",
+            "Multiplicera båda leden med 6.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "5x - 15 = 2x - 33",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "3x - 15 = -33",
+            "Addera 15 till båda leden.",
+            "3x = -18",
+            "Dividera båda leden med 3.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "x/6 + 3 = 0",
+        "answer": ["-18"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 3 från båda leden.",
+            "x/6 = -3",
+            "Multiplicera båda leden med 6.",
+            "x = -18"
+        ]
+    },
+    {
+        "text": "20 - 8x = 7x + 110",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-8x + 20 = 7x + 110",
+            "Subtrahera 7x från båda leden.",
+            "-15x + 20 = 110",
+            "Subtrahera 20 från båda leden.",
+            "-15x = 90",
+            "Dividera båda leden med -15.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "4x/3 = 8",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 3.",
+            "4x = 24",
+            "Dividera båda leden med 4.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "4x - 11 = x + 19",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera x från båda leden.",
+            "3x - 11 = 19",
+            "Addera 11 till båda leden.",
+            "3x = 30",
+            "Dividera båda leden med 3.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "14 - 5x = 2x - 42",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-5x + 14 = 2x - 42",
+            "Subtrahera 2x från båda leden.",
+            "-7x + 14 = -42",
+            "Subtrahera 14 från båda leden.",
+            "-7x = -56",
+            "Dividera båda leden med -7.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "4(x - 1) = 32",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 4.",
+            "x - 1 = 8",
+            "Addera 1 till båda leden.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "8(x + 3) = 16",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 8.",
+            "x + 3 = 2",
+            "Subtrahera 3 från båda leden.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "7x/8 = 56",
+        "answer": ["64"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 8.",
+            "7x = 448",
+            "Dividera båda leden med 7.",
+            "x = 64"
+        ]
+    },
+    {
+        "text": "3x + 5 = 35",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 5 från båda leden.",
+            "3x = 30",
+            "Dividera båda leden med 3.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "x/6 + 8 = 11",
+        "answer": ["18"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 8 från båda leden.",
+            "x/6 = 3",
+            "Multiplicera båda leden med 6.",
+            "x = 18"
+        ]
+    },
+    {
+        "text": "6(x + 3) = 2(x + 3)",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "6x + 18 = 2x + 6",
+            "Subtrahera 2x från båda leden.",
+            "4x + 18 = 6",
+            "Subtrahera 18 från båda leden.",
+            "4x = -12",
+            "Dividera båda leden med 4.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "8(x + 1) - 2(x - 6) = 2",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna (tänk på minustecknet framför den andra).",
+            "8x + 8 - 2x + 12 = 2",
+            "Förenkla vänsterledet.",
+            "6x + 20 = 2",
+            "Subtrahera 20 från båda leden.",
+            "6x = -18",
+            "Dividera båda leden med 6.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "(x + 1)/9 = -1",
+        "answer": ["-10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 9.",
+            "x + 1 = -9",
+            "Subtrahera 1 från båda leden.",
+            "x = -10"
+        ]
+    },
+    {
+        "text": "17 - 6x = 7x - 113",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-6x + 17 = 7x - 113",
+            "Subtrahera 7x från båda leden.",
+            "-13x + 17 = -113",
+            "Subtrahera 17 från båda leden.",
+            "-13x = -130",
+            "Dividera båda leden med -13.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "8x + 15 = -17",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 15 från båda leden.",
+            "8x = -32",
+            "Dividera båda leden med 8.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "6x + 20 = 80",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 20 från båda leden.",
+            "6x = 60",
+            "Dividera båda leden med 6.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "(x - 8)/5 = -4",
+        "answer": ["-12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 5.",
+            "x - 8 = -20",
+            "Addera 8 till båda leden.",
+            "x = -12"
+        ]
+    },
+    {
+        "text": "x/8 - 9 = -15",
+        "answer": ["-48"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 9 till båda leden.",
+            "x/8 = -6",
+            "Multiplicera båda leden med 8.",
+            "x = -48"
+        ]
+    },
+    {
+        "text": "(x + 24)/6 = (x + 19)/5",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 30.",
+            "5(x + 24) = 6(x + 19)",
+            "Multiplicera in i parenteserna.",
+            "5x + 120 = 6x + 114",
+            "Subtrahera 6x från båda leden.",
+            "-x + 120 = 114",
+            "Subtrahera 120 från båda leden.",
+            "-x = -6",
+            "Multiplicera båda leden med -1.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "3x/7 = 3",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 7.",
+            "3x = 21",
+            "Dividera båda leden med 3.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "x/6 - 7 = -9",
+        "answer": ["-12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 7 till båda leden.",
+            "x/6 = -2",
+            "Multiplicera båda leden med 6.",
+            "x = -12"
+        ]
+    },
+    {
+        "text": "7(x - 3) - 9 = 3x - 18",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 7 i parentesen.",
+            "7x - 21 - 9 = 3x - 18",
+            "Förenkla vänsterledet.",
+            "7x - 30 = 3x - 18",
+            "Subtrahera 3x från båda leden.",
+            "4x - 30 = -18",
+            "Addera 30 till båda leden.",
+            "4x = 12",
+            "Dividera båda leden med 4.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "(x - 7)/9 = -3",
+        "answer": ["-20"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 9.",
+            "x - 7 = -27",
+            "Addera 7 till båda leden.",
+            "x = -20"
+        ]
+    },
+    {
+        "text": "5x + 3 = 13",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 3 från båda leden.",
+            "5x = 10",
+            "Dividera båda leden med 5.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "3x - 10 = x - 16",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera x från båda leden.",
+            "2x - 10 = -16",
+            "Addera 10 till båda leden.",
+            "2x = -6",
+            "Dividera båda leden med 2.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "x/5 + x/10 = -6",
+        "answer": ["-20"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 10 (minsta gemensamma nämnare).",
+            "2x + x = -60",
+            "Förenkla vänsterledet.",
+            "3x = -60",
+            "Dividera båda leden med 3.",
+            "x = -20"
+        ]
+    },
+    {
+        "text": "5(x + 6) = x + 46",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x + 30 = x + 46",
+            "Subtrahera x från båda leden.",
+            "4x + 30 = 46",
+            "Subtrahera 30 från båda leden.",
+            "4x = 16",
+            "Dividera båda leden med 4.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "(x + 1)/6 = -1",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 6.",
+            "x + 1 = -6",
+            "Subtrahera 1 från båda leden.",
+            "x = -7"
+        ]
+    },
+    {
+        "text": "6x/5 = -18",
+        "answer": ["-15"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 5.",
+            "6x = -90",
+            "Dividera båda leden med 6.",
+            "x = -15"
+        ]
+    },
+    {
+        "text": "7x + 8 = 64",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 8 från båda leden.",
+            "7x = 56",
+            "Dividera båda leden med 7.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "18 - 7x = 2x + 45",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-7x + 18 = 2x + 45",
+            "Subtrahera 2x från båda leden.",
+            "-9x + 18 = 45",
+            "Subtrahera 18 från båda leden.",
+            "-9x = 27",
+            "Dividera båda leden med -9.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "x/5 - 8 = -14",
+        "answer": ["-30"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 8 till båda leden.",
+            "x/5 = -6",
+            "Multiplicera båda leden med 5.",
+            "x = -30"
+        ]
+    },
+    {
+        "text": "2x - 1 = -5",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 1 till båda leden.",
+            "2x = -4",
+            "Dividera båda leden med 2.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "(x + 3)/4 = 3",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 4.",
+            "x + 3 = 12",
+            "Subtrahera 3 från båda leden.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "6x + 16 = 46",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 16 från båda leden.",
+            "6x = 30",
+            "Dividera båda leden med 6.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "9(x + 1) = -9",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 9.",
+            "x + 1 = -1",
+            "Subtrahera 1 från båda leden.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "6x + 13 = 7",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 13 från båda leden.",
+            "6x = -6",
+            "Dividera båda leden med 6.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "2(x + 5) = 12",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 2.",
+            "x + 5 = 6",
+            "Subtrahera 5 från båda leden.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "(x + 2)/2 = (x + 6)/4",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera båda leden med 8.",
+            "4(x + 2) = 2(x + 6)",
+            "Multiplicera in i parenteserna.",
+            "4x + 8 = 2x + 12",
+            "Subtrahera 2x från båda leden.",
+            "2x + 8 = 12",
+            "Subtrahera 8 från båda leden.",
+            "2x = 4",
+            "Dividera båda leden med 2.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "14 - 4x = 8x + 74",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-4x + 14 = 8x + 74",
+            "Subtrahera 8x från båda leden.",
+            "-12x + 14 = 74",
+            "Subtrahera 14 från båda leden.",
+            "-12x = 60",
+            "Dividera båda leden med -12.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "5(x + 4) = 45",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 5.",
+            "x + 4 = 9",
+            "Subtrahera 4 från båda leden.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "6(x - 4) = 12",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 6.",
+            "x - 4 = 2",
+            "Addera 4 till båda leden.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "7x/7 = 49",
+        "answer": ["49"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 7.",
+            "7x = 343",
+            "Dividera båda leden med 7.",
+            "x = 49"
+        ]
+    },
+    {
+        "text": "2x - 13 = -17",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 13 till båda leden.",
+            "2x = -4",
+            "Dividera båda leden med 2.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "6(x + 1) = 5(x + 1)",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "6x + 6 = 5x + 5",
+            "Subtrahera 5x från båda leden.",
+            "x + 6 = 5",
+            "Subtrahera 6 från båda leden.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "8(x - 5) = 5(x - 5)",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "8x - 40 = 5x - 25",
+            "Subtrahera 5x från båda leden.",
+            "3x - 40 = -25",
+            "Addera 40 till båda leden.",
+            "3x = 15",
+            "Dividera båda leden med 3.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "9(x + 1) = 45",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 9.",
+            "x + 1 = 5",
+            "Subtrahera 1 från båda leden.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "8 - 2x = 8x - 52",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Sortera termerna i vänsterledet.",
+            "-2x + 8 = 8x - 52",
+            "Subtrahera 8x från båda leden.",
+            "-10x + 8 = -52",
+            "Subtrahera 8 från båda leden.",
+            "-10x = -60",
+            "Dividera båda leden med -10.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "3(x - 4) = 2(x - 8)",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in i båda parenteserna.",
+            "3x - 12 = 2x - 16",
+            "Subtrahera 2x från båda leden.",
+            "x - 12 = -16",
+            "Addera 12 till båda leden.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "6(x + 2) = 2x + 48",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x + 12 = 2x + 48",
+            "Subtrahera 2x från båda leden.",
+            "4x + 12 = 48",
+            "Subtrahera 12 från båda leden.",
+            "4x = 36",
+            "Dividera båda leden med 4.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "9x + 10 = 73",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 10 från båda leden.",
+            "9x = 63",
+            "Dividera båda leden med 9.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "x/3 + 6 = 11",
+        "answer": ["15"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 6 från båda leden.",
+            "x/3 = 5",
+            "Multiplicera båda leden med 3.",
+            "x = 15"
+        ]
+    },
+    {
+        "text": "7x - 10 = 2x + 25",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "5x - 10 = 25",
+            "Addera 10 till båda leden.",
+            "5x = 35",
+            "Dividera båda leden med 5.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "3x - 15 = 9",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 15 till båda leden.",
+            "3x = 24",
+            "Dividera båda leden med 3.",
+            "x = 8"
         ]
     }
 ]
