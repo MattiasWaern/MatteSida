@@ -1,28 +1,59 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/header.css";
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [practiceOpen, setPracticeOpen] = useState(false);
+
+  const categories = [
+    { name: "Linjära ekvationer", slug: "linjara-ekvationer" },
+    { name: "Andragradsekvationer", slug: "andragradsekvationer" },
+    { name: "Ekvationssystem", slug: "ekvationssystem" },
+    { name: "Linjära funktioner", slug: "linjara-funktioner" },
+    { name: "Parallella linjer", slug: "parallella-linjer" },
+    { name: "Geometri Area", slug: "geometriarea" },
+    { name: "Geometri Cirkel", slug: "geometricirkel" },
+    { name: "Geometri Pythagoras", slug: "geometripythagoras" },
+    { name: "Geometri Volym", slug: "geometrivolym" },
+    { name: "Statistik", slug: "statistik" },
+  ];
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+    setPracticeOpen(false);
+  };
+
   return (
     <header className="header">
       <div className="header-content">
-        <Link to="/" className="logo">
+        {/* LOGO */}
+        <Link to="/" className="logo" onClick={closeMenu}>
           <span className="logo-icon" aria-hidden="true">
             β
           </span>
+
           <span className="logo-text">
             Matte<span>Experten</span>
           </span>
         </Link>
 
+        {/* DESKTOP NAV */}
         <nav className="nav">
           <Link to="/" className="nav-link">
             Hem
-          </Link>         
+          </Link>
 
           <div className="category-menu">
             <span className="nav-link category-trigger">
               Öva
-              <svg className="chevron" viewBox="0 0 12 8" width="10" height="7">
+
+              <svg
+                className="chevron"
+                viewBox="0 0 12 8"
+                width="10"
+                height="7"
+              >
                 <path
                   d="M1 1L6 6L11 1"
                   stroke="currentColor"
@@ -35,285 +66,34 @@ function Header() {
             </span>
 
             <div className="category-dropdown">
-              {/* Linjära ekvationer */}
-              <div className="category-item">
-                <span>Linjära ekvationer</span>
+              {categories.map((category) => (
+                <div className="category-item" key={category.slug}>
+                  <span>{category.name}</span>
 
-                <div className="difficulty-dropdown">
-                  <Link
-                    to="/quiz/linjara-ekvationer/easy"
-                    className="diff-link diff-easy"
-                  >
-                    Lätt
-                  </Link>
+                  <div className="difficulty-dropdown">
+                    <Link
+                      to={`/quiz/${category.slug}/easy`}
+                      className="diff-link diff-easy"
+                    >
+                      Lätt
+                    </Link>
 
-                  <Link
-                    to="/quiz/linjara-ekvationer/medium"
-                    className="diff-link diff-medium"
-                  >
-                    Medel
-                  </Link>
+                    <Link
+                      to={`/quiz/${category.slug}/medium`}
+                      className="diff-link diff-medium"
+                    >
+                      Medel
+                    </Link>
 
-                  <Link
-                    to="/quiz/linjara-ekvationer/hard"
-                    className="diff-link diff-hard"
-                  >
-                    Svår
-                  </Link>
+                    <Link
+                      to={`/quiz/${category.slug}/hard`}
+                      className="diff-link diff-hard"
+                    >
+                      Svår
+                    </Link>
+                  </div>
                 </div>
-              </div>
-              {/* Andragradsekvationer */}
-              <div className="category-item">
-                <span>Andragradsekvationer</span>
-
-                <div className="difficulty-dropdown">
-                  <Link
-                    to="/quiz/andragradsekvationer/easy"
-                    className="diff-link diff-easy"
-                  >
-                    Lätt
-                  </Link>
-
-                  <Link
-                    to="/quiz/andragradsekvationer/medium"
-                    className="diff-link diff-medium"
-                  >
-                    Medel
-                  </Link>
-
-                  <Link
-                    to="/quiz/andragradsekvationer/hard"
-                    className="diff-link diff-hard"
-                  >
-                    Svår
-                  </Link>
-                </div>
-              </div>
-              {/* Ekvationssystem */}
-              <div className="category-item">
-                <span>Ekvationssystem</span>
-
-                <div className="difficulty-dropdown">
-                  <Link
-                    to="/quiz/ekvationssystem/easy"
-                    className="diff-link diff-easy"
-                  >
-                    Lätt
-                  </Link>
-
-                  <Link
-                    to="/quiz/ekvationssystem/medium"
-                    className="diff-link diff-medium"
-                  >
-                    Medel
-                  </Link>
-
-                  <Link
-                    to="/quiz/ekvationssystem/hard"
-                    className="diff-link diff-hard"
-                  >
-                    Svår
-                  </Link>
-                </div>
-              </div>
-              {/* Linjära funktioner */}
-              <div className="category-item">
-                <span>Linjära funktioner</span>
-
-                <div className="difficulty-dropdown">
-                  <Link
-                    to="/quiz/linjara-funktioner/easy"
-                    className="diff-link diff-easy"
-                  >
-                    Lätt
-                  </Link>
-
-                  <Link
-                    to="/quiz/linjara-funktioner/medium"
-                    className="diff-link diff-medium"
-                  >
-                    Medel
-                  </Link>
-
-                  <Link
-                    to="/quiz/linjara-funktioner/hard"
-                    className="diff-link diff-hard"
-                  >
-                    Svår
-                  </Link>
-                </div>
-              </div>
-              {/* Parallella linjer */}
-              <div className="category-item">
-                <span>Parallella linjer</span>
-
-                <div className="difficulty-dropdown">
-                  <Link
-                    to="/quiz/parallella-linjer/easy"
-                    className="diff-link diff-easy"
-                  >
-                    Lätt
-                  </Link>
-
-                  <Link
-                    to="/quiz/parallella-linjer/medium"
-                    className="diff-link diff-medium"
-                  >
-                    Medel
-                  </Link>
-
-                  <Link
-                    to="/quiz/parallella-linjer/hard"
-                    className="diff-link diff-hard"
-                  >
-                    Svår
-                  </Link>
-                </div>
-              </div>
-              {/* Geometri Area */}
-              <div className="category-item">
-                <span>Geometri Area</span>
-
-                <div className="difficulty-dropdown">
-                  <Link
-                    to="/quiz/geometriarea/easy"
-                    className="diff-link diff-easy"
-                  >
-                    Lätt
-                  </Link>
-
-                  <Link
-                    to="/quiz/geometriarea/medium"
-                    className="diff-link diff-medium"
-                  >
-                    Medel
-                  </Link>
-
-                  <Link
-                    to="/quiz/geometriarea/hard"
-                    className="diff-link diff-hard"
-                  >
-                    Svår
-                  </Link>
-                </div>
-              </div>
-
-             {/* Geometri Cirkel */}
-
-              <div className="category-item">
-                <span>Geometri Cirkel</span>
-
-                <div className="difficulty-dropdown">
-                  <Link
-                    to="/quiz/geometricirkel/easy"
-                    className="diff-link diff-easy"
-                  >
-                    Lätt
-                  </Link>
-
-                  <Link
-                    to="/quiz/geometricirkel/medium"
-                    className="diff-link diff-medium"
-                  >
-                    Medel
-                  </Link>
-
-                  <Link
-                    to="/quiz/geometricirkel/hard"
-                    className="diff-link diff-hard"
-                  >
-                    Svår
-                  </Link>
-                </div>
-              </div>
-              
-                {/* Geometri Pythagoras */}
-
-              <div className="category-item">
-                <span>Geometri Pythagoras</span>
-
-                <div className="difficulty-dropdown">
-                  <Link
-                    to="/quiz/geometripythagoras/easy"
-                    className="diff-link diff-easy"
-                  >
-                    Lätt
-                  </Link>
-
-                  <Link
-                    to="/quiz/geometripythagoras/medium"
-                    className="diff-link diff-medium"
-                  >
-                    Medel
-                  </Link>
-
-                  <Link
-                    to="/quiz/geometripythagoras/hard"
-                    className="diff-link diff-hard"
-                  >
-                    Svår
-                  </Link>
-                </div>
-              </div>
-              
-              {/* Geometri Volym */}
-
-              <div className="category-item">
-                <span>Geometri Volym</span>
-
-                <div className="difficulty-dropdown">
-                  <Link
-                    to="/quiz/geometrivolym/easy"
-                    className="diff-link diff-easy"
-                  >
-                    Lätt
-                  </Link>
-
-                  <Link
-                    to="/quiz/geometrivolym/medium"
-                    className="diff-link diff-medium"
-                  >
-                    Medel
-                  </Link>
-
-                  <Link
-                    to="/quiz/geometrivolym/hard"
-                    className="diff-link diff-hard"
-                  >
-                    Svår
-                  </Link>
-                </div>
-              </div>
-
-              {/* Statistik */}
-
-              <div className="category-item">
-                <span>Statistik</span>
-
-                <div className="difficulty-dropdown">
-                  <Link
-                    to="/quiz/statistik/easy"
-                    className="diff-link diff-easy"
-                  >
-                    Lätt
-                  </Link>
-
-                  <Link
-                    to="/quiz/statistik/medium"
-                    className="diff-link diff-medium"
-                  >
-                    Medel
-                  </Link>
-
-                  <Link
-                    to="/quiz/statistik/hard"
-                    className="diff-link diff-hard"
-                  >
-                    Svår
-                  </Link>
-                </div>
-              </div>
-
+              ))}
             </div>
           </div>
 
@@ -322,12 +102,109 @@ function Header() {
           </Link>
         </nav>
 
+        {/* DESKTOP PROFILE */}
         <button className="profile-button">
           <span className="profile-icon" aria-hidden="true">
             👤
           </span>
           <span>Mitt konto</span>
         </button>
+
+        {/* MOBILE HAMBURGER */}
+        <button
+          className={`hamburger ${menuOpen ? "open" : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={menuOpen ? "Stäng meny" : "Öppna meny"}
+          aria-expanded={menuOpen}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      {/* MOBILE MENU */}
+      <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
+        <nav className="mobile-nav">
+          <Link to="/" className="mobile-nav-link" onClick={closeMenu}>
+            Hem
+          </Link>
+
+          <button
+            className="mobile-nav-link mobile-practice-button"
+            onClick={() => setPracticeOpen(!practiceOpen)}
+          >
+            <span>Öva</span>
+
+            <svg
+              className={`mobile-chevron ${practiceOpen ? "rotated" : ""}`}
+              viewBox="0 0 12 8"
+              width="10"
+              height="7"
+            >
+              <path
+                d="M1 1L6 6L11 1"
+                stroke="currentColor"
+                strokeWidth="1.6"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </button>
+
+          {/* MOBILE CATEGORIES */}
+          <div className={`mobile-categories ${practiceOpen ? "open" : ""}`}>
+            {categories.map((category) => (
+              <div className="mobile-category" key={category.slug}>
+                <span className="mobile-category-title">
+                  {category.name}
+                </span>
+
+                <div className="mobile-difficulties">
+                  <Link
+                    to={`/quiz/${category.slug}/easy`}
+                    className="diff-link diff-easy"
+                    onClick={closeMenu}
+                  >
+                    Lätt
+                  </Link>
+
+                  <Link
+                    to={`/quiz/${category.slug}/medium`}
+                    className="diff-link diff-medium"
+                    onClick={closeMenu}
+                  >
+                    Medel
+                  </Link>
+
+                  <Link
+                    to={`/quiz/${category.slug}/hard`}
+                    className="diff-link diff-hard"
+                    onClick={closeMenu}
+                  >
+                    Svår
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <Link
+            to="/Prov"
+            className="mobile-nav-link"
+            onClick={closeMenu}
+          >
+            Prov
+          </Link>
+
+          <button className="mobile-profile-button">
+            <span className="profile-icon" aria-hidden="true">
+              👤
+            </span>
+            Mitt konto
+          </button>
+        </nav>
       </div>
     </header>
   );

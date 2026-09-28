@@ -319,3 +319,317 @@
         display: none;
     }
 }
+
+/* HAMBURGER */
+
+.hamburger {
+    display: none;
+    width: 42px;
+    height: 42px;
+    padding: 9px;
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    background: white;
+    cursor: pointer;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.hamburger:hover {
+    background: var(--blue-tint);
+    border-color: var(--blue);
+}
+
+.hamburger span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--text);
+    border-radius: 999px;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+/* Hamburger -> X */
+
+.hamburger.open span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+
+/* =========================
+   MOBILE MENU
+========================= */
+
+.mobile-menu {
+    display: none;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .header-content {
+        height: 64px;
+        padding: 0 16px;
+    }
+
+    /* Hide desktop navigation */
+
+    .nav,
+    .profile-button {
+        display: none;
+    }
+
+    /* Show hamburger */
+
+    .hamburger {
+        display: flex;
+    }
+
+    /* Mobile menu */
+
+    .mobile-menu {
+        display: block;
+
+        max-height: 0;
+        overflow: hidden;
+
+        background: var(--paper);
+        border-top: 0 solid var(--border);
+
+        transition:
+            max-height 0.3s ease,
+            border-color 0.3s ease;
+    }
+
+    .mobile-menu.open {
+        max-height: calc(100vh - 64px);
+        overflow-y: auto;
+        border-top: 1px solid var(--border);
+    }
+
+    .mobile-nav {
+        display: flex;
+        flex-direction: column;
+
+        padding: 12px 16px 20px;
+        gap: 4px;
+    }
+
+
+    /* =========================
+       MOBILE NAV LINKS
+    ========================= */
+
+    .mobile-nav-link {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 13px 14px;
+
+        border: 0;
+        border-radius: 12px;
+
+        background: transparent;
+        color: var(--text);
+
+        font-family: inherit;
+        font-size: 0.95rem;
+        font-weight: 600;
+
+        text-decoration: none;
+        text-align: left;
+
+        cursor: pointer;
+    }
+
+    .mobile-nav-link:hover {
+        background: var(--blue-tint);
+        color: var(--blue-dark);
+    }
+
+
+    /* =========================
+       ÖVA BUTTON
+    ========================= */
+
+    .mobile-practice-button {
+        justify-content: space-between;
+    }
+
+    .mobile-chevron {
+        transition: transform 0.2s ease;
+    }
+
+    .mobile-chevron.rotated {
+        transform: rotate(180deg);
+    }
+
+
+    /* =========================
+       CATEGORIES
+    ========================= */
+
+    .mobile-categories {
+        display: grid;
+
+        grid-template-rows: 0fr;
+
+        overflow: hidden;
+
+        padding-left: 8px;
+
+        transition:
+            grid-template-rows 0.3s ease,
+            padding 0.3s ease;
+    }
+
+    .mobile-categories.open {
+        grid-template-rows: 1fr;
+        padding-bottom: 6px;
+    }
+
+    .mobile-categories > * {
+        min-height: 0;
+    }
+
+    .mobile-category {
+        overflow: hidden;
+
+        padding: 10px 8px 10px 14px;
+
+        border-left: 2px solid var(--blue-tint);
+    }
+
+    .mobile-category-title {
+        display: block;
+
+        margin-bottom: 8px;
+
+        color: var(--text);
+        font-size: 0.87rem;
+        font-weight: 600;
+    }
+
+
+    /* =========================
+       DIFFICULTIES
+    ========================= */
+
+    .mobile-difficulties {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+
+    .mobile-difficulties .diff-link {
+        padding: 8px 4px;
+        font-size: 0.78rem;
+    }
+
+
+    /* =========================
+       PROFILE
+    ========================= */
+
+    .mobile-profile-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+
+        width: 100%;
+        margin-top: 8px;
+        padding: 12px;
+
+        border: 1.5px solid var(--border);
+        border-radius: 12px;
+
+        background: white;
+        color: var(--text);
+
+        font-family: inherit;
+        font-size: 0.9rem;
+        font-weight: 600;
+
+        cursor: pointer;
+    }
+
+    .mobile-profile-button:hover {
+        border-color: var(--blue);
+        background: var(--blue-tint);
+    }
+
+
+    /* Smaller logo on very small screens */
+
+    .logo-text {
+        font-size: 1.15rem;
+    }
+
+    .logo-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+/* =========================
+   VERY SMALL SCREENS
+========================= */
+
+@media (max-width: 400px) {
+
+    .header-content {
+        padding: 0 12px;
+    }
+
+    .mobile-nav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mobile-category {
+        padding-left: 10px;
+    }
+}
+
+
+/* =========================
+   REDUCED MOTION
+========================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .hamburger span,
+    .hamburger,
+    .mobile-menu,
+    .mobile-categories,
+    .mobile-chevron {
+        transition: none;
+    }
+}
+
