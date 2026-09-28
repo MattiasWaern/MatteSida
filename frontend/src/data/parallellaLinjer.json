@@ -1,0 +1,2693 @@
+[
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n-3x + y = 3\n3x - y = -3",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: -3x + y = 3",
+            "Lös ut y: y = 3x + 3",
+            "Ekvation 2: 3x - y = -3",
+            "Dividera med -1.",
+            "Lös ut y: y = 3x + 3",
+            "Linje 1 har k = 3 och linje 2 har k = 3.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = -4x + 5\ny = -4x + 7",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = -4 och linje 2 har k = -4.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n5x - y = 1\n-5x + y = -1",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: 5x - y = 1",
+            "Dividera med -1.",
+            "Lös ut y: y = 5x - 1",
+            "Ekvation 2: -5x + y = -1",
+            "Lös ut y: y = 5x - 1",
+            "Linje 1 har k = 5 och linje 2 har k = 5.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = 3x + 2 och går genom punkten (2, 7).",
+        "answer": ["y = 3x + 1", "y = 1 + 3x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 3.",
+            "Sätt in punkten (2, 7) i y = kx + m.",
+            "7 = 3 · 2 + m",
+            "m = 7 - 6",
+            "m = 1",
+            "Ekvationen är y = 3x + 1"
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = 3x/2 + 2.",
+        "answer": ["-2/3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = 3/2",
+            "3/2 · k = -1",
+            "k = -1/(3/2)",
+            "k = -2/3"
+        ]
+    },
+    {
+        "text": "Linje A och linje B är parallella. Bestäm lutningen k för linje B.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -3, "label": "A"}, {"k": -2, "m": -1, "label": "B"}], "points": []},
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Läs av lutningen för linje A i figuren.",
+            "Läs av två punkter på linjen: (-1, -1) och (1, -5).",
+            "k = (-5 - (-1))/(1 - (-1))",
+            "k = -4/2",
+            "k = -2",
+            "Linje B har också k = -2."
+        ]
+    },
+    {
+        "text": "Linje A och linje B är parallella. Bestäm lutningen k för linje B.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -3, "m": -1, "label": "A"}, {"k": -3, "m": 4, "label": "B"}], "points": []},
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Läs av lutningen för linje A i figuren.",
+            "Läs av två punkter på linjen: (-2, 5) och (0, -1).",
+            "k = (-1 - 5)/(0 - (-2))",
+            "k = -6/2",
+            "k = -3",
+            "Linje B har också k = -3."
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = 3x - 4?\nA: y = -3x - 7\nB: y = 3x - 7\nC: y = -x - 4\nSvara med A, B eller C.",
+        "answer": ["b"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = 3x - 4 har k = 3.",
+            "Alternativ B har också k = 3.",
+            "Svar: B"
+        ]
+    },
+    {
+        "text": "Linje A och linje B är parallella. Bestäm lutningen k för linje B.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 4, "label": "A"}, {"k": -1, "m": -2, "label": "B"}], "points": []},
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Läs av lutningen för linje A i figuren.",
+            "Läs av två punkter på linjen: (0, 4) och (4, 0).",
+            "k = (0 - 4)/(4 - 0)",
+            "k = -4/4",
+            "k = -1",
+            "Linje B har också k = -1."
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = 3x - 7 och går genom punkten (5, -7).",
+        "answer": ["y = 3x - 22", "y = -22 + 3x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 3.",
+            "Sätt in punkten (5, -7) i y = kx + m.",
+            "-7 = 3 · 5 + m",
+            "m = -7 - 15",
+            "m = -22",
+            "Ekvationen är y = 3x - 22"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n2x + y = 5\n-3x - y = 3",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: 2x + y = 5",
+            "Lös ut y: y = -2x + 5",
+            "Ekvation 2: -3x - y = 3",
+            "Dividera med -1.",
+            "Lös ut y: y = -3x - 3",
+            "Linje 1 har k = -2 och linje 2 har k = -3.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -1, "label": "A"}, {"k": 1, "m": 5, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = 1 och linje B har k = 1.",
+            "Linjerna har samma lutning och är därför parallella."
+        ]
+    },
+    {
+        "text": "Linje A och linje B är parallella. Bestäm lutningen k för linje B.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 3, "label": "A"}, {"k": 2, "m": -3, "label": "B"}], "points": []},
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Läs av lutningen för linje A i figuren.",
+            "Läs av två punkter på linjen: (-2, -1) och (1, 5).",
+            "k = (5 - (-1))/(1 - (-2))",
+            "k = 6/3",
+            "k = 2",
+            "Linje B har också k = 2."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\nx - y = 3\nx - y = 4",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: x - y = 3",
+            "Dividera med -1.",
+            "Lös ut y: y = x - 3",
+            "Ekvation 2: x - y = 4",
+            "Dividera med -1.",
+            "Lös ut y: y = x - 4",
+            "Linje 1 har k = 1 och linje 2 har k = 1.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = -2x - 6 och går genom punkten (-4, -7). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["-15"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -2.",
+            "Sätt in punkten (-4, -7) i y = kx + m.",
+            "-7 = -2 · (-4) + m",
+            "-7 = 8 + m",
+            "m = -7 - 8",
+            "m = -15"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = -4x + 3 och går genom punkten (4, -8).",
+        "answer": ["y = -4x + 8", "y = 8 - 4x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -4.",
+            "Sätt in punkten (4, -8) i y = kx + m.",
+            "-8 = -4 · 4 + m",
+            "m = -8 - (-16)",
+            "m = 8",
+            "Ekvationen är y = -4x + 8"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 4x - 3\ny = 4x - 8",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 4 och linje 2 har k = 4.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = 2x + 6 och går genom punkten (3, 1).",
+        "answer": ["y = 2x - 5", "y = -5 + 2x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 2.",
+            "Sätt in punkten (3, 1) i y = kx + m.",
+            "1 = 2 · 3 + m",
+            "m = 1 - 6",
+            "m = -5",
+            "Ekvationen är y = 2x - 5"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n5x - y = -4\n3x - y = 1",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: 5x - y = -4",
+            "Dividera med -1.",
+            "Lös ut y: y = 5x + 4",
+            "Ekvation 2: 3x - y = 1",
+            "Dividera med -1.",
+            "Lös ut y: y = 3x - 1",
+            "Linje 1 har k = 5 och linje 2 har k = 3.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -2, "label": "A"}, {"k": 3, "m": 1, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = 1 och linje B har k = 3.",
+            "Linjerna har olika lutning och är därför inte parallella."
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = 3x/4 + 4.",
+        "answer": ["-4/3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = 3/4",
+            "3/4 · k = -1",
+            "k = -1/(3/4)",
+            "k = -4/3"
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = -5x + 4?\nA: y = 5x + 1\nB: y = -5x + 1\nC: y = 3x + 4\nSvara med A, B eller C.",
+        "answer": ["b"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = -5x + 4 har k = -5.",
+            "Alternativ B har också k = -5.",
+            "Svar: B"
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = 3x + 6?\nA: y = x + 6\nB: y = -3x - 3\nC: y = 3x - 3\nSvara med A, B eller C.",
+        "answer": ["c"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = 3x + 6 har k = 3.",
+            "Alternativ C har också k = 3.",
+            "Svar: C"
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = -6x - 4 och går genom punkten (5, -2). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["28"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -6.",
+            "Sätt in punkten (5, -2) i y = kx + m.",
+            "-2 = -6 · 5 + m",
+            "-2 = -30 + m",
+            "m = -2 - (-30)",
+            "m = 28"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n3x - y = 2\n-3x + y = -3",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: 3x - y = 2",
+            "Dividera med -1.",
+            "Lös ut y: y = 3x - 2",
+            "Ekvation 2: -3x + y = -3",
+            "Lös ut y: y = 3x - 3",
+            "Linje 1 har k = 3 och linje 2 har k = 3.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": -4, "label": "A"}, {"k": -2, "m": -1, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Bestäm k så att linjerna y = -4x + 1 och kx + 2y = 9 är parallella.",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Lös ut y i den andra ekvationen.",
+            "2y = -kx + 9",
+            "y = -kx/2 + 9/2",
+            "Den andra linjen har lutningen -k/2.",
+            "Parallella linjer har samma lutning: -k/2 = -4",
+            "Multiplicera båda leden med 2.",
+            "-k = -8",
+            "k = 8"
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = -5x - 6 och går genom punkten (3, 6). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["21"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -5.",
+            "Sätt in punkten (3, 6) i y = kx + m.",
+            "6 = -5 · 3 + m",
+            "6 = -15 + m",
+            "m = 6 - (-15)",
+            "m = 21"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n4x + 2y = -12\n-6x - 3y = 18",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: 4x + 2y = -12",
+            "Dividera med 2.",
+            "Lös ut y: y = -2x - 6",
+            "Ekvation 2: -6x - 3y = 18",
+            "Dividera med -3.",
+            "Lös ut y: y = -2x - 6",
+            "Linje 1 har k = -2 och linje 2 har k = -2.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = -2x - 3 och går genom punkten (3, 4). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -2.",
+            "Sätt in punkten (3, 4) i y = kx + m.",
+            "4 = -2 · 3 + m",
+            "4 = -6 + m",
+            "m = 4 - (-6)",
+            "m = 10"
+        ]
+    },
+    {
+        "text": "Bestäm k så att linjerna y = 2x + 6 och kx + 2y = 2 är parallella.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Lös ut y i den andra ekvationen.",
+            "2y = -kx + 2",
+            "y = -kx/2 + 2/2",
+            "Den andra linjen har lutningen -k/2.",
+            "Parallella linjer har samma lutning: -k/2 = 2",
+            "Multiplicera båda leden med 2.",
+            "-k = 4",
+            "k = -4"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n-5x - y = 1\n5x + y = 4",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: -5x - y = 1",
+            "Dividera med -1.",
+            "Lös ut y: y = -5x - 1",
+            "Ekvation 2: 5x + y = 4",
+            "Lös ut y: y = -5x + 4",
+            "Linje 1 har k = -5 och linje 2 har k = -5.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Bestäm k så att linjerna y = 2x - 4 och kx + 2y = 4 är parallella.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Lös ut y i den andra ekvationen.",
+            "2y = -kx + 4",
+            "y = -kx/2 + 4/2",
+            "Den andra linjen har lutningen -k/2.",
+            "Parallella linjer har samma lutning: -k/2 = 2",
+            "Multiplicera båda leden med 2.",
+            "-k = 4",
+            "k = -4"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 3x + 1\ny = 3x + 1",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 3 och linje 2 har k = 3.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = -6x - 4 och går genom punkten (4, 0). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["24"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -6.",
+            "Sätt in punkten (4, 0) i y = kx + m.",
+            "0 = -6 · 4 + m",
+            "0 = -24 + m",
+            "m = 0 - (-24)",
+            "m = 24"
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -3, "label": "A"}, {"k": -2, "m": 3, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = -2 och linje B har k = -2.",
+            "Linjerna har samma lutning och är därför parallella."
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": 4, "label": "A"}, {"k": 2, "m": -1, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = 6x - 7?\nA: y = -6x - 2\nB: y = 6x - 2\nC: y = 2x - 7\nSvara med A, B eller C.",
+        "answer": ["b"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = 6x - 7 har k = 6.",
+            "Alternativ B har också k = 6.",
+            "Svar: B"
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = 3x + 1 och går genom punkten (3, 2). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 3.",
+            "Sätt in punkten (3, 2) i y = kx + m.",
+            "2 = 3 · 3 + m",
+            "2 = 9 + m",
+            "m = 2 - 9",
+            "m = -7"
+        ]
+    },
+    {
+        "text": "Bestäm k så att linjerna y = -x + 1 och kx + 4y = 6 är parallella.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Lös ut y i den andra ekvationen.",
+            "4y = -kx + 6",
+            "y = -kx/4 + 6/4",
+            "Den andra linjen har lutningen -k/4.",
+            "Parallella linjer har samma lutning: -k/4 = -1",
+            "Multiplicera båda leden med 4.",
+            "-k = -4",
+            "k = 4"
+        ]
+    },
+    {
+        "text": "Bestäm k så att linjerna y = 5x + 6 och kx + 2y = 2 är parallella.",
+        "answer": ["-10"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Lös ut y i den andra ekvationen.",
+            "2y = -kx + 2",
+            "y = -kx/2 + 2/2",
+            "Den andra linjen har lutningen -k/2.",
+            "Parallella linjer har samma lutning: -k/2 = 5",
+            "Multiplicera båda leden med 2.",
+            "-k = 10",
+            "k = -10"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n-10x + 2y = -4\n5x - y = 2",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: -10x + 2y = -4",
+            "Dividera med 2.",
+            "Lös ut y: y = 5x - 2",
+            "Ekvation 2: 5x - y = 2",
+            "Dividera med -1.",
+            "Lös ut y: y = 5x - 2",
+            "Linje 1 har k = 5 och linje 2 har k = 5.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Linjen y = -x - 1 är parallell med linjen y = kx - 5. Vilket värde har k?",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -x - 1 har k = -1.",
+            "Alltså är k = -1."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = 4x - 1 och går genom punkten (4, -6). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["-22"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 4.",
+            "Sätt in punkten (4, -6) i y = kx + m.",
+            "-6 = 4 · 4 + m",
+            "-6 = 16 + m",
+            "m = -6 - 16",
+            "m = -22"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n-15x + 3y = -15\n2x - 2y = 2",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: -15x + 3y = -15",
+            "Dividera med 3.",
+            "Lös ut y: y = 5x - 5",
+            "Ekvation 2: 2x - 2y = 2",
+            "Dividera med -2.",
+            "Lös ut y: y = x - 1",
+            "Linje 1 har k = 5 och linje 2 har k = 1.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = -2x + 3\ny = 6x + 7",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = -2 och linje 2 har k = 6.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Linjen y = -7x + 5 är parallell med linjen y = kx + 9. Vilket värde har k?",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -7x + 5 har k = -7.",
+            "Alltså är k = -7."
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = -6x - 1.",
+        "answer": ["1/6"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = -6",
+            "-6 · k = -1",
+            "k = -1/(-6)",
+            "k = 1/6"
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = -2x - 1 och går genom punkten (-1, -1). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -2.",
+            "Sätt in punkten (-1, -1) i y = kx + m.",
+            "-1 = -2 · (-1) + m",
+            "-1 = 2 + m",
+            "m = -1 - 2",
+            "m = -3"
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": 2, "label": "A"}, {"k": -3, "m": 1, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = 3 och linje B har k = -3.",
+            "Linjerna har olika lutning och är därför inte parallella."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n-12x - 3y = 3\n8x + 2y = 8",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: -12x - 3y = 3",
+            "Dividera med -3.",
+            "Lös ut y: y = -4x - 1",
+            "Ekvation 2: 8x + 2y = 8",
+            "Dividera med 2.",
+            "Lös ut y: y = -4x + 4",
+            "Linje 1 har k = -4 och linje 2 har k = -4.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = 3x + 2 och går genom punkten (1, -8). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["-11"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 3.",
+            "Sätt in punkten (1, -8) i y = kx + m.",
+            "-8 = 3 · 1 + m",
+            "-8 = 3 + m",
+            "m = -8 - 3",
+            "m = -11"
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": -1, "label": "A"}, {"k": 2, "m": 3, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = 2 och linje B har k = 2.",
+            "Linjerna har samma lutning och är därför parallella."
+        ]
+    },
+    {
+        "text": "Linjen y = -8x - 4 är parallell med linjen y = kx - 5. Vilket värde har k?",
+        "answer": ["-8"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -8x - 4 har k = -8.",
+            "Alltså är k = -8."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 3x - 4\ny = 3x - 4",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 3 och linje 2 har k = 3.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = -2x - 6 och går genom punkten (2, 2).",
+        "answer": ["y = -2x + 6", "y = 6 - 2x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -2.",
+            "Sätt in punkten (2, 2) i y = kx + m.",
+            "2 = -2 · 2 + m",
+            "m = 2 - (-4)",
+            "m = 6",
+            "Ekvationen är y = -2x + 6"
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = x + 1 och går genom punkten (-4, 4). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 1.",
+            "Sätt in punkten (-4, 4) i y = kx + m.",
+            "4 = 1 · (-4) + m",
+            "4 = -4 + m",
+            "m = 4 - (-4)",
+            "m = 8"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n-15x - 3y = 12\n2x - 2y = 10",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: -15x - 3y = 12",
+            "Dividera med -3.",
+            "Lös ut y: y = -5x - 4",
+            "Ekvation 2: 2x - 2y = 10",
+            "Dividera med -2.",
+            "Lös ut y: y = x - 5",
+            "Linje 1 har k = -5 och linje 2 har k = 1.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = -4x - 5.",
+        "answer": ["1/4", "0.25"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = -4",
+            "-4 · k = -1",
+            "k = -1/(-4)",
+            "k = 1/4"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 4x - 3\ny = 4x - 3",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 4 och linje 2 har k = 4.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": 5, "label": "A"}, {"k": 3, "m": -4, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = 5x + 2 och går genom punkten (2, -4). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["-14"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 5.",
+            "Sätt in punkten (2, -4) i y = kx + m.",
+            "-4 = 5 · 2 + m",
+            "-4 = 10 + m",
+            "m = -4 - 10",
+            "m = -14"
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = -5x - 7.",
+        "answer": ["1/5", "0.2"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = -5",
+            "-5 · k = -1",
+            "k = -1/(-5)",
+            "k = 1/5"
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = 2x - 8 och går genom punkten (4, 4). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 2.",
+            "Sätt in punkten (4, 4) i y = kx + m.",
+            "4 = 2 · 4 + m",
+            "4 = 8 + m",
+            "m = 4 - 8",
+            "m = -4"
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = 2x/3 - 6.",
+        "answer": ["-3/2", "-1.5"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = 2/3",
+            "2/3 · k = -1",
+            "k = -1/(2/3)",
+            "k = -3/2"
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = 2x/3 - 7.",
+        "answer": ["-3/2", "-1.5"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = 2/3",
+            "2/3 · k = -1",
+            "k = -1/(2/3)",
+            "k = -3/2"
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": -2, "label": "A"}, {"k": 1, "m": 2, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = x/3 - 3.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = 1/3",
+            "1/3 · k = -1",
+            "k = -1/(1/3)",
+            "k = -3"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = -6x + 3\ny = -6x + 3",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = -6 och linje 2 har k = -6.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n-6x - 3y = 12\n9x + 3y = -12",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: -6x - 3y = 12",
+            "Dividera med -3.",
+            "Lös ut y: y = -2x - 4",
+            "Ekvation 2: 9x + 3y = -12",
+            "Dividera med 3.",
+            "Lös ut y: y = -3x - 4",
+            "Linje 1 har k = -2 och linje 2 har k = -3.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = -x - 4 och går genom punkten (4, 6).",
+        "answer": ["y = -x + 10", "y = 10 - x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -1.",
+            "Sätt in punkten (4, 6) i y = kx + m.",
+            "6 = -1 · 4 + m",
+            "m = 6 - (-4)",
+            "m = 10",
+            "Ekvationen är y = -x + 10"
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 4, "label": "A"}, {"k": -1, "m": 5, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\nx - y = 2\n-x + y = 5",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: x - y = 2",
+            "Dividera med -1.",
+            "Lös ut y: y = x - 2",
+            "Ekvation 2: -x + y = 5",
+            "Lös ut y: y = x + 5",
+            "Linje 1 har k = 1 och linje 2 har k = 1.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n-5x + y = -3\n5x - y = 4",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: -5x + y = -3",
+            "Lös ut y: y = 5x - 3",
+            "Ekvation 2: 5x - y = 4",
+            "Dividera med -1.",
+            "Lös ut y: y = 5x - 4",
+            "Linje 1 har k = 5 och linje 2 har k = 5.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": -4, "label": "A"}, {"k": -1, "m": 1, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = -1 och linje B har k = -1.",
+            "Linjerna har samma lutning och är därför parallella."
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = x + 3?\nA: y = -x - 2\nB: y = -6x + 3\nC: y = x - 2\nSvara med A, B eller C.",
+        "answer": ["c"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = x + 3 har k = 1.",
+            "Alternativ C har också k = 1.",
+            "Svar: C"
+        ]
+    },
+    {
+        "text": "Linjen y = 5x + 9 är parallell med linjen y = kx - 7. Vilket värde har k?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = 5x + 9 har k = 5.",
+            "Alltså är k = 5."
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = -x + 2 och går genom punkten (-1, 7).",
+        "answer": ["y = -x + 6", "y = 6 - x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -1.",
+            "Sätt in punkten (-1, 7) i y = kx + m.",
+            "7 = -1 · (-1) + m",
+            "m = 7 - 1",
+            "m = 6",
+            "Ekvationen är y = -x + 6"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = 2x - 5 och går genom punkten (-3, 6).",
+        "answer": ["y = 2x + 12", "y = 12 + 2x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 2.",
+            "Sätt in punkten (-3, 6) i y = kx + m.",
+            "6 = 2 · (-3) + m",
+            "m = 6 - (-6)",
+            "m = 12",
+            "Ekvationen är y = 2x + 12"
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = -2x + 7 och går genom punkten (1, 7). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -2.",
+            "Sätt in punkten (1, 7) i y = kx + m.",
+            "7 = -2 · 1 + m",
+            "7 = -2 + m",
+            "m = 7 - (-2)",
+            "m = 9"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = -5x - 8\ny = x - 2",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = -5 och linje 2 har k = 1.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = x - 6?\nA: y = x - 1\nB: y = -x - 1\nC: y = 2x - 6\nSvara med A, B eller C.",
+        "answer": ["a"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = x - 6 har k = 1.",
+            "Alternativ A har också k = 1.",
+            "Svar: A"
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": -1, "label": "A"}, {"k": -2, "m": 5, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = 3 och linje B har k = -2.",
+            "Linjerna har olika lutning och är därför inte parallella."
+        ]
+    },
+    {
+        "text": "Linje A och linje B är parallella. Bestäm lutningen k för linje B.",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": 2, "label": "A"}, {"k": 3, "m": 5, "label": "B"}], "points": []},
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Läs av lutningen för linje A i figuren.",
+            "Läs av två punkter på linjen: (-1, -1) och (1, 5).",
+            "k = (5 - (-1))/(1 - (-1))",
+            "k = 6/2",
+            "k = 3",
+            "Linje B har också k = 3."
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = 6x + 3.",
+        "answer": ["-1/6"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = 6",
+            "6 · k = -1",
+            "k = -1/(6)",
+            "k = -1/6"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 4x - 1\ny = 4x - 3",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 4 och linje 2 har k = 4.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = -2x - 7 och går genom punkten (2, 7). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -2.",
+            "Sätt in punkten (2, 7) i y = kx + m.",
+            "7 = -2 · 2 + m",
+            "7 = -4 + m",
+            "m = 7 - (-4)",
+            "m = 11"
+        ]
+    },
+    {
+        "text": "Linjen y = 4x - 9 är parallell med linjen y = kx + 6. Vilket värde har k?",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = 4x - 9 har k = 4.",
+            "Alltså är k = 4."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\nx + y = -1\n5x + y = 6",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: x + y = -1",
+            "Lös ut y: y = -x - 1",
+            "Ekvation 2: 5x + y = 6",
+            "Lös ut y: y = -5x + 6",
+            "Linje 1 har k = -1 och linje 2 har k = -5.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Linjen y = -x + 5 är parallell med linjen y = kx + 8. Vilket värde har k?",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -x + 5 har k = -1.",
+            "Alltså är k = -1."
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = -6x - 1?\nA: y = -x - 1\nB: y = 6x + 1\nC: y = -6x + 1\nSvara med A, B eller C.",
+        "answer": ["c"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = -6x - 1 har k = -6.",
+            "Alternativ C har också k = -6.",
+            "Svar: C"
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = 3x/2 - 6.",
+        "answer": ["-2/3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = 3/2",
+            "3/2 · k = -1",
+            "k = -1/(3/2)",
+            "k = -2/3"
+        ]
+    },
+    {
+        "text": "Linjen y = -3x - 1 är parallell med linjen y = kx + 8. Vilket värde har k?",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -3x - 1 har k = -3.",
+            "Alltså är k = -3."
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 2, "label": "A"}, {"k": 2, "m": -3, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = 3x + 5 och går genom punkten (5, 5). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["-10"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 3.",
+            "Sätt in punkten (5, 5) i y = kx + m.",
+            "5 = 3 · 5 + m",
+            "5 = 15 + m",
+            "m = 5 - 15",
+            "m = -10"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n5x - y = -4\n-10x + 2y = 4",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: 5x - y = -4",
+            "Dividera med -1.",
+            "Lös ut y: y = 5x + 4",
+            "Ekvation 2: -10x + 2y = 4",
+            "Dividera med 2.",
+            "Lös ut y: y = 5x + 2",
+            "Linje 1 har k = 5 och linje 2 har k = 5.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Linje A och linje B är parallella. Bestäm lutningen k för linje B.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 2, "label": "A"}, {"k": 2, "m": -2, "label": "B"}], "points": []},
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Läs av lutningen för linje A i figuren.",
+            "Läs av två punkter på linjen: (-2, -2) och (2, 6).",
+            "k = (6 - (-2))/(2 - (-2))",
+            "k = 8/4",
+            "k = 2",
+            "Linje B har också k = 2."
+        ]
+    },
+    {
+        "text": "Linjen y = -7x - 4 är parallell med linjen y = kx - 7. Vilket värde har k?",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -7x - 4 har k = -7.",
+            "Alltså är k = -7."
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = 3x - 7 och går genom punkten (4, -7).",
+        "answer": ["y = 3x - 19", "y = -19 + 3x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 3.",
+            "Sätt in punkten (4, -7) i y = kx + m.",
+            "-7 = 3 · 4 + m",
+            "m = -7 - 12",
+            "m = -19",
+            "Ekvationen är y = 3x - 19"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = -x - 2 och går genom punkten (-4, -3).",
+        "answer": ["y = -x - 7", "y = -7 - x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -1.",
+            "Sätt in punkten (-4, -3) i y = kx + m.",
+            "-3 = -1 · (-4) + m",
+            "m = -3 - 4",
+            "m = -7",
+            "Ekvationen är y = -x - 7"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n4x - y = 2\n8x - 2y = -6",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: 4x - y = 2",
+            "Dividera med -1.",
+            "Lös ut y: y = 4x - 2",
+            "Ekvation 2: 8x - 2y = -6",
+            "Dividera med -2.",
+            "Lös ut y: y = 4x + 3",
+            "Linje 1 har k = 4 och linje 2 har k = 4.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = -x + 2 och går genom punkten (1, 10). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -1.",
+            "Sätt in punkten (1, 10) i y = kx + m.",
+            "10 = -1 · 1 + m",
+            "10 = -1 + m",
+            "m = 10 - (-1)",
+            "m = 11"
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -2, "label": "A"}, {"k": 1, "m": -1, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = -2 och linje B har k = 1.",
+            "Linjerna har olika lutning och är därför inte parallella."
+        ]
+    },
+    {
+        "text": "Linje A och linje B är parallella. Bestäm lutningen k för linje B.",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": -3, "label": "A"}, {"k": 3, "m": -5, "label": "B"}], "points": []},
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Läs av lutningen för linje A i figuren.",
+            "Läs av två punkter på linjen: (-1, -6) och (3, 6).",
+            "k = (6 - (-6))/(3 - (-1))",
+            "k = 12/4",
+            "k = 3",
+            "Linje B har också k = 3."
+        ]
+    },
+    {
+        "text": "Linjen y = 3x + 1 är parallell med linjen y = kx + 6. Vilket värde har k?",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = 3x + 1 har k = 3.",
+            "Alltså är k = 3."
+        ]
+    },
+    {
+        "text": "Linjen y = 6x + 7 är parallell med linjen y = kx - 7. Vilket värde har k?",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = 6x + 7 har k = 6.",
+            "Alltså är k = 6."
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 4, "label": "A"}, {"k": -1, "m": -2, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = -1 och linje B har k = -1.",
+            "Linjerna har samma lutning och är därför parallella."
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": -3, "label": "A"}, {"k": 2, "m": 3, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = 2 och linje B har k = 2.",
+            "Linjerna har samma lutning och är därför parallella."
+        ]
+    },
+    {
+        "text": "Linjen y = -6x + 5 är parallell med linjen y = kx - 7. Vilket värde har k?",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -6x + 5 har k = -6.",
+            "Alltså är k = -6."
+        ]
+    },
+    {
+        "text": "Linjen y = -7x - 3 är parallell med linjen y = kx - 8. Vilket värde har k?",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -7x - 3 har k = -7.",
+            "Alltså är k = -7."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = x - 1 och går genom punkten (-2, 4). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 1.",
+            "Sätt in punkten (-2, 4) i y = kx + m.",
+            "4 = 1 · (-2) + m",
+            "4 = -2 + m",
+            "m = 4 - (-2)",
+            "m = 6"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = 3x + 3 och går genom punkten (3, 5).",
+        "answer": ["y = 3x - 4", "y = -4 + 3x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 3.",
+            "Sätt in punkten (3, 5) i y = kx + m.",
+            "5 = 3 · 3 + m",
+            "m = 5 - 9",
+            "m = -4",
+            "Ekvationen är y = 3x - 4"
+        ]
+    },
+    {
+        "text": "Bestäm k så att linjerna y = -4x - 2 och kx + 4y = 5 är parallella.",
+        "answer": ["16"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Lös ut y i den andra ekvationen.",
+            "4y = -kx + 5",
+            "y = -kx/4 + 5/4",
+            "Den andra linjen har lutningen -k/4.",
+            "Parallella linjer har samma lutning: -k/4 = -4",
+            "Multiplicera båda leden med 4.",
+            "-k = -16",
+            "k = 16"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n4x - 2y = -6\n12x + 3y = -6",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: 4x - 2y = -6",
+            "Dividera med -2.",
+            "Lös ut y: y = 2x + 3",
+            "Ekvation 2: 12x + 3y = -6",
+            "Dividera med 3.",
+            "Lös ut y: y = -4x - 2",
+            "Linje 1 har k = 2 och linje 2 har k = -4.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = -3x + 7 och går genom punkten (-2, 3). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -3.",
+            "Sätt in punkten (-2, 3) i y = kx + m.",
+            "3 = -3 · (-2) + m",
+            "3 = 6 + m",
+            "m = 3 - 6",
+            "m = -3"
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = 2x + 6.",
+        "answer": ["-1/2", "-0.5"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = 2",
+            "2 · k = -1",
+            "k = -1/(2)",
+            "k = -1/2"
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -3, "m": -1, "label": "A"}, {"k": 2, "m": 1, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 6x + 1\ny = 6x + 1",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 6 och linje 2 har k = 6.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = 3x - 2?\nA: y = -3x - 7\nB: y = 3x - 7\nC: y = -4x - 2\nSvara med A, B eller C.",
+        "answer": ["b"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = 3x - 2 har k = 3.",
+            "Alternativ B har också k = 3.",
+            "Svar: B"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n-2x - y = 2\n-x - y = -6",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: -2x - y = 2",
+            "Dividera med -1.",
+            "Lös ut y: y = -2x - 2",
+            "Ekvation 2: -x - y = -6",
+            "Dividera med -1.",
+            "Lös ut y: y = -x + 6",
+            "Linje 1 har k = -2 och linje 2 har k = -1.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = -4x + 4 och går genom punkten (-4, -2).",
+        "answer": ["y = -4x - 18", "y = -18 - 4x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -4.",
+            "Sätt in punkten (-4, -2) i y = kx + m.",
+            "-2 = -4 · (-4) + m",
+            "m = -2 - 16",
+            "m = -18",
+            "Ekvationen är y = -4x - 18"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = -4x - 5\ny = -4x + 7",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = -4 och linje 2 har k = -4.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = -3x + 7\ny = -3x + 6",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = -3 och linje 2 har k = -3.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = -5x + 6\ny = 4x + 7",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = -5 och linje 2 har k = 4.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = -4x - 3\ny = -4x - 2",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = -4 och linje 2 har k = -4.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Bestäm k så att linjerna y = -4x + 5 och kx + 2y = 1 är parallella.",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Lös ut y i den andra ekvationen.",
+            "2y = -kx + 1",
+            "y = -kx/2 + 1/2",
+            "Den andra linjen har lutningen -k/2.",
+            "Parallella linjer har samma lutning: -k/2 = -4",
+            "Multiplicera båda leden med 2.",
+            "-k = -8",
+            "k = 8"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n5x + y = -6\n-5x - y = 6",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: 5x + y = -6",
+            "Lös ut y: y = -5x - 6",
+            "Ekvation 2: -5x - y = 6",
+            "Dividera med -1.",
+            "Lös ut y: y = -5x - 6",
+            "Linje 1 har k = -5 och linje 2 har k = -5.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Linjen y = 8x - 2 är parallell med linjen y = kx - 4. Vilket värde har k?",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = 8x - 2 har k = 8.",
+            "Alltså är k = 8."
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = 3x + 7?\nA: y = 3x + 5\nB: y = -3x + 5\nC: y = 5x + 7\nSvara med A, B eller C.",
+        "answer": ["a"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = 3x + 7 har k = 3.",
+            "Alternativ A har också k = 3.",
+            "Svar: A"
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = 5x + 2?\nA: y = 5x + 8\nB: y = -x + 2\nC: y = -5x + 8\nSvara med A, B eller C.",
+        "answer": ["a"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = 5x + 2 har k = 5.",
+            "Alternativ A har också k = 5.",
+            "Svar: A"
+        ]
+    },
+    {
+        "text": "Bestäm k så att linjerna y = 3x - 4 och kx + 3y = 1 är parallella.",
+        "answer": ["-9"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Lös ut y i den andra ekvationen.",
+            "3y = -kx + 1",
+            "y = -kx/3 + 1/3",
+            "Den andra linjen har lutningen -k/3.",
+            "Parallella linjer har samma lutning: -k/3 = 3",
+            "Multiplicera båda leden med 3.",
+            "-k = 9",
+            "k = -9"
+        ]
+    },
+    {
+        "text": "Linje A och linje B är parallella. Bestäm lutningen k för linje B.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 1, "label": "A"}, {"k": 2, "m": -2, "label": "B"}], "points": []},
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Läs av lutningen för linje A i figuren.",
+            "Läs av två punkter på linjen: (-1, -1) och (2, 5).",
+            "k = (5 - (-1))/(2 - (-1))",
+            "k = 6/3",
+            "k = 2",
+            "Linje B har också k = 2."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 4x - 4\ny = 4x - 4",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 4 och linje 2 har k = 4.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n3x + y = -1\n-3x - y = 1",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: 3x + y = -1",
+            "Lös ut y: y = -3x - 1",
+            "Ekvation 2: -3x - y = 1",
+            "Dividera med -1.",
+            "Lös ut y: y = -3x - 1",
+            "Linje 1 har k = -3 och linje 2 har k = -3.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = 4x - 2.",
+        "answer": ["-1/4", "-0.25"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = 4",
+            "4 · k = -1",
+            "k = -1/(4)",
+            "k = -1/4"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = -3x + 7 och går genom punkten (2, -3).",
+        "answer": ["y = -3x + 3", "y = 3 - 3x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -3.",
+            "Sätt in punkten (2, -3) i y = kx + m.",
+            "-3 = -3 · 2 + m",
+            "m = -3 - (-6)",
+            "m = 3",
+            "Ekvationen är y = -3x + 3"
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 3, "label": "A"}, {"k": -3, "m": 5, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = 2 och linje B har k = -3.",
+            "Linjerna har olika lutning och är därför inte parallella."
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": -5, "label": "A"}, {"k": -1, "m": 3, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Bestäm k så att linjerna y = 2x - 3 och kx + 3y = 11 är parallella.",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Lös ut y i den andra ekvationen.",
+            "3y = -kx + 11",
+            "y = -kx/3 + 11/3",
+            "Den andra linjen har lutningen -k/3.",
+            "Parallella linjer har samma lutning: -k/3 = 2",
+            "Multiplicera båda leden med 3.",
+            "-k = 6",
+            "k = -6"
+        ]
+    },
+    {
+        "text": "Linjen y = -x - 1 är parallell med linjen y = kx + 6. Vilket värde har k?",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -x - 1 har k = -1.",
+            "Alltså är k = -1."
+        ]
+    },
+    {
+        "text": "Linjen y = 8x + 8 är parallell med linjen y = kx - 4. Vilket värde har k?",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = 8x + 8 har k = 8.",
+            "Alltså är k = 8."
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = 2x - 7?\nA: y = -2x - 8\nB: y = 2x - 8\nC: y = -3x - 7\nSvara med A, B eller C.",
+        "answer": ["b"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = 2x - 7 har k = 2.",
+            "Alternativ B har också k = 2.",
+            "Svar: B"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = 4x + 6 och går genom punkten (2, 4).",
+        "answer": ["y = 4x - 4", "y = -4 + 4x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 4.",
+            "Sätt in punkten (2, 4) i y = kx + m.",
+            "4 = 4 · 2 + m",
+            "m = 4 - 8",
+            "m = -4",
+            "Ekvationen är y = 4x - 4"
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 1, "label": "A"}, {"k": -1, "m": -1, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = -1 och linje B har k = -1.",
+            "Linjerna har samma lutning och är därför parallella."
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": 3, "label": "A"}, {"k": 3, "m": -1, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": -1, "label": "A"}, {"k": 2, "m": 3, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = 8x - 5.",
+        "answer": ["-1/8", "-0.125"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = 8",
+            "8 · k = -1",
+            "k = -1/(8)",
+            "k = -1/8"
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": -2, "label": "A"}, {"k": 3, "m": 5, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = 3 och linje B har k = 3.",
+            "Linjerna har samma lutning och är därför parallella."
+        ]
+    },
+    {
+        "text": "Linjen y = -3x - 6 är parallell med linjen y = kx + 4. Vilket värde har k?",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -3x - 6 har k = -3.",
+            "Alltså är k = -3."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n2x + y = -1\n-2x - y = -2",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: 2x + y = -1",
+            "Lös ut y: y = -2x - 1",
+            "Ekvation 2: -2x - y = -2",
+            "Dividera med -1.",
+            "Lös ut y: y = -2x + 2",
+            "Linje 1 har k = -2 och linje 2 har k = -2.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 3x + 2\ny = 3x - 4",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 3 och linje 2 har k = 3.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = 2x - 7 och går genom punkten (2, -5).",
+        "answer": ["y = 2x - 9", "y = -9 + 2x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 2.",
+            "Sätt in punkten (2, -5) i y = kx + m.",
+            "-5 = 2 · 2 + m",
+            "m = -5 - 4",
+            "m = -9",
+            "Ekvationen är y = 2x - 9"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n3x - y = -1\n5x + y = -3",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: 3x - y = -1",
+            "Dividera med -1.",
+            "Lös ut y: y = 3x + 1",
+            "Ekvation 2: 5x + y = -3",
+            "Lös ut y: y = -5x - 3",
+            "Linje 1 har k = 3 och linje 2 har k = -5.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Linje A och linje B är parallella. Bestäm lutningen k för linje B.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -5, "label": "A"}, {"k": 1, "m": -3, "label": "B"}], "points": []},
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Läs av lutningen för linje A i figuren.",
+            "Läs av två punkter på linjen: (2, -3) och (6, 1).",
+            "k = (1 - (-3))/(6 - 2)",
+            "k = 4/4",
+            "k = 1",
+            "Linje B har också k = 1."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 2x + 4\ny = -2x + 3",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 2 och linje 2 har k = -2.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Linjen y = -x + 9 är parallell med linjen y = kx + 6. Vilket värde har k?",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -x + 9 har k = -1.",
+            "Alltså är k = -1."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n-x - y = -6\n5x - y = -4",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: -x - y = -6",
+            "Dividera med -1.",
+            "Lös ut y: y = -x + 6",
+            "Ekvation 2: 5x - y = -4",
+            "Dividera med -1.",
+            "Lös ut y: y = 5x + 4",
+            "Linje 1 har k = -1 och linje 2 har k = 5.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Linje A och linje B är parallella. Bestäm lutningen k för linje B.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 1, "label": "A"}, {"k": -1, "m": -4, "label": "B"}], "points": []},
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Läs av lutningen för linje A i figuren.",
+            "Läs av två punkter på linjen: (-5, 6) och (-2, 3).",
+            "k = (3 - 6)/(-2 - (-5))",
+            "k = -3/3",
+            "k = -1",
+            "Linje B har också k = -1."
+        ]
+    },
+    {
+        "text": "Linjen y = x + 8 är parallell med linjen y = kx - 1. Vilket värde har k?",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = x + 8 har k = 1.",
+            "Alltså är k = 1."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = -5x - 5\ny = -5x + 8",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = -5 och linje 2 har k = -5.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n4x - y = 1\n12x - 3y = 3",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: 4x - y = 1",
+            "Dividera med -1.",
+            "Lös ut y: y = 4x - 1",
+            "Ekvation 2: 12x - 3y = 3",
+            "Dividera med -3.",
+            "Lös ut y: y = 4x - 1",
+            "Linje 1 har k = 4 och linje 2 har k = 4.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Linjen y = -3x - 3 är parallell med linjen y = kx - 2. Vilket värde har k?",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = -3x - 3 har k = -3.",
+            "Alltså är k = -3."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n15x - 3y = 6\n10x - 2y = 4",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: 15x - 3y = 6",
+            "Dividera med -3.",
+            "Lös ut y: y = 5x - 2",
+            "Ekvation 2: 10x - 2y = 4",
+            "Dividera med -2.",
+            "Lös ut y: y = 5x - 2",
+            "Linje 1 har k = 5 och linje 2 har k = 5.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Linjen y = 8x - 8 är parallell med linjen y = kx - 9. Vilket värde har k?",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning.",
+            "Linjen y = 8x - 8 har k = 8.",
+            "Alltså är k = 8."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = -4x + 2\ny = -2x - 4",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = -4 och linje 2 har k = -2.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = 6x - 8?\nA: y = -4x - 8\nB: y = -6x - 6\nC: y = 6x - 6\nSvara med A, B eller C.",
+        "answer": ["c"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = 6x - 8 har k = 6.",
+            "Alternativ C har också k = 6.",
+            "Svar: C"
+        ]
+    },
+    {
+        "text": "Är linje A och linje B parallella? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -5, "label": "A"}, {"k": 1, "m": 5, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för båda linjerna.",
+            "Linje A har k = 1 och linje B har k = 1.",
+            "Linjerna har samma lutning och är därför parallella."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n5x + y = -4\n-5x - y = 4",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Ekvation 1: 5x + y = -4",
+            "Lös ut y: y = -5x - 4",
+            "Ekvation 2: -5x - y = 4",
+            "Dividera med -1.",
+            "Lös ut y: y = -5x - 4",
+            "Linje 1 har k = -5 och linje 2 har k = -5.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = -5x + 8?\nA: y = 5x - 3\nB: y = -5x - 3\nC: y = 2x + 8\nSvara med A, B eller C.",
+        "answer": ["b"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = -5x + 8 har k = -5.",
+            "Alternativ B har också k = -5.",
+            "Svar: B"
+        ]
+    },
+    {
+        "text": "Bestäm k för en linje som är vinkelrät mot y = 10x + 5.",
+        "answer": ["-1/10", "-0.1"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Vinkelräta linjer har lutningar som uppfyller k₁ · k₂ = -1.",
+            "k₁ = 10",
+            "10 · k = -1",
+            "k = -1/(10)",
+            "k = -1/10"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för den linje som är parallell med y = 2x - 1 och går genom punkten (2, 9).",
+        "answer": ["y = 2x + 5", "y = 5 + 2x"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 2.",
+            "Sätt in punkten (2, 9) i y = kx + m.",
+            "9 = 2 · 2 + m",
+            "m = 9 - 4",
+            "m = 5",
+            "Ekvationen är y = 2x + 5"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n12x + 3y = 15\n8x + 2y = 10",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: 12x + 3y = 15",
+            "Dividera med 3.",
+            "Lös ut y: y = -4x + 5",
+            "Ekvation 2: 8x + 2y = 10",
+            "Dividera med 2.",
+            "Lös ut y: y = -4x + 5",
+            "Linje 1 har k = -4 och linje 2 har k = -4.",
+            "Både lutning och skärning med y-axeln är lika.",
+            "Linjerna är samma linje.",
+            "Systemet har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\n-4x - 2y = -10\n-4x - 2y = -2",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Ekvation 1: -4x - 2y = -10",
+            "Dividera med -2.",
+            "Lös ut y: y = -2x + 5",
+            "Ekvation 2: -4x - 2y = -2",
+            "Dividera med -2.",
+            "Lös ut y: y = -2x + 1",
+            "Linje 1 har k = -2 och linje 2 har k = -2.",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = -4x + 7?\nA: y = -4x + 6\nB: y = 4x + 6\nC: y = -6x + 7\nSvara med A, B eller C.",
+        "answer": ["a"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = -4x + 7 har k = -4.",
+            "Alternativ A har också k = -4.",
+            "Svar: A"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 5x - 3\ny = 3x - 4",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 5 och linje 2 har k = 3.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = 3x - 2 och går genom punkten (-3, -7). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = 3.",
+            "Sätt in punkten (-3, -7) i y = kx + m.",
+            "-7 = 3 · (-3) + m",
+            "-7 = -9 + m",
+            "m = -7 - (-9)",
+            "m = 2"
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": -4, "label": "A"}, {"k": 2, "m": -5, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 5x + 5\ny = -2x + 4",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 5 och linje 2 har k = -2.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "En linje är parallell med y = -5x + 3 och går genom punkten (-3, 4). Bestäm m i linjens ekvation y = kx + m.",
+        "answer": ["-11"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Parallella linjer har samma lutning, så k = -5.",
+            "Sätt in punkten (-3, 4) i y = kx + m.",
+            "4 = -5 · (-3) + m",
+            "4 = 15 + m",
+            "m = 4 - 15",
+            "m = -11"
+        ]
+    },
+    {
+        "text": "Bestäm k så att linjerna y = -2x - 3 och kx + 4y = 1 är parallella.",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "hard",
+        "explanation": [
+            "Lös ut y i den andra ekvationen.",
+            "4y = -kx + 1",
+            "y = -kx/4 + 1/4",
+            "Den andra linjen har lutningen -k/4.",
+            "Parallella linjer har samma lutning: -k/4 = -2",
+            "Multiplicera båda leden med 4.",
+            "-k = -8",
+            "k = 8"
+        ]
+    },
+    {
+        "text": "Vilken av linjerna är parallell med y = 5x + 2?\nA: y = -5x - 3\nB: y = 5x - 3\nC: y = 3x + 2\nSvara med A, B eller C.",
+        "answer": ["b"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "easy",
+        "explanation": [
+            "Parallella linjer har samma lutning k.",
+            "Linjen y = 5x + 2 har k = 5.",
+            "Alternativ B har också k = 5.",
+            "Svar: B"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationssystemet? (svara 0, 1 eller oändligt många)\ny = 6x - 3\ny = -4x - 2",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "explanation": [
+            "Linje 1 har k = 6 och linje 2 har k = -4.",
+            "Lutningarna är olika, så linjerna skär varandra i exakt en punkt.",
+            "Systemet har en lösning."
+        ]
+    },
+    {
+        "text": "Linje A och linje B bildar ett ekvationssystem. Hur många lösningar har systemet? (svara 0, 1 eller oändligt många)",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Parallella och vinkelräta linjer",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -1, "label": "A"}, {"k": -2, "m": -3, "label": "B"}], "points": []},
+        "explanation": [
+            "Läs av lutningen för linje A och linje B.",
+            "Ser linjerna ut att skära varandra?",
+            "Lutningarna är lika men linjerna skär y-axeln på olika ställen.",
+            "Linjerna är parallella och skär aldrig varandra.",
+            "Systemet saknar lösning."
+        ]
+    }
+]

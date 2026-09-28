@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import questions from "../data/index.js";
 import GeometryRender from "../components/geometryRender";
+import GraphRender from "../components/graphRender";
+import { isAnswerCorrect } from "../utils/checkAnswer";
 import StatisticsRender from "../components/statisticsRender";
 import "../styles/prov.css";
 
@@ -100,39 +102,8 @@ function Prov() {
 
             if (!userAnswer) return;
 
-            if (question.type === "single") {
-                const answer = userAnswer.answer1
-                    ?.trim()
-                    .toLowerCase();
-
-                const correct = question.answer.some(
-                    (correctAnswer) =>
-                        answer === correctAnswer.trim().toLowerCase()
-                );
-
-                if (correct) {
-                    score++;
-                }
-            }
-
-            if (question.type === "multiple") {
-                const userAnswers = [
-                    userAnswer.answer1 || "",
-                    userAnswer.answer2 || "",
-                ]
-                    .map((answer) => answer.trim().toLowerCase())
-                    .sort();
-
-                const correctAnswers = [...question.answer]
-                    .map((answer) => answer.trim().toLowerCase())
-                    .sort();
-
-                if (
-                    JSON.stringify(userAnswers) ===
-                    JSON.stringify(correctAnswers)
-                ) {
-                    score++;
-                }
+            if (isAnswerCorrect(question, userAnswer.answer1, userAnswer.answer2)) {
+                score++;
             }
         });
 
@@ -235,42 +206,11 @@ function Prov() {
                             let correct = false;
 
                             if (userAnswer) {
-
-                                if (question.type === "single") {
-
-                                    correct = question.answer.some(
-                                        (correctAnswer) =>
-                                            userAnswer.answer1
-                                                ?.trim()
-                                                .toLowerCase() ===
-                                            correctAnswer
-                                                .trim()
-                                                .toLowerCase()
-                                    );
-
-                                } else if (question.type === "multiple") {
-
-                                    const userAnswers = [
-                                        userAnswer.answer1 || "",
-                                        userAnswer.answer2 || "",
-                                    ]
-                                        .map((answer) =>
-                                            answer.trim().toLowerCase()
-                                        )
-                                        .sort();
-
-                                    const correctAnswers = [
-                                        ...question.answer,
-                                    ]
-                                        .map((answer) =>
-                                            answer.trim().toLowerCase()
-                                        )
-                                        .sort();
-
-                                    correct =
-                                        JSON.stringify(userAnswers) ===
-                                        JSON.stringify(correctAnswers);
-                                }
+                                correct = isAnswerCorrect(
+                                    question,
+                                    userAnswer.answer1,
+                                    userAnswer.answer2
+                                );
                             }
 
                             return (
@@ -370,6 +310,12 @@ function Prov() {
 
                         </div>
 
+
+                        {question.graph && (
+                            <div className="geometry-container">
+                                <GraphRender graph={question.graph} />
+                            </div>
+                        )}
 
                         {question.geometry && (
                             <div className="geometry-container">

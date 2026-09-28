@@ -810,3 +810,9 @@
         font-size: 3rem;
     }
 }
+
+/* Radbrytningar (\n) i frågetexter, t.ex. ekvationssystem */
+.question-text,
+.result-item p {
+    white-space: pre-line;
+}

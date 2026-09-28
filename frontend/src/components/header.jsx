@@ -116,6 +116,60 @@ function Header() {
                   </Link>
                 </div>
               </div>
+              {/* Linjära funktioner */}
+              <div className="category-item">
+                <span>Linjära funktioner</span>
+
+                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/linjara-funktioner/easy"
+                    className="diff-link diff-easy"
+                  >
+                    Lätt
+                  </Link>
+
+                  <Link
+                    to="/quiz/linjara-funktioner/medium"
+                    className="diff-link diff-medium"
+                  >
+                    Medel
+                  </Link>
+
+                  <Link
+                    to="/quiz/linjara-funktioner/hard"
+                    className="diff-link diff-hard"
+                  >
+                    Svår
+                  </Link>
+                </div>
+              </div>
+              {/* Parallella linjer */}
+              <div className="category-item">
+                <span>Parallella linjer</span>
+
+                <div className="difficulty-dropdown">
+                  <Link
+                    to="/quiz/parallella-linjer/easy"
+                    className="diff-link diff-easy"
+                  >
+                    Lätt
+                  </Link>
+
+                  <Link
+                    to="/quiz/parallella-linjer/medium"
+                    className="diff-link diff-medium"
+                  >
+                    Medel
+                  </Link>
+
+                  <Link
+                    to="/quiz/parallella-linjer/hard"
+                    className="diff-link diff-hard"
+                  >
+                    Svår
+                  </Link>
+                </div>
+              </div>
               {/* Geometri Area */}
               <div className="category-item">
                 <span>Geometri Area</span>

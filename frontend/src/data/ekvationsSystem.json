@@ -1,5 +1,5 @@
- [
- {
+[
+    {
         "text": "Bestäm x i ekvationssystemet:\nx + y = 7\n2x - y = 2",
         "answer": ["3"],
         "type": "single",
@@ -97,5 +97,845 @@
             "Addera ekvationerna: 8x = 24",
             "x = 3"
         ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": 4, "label": "A"}, {"k": 1, "m": 1, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (1, 2).",
+            "x-koordinaten är 1."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["0"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": -3, "label": "A"}, {"k": -1, "m": -3, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (0, -3).",
+            "x-koordinaten är 0."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": -2, "label": "A"}, {"k": -2, "m": -3, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (-1, -1).",
+            "x-koordinaten är -1."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -6, "label": "A"}, {"k": 2, "m": 6, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (-3, 0).",
+            "x-koordinaten är -3."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -3, "m": 1, "label": "A"}, {"k": -2, "m": 2, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (-1, 4).",
+            "x-koordinaten är -1."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -3, "m": 0, "label": "A"}, {"k": 3, "m": -6, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (1, -3).",
+            "x-koordinaten är 1."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["0"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": -3, "label": "A"}, {"k": 3, "m": -3, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (0, -3).",
+            "x-koordinaten är 0."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["0"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": 0, "label": "A"}, {"k": -2, "m": 0, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (0, 0).",
+            "x-koordinaten är 0."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": -2, "label": "A"}, {"k": 1, "m": 2, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (-2, 0).",
+            "x-koordinaten är -2."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": 6, "label": "A"}, {"k": 1, "m": -6, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (4, -2).",
+            "x-koordinaten är 4."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["0"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": 0, "label": "A"}, {"k": -1, "m": 0, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (0, 0).",
+            "x-koordinaten är 0."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm x-koordinaten för skärningspunkten.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 2, "label": "A"}, {"k": -1, "m": 5, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (1, 4).",
+            "x-koordinaten är 1."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -2, "label": "A"}, {"k": -2, "m": 1, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (1, -1).",
+            "y-koordinaten är -1."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": 6, "label": "A"}, {"k": 1, "m": 0, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (-3, -3).",
+            "y-koordinaten är -3."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 3, "label": "A"}, {"k": 3, "m": 6, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (-3, -3).",
+            "y-koordinaten är -3."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 1, "label": "A"}, {"k": 1, "m": 1, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (0, 1).",
+            "y-koordinaten är 1."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": 1, "label": "A"}, {"k": -1, "m": -5, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (-3, -2).",
+            "y-koordinaten är -2."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": 0, "label": "A"}, {"k": 1, "m": 6, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (-2, 4).",
+            "y-koordinaten är 4."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 0, "label": "A"}, {"k": 2, "m": -6, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (2, -2).",
+            "y-koordinaten är -2."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": 6, "label": "A"}, {"k": -2, "m": -3, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (-3, 3).",
+            "y-koordinaten är 3."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 1, "label": "A"}, {"k": -3, "m": 1, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (0, 1).",
+            "y-koordinaten är 1."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -2, "label": "A"}, {"k": 2, "m": -2, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (0, -2).",
+            "y-koordinaten är -2."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": 0, "label": "A"}, {"k": -1, "m": -2, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (2, -4).",
+            "y-koordinaten är -4."
+        ]
+    },
+    {
+        "text": "Linje A och linje B skär varandra. Bestäm y-koordinaten för skärningspunkten.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -3, "label": "A"}, {"k": -2, "m": 0, "label": "B"}], "points": []},
+        "explanation": [
+            "Skärningspunkten är den punkt där linjerna korsar varandra.",
+            "Läs av skärningspunkten: (1, -2).",
+            "y-koordinaten är -2."
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = -x - 4\ny = 2x + 5",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-x - 4 = 2x + 5",
+            "Subtrahera 2x från båda leden.",
+            "-3x - 4 = 5",
+            "Addera 4 till båda leden.",
+            "-3x = 9",
+            "Dividera båda leden med -3.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = 3x - 5\ny = 2x - 3",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "3x - 5 = 2x - 3",
+            "Subtrahera 2x från båda leden.",
+            "x - 5 = -3",
+            "Addera 5 till båda leden.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = -2x - 4\ny = 3x - 4",
+        "answer": ["0"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-2x - 4 = 3x - 4",
+            "Subtrahera 3x från båda leden.",
+            "-5x - 4 = -4",
+            "Addera 4 till båda leden.",
+            "-5x = 0",
+            "Dividera båda leden med -5.",
+            "x = 0"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = -3x + 6\ny = 2x + 1",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-3x + 6 = 2x + 1",
+            "Subtrahera 2x från båda leden.",
+            "-5x + 6 = 1",
+            "Subtrahera 6 från båda leden.",
+            "-5x = -5",
+            "Dividera båda leden med -5.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = -2x + 4\ny = 3x + 4",
+        "answer": ["0"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-2x + 4 = 3x + 4",
+            "Subtrahera 3x från båda leden.",
+            "-5x + 4 = 4",
+            "Subtrahera 4 från båda leden.",
+            "-5x = 0",
+            "Dividera båda leden med -5.",
+            "x = 0"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = 2x - 2\ny = -2x - 6",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "2x - 2 = -2x - 6",
+            "Addera 2x till båda leden.",
+            "4x - 2 = -6",
+            "Addera 2 till båda leden.",
+            "4x = -4",
+            "Dividera båda leden med 4.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = 2x + 5\ny = x + 4",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "2x + 5 = x + 4",
+            "Subtrahera x från båda leden.",
+            "x + 5 = 4",
+            "Subtrahera 5 från båda leden.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = x - 4\ny = -x - 2",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "x - 4 = -x - 2",
+            "Addera x till båda leden.",
+            "2x - 4 = -2",
+            "Addera 4 till båda leden.",
+            "2x = 2",
+            "Dividera båda leden med 2.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = -3x - 4\ny = 2x + 6",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-3x - 4 = 2x + 6",
+            "Subtrahera 2x från båda leden.",
+            "-5x - 4 = 6",
+            "Addera 4 till båda leden.",
+            "-5x = 10",
+            "Dividera båda leden med -5.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = 2x + 5\ny = -x - 4",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "2x + 5 = -x - 4",
+            "Addera x till båda leden.",
+            "3x + 5 = -4",
+            "Subtrahera 5 från båda leden.",
+            "3x = -9",
+            "Dividera båda leden med 3.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = 3x + 4\ny = 2x + 3",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "3x + 4 = 2x + 3",
+            "Subtrahera 2x från båda leden.",
+            "x + 4 = 3",
+            "Subtrahera 4 från båda leden.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = 2x + 6\ny = x + 3",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "2x + 6 = x + 3",
+            "Subtrahera x från båda leden.",
+            "x + 6 = 3",
+            "Subtrahera 6 från båda leden.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = -3x - 5\ny = x + 3",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-3x - 5 = x + 3",
+            "Subtrahera x från båda leden.",
+            "-4x - 5 = 3",
+            "Addera 5 till båda leden.",
+            "-4x = 8",
+            "Dividera båda leden med -4.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "Bestäm x-koordinaten för skärningspunkten mellan linjerna:\ny = -x - 3\ny = -2x - 6",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "medium",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-x - 3 = -2x - 6",
+            "Addera 2x till båda leden.",
+            "x - 3 = -6",
+            "Addera 3 till båda leden.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = -x - 1\ny = -2x + 2",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-x - 1 = -2x + 2",
+            "Addera 2x till båda leden.",
+            "x - 1 = 2",
+            "Addera 1 till båda leden.",
+            "x = 3",
+            "Sätt in x = 3 i y = -x - 1.",
+            "y = -1 · 3 - 1",
+            "y = -4"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = x + 2\ny = 3x - 2",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "x + 2 = 3x - 2",
+            "Subtrahera 3x från båda leden.",
+            "-2x + 2 = -2",
+            "Subtrahera 2 från båda leden.",
+            "-2x = -4",
+            "Dividera båda leden med -2.",
+            "x = 2",
+            "Sätt in x = 2 i y = x + 2.",
+            "y = 1 · 2 + 2",
+            "y = 4"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = x - 3\ny = 2x - 2",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "x - 3 = 2x - 2",
+            "Subtrahera 2x från båda leden.",
+            "-x - 3 = -2",
+            "Addera 3 till båda leden.",
+            "-x = 1",
+            "Multiplicera båda leden med -1.",
+            "x = -1",
+            "Sätt in x = -1 i y = x - 3.",
+            "y = 1 · (-1) - 3",
+            "y = -4"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = 2x + 1\ny = 3x + 1",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "2x + 1 = 3x + 1",
+            "Subtrahera 3x från båda leden.",
+            "-x + 1 = 1",
+            "Subtrahera 1 från båda leden.",
+            "-x = 0",
+            "Multiplicera båda leden med -1.",
+            "x = 0",
+            "Sätt in x = 0 i y = 2x + 1.",
+            "y = 2 · 0 + 1",
+            "y = 1"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = -x - 3\ny = -2x - 4",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-x - 3 = -2x - 4",
+            "Addera 2x till båda leden.",
+            "x - 3 = -4",
+            "Addera 3 till båda leden.",
+            "x = -1",
+            "Sätt in x = -1 i y = -x - 3.",
+            "y = -1 · (-1) - 3",
+            "y = -2"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = -3x - 6\ny = -2x - 3",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-3x - 6 = -2x - 3",
+            "Addera 2x till båda leden.",
+            "-x - 6 = -3",
+            "Addera 6 till båda leden.",
+            "-x = 3",
+            "Multiplicera båda leden med -1.",
+            "x = -3",
+            "Sätt in x = -3 i y = -3x - 6.",
+            "y = -3 · (-3) - 6",
+            "y = 3"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = -3x + 2\ny = -x - 2",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-3x + 2 = -x - 2",
+            "Addera x till båda leden.",
+            "-2x + 2 = -2",
+            "Subtrahera 2 från båda leden.",
+            "-2x = -4",
+            "Dividera båda leden med -2.",
+            "x = 2",
+            "Sätt in x = 2 i y = -3x + 2.",
+            "y = -3 · 2 + 2",
+            "y = -4"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = -x + 2\ny = -2x + 4",
+        "answer": ["0"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-x + 2 = -2x + 4",
+            "Addera 2x till båda leden.",
+            "x + 2 = 4",
+            "Subtrahera 2 från båda leden.",
+            "x = 2",
+            "Sätt in x = 2 i y = -x + 2.",
+            "y = -1 · 2 + 2",
+            "y = 0"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = -3x + 6\ny = -2x + 5",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-3x + 6 = -2x + 5",
+            "Addera 2x till båda leden.",
+            "-x + 6 = 5",
+            "Subtrahera 6 från båda leden.",
+            "-x = -1",
+            "Multiplicera båda leden med -1.",
+            "x = 1",
+            "Sätt in x = 1 i y = -3x + 6.",
+            "y = -3 · 1 + 6",
+            "y = 3"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = x - 5\ny = 2x - 6",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "x - 5 = 2x - 6",
+            "Subtrahera 2x från båda leden.",
+            "-x - 5 = -6",
+            "Addera 5 till båda leden.",
+            "-x = -1",
+            "Multiplicera båda leden med -1.",
+            "x = 1",
+            "Sätt in x = 1 i y = x - 5.",
+            "y = 1 · 1 - 5",
+            "y = -4"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = x + 3\ny = 3x + 3",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "x + 3 = 3x + 3",
+            "Subtrahera 3x från båda leden.",
+            "-2x + 3 = 3",
+            "Subtrahera 3 från båda leden.",
+            "-2x = 0",
+            "Dividera båda leden med -2.",
+            "x = 0",
+            "Sätt in x = 0 i y = x + 3.",
+            "y = 1 · 0 + 3",
+            "y = 3"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = 2x + 6\ny = -2x - 6",
+        "answer": ["0"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "2x + 6 = -2x - 6",
+            "Addera 2x till båda leden.",
+            "4x + 6 = -6",
+            "Subtrahera 6 från båda leden.",
+            "4x = -12",
+            "Dividera båda leden med 4.",
+            "x = -3",
+            "Sätt in x = -3 i y = 2x + 6.",
+            "y = 2 · (-3) + 6",
+            "y = 0"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = -2x + 2\ny = -3x + 3",
+        "answer": ["0"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "-2x + 2 = -3x + 3",
+            "Addera 3x till båda leden.",
+            "x + 2 = 3",
+            "Subtrahera 2 från båda leden.",
+            "x = 1",
+            "Sätt in x = 1 i y = -2x + 2.",
+            "y = -2 · 1 + 2",
+            "y = 0"
+        ]
+    },
+    {
+        "text": "Bestäm y-koordinaten för skärningspunkten mellan linjerna:\ny = 2x - 6\ny = -x + 6",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Ekvationssystem",
+        "difficulty": "hard",
+        "explanation": [
+            "Vid skärningspunkten har linjerna samma y-värde.",
+            "Sätt uttrycken lika med varandra.",
+            "2x - 6 = -x + 6",
+            "Addera x till båda leden.",
+            "3x - 6 = 6",
+            "Addera 6 till båda leden.",
+            "3x = 12",
+            "Dividera båda leden med 3.",
+            "x = 4",
+            "Sätt in x = 4 i y = 2x - 6.",
+            "y = 2 · 4 - 6",
+            "y = 2"
+        ]
     }
-] 
+]

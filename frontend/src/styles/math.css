@@ -395,3 +395,8 @@ body {
         max-width: 300px;
     }
 }
+
+/* Radbrytningar (\n) i frågetexter, t.ex. ekvationssystem */
+.question-text {
+    white-space: pre-line;
+}

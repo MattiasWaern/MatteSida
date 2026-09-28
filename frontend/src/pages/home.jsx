@@ -1,6 +1,8 @@
 import questions from "../data/index.js";
 import { useState, useEffect } from "react";
 import GeometryRender from "../components/geometryRender";
+import GraphRender from "../components/graphRender";
+import { isAnswerCorrect } from "../utils/checkAnswer";
 import StatisticsRender from "../components/statisticsRender.jsx";
 import "../styles/home.css";
 
@@ -38,29 +40,10 @@ function Home() {
     }
 
     function checkAnswer() {
-        if (currentQuestion.type === "single") {
-            if (answer1.trim() === currentQuestion.answer[0].trim()) {
-                setResult("Rätt!");
-            } else {
-                setResult("Fel! Försök igen.");
-            }
-        }
-
-        if (currentQuestion.type === "multiple") {
-            const userAnswers = [answer1, answer2]
-                .map(answer => answer.trim())
-                .filter(answer => answer !== "")
-                .sort();
-
-            const correctAnswers = [...currentQuestion.answer]
-                .map(answer => answer.trim())
-                .sort();
-
-            if (JSON.stringify(userAnswers) === JSON.stringify(correctAnswers)) {
-                setResult("Rätt!");
-            } else {
-                setResult("Fel! Försök igen.");
-            }
+        if (isAnswerCorrect(currentQuestion, answer1, answer2)) {
+            setResult("Rätt!");
+        } else {
+            setResult("Fel! Försök igen.");
         }
     }
 
@@ -83,6 +66,12 @@ function Home() {
                     Svårighet: {currentQuestion.difficulty}
                 </p>
             </div>
+
+                {currentQuestion.graph && (
+                    <div className="geometry-container">
+                        <GraphRender graph={currentQuestion.graph} />
+                    </div>
+                )}
 
                 {currentQuestion.geometry && (
                     <div className="geometry-container">

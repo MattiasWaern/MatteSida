@@ -1,5 +1,149 @@
 [
     {
+        "text": "3x + 9 = 21",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Subtrahera 9 från båda leden.",
+            "3x = 12",
+            "Dividera båda leden med 3.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "5x - 4 = 21",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Addera 4 till båda leden.",
+            "5x = 25",
+            "Dividera med 5.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "3(x + 4) - 5 = 2x + 9",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x + 12 - 5 = 2x + 9",
+            "Förenkla vänsterledet.",
+            "3x + 7 = 2x + 9",
+            "Subtrahera 2x från båda leden.",
+            "x + 7 = 9",
+            "Subtrahera 7.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "6x - 10 = 3x + 8",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 3x från båda leden.",
+            "3x - 10 = 8",
+            "Addera 10 till båda leden.",
+            "3x = 18",
+            "Dividera med 3.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "x/5 + 3 = 7",
+        "answer": ["20"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 3 från båda leden.",
+            "x/5 = 4",
+            "Multiplicera med 5.",
+            "x = 20"
+        ]
+    },
+    {
+        "text": "5(x - 3) = 20",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "easy",
+        "explanation": [
+            "Dividera båda leden med 5.",
+            "x - 3 = 4",
+            "Addera 3.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "8x - 5 = 5x + 13",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 5x från båda leden.",
+            "3x - 5 = 13",
+            "Addera 5.",
+            "3x = 18",
+            "Dividera med 3.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "3x/4 = 9",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera båda leden med 4.",
+            "3x = 36",
+            "Dividera med 3.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "2x + 3(x - 1) = 17",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "2x + 3x - 3 = 17",
+            "Förenkla vänsterledet.",
+            "5x - 3 = 17",
+            "Addera 3 till båda leden.",
+            "5x = 20",
+            "Dividera med 5.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "9 - 2x = 3x - 6",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Addera 2x till båda leden.",
+            "9 = 5x - 6",
+            "Addera 6 till båda leden.",
+            "15 = 5x",
+            "Dividera med 5.",
+            "x = 3"
+        ]
+    },
+    {
         "text": "12 - 8x = 9x - 22",
         "answer": ["2"],
         "type": "single",
@@ -4667,6 +4811,606 @@
             "3x = 24",
             "Dividera båda leden med 3.",
             "x = 8"
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n7x + 5 = 7x - 6",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 7x från båda leden.",
+            "5 = -6",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n2x + 7 = 2x - 8",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "7 = -8",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n4x + 7 = 4x + 3",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "7 = 3",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n7x + 3 = 7x - 2",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 7x från båda leden.",
+            "3 = -2",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n3x + 2 = 3x - 8",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 3x från båda leden.",
+            "2 = -8",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n7x + 2 = 7x + 6",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 7x från båda leden.",
+            "2 = 6",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n9x - 9 = 9x + 2",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 9x från båda leden.",
+            "-9 = 2",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n8x + 9 = 8x - 6",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 8x från båda leden.",
+            "9 = -6",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n2x + 9 = 2x + 2",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "9 = 2",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n6x - 3 = 6x + 9",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 6x från båda leden.",
+            "-3 = 9",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n2x + 1 = 2x - 4",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "1 = -4",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n9x - 6 = 9x + 7",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 9x från båda leden.",
+            "-6 = 7",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n7x - 8 = 7x - 7",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 7x från båda leden.",
+            "-8 = -7",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n5x - 1 = 5x + 9",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 5x från båda leden.",
+            "-1 = 9",
+            "Detta stämmer aldrig, oavsett vilket x-värde man väljer.",
+            "Ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n4(x + 6) + 4 = 4x + 28",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 4 i parentesen.",
+            "4x + 24 + 4 = 4x + 28",
+            "Förenkla vänsterledet.",
+            "4x + 28 = 4x + 28",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n7(x - 1) + 3 = 7x - 4",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 7 i parentesen.",
+            "7x - 7 + 3 = 7x - 4",
+            "Förenkla vänsterledet.",
+            "7x - 4 = 7x - 4",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n2(x - 2) + 9 = 2x + 5",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 2 i parentesen.",
+            "2x - 4 + 9 = 2x + 5",
+            "Förenkla vänsterledet.",
+            "2x + 5 = 2x + 5",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n7(x - 5) - 7 = 7x - 42",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 7 i parentesen.",
+            "7x - 35 - 7 = 7x - 42",
+            "Förenkla vänsterledet.",
+            "7x - 42 = 7x - 42",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n5(x - 3) - 1 = 5x - 16",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x - 15 - 1 = 5x - 16",
+            "Förenkla vänsterledet.",
+            "5x - 16 = 5x - 16",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n4(x - 6) + 1 = 4x - 23",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 4 i parentesen.",
+            "4x - 24 + 1 = 4x - 23",
+            "Förenkla vänsterledet.",
+            "4x - 23 = 4x - 23",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n3(x - 4) - 8 = 3x - 20",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x - 12 - 8 = 3x - 20",
+            "Förenkla vänsterledet.",
+            "3x - 20 = 3x - 20",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n5(x - 6) + 3 = 5x - 27",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x - 30 + 3 = 5x - 27",
+            "Förenkla vänsterledet.",
+            "5x - 27 = 5x - 27",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n6(x - 5) + 8 = 6x - 22",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x - 30 + 8 = 6x - 22",
+            "Förenkla vänsterledet.",
+            "6x - 22 = 6x - 22",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n3(x - 1) - 9 = 3x - 12",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 3 i parentesen.",
+            "3x - 3 - 9 = 3x - 12",
+            "Förenkla vänsterledet.",
+            "3x - 12 = 3x - 12",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n6(x + 4) - 3 = 6x + 21",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x + 24 - 3 = 6x + 21",
+            "Förenkla vänsterledet.",
+            "6x + 21 = 6x + 21",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n6(x + 2) - 9 = 6x + 3",
+        "answer": ["oändligt många", "oändligt", "oändligt många lösningar", "alla", "alla x", "alla tal"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x + 12 - 9 = 6x + 3",
+            "Förenkla vänsterledet.",
+            "6x + 3 = 6x + 3",
+            "Båda leden är lika, så ekvationen stämmer för alla x.",
+            "Ekvationen har oändligt många lösningar."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n9x + 1 = 8x + 5",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 8x från båda leden.",
+            "x + 1 = 5",
+            "Subtrahera 1 från båda leden.",
+            "x = 4",
+            "Ekvationen har exakt en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n8x - 10 = 6x - 12",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 6x från båda leden.",
+            "2x - 10 = -12",
+            "Addera 10 till båda leden.",
+            "2x = -2",
+            "Dividera båda leden med 2.",
+            "x = -1",
+            "Ekvationen har exakt en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n9x + 2 = 2x - 12",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "7x + 2 = -12",
+            "Subtrahera 2 från båda leden.",
+            "7x = -14",
+            "Dividera båda leden med 7.",
+            "x = -2",
+            "Ekvationen har exakt en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n6x + 9 = 4x + 23",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "2x + 9 = 23",
+            "Subtrahera 9 från båda leden.",
+            "2x = 14",
+            "Dividera båda leden med 2.",
+            "x = 7",
+            "Ekvationen har exakt en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n9x + 2 = 2x + 30",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 2x från båda leden.",
+            "7x + 2 = 30",
+            "Subtrahera 2 från båda leden.",
+            "7x = 28",
+            "Dividera båda leden med 7.",
+            "x = 4",
+            "Ekvationen har exakt en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n8x - 10 = 6x - 16",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 6x från båda leden.",
+            "2x - 10 = -16",
+            "Addera 10 till båda leden.",
+            "2x = -6",
+            "Dividera båda leden med 2.",
+            "x = -3",
+            "Ekvationen har exakt en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n8x - 3 = x - 24",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera x från båda leden.",
+            "7x - 3 = -24",
+            "Addera 3 till båda leden.",
+            "7x = -21",
+            "Dividera båda leden med 7.",
+            "x = -3",
+            "Ekvationen har exakt en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n9x - 9 = 4x + 26",
+        "answer": ["1", "en", "en lösning", "ett"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "medium",
+        "explanation": [
+            "Subtrahera 4x från båda leden.",
+            "5x - 9 = 26",
+            "Addera 9 till båda leden.",
+            "5x = 35",
+            "Dividera båda leden med 5.",
+            "x = 7",
+            "Ekvationen har exakt en lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n4(x + 2) = 4x - 12",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in 4 i parentesen.",
+            "4x + 8 = 4x - 12",
+            "Subtrahera 4x från båda leden.",
+            "8 = -12",
+            "Detta stämmer aldrig, så ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n2(x - 4) = 2x - 3",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in 2 i parentesen.",
+            "2x - 8 = 2x - 3",
+            "Subtrahera 2x från båda leden.",
+            "-8 = -3",
+            "Detta stämmer aldrig, så ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n5(x - 6) = 5x + 7",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x - 30 = 5x + 7",
+            "Subtrahera 5x från båda leden.",
+            "-30 = 7",
+            "Detta stämmer aldrig, så ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n5(x - 3) = 5x + 11",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x - 15 = 5x + 11",
+            "Subtrahera 5x från båda leden.",
+            "-15 = 11",
+            "Detta stämmer aldrig, så ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n5(x + 5) = 5x + 4",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in 5 i parentesen.",
+            "5x + 25 = 5x + 4",
+            "Subtrahera 5x från båda leden.",
+            "25 = 4",
+            "Detta stämmer aldrig, så ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n6(x + 6) = 6x + 10",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x + 36 = 6x + 10",
+            "Subtrahera 6x från båda leden.",
+            "36 = 10",
+            "Detta stämmer aldrig, så ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n2(x + 2) = 2x - 10",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in 2 i parentesen.",
+            "2x + 4 = 2x - 10",
+            "Subtrahera 2x från båda leden.",
+            "4 = -10",
+            "Detta stämmer aldrig, så ekvationen saknar lösning."
+        ]
+    },
+    {
+        "text": "Hur många lösningar har ekvationen? (svara 0, 1 eller oändligt många)\n6(x - 1) = 6x - 8",
+        "answer": ["0", "ingen", "ingen lösning", "inga", "inga lösningar", "saknar lösning", "inget"],
+        "type": "single",
+        "category": "Linjära ekvationer",
+        "difficulty": "hard",
+        "explanation": [
+            "Multiplicera in 6 i parentesen.",
+            "6x - 6 = 6x - 8",
+            "Subtrahera 6x från båda leden.",
+            "-6 = -8",
+            "Detta stämmer aldrig, så ekvationen saknar lösning."
         ]
     }
 ]

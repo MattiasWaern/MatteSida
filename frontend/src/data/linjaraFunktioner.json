@@ -1,0 +1,4569 @@
+[
+    {
+        "text": "Ett mobilabonnemang kostar 210 kr i månadsavgift plus 6 kr per GB extra data. Hur många GB extra data har man använt om månadskostnaden är 246 kr?",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal GB extra data och y vara kostnaden i kr.",
+            "Funktionen blir y = 6x + 210",
+            "Sätt y = 246.",
+            "6x + 210 = 246",
+            "Subtrahera 210 från båda leden.",
+            "6x = 36",
+            "Dividera båda leden med 6.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 42 för funktionen y = 9x + 6.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "42 = 9x + 6",
+            "Subtrahera 6 från båda leden.",
+            "9x = 36",
+            "Dividera båda leden med 9.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = x - 9 y-axeln? Ange y-koordinaten.",
+        "answer": ["-9"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -9"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = -2x - 5", "y = -5 - 2x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -5}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, -5).",
+            "m = -5",
+            "Läs av två punkter på linjen: (-3, 1) och (0, -5).",
+            "k = (-5 - 1)/(0 - (-3))",
+            "k = -6/3",
+            "k = -2",
+            "Ekvationen är y = -2x - 5"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -7x + 9?",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -7"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-3, 2) och (0, -2).",
+        "answer": ["y = -4x/3 - 2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-2 - 2)/(0 - (-3))",
+            "k = -4/3",
+            "Sätt in punkten (-3, 2) i y = kx + m.",
+            "2 = -4/3 · (-3) + m",
+            "2 = 4 + m",
+            "m = 2 - 4",
+            "m = -2",
+            "Ekvationen är y = -4x/3 - 2"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = -1 och går genom punkten (4, 1). Bestäm m i y = kx + m.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "1 = -1 · 4 + m",
+            "1 = -4 + m",
+            "m = 1 - (-4)",
+            "m = 5"
+        ]
+    },
+    {
+        "text": "Ligger punkten (6, 32) på linjen y = 4x + 8? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = 4 · 6 + 8",
+            "y = 32",
+            "Punktens y-värde är 32, så punkten ligger på linjen."
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -2x + 6?",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -2"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (2, 1) och (4, -2).",
+        "answer": ["y = -3x/2 + 4", "y = -1.5x + 4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-2 - 1)/(4 - 2)",
+            "k = -3/2",
+            "Sätt in punkten (2, 1) i y = kx + m.",
+            "1 = -3/2 · 2 + m",
+            "1 = -3 + m",
+            "m = 1 - (-3)",
+            "m = 4",
+            "Ekvationen är y = -3x/2 + 4"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (3, 7) och (6, 22).",
+        "answer": ["y = 5x - 8", "y = -8 + 5x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (22 - 7)/(6 - 3)",
+            "k = 15/3",
+            "k = 5",
+            "Sätt in punkten (3, 7) i y = kx + m.",
+            "7 = 5 · 3 + m",
+            "7 = 15 + m",
+            "m = 7 - 15",
+            "m = -8",
+            "Ekvationen är y = 5x - 8"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (0, -2) och (3, 7). Bestäm m i y = kx + m.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (7 - (-2))/(3 - 0) = 3",
+            "Sätt in k och punkten (0, -2) i y = kx + m.",
+            "-2 = 3 · 0 + m",
+            "-2 = 0 + m",
+            "m = -2 - 0",
+            "m = -2"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -3 för funktionen y = -4x - 7.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = -4 · (-3) - 7",
+            "y = 12 - 7",
+            "y = 5"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 1}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, 1).",
+            "m = 1"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = 9x - 2?",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -2"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (1, -6) och (2, -10).",
+        "answer": ["y = -4x - 2", "y = -2 - 4x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-10 - (-6))/(2 - 1)",
+            "k = -4/1",
+            "k = -4",
+            "Sätt in punkten (1, -6) i y = kx + m.",
+            "-6 = -4 · 1 + m",
+            "-6 = -4 + m",
+            "m = -6 - (-4)",
+            "m = -2",
+            "Ekvationen är y = -4x - 2"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -4x - 6?",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -4"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = 4?",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": 3}], "points": []},
+        "explanation": [
+            "Gå till x = 4 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = -5."
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = -9x - 3?",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -3"
+        ]
+    },
+    {
+        "text": "Är linjen y = -8x - 9 växande eller avtagande?",
+        "answer": ["avtagande", "minskande", "fallande", "avtar"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = -8",
+            "k är negativt, så linjen är avtagande."
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = -6x + 3?",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = 3"
+        ]
+    },
+    {
+        "text": "x: 2, 3, 4, 5\ny: 19, 24, 29, 34\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 1 ändras y med 5.",
+            "k = 5"
+        ]
+    },
+    {
+        "text": "En tank innehåller 270 liter vatten. Vattnet töms med 5 liter per minut. Efter hur många minuter finns det 225 liter kvar?",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal minuter och y vara antal liter.",
+            "Funktionen blir y = -5x + 270",
+            "Sätt y = 225.",
+            "-5x + 270 = 225",
+            "Subtrahera 270 från båda leden.",
+            "-5x = -45",
+            "Dividera båda leden med -5.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = x/2 - 5", "y = 0.5x - 5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 0.5, "m": -5}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, -5).",
+            "m = -5",
+            "Läs av två punkter på linjen: (-2, -6) och (2, -4).",
+            "k = (-4 - (-6))/(2 - (-2))",
+            "k = 2/4",
+            "k = 1/2",
+            "Ekvationen är y = x/2 - 5"
+        ]
+    },
+    {
+        "text": "Är linjen y = -7x + 5 växande eller avtagande?",
+        "answer": ["avtagande", "minskande", "fallande", "avtar"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = -7",
+            "k är negativt, så linjen är avtagande."
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -9x + 7?",
+        "answer": ["-9"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -9"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (-4, 0) och (0, 12).",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (12 - 0)/(0 - (-4))",
+            "k = 12/4",
+            "k = 3"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = -3?",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 3}], "points": []},
+        "explanation": [
+            "Gå till x = -3 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = 6."
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -3 för funktionen y = 7x + 3.",
+        "answer": ["-18"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 7 · (-3) + 3",
+            "y = -21 + 3",
+            "y = -18"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = 3x - 3", "y = -3 + 3x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": -3}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, -3).",
+            "m = -3",
+            "Läs av två punkter på linjen: (-1, -6) och (1, 0).",
+            "k = (0 - (-6))/(1 - (-1))",
+            "k = 6/2",
+            "k = 3",
+            "Ekvationen är y = 3x - 3"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = -2?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 3}], "points": []},
+        "explanation": [
+            "Gå till x = -2 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = 5."
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 3}], "points": [{"x": -3, "y": -3, "label": "A"}, {"x": 1, "y": 5, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (-3, -3) och B = (1, 5).",
+            "k = (5 - (-3))/(1 - (-3))",
+            "k = 8/4",
+            "k = 2"
+        ]
+    },
+    {
+        "text": "x: 1, 2, 3, 4\ny: -7, -8, -9, -10\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 1 ändras y med -1.",
+            "k = -1"
+        ]
+    },
+    {
+        "text": "Är linjen y = -7x + 1 växande eller avtagande?",
+        "answer": ["avtagande", "minskande", "fallande", "avtar"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = -7",
+            "k är negativt, så linjen är avtagande."
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -3}], "points": [{"x": -1, "y": -1, "label": "A"}, {"x": 1, "y": -5, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (-1, -1) och B = (1, -5).",
+            "k = (-5 - (-1))/(1 - (-1))",
+            "k = -4/2",
+            "k = -2"
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -3}], "points": [{"x": 1, "y": -2, "label": "A"}, {"x": 3, "y": 0, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (1, -2) och B = (3, 0).",
+            "k = (0 - (-2))/(3 - 1)",
+            "k = 2/2",
+            "k = 1"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = -2x + 1", "y = 1 - 2x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": 1}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, 1).",
+            "m = 1",
+            "Läs av två punkter på linjen: (-2, 5) och (2, -3).",
+            "k = (-3 - 5)/(2 - (-2))",
+            "k = -8/4",
+            "k = -2",
+            "Ekvationen är y = -2x + 1"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -7x - 8?",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -7"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 25 för funktionen y = -4x + 5.",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "25 = -4x + 5",
+            "Subtrahera 5 från båda leden.",
+            "-4x = 20",
+            "Dividera båda leden med -4.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 4 för funktionen y = x - 2.",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "4 = x - 2",
+            "Addera 2 till båda leden.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = x/2 - 3", "y = 0.5x - 3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 0.5, "m": -3}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, -3).",
+            "m = -3",
+            "Läs av två punkter på linjen: (-4, -5) och (0, -3).",
+            "k = (-3 - (-5))/(0 - (-4))",
+            "k = 2/4",
+            "k = 1/2",
+            "Ekvationen är y = x/2 - 3"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = -2x - 4", "y = -4 - 2x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -4}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, -4).",
+            "m = -4",
+            "Läs av två punkter på linjen: (-4, 4) och (-1, -2).",
+            "k = (-2 - 4)/(-1 - (-4))",
+            "k = -6/3",
+            "k = -2",
+            "Ekvationen är y = -2x - 4"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (-4, 1) och (0, -15). Bestäm m i y = kx + m.",
+        "answer": ["-15"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-15 - 1)/(0 - (-4)) = -4",
+            "Sätt in k och punkten (-4, 1) i y = kx + m.",
+            "1 = -4 · (-4) + m",
+            "1 = 16 + m",
+            "m = 1 - 16",
+            "m = -15"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (-1, -5) och (3, -17). Bestäm m i y = kx + m.",
+        "answer": ["-8"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-17 - (-5))/(3 - (-1)) = -3",
+            "Sätt in k och punkten (-1, -5) i y = kx + m.",
+            "-5 = -3 · (-1) + m",
+            "-5 = 3 + m",
+            "m = -5 - 3",
+            "m = -8"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (2, -1) och (4, -3).",
+        "answer": ["y = -x + 1", "y = 1 - x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-3 - (-1))/(4 - 2)",
+            "k = -2/2",
+            "k = -1",
+            "Sätt in punkten (2, -1) i y = kx + m.",
+            "-1 = -1 · 2 + m",
+            "-1 = -2 + m",
+            "m = -1 - (-2)",
+            "m = 1",
+            "Ekvationen är y = -x + 1"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = -2x + 5", "y = 5 - 2x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": 5}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, 5).",
+            "m = 5",
+            "Läs av två punkter på linjen: (3, -1) och (5, -5).",
+            "k = (-5 - (-1))/(5 - 3)",
+            "k = -4/2",
+            "k = -2",
+            "Ekvationen är y = -2x + 5"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren. Svara som bråk eller decimaltal.",
+        "answer": ["3/2", "1.5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1.5, "m": 1}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (-4, -5) och (0, 1).",
+            "k = (1 - (-5))/(0 - (-4))",
+            "k = 6/4",
+            "k = 3/2"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = -19 för funktionen y = -6x - 1.",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "-19 = -6x - 1",
+            "Addera 1 till båda leden.",
+            "-6x = -18",
+            "Dividera båda leden med -6.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 2}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, 2).",
+            "m = 2"
+        ]
+    },
+    {
+        "text": "En taxiresa kostar 80 kr i startavgift plus 20 kr per km. Hur långt kan man åka för 180 kr?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal km och y vara kostnaden i kr.",
+            "Funktionen blir y = 20x + 80",
+            "Sätt y = 180.",
+            "20x + 80 = 180",
+            "Subtrahera 80 från båda leden.",
+            "20x = 100",
+            "Dividera båda leden med 20.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = x - 4", "y = -4 + x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -4}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, -4).",
+            "m = -4",
+            "Läs av två punkter på linjen: (2, -2) och (5, 1).",
+            "k = (1 - (-2))/(5 - 2)",
+            "k = 3/3",
+            "k = 1",
+            "Ekvationen är y = x - 4"
+        ]
+    },
+    {
+        "text": "Ligger punkten (-3, -15) på linjen y = 4x - 3? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = 4 · (-3) - 3",
+            "y = -15",
+            "Punktens y-värde är -15, så punkten ligger på linjen."
+        ]
+    },
+    {
+        "text": "Bestäm y när x = 6 för funktionen y = -3x - 3.",
+        "answer": ["-21"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = -3 · 6 - 3",
+            "y = -18 - 3",
+            "y = -21"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = 4x + 8?",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = 4"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = x + 4 x-axeln? Ange x-koordinaten.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = x + 4",
+            "Subtrahera 4 från båda leden.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = 5x + 5?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = 5"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = -6 och går genom punkten (-2, 5). Bestäm m i y = kx + m.",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "5 = -6 · (-2) + m",
+            "5 = 12 + m",
+            "m = 5 - 12",
+            "m = -7"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = 7x + 9?",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = 7"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = 5x + 1?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = 5"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = -33 för funktionen y = 8x - 1.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "-33 = 8x - 1",
+            "Addera 1 till båda leden.",
+            "8x = -32",
+            "Dividera båda leden med 8.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (-4, 0) och (-3, 3).",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (3 - 0)/(-3 - (-4))",
+            "k = 3"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": 5}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (2, 1) och (5, -5).",
+            "k = (-5 - 1)/(5 - 2)",
+            "k = -6/3",
+            "k = -2"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (1, 1) och (4, -5).",
+        "answer": ["y = -2x + 3", "y = 3 - 2x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-5 - 1)/(4 - 1)",
+            "k = -6/3",
+            "k = -2",
+            "Sätt in punkten (1, 1) i y = kx + m.",
+            "1 = -2 · 1 + m",
+            "1 = -2 + m",
+            "m = 1 - (-2)",
+            "m = 3",
+            "Ekvationen är y = -2x + 3"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 3}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, 3).",
+            "m = 3"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 9 för funktionen y = -3x + 6.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "9 = -3x + 6",
+            "Subtrahera 6 från båda leden.",
+            "-3x = 3",
+            "Dividera båda leden med -3.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "En tank innehåller 380 liter vatten. Vattnet töms med 6 liter per minut. Efter hur många minuter finns det 314 liter kvar?",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal minuter och y vara antal liter.",
+            "Funktionen blir y = -6x + 380",
+            "Sätt y = 314.",
+            "-6x + 380 = 314",
+            "Subtrahera 380 från båda leden.",
+            "-6x = -66",
+            "Dividera båda leden med -6.",
+            "x = 11"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (4, 5) och (6, 4).",
+        "answer": ["y = -x/2 + 7", "y = -0.5x + 7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (4 - 5)/(6 - 4)",
+            "k = -1/2",
+            "Sätt in punkten (4, 5) i y = kx + m.",
+            "5 = -1/2 · 4 + m",
+            "5 = -2 + m",
+            "m = 5 - (-2)",
+            "m = 7",
+            "Ekvationen är y = -x/2 + 7"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = x - 2?",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "Framför x står ett osynligt 1.",
+            "k = 1"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (2, 6) och (6, 8).",
+        "answer": ["y = x/2 + 5", "y = 0.5x + 5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (8 - 6)/(6 - 2)",
+            "k = 2/4",
+            "k = 1/2",
+            "Sätt in punkten (2, 6) i y = kx + m.",
+            "6 = 1/2 · 2 + m",
+            "6 = 1 + m",
+            "m = 6 - 1",
+            "m = 5",
+            "Ekvationen är y = x/2 + 5"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -3x - 4?",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -3"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = 4x + 3?",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = 3"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (-2, 1) och (2, 9). Bestäm m i y = kx + m.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (9 - 1)/(2 - (-2)) = 2",
+            "Sätt in k och punkten (-2, 1) i y = kx + m.",
+            "1 = 2 · (-2) + m",
+            "1 = -4 + m",
+            "m = 1 - (-4)",
+            "m = 5"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren. Svara som bråk eller decimaltal.",
+        "answer": ["3/2", "1.5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1.5, "m": -2}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (0, -2) och (2, 1).",
+            "k = (1 - (-2))/(2 - 0)",
+            "k = 3/2"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (3, 8) och (6, 4).",
+        "answer": ["y = -4x/3 + 12"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (4 - 8)/(6 - 3)",
+            "k = -4/3",
+            "Sätt in punkten (3, 8) i y = kx + m.",
+            "8 = -4/3 · 3 + m",
+            "8 = -4 + m",
+            "m = 8 - (-4)",
+            "m = 12",
+            "Ekvationen är y = -4x/3 + 12"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -1 för funktionen y = -6x + 7.",
+        "answer": ["13"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = -6 · (-1) + 7",
+            "y = 6 + 7",
+            "y = 13"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-3, 8) och (-2, 7).",
+        "answer": ["y = -x + 5", "y = 5 - x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (7 - 8)/(-2 - (-3))",
+            "k = -1/1",
+            "k = -1",
+            "Sätt in punkten (-3, 8) i y = kx + m.",
+            "8 = -1 · (-3) + m",
+            "8 = 3 + m",
+            "m = 8 - 3",
+            "m = 5",
+            "Ekvationen är y = -x + 5"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = 1?",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -4}], "points": []},
+        "explanation": [
+            "Gå till x = 1 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = -6."
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-1, 1) och (2, 10).",
+        "answer": ["y = 3x + 4", "y = 4 + 3x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (10 - 1)/(2 - (-1))",
+            "k = 9/3",
+            "k = 3",
+            "Sätt in punkten (-1, 1) i y = kx + m.",
+            "1 = 3 · (-1) + m",
+            "1 = -3 + m",
+            "m = 1 - (-3)",
+            "m = 4",
+            "Ekvationen är y = 3x + 4"
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": -1}], "points": [{"x": -1, "y": -4, "label": "A"}, {"x": 2, "y": 5, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (-1, -4) och B = (2, 5).",
+            "k = (5 - (-4))/(2 - (-1))",
+            "k = 9/3",
+            "k = 3"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -1 för funktionen y = -6x - 7.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = -6 · (-1) - 7",
+            "y = 6 - 7",
+            "y = -1"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -8x - 3?",
+        "answer": ["-8"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -8"
+        ]
+    },
+    {
+        "text": "En taxiresa kostar 70 kr i startavgift plus 8 kr per km. Vad kostar en resa på 11 km?",
+        "answer": ["158"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal km och y vara kostnaden i kr.",
+            "Funktionen blir y = 8x + 70",
+            "Sätt in x = 11.",
+            "y = 8 · 11 + 70",
+            "y = 88 + 70",
+            "y = 158"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = 3 och går genom punkten (1, -6). Bestäm m i y = kx + m.",
+        "answer": ["-9"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "-6 = 3 · 1 + m",
+            "-6 = 3 + m",
+            "m = -6 - 3",
+            "m = -9"
+        ]
+    },
+    {
+        "text": "Ett mobilabonnemang kostar 160 kr i månadsavgift plus 11 kr per GB extra data. Hur många GB extra data har man använt om månadskostnaden är 292 kr?",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal GB extra data och y vara kostnaden i kr.",
+            "Funktionen blir y = 11x + 160",
+            "Sätt y = 292.",
+            "11x + 160 = 292",
+            "Subtrahera 160 från båda leden.",
+            "11x = 132",
+            "Dividera båda leden med 11.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -4}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, -4).",
+            "m = -4"
+        ]
+    },
+    {
+        "text": "Är linjen y = -7x + 4 växande eller avtagande?",
+        "answer": ["avtagande", "minskande", "fallande", "avtar"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = -7",
+            "k är negativt, så linjen är avtagande."
+        ]
+    },
+    {
+        "text": "Var skär linjen y = -8x + 6 y-axeln? Ange y-koordinaten.",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = 6"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren. Svara som bråk eller decimaltal.",
+        "answer": ["3/2", "1.5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1.5, "m": -1}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (2, 2) och (4, 5).",
+            "k = (5 - 2)/(4 - 2)",
+            "k = 3/2"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = -3x + 12 x-axeln? Ange x-koordinaten.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = -3x + 12",
+            "Subtrahera 12 från båda leden.",
+            "-3x = -12",
+            "Dividera båda leden med -3.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = 6 för funktionen y = -3x - 4.",
+        "answer": ["-22"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = -3 · 6 - 4",
+            "y = -18 - 4",
+            "y = -22"
+        ]
+    },
+    {
+        "text": "x: -1, 0, 1, 2\ny: 9, 6, 3, 0\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 1 ändras y med -3.",
+            "k = -3"
+        ]
+    },
+    {
+        "text": "Alex har 400 kr på sitt sparkonto och sätter in 9 kr varje vecka. Hur mycket har Alex efter 5 veckor?",
+        "answer": ["445"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal veckor och y vara beloppet i kr.",
+            "Funktionen blir y = 9x + 400",
+            "Sätt in x = 5.",
+            "y = 9 · 5 + 400",
+            "y = 45 + 400",
+            "y = 445"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (-3, 2) och (-1, 6).",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (6 - 2)/(-1 - (-3))",
+            "k = 4/2",
+            "k = 2"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 0 för funktionen y = -x + 4.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "0 = -x + 4",
+            "Subtrahera 4 från båda leden.",
+            "-x = -4",
+            "Multiplicera båda leden med -1.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": -4}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (1, -2) och (4, 4).",
+            "k = (4 - (-2))/(4 - 1)",
+            "k = 6/3",
+            "k = 2"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (4, 4) och (7, 13).",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (13 - 4)/(7 - 4)",
+            "k = 9/3",
+            "k = 3"
+        ]
+    },
+    {
+        "text": "x: 2, 3, 4, 5\ny: 2, 1, 0, -1\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 1 ändras y med -1.",
+            "k = -1"
+        ]
+    },
+    {
+        "text": "Ligger punkten (5, -27) på linjen y = -5x - 3? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = -5 · 5 - 3",
+            "y = -28",
+            "Punktens y-värde är -27, så punkten ligger inte på linjen."
+        ]
+    },
+    {
+        "text": "Bestäm y när x = 4 för funktionen y = -x + 7.",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = -1 · 4 + 7",
+            "y = -4 + 7",
+            "y = 3"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (-4, -5) och (-3, -4). Bestäm m i y = kx + m.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-4 - (-5))/(-3 - (-4)) = 1",
+            "Sätt in k och punkten (-4, -5) i y = kx + m.",
+            "-5 = 1 · (-4) + m",
+            "-5 = -4 + m",
+            "m = -5 - (-4)",
+            "m = -1"
+        ]
+    },
+    {
+        "text": "Ligger punkten (4, 4) på linjen y = 2x - 4? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = 2 · 4 - 4",
+            "y = 4",
+            "Punktens y-värde är 4, så punkten ligger på linjen."
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (0, -1) och (4, 15). Bestäm m i y = kx + m.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (15 - (-1))/(4 - 0) = 4",
+            "Sätt in k och punkten (0, -1) i y = kx + m.",
+            "-1 = 4 · 0 + m",
+            "-1 = 0 + m",
+            "m = -1 - 0",
+            "m = -1"
+        ]
+    },
+    {
+        "text": "Alex har 650 kr på sitt sparkonto och sätter in 10 kr varje vecka. Efter hur många veckor har Alex 670 kr?",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal veckor och y vara beloppet i kr.",
+            "Funktionen blir y = 10x + 650",
+            "Sätt y = 670.",
+            "10x + 650 = 670",
+            "Subtrahera 650 från båda leden.",
+            "10x = 20",
+            "Dividera båda leden med 10.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -1 för funktionen y = 7x + 6.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 7 · (-1) + 6",
+            "y = -7 + 6",
+            "y = -1"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = 2x - 10 x-axeln? Ange x-koordinaten.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = 2x - 10",
+            "Addera 10 till båda leden.",
+            "2x = 10",
+            "Dividera båda leden med 2.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = 1 och går genom punkten (2, 1). Bestäm m i y = kx + m.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "1 = 1 · 2 + m",
+            "1 = 2 + m",
+            "m = 1 - 2",
+            "m = -1"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -1 för funktionen y = 7x - 7.",
+        "answer": ["-14"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 7 · (-1) - 7",
+            "y = -7 - 7",
+            "y = -14"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = -6x + 24 x-axeln? Ange x-koordinaten.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = -6x + 24",
+            "Subtrahera 24 från båda leden.",
+            "-6x = -24",
+            "Dividera båda leden med -6.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -4 för funktionen y = -6x - 6.",
+        "answer": ["18"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = -6 · (-4) - 6",
+            "y = 24 - 6",
+            "y = 18"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = -15 för funktionen y = 3x - 3.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "-15 = 3x - 3",
+            "Addera 3 till båda leden.",
+            "3x = -12",
+            "Dividera båda leden med 3.",
+            "x = -4"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = 5x + 9?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = 5"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = 3 och går genom punkten (5, -7). Bestäm m i y = kx + m.",
+        "answer": ["-22"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "-7 = 3 · 5 + m",
+            "-7 = 15 + m",
+            "m = -7 - 15",
+            "m = -22"
+        ]
+    },
+    {
+        "text": "Ligger punkten (-1, 0) på linjen y = -5x - 5? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = -5 · (-1) - 5",
+            "y = 0",
+            "Punktens y-värde är 0, så punkten ligger på linjen."
+        ]
+    },
+    {
+        "text": "Var skär linjen y = -x + 1 x-axeln? Ange x-koordinaten.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = -x + 1",
+            "Subtrahera 1 från båda leden.",
+            "-x = -1",
+            "Multiplicera båda leden med -1.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (0, -3) och (4, -23).",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-23 - (-3))/(4 - 0)",
+            "k = -20/4",
+            "k = -5"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 63 för funktionen y = 8x - 1.",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "63 = 8x - 1",
+            "Addera 1 till båda leden.",
+            "8x = 64",
+            "Dividera båda leden med 8.",
+            "x = 8"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = -9x - 1 y-axeln? Ange y-koordinaten.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -1"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": -5}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (0, -5) och (3, 4).",
+            "k = (4 - (-5))/(3 - 0)",
+            "k = 9/3",
+            "k = 3"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (0, 2) och (4, 22).",
+        "answer": ["y = 5x + 2", "y = 2 + 5x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (22 - 2)/(4 - 0)",
+            "k = 20/4",
+            "k = 5",
+            "Sätt in punkten (0, 2) i y = kx + m.",
+            "2 = 5 · 0 + m",
+            "2 = 0 + m",
+            "m = 2 - 0",
+            "m = 2",
+            "Ekvationen är y = 5x + 2"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = -8x - 5?",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -5"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (-1, 4) och (0, 9). Bestäm m i y = kx + m.",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (9 - 4)/(0 - (-1)) = 5",
+            "Sätt in k och punkten (-1, 4) i y = kx + m.",
+            "4 = 5 · (-1) + m",
+            "4 = -5 + m",
+            "m = 4 - (-5)",
+            "m = 9"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren. Svara som bråk eller decimaltal.",
+        "answer": ["1/3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 0.3333333333333333, "m": 3}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (-6, 1) och (-3, 2).",
+            "k = (2 - 1)/(-3 - (-6))",
+            "k = 1/3"
+        ]
+    },
+    {
+        "text": "En tank innehåller 280 liter vatten. Vattnet töms med 12 liter per minut. Hur många liter finns kvar efter 10 minuter?",
+        "answer": ["160"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal minuter och y vara antal liter.",
+            "Funktionen blir y = -12x + 280",
+            "Sätt in x = 10.",
+            "y = -12 · 10 + 280",
+            "y = -120 + 280",
+            "y = 160"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = 2 för funktionen y = 4x + 3.",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 4 · 2 + 3",
+            "y = 8 + 3",
+            "y = 11"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = 1?",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 5}], "points": []},
+        "explanation": [
+            "Gå till x = 1 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = 4."
+        ]
+    },
+    {
+        "text": "Ligger punkten (-2, 8) på linjen y = -3x + 2? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = -3 · (-2) + 2",
+            "y = 8",
+            "Punktens y-värde är 8, så punkten ligger på linjen."
+        ]
+    },
+    {
+        "text": "Ett mobilabonnemang kostar 130 kr i månadsavgift plus 9 kr per GB extra data. Vad kostar en månad med 11 GB extra data?",
+        "answer": ["229"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal GB extra data och y vara kostnaden i kr.",
+            "Funktionen blir y = 9x + 130",
+            "Sätt in x = 11.",
+            "y = 9 · 11 + 130",
+            "y = 99 + 130",
+            "y = 229"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = -x/2 + 3", "y = -0.5x + 3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -0.5, "m": 3}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, 3).",
+            "m = 3",
+            "Läs av två punkter på linjen: (4, 1) och (6, 0).",
+            "k = (0 - 1)/(6 - 4)",
+            "k = -1/2",
+            "Ekvationen är y = -x/2 + 3"
+        ]
+    },
+    {
+        "text": "En tank innehåller 290 liter vatten. Vattnet töms med 15 liter per minut. Efter hur många minuter finns det 245 liter kvar?",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal minuter och y vara antal liter.",
+            "Funktionen blir y = -15x + 290",
+            "Sätt y = 245.",
+            "-15x + 290 = 245",
+            "Subtrahera 290 från båda leden.",
+            "-15x = -45",
+            "Dividera båda leden med -15.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "Är linjen y = x + 2 växande eller avtagande?",
+        "answer": ["växande", "ökande", "stigande", "växer"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = 1",
+            "k är positivt, så linjen är växande."
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = 1 och går genom punkten (4, 1). Bestäm m i y = kx + m.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "1 = 1 · 4 + m",
+            "1 = 4 + m",
+            "m = 1 - 4",
+            "m = -3"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": -2}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (0, -2) och (2, 2).",
+            "k = (2 - (-2))/(2 - 0)",
+            "k = 4/2",
+            "k = 2"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 5 för funktionen y = -6x - 7.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "5 = -6x - 7",
+            "Addera 7 till båda leden.",
+            "-6x = 12",
+            "Dividera båda leden med -6.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (-1, -5) och (3, 7).",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (7 - (-5))/(3 - (-1))",
+            "k = 12/4",
+            "k = 3"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = -2?",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 5}], "points": []},
+        "explanation": [
+            "Gå till x = -2 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = 1."
+        ]
+    },
+    {
+        "text": "Var skär linjen y = -3x + 15 x-axeln? Ange x-koordinaten.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = -3x + 15",
+            "Subtrahera 15 från båda leden.",
+            "-3x = -15",
+            "Dividera båda leden med -3.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = 3x + 4?",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = 4"
+        ]
+    },
+    {
+        "text": "x: 0, 1, 2, 3\ny: 4, 5, 6, 7\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 1 ändras y med 1.",
+            "k = 1"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = -8 för funktionen y = -2x - 6.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "-8 = -2x - 6",
+            "Addera 6 till båda leden.",
+            "-2x = -2",
+            "Dividera båda leden med -2.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-3, -5) och (0, -8).",
+        "answer": ["y = -x - 8", "y = -8 - x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-8 - (-5))/(0 - (-3))",
+            "k = -3/3",
+            "k = -1",
+            "Sätt in punkten (-3, -5) i y = kx + m.",
+            "-5 = -1 · (-3) + m",
+            "-5 = 3 + m",
+            "m = -5 - 3",
+            "m = -8",
+            "Ekvationen är y = -x - 8"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = -5?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -5}], "points": []},
+        "explanation": [
+            "Gå till x = -5 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = 5."
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 9 för funktionen y = 4x - 7.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "9 = 4x - 7",
+            "Addera 7 till båda leden.",
+            "4x = 16",
+            "Dividera båda leden med 4.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren. Svara som bråk eller decimaltal.",
+        "answer": ["-3/2", "-1.5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1.5, "m": -3}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (0, -3) och (2, -6).",
+            "k = (-6 - (-3))/(2 - 0)",
+            "k = -3/2"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-3, 8) och (1, 24).",
+        "answer": ["y = 4x + 20", "y = 20 + 4x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (24 - 8)/(1 - (-3))",
+            "k = 16/4",
+            "k = 4",
+            "Sätt in punkten (-3, 8) i y = kx + m.",
+            "8 = 4 · (-3) + m",
+            "8 = -12 + m",
+            "m = 8 - (-12)",
+            "m = 20",
+            "Ekvationen är y = 4x + 20"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = -3x - 15 x-axeln? Ange x-koordinaten.",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = -3x - 15",
+            "Addera 15 till båda leden.",
+            "-3x = 15",
+            "Dividera båda leden med -3.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (1, 2) och (4, 14).",
+        "answer": ["y = 4x - 2", "y = -2 + 4x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (14 - 2)/(4 - 1)",
+            "k = 12/3",
+            "k = 4",
+            "Sätt in punkten (1, 2) i y = kx + m.",
+            "2 = 4 · 1 + m",
+            "2 = 4 + m",
+            "m = 2 - 4",
+            "m = -2",
+            "Ekvationen är y = 4x - 2"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -4}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, -4).",
+            "m = -4"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = -15 för funktionen y = -x - 9.",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "-15 = -x - 9",
+            "Addera 9 till båda leden.",
+            "-x = -6",
+            "Multiplicera båda leden med -1.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = 3x - 7?",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -7"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = -8 för funktionen y = -7x + 6.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "-8 = -7x + 6",
+            "Subtrahera 6 från båda leden.",
+            "-7x = -14",
+            "Dividera båda leden med -7.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-4, -5) och (0, -9).",
+        "answer": ["y = -x - 9", "y = -9 - x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-9 - (-5))/(0 - (-4))",
+            "k = -4/4",
+            "k = -1",
+            "Sätt in punkten (-4, -5) i y = kx + m.",
+            "-5 = -1 · (-4) + m",
+            "-5 = 4 + m",
+            "m = -5 - 4",
+            "m = -9",
+            "Ekvationen är y = -x - 9"
+        ]
+    },
+    {
+        "text": "En taxiresa kostar 30 kr i startavgift plus 13 kr per km. Vad kostar en resa på 12 km?",
+        "answer": ["186"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal km och y vara kostnaden i kr.",
+            "Funktionen blir y = 13x + 30",
+            "Sätt in x = 12.",
+            "y = 13 · 12 + 30",
+            "y = 156 + 30",
+            "y = 186"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-2, -5) och (0, 3).",
+        "answer": ["y = 4x + 3", "y = 3 + 4x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (3 - (-5))/(0 - (-2))",
+            "k = 8/2",
+            "k = 4",
+            "Sätt in punkten (-2, -5) i y = kx + m.",
+            "-5 = 4 · (-2) + m",
+            "-5 = -8 + m",
+            "m = -5 - (-8)",
+            "m = 3",
+            "Ekvationen är y = 4x + 3"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -2x - 9?",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -2"
+        ]
+    },
+    {
+        "text": "Alex har 600 kr på sitt sparkonto och sätter in 7 kr varje vecka. Hur mycket har Alex efter 6 veckor?",
+        "answer": ["642"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal veckor och y vara beloppet i kr.",
+            "Funktionen blir y = 7x + 600",
+            "Sätt in x = 6.",
+            "y = 7 · 6 + 600",
+            "y = 42 + 600",
+            "y = 642"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = 3x - 2", "y = -2 + 3x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": -2}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, -2).",
+            "m = -2",
+            "Läs av två punkter på linjen: (-1, -5) och (2, 4).",
+            "k = (4 - (-5))/(2 - (-1))",
+            "k = 9/3",
+            "k = 3",
+            "Ekvationen är y = 3x - 2"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = -5 och går genom punkten (4, -7). Bestäm m i y = kx + m.",
+        "answer": ["13"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "-7 = -5 · 4 + m",
+            "-7 = -20 + m",
+            "m = -7 - (-20)",
+            "m = 13"
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": -3}], "points": [{"x": -2, "y": -1, "label": "A"}, {"x": 0, "y": -3, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (-2, -1) och B = (0, -3).",
+            "k = (-3 - (-1))/(0 - (-2))",
+            "k = -2/2",
+            "k = -1"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = -6x - 5?",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -5"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (1, 2) och (5, 18).",
+        "answer": ["y = 4x - 2", "y = -2 + 4x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (18 - 2)/(5 - 1)",
+            "k = 16/4",
+            "k = 4",
+            "Sätt in punkten (1, 2) i y = kx + m.",
+            "2 = 4 · 1 + m",
+            "2 = 4 + m",
+            "m = 2 - 4",
+            "m = -2",
+            "Ekvationen är y = 4x - 2"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": 5}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, 5).",
+            "m = 5"
+        ]
+    },
+    {
+        "text": "En tank innehåller 240 liter vatten. Vattnet töms med 7 liter per minut. Efter hur många minuter finns det 191 liter kvar?",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal minuter och y vara antal liter.",
+            "Funktionen blir y = -7x + 240",
+            "Sätt y = 191.",
+            "-7x + 240 = 191",
+            "Subtrahera 240 från båda leden.",
+            "-7x = -49",
+            "Dividera båda leden med -7.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren. Svara som bråk eller decimaltal.",
+        "answer": ["1/3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 0.3333333333333333, "m": 1}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (-6, -1) och (-3, 0).",
+            "k = (0 - (-1))/(-3 - (-6))",
+            "k = 1/3"
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -3, "m": -1}], "points": [{"x": -2, "y": 5, "label": "A"}, {"x": 1, "y": -4, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (-2, 5) och B = (1, -4).",
+            "k = (-4 - 5)/(1 - (-2))",
+            "k = -9/3",
+            "k = -3"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = 9x - 3 y-axeln? Ange y-koordinaten.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -3"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = x/2 + 5", "y = 0.5x + 5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 0.5, "m": 5}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, 5).",
+            "m = 5",
+            "Läs av två punkter på linjen: (-2, 4) och (0, 5).",
+            "k = (5 - 4)/(0 - (-2))",
+            "k = 1/2",
+            "Ekvationen är y = x/2 + 5"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = 5x + 25 x-axeln? Ange x-koordinaten.",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = 5x + 25",
+            "Subtrahera 25 från båda leden.",
+            "5x = -25",
+            "Dividera båda leden med 5.",
+            "x = -5"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (-2, -1) och (-1, 2). Bestäm m i y = kx + m.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (2 - (-1))/(-1 - (-2)) = 3",
+            "Sätt in k och punkten (-2, -1) i y = kx + m.",
+            "-1 = 3 · (-2) + m",
+            "-1 = -6 + m",
+            "m = -1 - (-6)",
+            "m = 5"
+        ]
+    },
+    {
+        "text": "Ligger punkten (6, -19) på linjen y = -3x + 3? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = -3 · 6 + 3",
+            "y = -15",
+            "Punktens y-värde är -19, så punkten ligger inte på linjen."
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 0 för funktionen y = -3x + 3.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "0 = -3x + 3",
+            "Subtrahera 3 från båda leden.",
+            "-3x = -3",
+            "Dividera båda leden med -3.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = x + 3", "y = 3 + x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": 3}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, 3).",
+            "m = 3",
+            "Läs av två punkter på linjen: (-3, 0) och (1, 4).",
+            "k = (4 - 0)/(1 - (-3))",
+            "k = 4/4",
+            "k = 1",
+            "Ekvationen är y = x + 3"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = -x + 4", "y = 4 - x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 4}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, 4).",
+            "m = 4",
+            "Läs av två punkter på linjen: (3, 1) och (5, -1).",
+            "k = (-1 - 1)/(5 - 3)",
+            "k = -2/2",
+            "k = -1",
+            "Ekvationen är y = -x + 4"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = 3x + 9?",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = 9"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = 7x + 6?",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = 7"
+        ]
+    },
+    {
+        "text": "x: 2, 3, 4, 5\ny: -14, -19, -24, -29\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 1 ändras y med -5.",
+            "k = -5"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (4, 6) och (7, 21).",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (21 - 6)/(7 - 4)",
+            "k = 15/3",
+            "k = 5"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-2, -1) och (0, -3).",
+        "answer": ["y = -x - 3", "y = -3 - x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-3 - (-1))/(0 - (-2))",
+            "k = -2/2",
+            "k = -1",
+            "Sätt in punkten (-2, -1) i y = kx + m.",
+            "-1 = -1 · (-2) + m",
+            "-1 = 2 + m",
+            "m = -1 - 2",
+            "m = -3",
+            "Ekvationen är y = -x - 3"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -1}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (1, 0) och (4, 3).",
+            "k = (3 - 0)/(4 - 1)",
+            "k = 3/3",
+            "k = 1"
+        ]
+    },
+    {
+        "text": "x: 0, 2, 4, 6\ny: 1, -3, -7, -11\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 2 ändras y med -4.",
+            "k = -4/2",
+            "k = -2"
+        ]
+    },
+    {
+        "text": "Är linjen y = -5x - 7 växande eller avtagande?",
+        "answer": ["avtagande", "minskande", "fallande", "avtar"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = -5",
+            "k är negativt, så linjen är avtagande."
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = 5x + 6?",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = 6"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (-4, -2) och (-1, -17). Bestäm m i y = kx + m.",
+        "answer": ["-22"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-17 - (-2))/(-1 - (-4)) = -5",
+            "Sätt in k och punkten (-4, -2) i y = kx + m.",
+            "-2 = -5 · (-4) + m",
+            "-2 = 20 + m",
+            "m = -2 - 20",
+            "m = -22"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = -x + 2", "y = 2 - x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 2}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, 2).",
+            "m = 2",
+            "Läs av två punkter på linjen: (-3, 5) och (1, 1).",
+            "k = (1 - 5)/(1 - (-3))",
+            "k = -4/4",
+            "k = -1",
+            "Ekvationen är y = -x + 2"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -2}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (-2, 2) och (2, -6).",
+            "k = (-6 - 2)/(2 - (-2))",
+            "k = -8/4",
+            "k = -2"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -8x + 3?",
+        "answer": ["-8"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -8"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = -3x - 2", "y = -2 - 3x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -3, "m": -2}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, -2).",
+            "m = -2",
+            "Läs av två punkter på linjen: (-1, 1) och (1, -5).",
+            "k = (-5 - 1)/(1 - (-1))",
+            "k = -6/2",
+            "k = -3",
+            "Ekvationen är y = -3x - 2"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = 5x - 1?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = 5"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (-1, 6) och (2, 3). Bestäm m i y = kx + m.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (3 - 6)/(2 - (-1)) = -1",
+            "Sätt in k och punkten (-1, 6) i y = kx + m.",
+            "6 = -1 · (-1) + m",
+            "6 = 1 + m",
+            "m = 6 - 1",
+            "m = 5"
+        ]
+    },
+    {
+        "text": "Ett mobilabonnemang kostar 130 kr i månadsavgift plus 9 kr per GB extra data. Hur många GB extra data har man använt om månadskostnaden är 211 kr?",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal GB extra data och y vara kostnaden i kr.",
+            "Funktionen blir y = 9x + 130",
+            "Sätt y = 211.",
+            "9x + 130 = 211",
+            "Subtrahera 130 från båda leden.",
+            "9x = 81",
+            "Dividera båda leden med 9.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren. Svara som bråk eller decimaltal.",
+        "answer": ["-3/2", "-1.5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1.5, "m": 2}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (0, 2) och (4, -4).",
+            "k = (-4 - 2)/(4 - 0)",
+            "k = -6/4",
+            "k = -3/2"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = 5x - 1?",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -1"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = 3x + 5", "y = 5 + 3x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": 5}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, 5).",
+            "m = 5",
+            "Läs av två punkter på linjen: (-3, -4) och (0, 5).",
+            "k = (5 - (-4))/(0 - (-3))",
+            "k = 9/3",
+            "k = 3",
+            "Ekvationen är y = 3x + 5"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (-1, -1) och (0, -5). Bestäm m i y = kx + m.",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-5 - (-1))/(0 - (-1)) = -4",
+            "Sätt in k och punkten (-1, -1) i y = kx + m.",
+            "-1 = -4 · (-1) + m",
+            "-1 = 4 + m",
+            "m = -1 - 4",
+            "m = -5"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-3, -3) och (1, -15).",
+        "answer": ["y = -3x - 12", "y = -12 - 3x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-15 - (-3))/(1 - (-3))",
+            "k = -12/4",
+            "k = -3",
+            "Sätt in punkten (-3, -3) i y = kx + m.",
+            "-3 = -3 · (-3) + m",
+            "-3 = 9 + m",
+            "m = -3 - 9",
+            "m = -12",
+            "Ekvationen är y = -3x - 12"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -3, "m": 4}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, 4).",
+            "m = 4"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (1, 3) och (5, -13).",
+        "answer": ["y = -4x + 7", "y = 7 - 4x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-13 - 3)/(5 - 1)",
+            "k = -16/4",
+            "k = -4",
+            "Sätt in punkten (1, 3) i y = kx + m.",
+            "3 = -4 · 1 + m",
+            "3 = -4 + m",
+            "m = 3 - (-4)",
+            "m = 7",
+            "Ekvationen är y = -4x + 7"
+        ]
+    },
+    {
+        "text": "Är linjen y = -5x + 9 växande eller avtagande?",
+        "answer": ["avtagande", "minskande", "fallande", "avtar"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = -5",
+            "k är negativt, så linjen är avtagande."
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = 5x + 8?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = 5"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = -2?",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -3, "m": -4}], "points": []},
+        "explanation": [
+            "Gå till x = -2 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = 2."
+        ]
+    },
+    {
+        "text": "En taxiresa kostar 40 kr i startavgift plus 18 kr per km. Hur långt kan man åka för 94 kr?",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal km och y vara kostnaden i kr.",
+            "Funktionen blir y = 18x + 40",
+            "Sätt y = 94.",
+            "18x + 40 = 94",
+            "Subtrahera 40 från båda leden.",
+            "18x = 54",
+            "Dividera båda leden med 18.",
+            "x = 3"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (4, 3) och (8, 11).",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (11 - 3)/(8 - 4)",
+            "k = 8/4",
+            "k = 2"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = 3?",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -4}], "points": []},
+        "explanation": [
+            "Gå till x = 3 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = -1."
+        ]
+    },
+    {
+        "text": "Ett mobilabonnemang kostar 160 kr i månadsavgift plus 6 kr per GB extra data. Vad kostar en månad med 4 GB extra data?",
+        "answer": ["184"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal GB extra data och y vara kostnaden i kr.",
+            "Funktionen blir y = 6x + 160",
+            "Sätt in x = 4.",
+            "y = 6 · 4 + 160",
+            "y = 24 + 160",
+            "y = 184"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = x + 3?",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = 3"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = 3x + 1", "y = 1 + 3x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": 1}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, 1).",
+            "m = 1",
+            "Läs av två punkter på linjen: (-1, -2) och (1, 4).",
+            "k = (4 - (-2))/(1 - (-1))",
+            "k = 6/2",
+            "k = 3",
+            "Ekvationen är y = 3x + 1"
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -5}], "points": [{"x": 4, "y": -1, "label": "A"}, {"x": 6, "y": 1, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (4, -1) och B = (6, 1).",
+            "k = (1 - (-1))/(6 - 4)",
+            "k = 2/2",
+            "k = 1"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = 2x - 2", "y = -2 + 2x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": -2}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, -2).",
+            "m = -2",
+            "Läs av två punkter på linjen: (-2, -6) och (2, 2).",
+            "k = (2 - (-6))/(2 - (-2))",
+            "k = 8/4",
+            "k = 2",
+            "Ekvationen är y = 2x - 2"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = 5x - 20 x-axeln? Ange x-koordinaten.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = 5x - 20",
+            "Addera 20 till båda leden.",
+            "5x = 20",
+            "Dividera båda leden med 5.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": -2}], "points": [{"x": -2, "y": -4, "label": "A"}, {"x": 2, "y": 0, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (-2, -4) och B = (2, 0).",
+            "k = (0 - (-4))/(2 - (-2))",
+            "k = 4/4",
+            "k = 1"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = 2x - 8 x-axeln? Ange x-koordinaten.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = 2x - 8",
+            "Addera 8 till båda leden.",
+            "2x = 8",
+            "Dividera båda leden med 2.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = 4 och går genom punkten (-4, -8). Bestäm m i y = kx + m.",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "-8 = 4 · (-4) + m",
+            "-8 = -16 + m",
+            "m = -8 - (-16)",
+            "m = 8"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = 6 för funktionen y = 2x - 4.",
+        "answer": ["8"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 2 · 6 - 4",
+            "y = 12 - 4",
+            "y = 8"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = -4 och går genom punkten (2, 7). Bestäm m i y = kx + m.",
+        "answer": ["15"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "7 = -4 · 2 + m",
+            "7 = -8 + m",
+            "m = 7 - (-8)",
+            "m = 15"
+        ]
+    },
+    {
+        "text": "Ligger punkten (6, -19) på linjen y = -5x + 7? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = -5 · 6 + 7",
+            "y = -23",
+            "Punktens y-värde är -19, så punkten ligger inte på linjen."
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 2 för funktionen y = 3x + 5.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "2 = 3x + 5",
+            "Subtrahera 5 från båda leden.",
+            "3x = -3",
+            "Dividera båda leden med 3.",
+            "x = -1"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = x - 7 y-axeln? Ange y-koordinaten.",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -7"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = -15 för funktionen y = 4x + 9.",
+        "answer": ["-6"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "-15 = 4x + 9",
+            "Subtrahera 9 från båda leden.",
+            "4x = -24",
+            "Dividera båda leden med 4.",
+            "x = -6"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -1 för funktionen y = -6x - 4.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = -6 · (-1) - 4",
+            "y = 6 - 4",
+            "y = 2"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = 2x + 2", "y = 2 + 2x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 2}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, 2).",
+            "m = 2",
+            "Läs av två punkter på linjen: (-3, -4) och (-1, 0).",
+            "k = (0 - (-4))/(-1 - (-3))",
+            "k = 4/2",
+            "k = 2",
+            "Ekvationen är y = 2x + 2"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = 7x - 9?",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = 7"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": 2}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, 2).",
+            "m = 2"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -2, "m": -5}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, -5).",
+            "m = -5"
+        ]
+    },
+    {
+        "text": "Ligger punkten (5, -9) på linjen y = -3x + 8? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = -3 · 5 + 8",
+            "y = -7",
+            "Punktens y-värde är -9, så punkten ligger inte på linjen."
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": 5}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (0, 5) och (3, 2).",
+            "k = (2 - 5)/(3 - 0)",
+            "k = -3/3",
+            "k = -1"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (-4, -5) och (-1, 4).",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (4 - (-5))/(-1 - (-4))",
+            "k = 9/3",
+            "k = 3"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = -20 för funktionen y = -3x - 8.",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "-20 = -3x - 8",
+            "Addera 8 till båda leden.",
+            "-3x = -12",
+            "Dividera båda leden med -3.",
+            "x = 4"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -2 för funktionen y = -5x - 5.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = -5 · (-2) - 5",
+            "y = 10 - 5",
+            "y = 5"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = -6x - 9?",
+        "answer": ["-9"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -9"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -7x - 1?",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -7"
+        ]
+    },
+    {
+        "text": "Alex har 350 kr på sitt sparkonto och sätter in 4 kr varje vecka. Hur mycket har Alex efter 10 veckor?",
+        "answer": ["390"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal veckor och y vara beloppet i kr.",
+            "Funktionen blir y = 4x + 350",
+            "Sätt in x = 10.",
+            "y = 4 · 10 + 350",
+            "y = 40 + 350",
+            "y = 390"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = 6 och går genom punkten (-1, 10). Bestäm m i y = kx + m.",
+        "answer": ["16"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "10 = 6 · (-1) + m",
+            "10 = -6 + m",
+            "m = 10 - (-6)",
+            "m = 16"
+        ]
+    },
+    {
+        "text": "Alex har 350 kr på sitt sparkonto och sätter in 10 kr varje vecka. Efter hur många veckor har Alex 440 kr?",
+        "answer": ["9"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal veckor och y vara beloppet i kr.",
+            "Funktionen blir y = 10x + 350",
+            "Sätt y = 440.",
+            "10x + 350 = 440",
+            "Subtrahera 350 från båda leden.",
+            "10x = 90",
+            "Dividera båda leden med 10.",
+            "x = 9"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (4, 0) och (5, 4).",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (4 - 0)/(5 - 4)",
+            "k = 4"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = 5x - 5?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = 5"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = -5x - 15 x-axeln? Ange x-koordinaten.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = -5x - 15",
+            "Addera 15 till båda leden.",
+            "-5x = 15",
+            "Dividera båda leden med -5.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (-2, 3) och (0, 7). Bestäm m i y = kx + m.",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (7 - 3)/(0 - (-2)) = 2",
+            "Sätt in k och punkten (-2, 3) i y = kx + m.",
+            "3 = 2 · (-2) + m",
+            "3 = -4 + m",
+            "m = 3 - (-4)",
+            "m = 7"
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": 1}], "points": [{"x": -1, "y": 0, "label": "A"}, {"x": 2, "y": 3, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (-1, 0) och B = (2, 3).",
+            "k = (3 - 0)/(2 - (-1))",
+            "k = 3/3",
+            "k = 1"
+        ]
+    },
+    {
+        "text": "Ligger punkten (-1, -3) på linjen y = -x - 3? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = -1 · (-1) - 3",
+            "y = -2",
+            "Punktens y-värde är -3, så punkten ligger inte på linjen."
+        ]
+    },
+    {
+        "text": "Ligger punkten (4, 30) på linjen y = 7x + 4? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = 7 · 4 + 4",
+            "y = 32",
+            "Punktens y-värde är 30, så punkten ligger inte på linjen."
+        ]
+    },
+    {
+        "text": "Var skär linjen y = -4x + 24 x-axeln? Ange x-koordinaten.",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = -4x + 24",
+            "Subtrahera 24 från båda leden.",
+            "-4x = -24",
+            "Dividera båda leden med -4.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = -1 och går genom punkten (2, -7). Bestäm m i y = kx + m.",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "-7 = -1 · 2 + m",
+            "-7 = -2 + m",
+            "m = -7 - (-2)",
+            "m = -5"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -1 för funktionen y = 4x - 5.",
+        "answer": ["-9"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 4 · (-1) - 5",
+            "y = -4 - 5",
+            "y = -9"
+        ]
+    },
+    {
+        "text": "Ligger punkten (2, -11) på linjen y = -5x - 1? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = -5 · 2 - 1",
+            "y = -11",
+            "Punktens y-värde är -11, så punkten ligger på linjen."
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (0, 5) och (3, 2).",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (2 - 5)/(3 - 0)",
+            "k = -3/3",
+            "k = -1"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = 8x - 3 y-axeln? Ange y-koordinaten.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -3"
+        ]
+    },
+    {
+        "text": "En taxiresa kostar 60 kr i startavgift plus 16 kr per km. Hur långt kan man åka för 220 kr?",
+        "answer": ["10"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal km och y vara kostnaden i kr.",
+            "Funktionen blir y = 16x + 60",
+            "Sätt y = 220.",
+            "16x + 60 = 220",
+            "Subtrahera 60 från båda leden.",
+            "16x = 160",
+            "Dividera båda leden med 16.",
+            "x = 10"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 14 för funktionen y = -6x - 4.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "14 = -6x - 4",
+            "Addera 4 till båda leden.",
+            "-6x = 18",
+            "Dividera båda leden med -6.",
+            "x = -3"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (-2, 4) och (1, 1).",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (1 - 4)/(1 - (-2))",
+            "k = -3/3",
+            "k = -1"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -3, "m": -4}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, -4).",
+            "m = -4"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -1 för funktionen y = -3x + 3.",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = -3 · (-1) + 3",
+            "y = 3 + 3",
+            "y = 6"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren. Svara som bråk eller decimaltal.",
+        "answer": ["1/2", "0.5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 0.5, "m": -2}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (-4, -4) och (-2, -3).",
+            "k = (-3 - (-4))/(-2 - (-4))",
+            "k = 1/2"
+        ]
+    },
+    {
+        "text": "Är linjen y = -7x + 6 växande eller avtagande?",
+        "answer": ["avtagande", "minskande", "fallande", "avtar"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = -7",
+            "k är negativt, så linjen är avtagande."
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = 2 och går genom punkten (2, 1). Bestäm m i y = kx + m.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "1 = 2 · 2 + m",
+            "1 = 4 + m",
+            "m = 1 - 4",
+            "m = -3"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = -3x + 3 x-axeln? Ange x-koordinaten.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = -3x + 3",
+            "Subtrahera 3 från båda leden.",
+            "-3x = -3",
+            "Dividera båda leden med -3.",
+            "x = 1"
+        ]
+    },
+    {
+        "text": "Ett mobilabonnemang kostar 230 kr i månadsavgift plus 7 kr per GB extra data. Vad kostar en månad med 9 GB extra data?",
+        "answer": ["293"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal GB extra data och y vara kostnaden i kr.",
+            "Funktionen blir y = 7x + 230",
+            "Sätt in x = 9.",
+            "y = 7 · 9 + 230",
+            "y = 63 + 230",
+            "y = 293"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 4 för funktionen y = x + 2.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "4 = x + 2",
+            "Subtrahera 2 från båda leden.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "Är linjen y = -8x - 5 växande eller avtagande?",
+        "answer": ["avtagande", "minskande", "fallande", "avtar"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = -8",
+            "k är negativt, så linjen är avtagande."
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren. Svara som bråk eller decimaltal.",
+        "answer": ["-2/3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -0.6666666666666666, "m": -1}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (3, -3) och (6, -5).",
+            "k = (-5 - (-3))/(6 - 3)",
+            "k = -2/3"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (-3, -4) och (1, -24).",
+        "answer": ["-5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-24 - (-4))/(1 - (-3))",
+            "k = -20/4",
+            "k = -5"
+        ]
+    },
+    {
+        "text": "x: 3, 4, 5, 6\ny: -14, -18, -22, -26\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 1 ändras y med -4.",
+            "k = -4"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 5}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (-3, -1) och (0, 5).",
+            "k = (5 - (-1))/(0 - (-3))",
+            "k = 6/3",
+            "k = 2"
+        ]
+    },
+    {
+        "text": "En taxiresa kostar 30 kr i startavgift plus 20 kr per km. Vad kostar en resa på 7 km?",
+        "answer": ["170"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal km och y vara kostnaden i kr.",
+            "Funktionen blir y = 20x + 30",
+            "Sätt in x = 7.",
+            "y = 20 · 7 + 30",
+            "y = 140 + 30",
+            "y = 170"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -2 för funktionen y = 4x + 8.",
+        "answer": ["0"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 4 · (-2) + 8",
+            "y = -8 + 8",
+            "y = 0"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = 2?",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -3, "m": 2}], "points": []},
+        "explanation": [
+            "Gå till x = 2 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = -4."
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (2, -4) och (4, -6).",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-6 - (-4))/(4 - 2)",
+            "k = -2/2",
+            "k = -1"
+        ]
+    },
+    {
+        "text": "Ligger punkten (6, -33) på linjen y = -6x + 3? Svara ja eller nej.",
+        "answer": ["ja"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = -6 · 6 + 3",
+            "y = -33",
+            "Punktens y-värde är -33, så punkten ligger på linjen."
+        ]
+    },
+    {
+        "text": "En taxiresa kostar 60 kr i startavgift plus 20 kr per km. Hur långt kan man åka för 160 kr?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal km och y vara kostnaden i kr.",
+            "Funktionen blir y = 20x + 60",
+            "Sätt y = 160.",
+            "20x + 60 = 160",
+            "Subtrahera 60 från båda leden.",
+            "20x = 100",
+            "Dividera båda leden med 20.",
+            "x = 5"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-2, 1) och (2, 21).",
+        "answer": ["y = 5x + 11", "y = 11 + 5x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (21 - 1)/(2 - (-2))",
+            "k = 20/4",
+            "k = 5",
+            "Sätt in punkten (-2, 1) i y = kx + m.",
+            "1 = 5 · (-2) + m",
+            "1 = -10 + m",
+            "m = 1 - (-10)",
+            "m = 11",
+            "Ekvationen är y = 5x + 11"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = 6x - 42 x-axeln? Ange x-koordinaten.",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = 6x - 42",
+            "Addera 42 till båda leden.",
+            "6x = 42",
+            "Dividera båda leden med 6.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = 5x - 4?",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = 5"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = -10 för funktionen y = -x - 3.",
+        "answer": ["7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "-10 = -x - 3",
+            "Addera 3 till båda leden.",
+            "-x = -7",
+            "Multiplicera båda leden med -1.",
+            "x = 7"
+        ]
+    },
+    {
+        "text": "x: 1, 2, 3, 4\ny: 11, 13, 15, 17\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 1 ändras y med 2.",
+            "k = 2"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = -x/2 - 1", "y = -0.5x - 1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -0.5, "m": -1}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, -1).",
+            "m = -1",
+            "Läs av två punkter på linjen: (0, -1) och (4, -3).",
+            "k = (-3 - (-1))/(4 - 0)",
+            "k = -2/4",
+            "k = -1/2",
+            "Ekvationen är y = -x/2 - 1"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -7x + 8?",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -7"
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": 5}], "points": [{"x": -3, "y": -1, "label": "A"}, {"x": -1, "y": 3, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (-3, -1) och B = (-1, 3).",
+            "k = (3 - (-1))/(-1 - (-3))",
+            "k = 4/2",
+            "k = 2"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren. Svara som bråk eller decimaltal.",
+        "answer": ["3/2", "1.5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1.5, "m": 2}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (0, 2) och (2, 5).",
+            "k = (5 - 2)/(2 - 0)",
+            "k = 3/2"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (-2, 5) och (1, 14). Bestäm m i y = kx + m.",
+        "answer": ["11"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (14 - 5)/(1 - (-2)) = 3",
+            "Sätt in k och punkten (-2, 5) i y = kx + m.",
+            "5 = 3 · (-2) + m",
+            "5 = -6 + m",
+            "m = 5 - (-6)",
+            "m = 11"
+        ]
+    },
+    {
+        "text": "Ett ljus är 32 cm högt när det tänds och brinner ner 4 cm varje timme. Hur högt är ljuset efter 5 timmar?",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal timmar och y vara höjden i cm.",
+            "Funktionen blir y = -4x + 32",
+            "Sätt in x = 5.",
+            "y = -4 · 5 + 32",
+            "y = -20 + 32",
+            "y = 12"
+        ]
+    },
+    {
+        "text": "Är linjen y = 6x + 2 växande eller avtagande?",
+        "answer": ["växande", "ökande", "stigande", "växer"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = 6",
+            "k är positivt, så linjen är växande."
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["-1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -1, "m": -2}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (-3, 1) och (0, -2).",
+            "k = (-2 - 1)/(0 - (-3))",
+            "k = -3/3",
+            "k = -1"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = 5 för funktionen y = 8x + 5.",
+        "answer": ["45"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 8 · 5 + 5",
+            "y = 40 + 5",
+            "y = 45"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-3, 3) och (1, 15).",
+        "answer": ["y = 3x + 12", "y = 12 + 3x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (15 - 3)/(1 - (-3))",
+            "k = 12/4",
+            "k = 3",
+            "Sätt in punkten (-3, 3) i y = kx + m.",
+            "3 = 3 · (-3) + m",
+            "3 = -9 + m",
+            "m = 3 - (-9)",
+            "m = 12",
+            "Ekvationen är y = 3x + 12"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = 2?",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": -1}], "points": []},
+        "explanation": [
+            "Gå till x = 2 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = 3."
+        ]
+    },
+    {
+        "text": "Ligger punkten (-1, -2) på linjen y = 3x - 1? Svara ja eller nej.",
+        "answer": ["nej"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in punktens x-värde i funktionen.",
+            "y = 3 · (-1) - 1",
+            "y = -4",
+            "Punktens y-värde är -2, så punkten ligger inte på linjen."
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = 7x - 3?",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -3"
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": 5}], "points": [{"x": -2, "y": -1, "label": "A"}, {"x": 0, "y": 5, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (-2, -1) och B = (0, 5).",
+            "k = (5 - (-1))/(0 - (-2))",
+            "k = 6/2",
+            "k = 3"
+        ]
+    },
+    {
+        "text": "Läs av i figuren: vilket y-värde har linjen när x = 1?",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": -1}], "points": []},
+        "explanation": [
+            "Gå till x = 1 på x-axeln och sedan upp eller ner till linjen.",
+            "Linjen ligger då vid y = 2."
+        ]
+    },
+    {
+        "text": "Bestäm y när x = 5 för funktionen y = x + 8.",
+        "answer": ["13"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 1 · 5 + 8",
+            "y = 5 + 8",
+            "y = 13"
+        ]
+    },
+    {
+        "text": "Är linjen y = 8x + 2 växande eller avtagande?",
+        "answer": ["växande", "ökande", "stigande", "växer"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = 8",
+            "k är positivt, så linjen är växande."
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -3x + 7?",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -3"
+        ]
+    },
+    {
+        "text": "Bestäm x när y = 2 för funktionen y = -5x - 8.",
+        "answer": ["-2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in y-värdet i funktionen.",
+            "2 = -5x - 8",
+            "Addera 8 till båda leden.",
+            "-5x = 10",
+            "Dividera båda leden med -5.",
+            "x = -2"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = 8 för funktionen y = 8x - 2.",
+        "answer": ["62"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 8 · 8 - 2",
+            "y = 64 - 2",
+            "y = 62"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = 2x + 2 y-axeln? Ange y-koordinaten.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = 2"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = 6 och går genom punkten (2, -7). Bestäm m i y = kx + m.",
+        "answer": ["-19"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "-7 = 6 · 2 + m",
+            "-7 = 12 + m",
+            "m = -7 - 12",
+            "m = -19"
+        ]
+    },
+    {
+        "text": "Vilken lutning (k) har linjen y = -9x - 7?",
+        "answer": ["-9"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Funktioner på formen y = kx + m har lutningen k.",
+            "k är talet som står framför x.",
+            "k = -9"
+        ]
+    },
+    {
+        "text": "Punkterna A och B ligger på linjen. Bestäm linjens lutning k.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 2, "m": -3}], "points": [{"x": -1, "y": -5, "label": "A"}, {"x": 2, "y": 1, "label": "B"}]},
+        "explanation": [
+            "Läs av punkternas koordinater: A = (-1, -5) och B = (2, 1).",
+            "k = (1 - (-5))/(2 - (-1))",
+            "k = 6/3",
+            "k = 2"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": 2}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (-6, -4) och (-4, -2).",
+            "k = (-2 - (-4))/(-4 - (-6))",
+            "k = 2/2",
+            "k = 1"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -3, "m": 1}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, 1).",
+            "m = 1"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i linjens ekvation y = kx + m? Läs av i figuren.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": 1}], "points": []},
+        "explanation": [
+            "m är där linjen skär y-axeln.",
+            "Linjen skär y-axeln i punkten (0, 1).",
+            "m = 1"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -5 för funktionen y = x - 2.",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 1 · (-5) - 2",
+            "y = -5 - 2",
+            "y = -7"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = -3 för funktionen y = 7x + 9.",
+        "answer": ["-12"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 7 · (-3) + 9",
+            "y = -21 + 9",
+            "y = -12"
+        ]
+    },
+    {
+        "text": "Är linjen y = 7x + 9 växande eller avtagande?",
+        "answer": ["växande", "ökande", "stigande", "växer"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Titta på lutningen k.",
+            "k = 7",
+            "k är positivt, så linjen är växande."
+        ]
+    },
+    {
+        "text": "Bestäm y när x = 6 för funktionen y = 3x - 2.",
+        "answer": ["16"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 3 · 6 - 2",
+            "y = 18 - 2",
+            "y = 16"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = 2 för funktionen y = -4x + 9.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = -4 · 2 + 9",
+            "y = -8 + 9",
+            "y = 1"
+        ]
+    },
+    {
+        "text": "Ett ljus är 40 cm högt när det tänds och brinner ner 2 cm varje timme. Hur högt är ljuset efter 2 timmar?",
+        "answer": ["36"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal timmar och y vara höjden i cm.",
+            "Funktionen blir y = -2x + 40",
+            "Sätt in x = 2.",
+            "y = -2 · 2 + 40",
+            "y = -4 + 40",
+            "y = 36"
+        ]
+    },
+    {
+        "text": "En linje har lutningen k = -4 och går genom punkten (3, 9). Bestäm m i y = kx + m.",
+        "answer": ["21"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Sätt in k och punktens koordinater i y = kx + m.",
+            "9 = -4 · 3 + m",
+            "9 = -12 + m",
+            "m = 9 - (-12)",
+            "m = 21"
+        ]
+    },
+    {
+        "text": "x: -1, 0, 1, 2\ny: -14, -9, -4, 1\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 1 ändras y med 5.",
+            "k = 5"
+        ]
+    },
+    {
+        "text": "En linje går genom punkterna (2, -2) och (6, -10). Bestäm m i y = kx + m.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna först lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-10 - (-2))/(6 - 2) = -2",
+            "Sätt in k och punkten (2, -2) i y = kx + m.",
+            "-2 = -2 · 2 + m",
+            "-2 = -4 + m",
+            "m = -2 - (-4)",
+            "m = 2"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = -x/2 - 5", "y = -0.5x - 5"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": -0.5, "m": -5}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, -5).",
+            "m = -5",
+            "Läs av två punkter på linjen: (-2, -4) och (0, -5).",
+            "k = (-5 - (-4))/(0 - (-2))",
+            "k = -1/2",
+            "Ekvationen är y = -x/2 - 5"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = -x + 6 x-axeln? Ange x-koordinaten.",
+        "answer": ["6"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = -x + 6",
+            "Subtrahera 6 från båda leden.",
+            "-x = -6",
+            "Multiplicera båda leden med -1.",
+            "x = 6"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (4, 1) och (7, 13).",
+        "answer": ["4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (13 - 1)/(7 - 4)",
+            "k = 12/3",
+            "k = 4"
+        ]
+    },
+    {
+        "text": "x: -1, 0, 1, 2\ny: -12, -9, -6, -3\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 1 ändras y med 3.",
+            "k = 3"
+        ]
+    },
+    {
+        "text": "Bestäm y när x = 1 för funktionen y = 3x - 7.",
+        "answer": ["-4"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "Sätt in x-värdet i funktionen.",
+            "y = 3 · 1 - 7",
+            "y = 3 - 7",
+            "y = -4"
+        ]
+    },
+    {
+        "text": "Alex har 650 kr på sitt sparkonto och sätter in 4 kr varje vecka. Efter hur många veckor har Alex 698 kr?",
+        "answer": ["12"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt x vara antal veckor och y vara beloppet i kr.",
+            "Funktionen blir y = 4x + 650",
+            "Sätt y = 698.",
+            "4x + 650 = 698",
+            "Subtrahera 650 från båda leden.",
+            "4x = 48",
+            "Dividera båda leden med 4.",
+            "x = 12"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 3, "m": -3}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (1, 0) och (3, 6).",
+            "k = (6 - 0)/(3 - 1)",
+            "k = 6/2",
+            "k = 3"
+        ]
+    },
+    {
+        "text": "Bestäm lutningen k för linjen i figuren.",
+        "answer": ["1"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 1, "m": 3}], "points": []},
+        "explanation": [
+            "Läs av två punkter på linjen: (-1, 2) och (2, 5).",
+            "k = (5 - 2)/(2 - (-1))",
+            "k = 3/3",
+            "k = 1"
+        ]
+    },
+    {
+        "text": "Var skär linjen y = 3x - 6 x-axeln? Ange x-koordinaten.",
+        "answer": ["2"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "På x-axeln är y = 0.",
+            "0 = 3x - 6",
+            "Addera 6 till båda leden.",
+            "3x = 6",
+            "Dividera båda leden med 3.",
+            "x = 2"
+        ]
+    },
+    {
+        "text": "Vilket värde har m i funktionen y = -7x - 7?",
+        "answer": ["-7"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "easy",
+        "explanation": [
+            "m är konstanten i y = kx + m och anger var linjen skär y-axeln (där x = 0).",
+            "m = -7"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen för linjen i figuren på formen y = kx + m.",
+        "answer": ["y = x/2 + 3", "y = 0.5x + 3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "graph": {"xMin": -6, "xMax": 6, "yMin": -6, "yMax": 6, "lines": [{"k": 0.5, "m": 3}], "points": []},
+        "explanation": [
+            "Läs av m: linjen skär y-axeln i punkten (0, 3).",
+            "m = 3",
+            "Läs av två punkter på linjen: (-2, 2) och (0, 3).",
+            "k = (3 - 2)/(0 - (-2))",
+            "k = 1/2",
+            "Ekvationen är y = x/2 + 3"
+        ]
+    },
+    {
+        "text": "En tank innehåller 340 liter vatten. Vattnet töms med 14 liter per minut. Hur många liter finns kvar efter 5 minuter?",
+        "answer": ["270"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal minuter och y vara antal liter.",
+            "Funktionen blir y = -14x + 340",
+            "Sätt in x = 5.",
+            "y = -14 · 5 + 340",
+            "y = -70 + 340",
+            "y = 270"
+        ]
+    },
+    {
+        "text": "x: 1, 2, 3, 4\ny: 3, 0, -3, -6\nTabellen visar en linjär funktion y = kx + m. Bestäm k.",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Lutningen är ändringen i y delat med ändringen i x.",
+            "När x ökar med 1 ändras y med -3.",
+            "k = -3"
+        ]
+    },
+    {
+        "text": "Bestäm k för linjen genom punkterna (-2, 2) och (2, -10).",
+        "answer": ["-3"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Använd k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-10 - 2)/(2 - (-2))",
+            "k = -12/4",
+            "k = -3"
+        ]
+    },
+    {
+        "text": "Bestäm ekvationen på formen y = kx + m för linjen genom (-4, 6) och (0, -10).",
+        "answer": ["y = -4x - 10", "y = -10 - 4x"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "hard",
+        "explanation": [
+            "Beräkna lutningen k = (y₂ - y₁)/(x₂ - x₁).",
+            "k = (-10 - 6)/(0 - (-4))",
+            "k = -16/4",
+            "k = -4",
+            "Sätt in punkten (-4, 6) i y = kx + m.",
+            "6 = -4 · (-4) + m",
+            "6 = 16 + m",
+            "m = 6 - 16",
+            "m = -10",
+            "Ekvationen är y = -4x - 10"
+        ]
+    },
+    {
+        "text": "En taxiresa kostar 80 kr i startavgift plus 10 kr per km. Vad kostar en resa på 9 km?",
+        "answer": ["170"],
+        "type": "single",
+        "category": "Linjära funktioner",
+        "difficulty": "medium",
+        "explanation": [
+            "Låt x vara antal km och y vara kostnaden i kr.",
+            "Funktionen blir y = 10x + 80",
+            "Sätt in x = 9.",
+            "y = 10 · 9 + 80",
+            "y = 90 + 80",
+            "y = 170"
+        ]
+    }
+]

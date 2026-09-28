@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import questions from "../data/index.js";
 import GeometryRender from "../components/geometryRender";
+import GraphRender from "../components/graphRender";
+import { isAnswerCorrect } from "../utils/checkAnswer";
 import StatisticsRender from "../components/statisticsRender";
 import "../styles/math.css";
 
@@ -14,6 +16,8 @@ function MathQuiz() {
     const { category, difficulty } = useParams();
     const categoryNames = {
         "linjara-ekvationer": "Linjära ekvationer",
+        "linjara-funktioner": "Linjära funktioner",
+        "parallella-linjer": "Parallella och vinkelräta linjer",
         "andragradsekvationer": "Andragradsekvationer",
         "ekvationssystem": "Ekvationssystem",
         "geometriarea": "Geometri - Area",
@@ -80,40 +84,9 @@ function MathQuiz() {
 
 
 function checkAnswer() {
-
-    if (randomQuestion.type === "single") {
-
-        const isCorrect = randomQuestion.answer.some(
-            correctAnswer => answer1.trim().toLowerCase() === correctAnswer.trim().toLowerCase()
-        );
-
-        if (isCorrect) {
-            setResult("Rätt!");
-        } else {
-            setResult("Fel!");
-        }
-    }
-
-
-    if (randomQuestion.type === "multiple") {
-
-        const userAnswers = [answer1, answer2]
-            .map(answer => answer.trim().toLowerCase())
-            .sort();
-
-        const correctAnswers = [...randomQuestion.answer]
-            .map(answer => answer.trim().toLowerCase())
-            .sort();
-
-        if (
-            JSON.stringify(userAnswers) ===
-            JSON.stringify(correctAnswers)
-        ) {
-            setResult("Rätt!");
-        } else {
-            setResult("Fel!");
-        }
-    }
+    setResult(
+        isAnswerCorrect(randomQuestion, answer1, answer2) ? "Rätt!" : "Fel!"
+    );
 }
 
     function showExplanation() {
@@ -168,6 +141,12 @@ function checkAnswer() {
                     </h4>
 
                 </div>
+
+                {randomQuestion.graph && (
+                    <div className="geometry-container">
+                        <GraphRender graph={randomQuestion.graph} />
+                    </div>
+                )}
 
                 {randomQuestion.geometry && (
                     <div className="geometry-container">

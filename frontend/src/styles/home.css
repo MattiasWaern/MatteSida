@@ -314,3 +314,8 @@ main:has(.loading) {
         font-size: 0.75rem;
     }
 }
+
+/* Radbrytningar (\n) i frågetexter, t.ex. ekvationssystem */
+.question-text {
+    white-space: pre-line;
+}
