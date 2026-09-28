@@ -2,22 +2,28 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/header.css";
 
+const categories = [
+  { name: "Linjära ekvationer", slug: "linjara-ekvationer" },
+  { name: "Andragradsekvationer", slug: "andragradsekvationer" },
+  { name: "Ekvationssystem", slug: "ekvationssystem" },
+  { name: "Linjära funktioner", slug: "linjara-funktioner" },
+  { name: "Parallella linjer", slug: "parallella-linjer" },
+  { name: "Geometri Area", slug: "geometriarea" },
+  { name: "Geometri Cirkel", slug: "geometricirkel" },
+  { name: "Geometri Pythagoras", slug: "geometripythagoras" },
+  { name: "Geometri Volym", slug: "geometrivolym" },
+  { name: "Statistik", slug: "statistik" },
+];
+
+const difficulties = [
+  { name: "Lätt", slug: "easy", className: "diff-easy" },
+  { name: "Medel", slug: "medium", className: "diff-medium" },
+  { name: "Svår", slug: "hard", className: "diff-hard" },
+];
+
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [practiceOpen, setPracticeOpen] = useState(false);
-
-  const categories = [
-    { name: "Linjära ekvationer", slug: "linjara-ekvationer" },
-    { name: "Andragradsekvationer", slug: "andragradsekvationer" },
-    { name: "Ekvationssystem", slug: "ekvationssystem" },
-    { name: "Linjära funktioner", slug: "linjara-funktioner" },
-    { name: "Parallella linjer", slug: "parallella-linjer" },
-    { name: "Geometri Area", slug: "geometriarea" },
-    { name: "Geometri Cirkel", slug: "geometricirkel" },
-    { name: "Geometri Pythagoras", slug: "geometripythagoras" },
-    { name: "Geometri Volym", slug: "geometrivolym" },
-    { name: "Statistik", slug: "statistik" },
-  ];
 
   const closeMenu = () => {
     setMenuOpen(false);
@@ -32,7 +38,6 @@ function Header() {
           <span className="logo-icon" aria-hidden="true">
             β
           </span>
-
           <span className="logo-text">
             Matte<span>Experten</span>
           </span>
@@ -47,13 +52,7 @@ function Header() {
           <div className="category-menu">
             <span className="nav-link category-trigger">
               Öva
-
-              <svg
-                className="chevron"
-                viewBox="0 0 12 8"
-                width="10"
-                height="7"
-              >
+              <svg className="chevron" viewBox="0 0 12 8" width="10" height="7">
                 <path
                   d="M1 1L6 6L11 1"
                   stroke="currentColor"
@@ -69,28 +68,16 @@ function Header() {
               {categories.map((category) => (
                 <div className="category-item" key={category.slug}>
                   <span>{category.name}</span>
-
                   <div className="difficulty-dropdown">
-                    <Link
-                      to={`/quiz/${category.slug}/easy`}
-                      className="diff-link diff-easy"
-                    >
-                      Lätt
-                    </Link>
-
-                    <Link
-                      to={`/quiz/${category.slug}/medium`}
-                      className="diff-link diff-medium"
-                    >
-                      Medel
-                    </Link>
-
-                    <Link
-                      to={`/quiz/${category.slug}/hard`}
-                      className="diff-link diff-hard"
-                    >
-                      Svår
-                    </Link>
+                    {difficulties.map((difficulty) => (
+                      <Link
+                        key={difficulty.slug}
+                        to={`/quiz/${category.slug}/${difficulty.slug}`}
+                        className={`diff-link ${difficulty.className}`}
+                      >
+                        {difficulty.name}
+                      </Link>
+                    ))}
                   </div>
                 </div>
               ))}
@@ -103,19 +90,20 @@ function Header() {
         </nav>
 
         {/* DESKTOP PROFILE */}
-        <button className="profile-button">
+        <button className="profile-button" type="button">
           <span className="profile-icon" aria-hidden="true">
             👤
           </span>
           <span>Mitt konto</span>
         </button>
 
-        {/* MOBILE HAMBURGER */}
+        {/* HAMBURGER */}
         <button
           className={`hamburger ${menuOpen ? "open" : ""}`}
-          onClick={() => setMenuOpen(!menuOpen)}
+          onClick={() => setMenuOpen((prev) => !prev)}
           aria-label={menuOpen ? "Stäng meny" : "Öppna meny"}
           aria-expanded={menuOpen}
+          type="button"
         >
           <span></span>
           <span></span>
@@ -130,12 +118,14 @@ function Header() {
             Hem
           </Link>
 
+          {/* ÖVA */}
           <button
             className="mobile-nav-link mobile-practice-button"
-            onClick={() => setPracticeOpen(!practiceOpen)}
+            onClick={() => setPracticeOpen((prev) => !prev)}
+            aria-expanded={practiceOpen}
+            type="button"
           >
             <span>Öva</span>
-
             <svg
               className={`mobile-chevron ${practiceOpen ? "rotated" : ""}`}
               viewBox="0 0 12 8"
@@ -153,52 +143,36 @@ function Header() {
             </svg>
           </button>
 
-          {/* MOBILE CATEGORIES */}
+          {/* KATEGORIER */}
           <div className={`mobile-categories ${practiceOpen ? "open" : ""}`}>
-            {categories.map((category) => (
-              <div className="mobile-category" key={category.slug}>
-                <span className="mobile-category-title">
-                  {category.name}
-                </span>
-
-                <div className="mobile-difficulties">
-                  <Link
-                    to={`/quiz/${category.slug}/easy`}
-                    className="diff-link diff-easy"
-                    onClick={closeMenu}
-                  >
-                    Lätt
-                  </Link>
-
-                  <Link
-                    to={`/quiz/${category.slug}/medium`}
-                    className="diff-link diff-medium"
-                    onClick={closeMenu}
-                  >
-                    Medel
-                  </Link>
-
-                  <Link
-                    to={`/quiz/${category.slug}/hard`}
-                    className="diff-link diff-hard"
-                    onClick={closeMenu}
-                  >
-                    Svår
-                  </Link>
+            <div>
+              {categories.map((category) => (
+                <div className="mobile-category" key={category.slug}>
+                  <span className="mobile-category-title">{category.name}</span>
+                  <div className="mobile-difficulties">
+                    {difficulties.map((difficulty) => (
+                      <Link
+                        key={difficulty.slug}
+                        to={`/quiz/${category.slug}/${difficulty.slug}`}
+                        className={`diff-link ${difficulty.className}`}
+                        onClick={closeMenu}
+                      >
+                        {difficulty.name}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
-          <Link
-            to="/Prov"
-            className="mobile-nav-link"
-            onClick={closeMenu}
-          >
+          {/* PROV */}
+          <Link to="/Prov" className="mobile-nav-link" onClick={closeMenu}>
             Prov
           </Link>
 
-          <button className="mobile-profile-button">
+          {/* KONTO */}
+          <button className="mobile-profile-button" type="button">
             <span className="profile-icon" aria-hidden="true">
               👤
             </span>
