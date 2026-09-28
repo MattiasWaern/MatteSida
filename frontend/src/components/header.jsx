@@ -17,11 +17,7 @@ function Header() {
         <nav className="nav">
           <Link to="/" className="nav-link">
             Hem
-          </Link>
-
-          <Link to="/Prov" className="nav-link">
-            Hem
-          </Link>          
+          </Link>         
 
           <div className="category-menu">
             <span className="nav-link category-trigger">
