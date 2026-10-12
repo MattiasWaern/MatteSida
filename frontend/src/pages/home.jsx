@@ -1,139 +1,98 @@
+import { Link } from "react-router-dom";
 import questions from "../data/index.js";
-import { useState, useEffect } from "react";
-import GeometryRender from "../components/geometryRender";
-import GraphRender from "../components/graphRender";
-import { isAnswerCorrect } from "../utils/checkAnswer";
-import StatisticsRender from "../components/statisticsRender.jsx";
+import { categories, difficulties } from "../data/categories.js";
+import QuestionPanel from "../components/QuestionPanel.jsx";
+import useRandomQuestion from "../utils/useRandomQuestion.js";
 import "../styles/home.css";
 
+// Antal uppgifter per område, räknas en gång
+const questionCount = categories.reduce((counts, item) => {
+    counts[item.slug] = questions.filter(
+        (question) => question.category === item.category
+    ).length;
+    return counts;
+}, {});
+
 function Home() {
-    // Spara den slumpade frågan i state så den inte ändras
-    const [currentQuestion, setCurrentQuestion] = useState(null);
-    const [answer1, setAnswer1] = useState("");
-    const [answer2, setAnswer2] = useState("");
-    const [result, setResult] = useState("");
-    const [explanation, setExplanation] = useState([]);
-    const [showExplanation, setShowExplanation] = useState(false);
-
-  
-
-    // Funktion för att hämta en ny slumpmässig fråga
-    const getNewQuestion = () => {
-        const randomIndex = Math.floor(Math.random() * questions.length);
-        setCurrentQuestion(questions[randomIndex]);
-        setAnswer1("");
-        setAnswer2("");
-        setResult("");
-        setExplanation([]);
-        setShowExplanation(false);
-          console.log(randomIndex)
-    };
-
-    // Hämta första frågan när komponenten laddas
-    useEffect(() => {
-        getNewQuestion();
-    }, []); 
-
-    // Om frågan inte är laddad än, visa laddningsmeddelande
-    if (!currentQuestion) {
-        return <main>Laddar fråga...</main>;
-    }
-
-    function checkAnswer() {
-        if (isAnswerCorrect(currentQuestion, answer1, answer2)) {
-            setResult("Rätt!");
-        } else {
-            setResult("Fel! Försök igen.");
-        }
-    }
-
-    function handleShowExplanation() {
-        setShowExplanation(true);
-        const explanationElements = currentQuestion.explanation.map((step, id) => (
-            <p key={id}>{step}</p>
-        ));
-        setExplanation(explanationElements);
-    }
+    const { question, serial, next } = useRandomQuestion(questions);
 
     return (
-        <main>
-            <h1>DAGENS FRÅGA</h1>
-            
-            <div className="question-container">
-                <p className="question-text">{currentQuestion.text}</p>
-                <p className="question-meta">
-                    Kategori: {currentQuestion.category} | 
-                    Svårighet: {currentQuestion.difficulty}
+        <div className="page home">
+
+            {/* HERO */}
+            <section className="hero" aria-labelledby="home-title">
+                <p className="eyebrow">Matematik 2</p>
+
+                <h1 id="home-title" className="page-title">
+                    Öva matte i din egen takt
+                </h1>
+
+                <p className="lead">
+                    Lös uppgifter inom tio områden, se uträkningen steg för steg
+                    och testa dig själv med ett riktigt prov.
                 </p>
-            </div>
 
-                {currentQuestion.graph && (
-                    <div className="geometry-container">
-                        <GraphRender graph={currentQuestion.graph} />
-                    </div>
-                )}
-
-                {currentQuestion.geometry && (
-                    <div className="geometry-container">
-                        <GeometryRender geometry={currentQuestion.geometry} />
-                    </div>
-                )}  
-
-                {currentQuestion.statistics && (
-                    <div className="statistics-container">
-                        <StatisticsRender
-                            statistics={currentQuestion.statistics}
-                        />
-                    </div>
-                )}                      
-
-            {currentQuestion.type === "single" && (
-                <input
-                    type="text"
-                    value={answer1}
-                    onChange={(event) => setAnswer1(event.target.value)}
-                    placeholder="Skriv ditt svar här"
-                    className="answer-input"
-                />
-            )}
-
-            {currentQuestion.type === "multiple" && (
-                <div className="answer-row">
-                    <input
-                        type="text"
-                        value={answer1}
-                        onChange={(event) => setAnswer1(event.target.value)}
-                        placeholder="x₁ = ?"
-                        className="answer-input"
-                    />
-                    <input
-                        type="text"
-                        value={answer2}
-                        onChange={(event) => setAnswer2(event.target.value)}
-                        placeholder="x₂ = ?"
-                        className="answer-input"
-                    />
+                <div className="btn-row hero-actions">
+                    <Link to="/quiz/linjara-ekvationer/easy" className="btn btn-primary">
+                        Börja öva
+                    </Link>
+                    <Link to="/Prov" className="btn btn-outline">
+                        Gör ett prov
+                    </Link>
                 </div>
+            </section>
+
+            {/* PROVA EN FRÅGA */}
+            {question && (
+                <section className="card try-card" aria-labelledby="try-title">
+                    <h2 id="try-title" className="section-title">
+                        Testa en fråga
+                    </h2>
+
+                    <QuestionPanel
+                        key={serial}
+                        question={question}
+                        onNext={next}
+                        nextLabel="Ny fråga"
+                        showMeta
+                    />
+                </section>
             )}
 
-            <div className="button-group">
-                <button className="btn-primary" onClick={checkAnswer}>
-                    Kontrollera svar
-                </button>
-                <button className="btn-secondary" onClick={handleShowExplanation}>
-                    Visa uträkning
-                </button>
-            </div>
+            {/* OMRÅDEN */}
+            <section className="areas" aria-labelledby="areas-title">
+                <h2 id="areas-title" className="section-title">
+                    Välj område
+                </h2>
 
-            {result && <p className="result">{result}</p>}
+                <ul className="area-grid">
+                    {categories.map((category) => (
+                        <li className="area-card" key={category.slug}>
+                            <h3>{category.label}</h3>
+                            <p>{category.blurb}</p>
 
-            {showExplanation && (
-                <div className="explanation">
-                    <h4>Såhär löser du uppgiften:</h4>
-                    {explanation}
-                </div>
-            )}
-        </main>
+                            <p className="area-count">
+                                {questionCount[category.slug]} uppgifter
+                            </p>
+
+                            <div className="area-levels">
+                                {difficulties.map((difficulty) => (
+                                    <Link
+                                        key={difficulty.slug}
+                                        to={`/quiz/${category.slug}/${difficulty.slug}`}
+                                        className={`badge badge--${difficulty.slug}`}
+                                        aria-label={`${category.label}, ${difficulty.label}`}
+                                    >
+                                        {difficulty.label}
+                                    </Link>
+                                ))}
+                            </div>
+                        </li>
+                    ))}
+                </ul>
+            </section>
+
+        </div>
     );
 }
 
