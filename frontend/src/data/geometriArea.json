@@ -1,143 +1,236 @@
 [
     {
-        "text": "Beräkna arean av en rektangel vars omkrets är 54 cm och vars längd är dubbelt så stor som dess bredd.",
-        "answer": ["162"],
+        "text": "En rektangulär tomt har omkretsen 86 meter. Längden är 7 meter större än bredden. Beräkna tomtens area.",
+        "answer": ["450"],
         "type": "single",
         "category": "Geometri - Area",
-        "difficulty": "hard",
+        "difficulty": "medium",
         "geometry": {
             "type": "rectangle",
-            "width": 9,
-            "height": 18
+            "width": 18,
+            "height": 25,
+            "showMeasurements": false
         },
         "explanation": [
-            "Formel för omkrets: O = 2 × (längd + bredd)",
-            "Låt bredden vara x. Längden är då 2x.",
-            "2 × (2x + x) = 54 => 6x = 54 => x = 9 cm",
-            "Bredden är 9 cm och längden är 18 cm",
-            "A = 18 × 9 = 162 cm²"
+            "Låt bredden vara x meter. Då är längden x + 7 meter.",
+            "Omkretsen ger 2x + 2(x + 7) = 86.",
+            "4x + 14 = 86.",
+            "4x = 72, vilket ger x = 18.",
+            "Längden är 18 + 7 = 25 meter.",
+            "Arean blir A = 18 × 25 = 450 m²."
         ]
     },
     {
-        "text": "Bestäm arean av en cirkel vars omkrets är 31.4 cm (använd pi ≈ 3.14).",
-        "answer": ["78.5"],
+        "text": "En cirkel har omkretsen 50,24 cm. Beräkna cirkelns area. Använd pi ≈ 3,14.",
+        "answer": ["200.96", "200,96"],
         "type": "single",
         "category": "Geometri - Area",
         "difficulty": "medium",
         "geometry": {
             "type": "circle",
-            "radius": 5
+            "radius": 8,
+            "showMeasurements": false
         },
         "explanation": [
-            "Formel för omkrets: O = 2 × pi × r",
-            "31.4 = 2 × 3.14 × r => 31.4 = 6.28 × r => r = 5 cm",
-            "Formel för area: A = pi × r²",
-            "A = 3.14 × 5² = 3.14 × 25 = 78.5 cm²"
+            "Omkretsen är O = 2 × pi × r.",
+            "50,24 = 2 × 3,14 × r.",
+            "r = 50,24 / 6,28 = 8 cm.",
+            "Arean är A = pi × r².",
+            "A = 3,14 × 8² = 3,14 × 64 = 200,96 cm²."
         ]
     },
     {
-        "text": "I en rätvinklig triangel är hypotenusan 17 cm och den ena kateten 8 cm. Beräkna den andra katetens längd.",
-        "answer": ["15"],
-        "type": "single",
-        "category": "Geometri - Pythagoras sats",
-        "difficulty": "hard",
-        "geometry": {
-            "type": "pythagoras",
-            "base": 15,
-            "height": 8
-        },
-        "explanation": [
-            "Pythagoras sats: a² + b² = c²",
-            "8² + b² = 17²",
-            "64 + b² = 289",
-            "b² = 289 - 64 = 225",
-            "b = 15 cm"
-        ]
-    },
-    {
-        "text": "En cylinder har höjden 12 cm och basytans radie är 4 cm. Beräkna cylinderns volym i kubikcentimeter (avrunda till heltal med pi ≈ 3.14).",
-        "answer": ["603"],
-        "type": "single",
-        "category": "Geometri - Volym",
-        "difficulty": "medium",
-        "geometry": {
-            "type": "cylinder",
-            "radius": 4,
-            "height": 12
-        },
-        "explanation": [
-            "Formel för volym: V = pi × r² × h",
-            "V = 3.14 × 4² × 12",
-            "V = 3.14 × 16 × 12",
-            "V = 50.24 × 12 = 602.88 cm³",
-            "Avrundat till heltal: 603 cm³"
-        ]
-    },
-    {
-        "text": "En rektangulär trädgård har en area på 216 m² och en längd som är 6 meter längre än dess bredd. Vad är trädgårdens omkrets?",
-        "answer": ["60"],
-        "type": "single",
-        "category": "Geometri - Area",
-        "difficulty": "hard",
-        "explanation": [
-            "Låt bredden vara x. Längden är x + 6.",
-            "Area: x(x + 6) = 216 => x² + 6x - 216 = 0",
-            "Lös med pq-formeln: x = -3 ± √(9 + 216) = -3 ± √225 = -3 ± 15",
-            "Positiv lösning: x = 12 meter (bredd), längd = 18 meter",
-            "Omkrets = 2 × (18 + 12) = 60 meter"
-        ]
-    },
-    {
-        "text": "Beräkna arean av en liksidig triangel där varje sida är 10 cm. Svara avrundat till närmaste heltal.",
-        "answer": ["43"],
+        "text": "En likbent triangel har två lika långa sidor på 17 cm och en bas på 16 cm. Beräkna triangelns area.",
+        "answer": ["120"],
         "type": "single",
         "category": "Geometri - Area",
         "difficulty": "hard",
         "geometry": {
             "type": "triangle",
-            "base": 10,
-            "height": 8.66
+            "base": 16,
+            "height": 15,
+            "showMeasurements": false
         },
         "explanation": [
-            "I en liksidig triangel delar höjden basen i två lika delar (5 cm vardera).",
-            "Pythagoras sats för höjden h: 5² + h² = 10² => 25 + h² = 100 => h = √75 ≈ 8.66 cm",
-            "Area: A = (bas × höjd) / 2 = (10 × 8.66) / 2 = 43.3 cm²",
-            "Avrundat till närmaste heltal: 43 cm²"
+            "Höjden delar den likbenta triangeln i två rätvinkliga trianglar.",
+            "Halva basen är 16 / 2 = 8 cm.",
+            "Med Pythagoras sats får vi h² + 8² = 17².",
+            "h² = 289 - 64 = 225.",
+            "h = 15 cm.",
+            "Arean blir A = (16 × 15) / 2 = 120 cm²."
         ]
     },
     {
-        "text": "En cylinder har volymen 942 cm³ och en radie på 5 cm. Beräkna cylinderns höjd (använd pi ≈ 3.14).",
-        "answer": ["12"],
-        "type": "single",
-        "category": "Geometri - Volym",
-        "difficulty": "hard",
-        "geometry": {
-            "type": "cylinder",
-            "radius": 5,
-            "height": 12
-        },
-        "explanation": [
-            "Formel: V = pi × r² × h",
-            "942 = 3.14 × 5² × h",
-            "942 = 3.14 × 25 × h",
-            "942 = 78.5 × h",
-            "h = 942 / 78.5 = 12 cm"
-        ]
-    },
-    {
-        "text": "En cirkulär pool har en diameter på 8 meter. Hur stor area täcker poolen? Använd pi ≈ 3.14.",
-        "answer": ["50.24"],
+        "text": "En rektangel har arean 192 cm². Längden är 4 cm större än bredden. Beräkna rektangelns area om båda sidlängderna ökas med 2 cm.",
+        "answer": ["260"],
         "type": "single",
         "category": "Geometri - Area",
-        "difficulty": "medium",
+        "difficulty": "hard",
         "geometry": {
-            "type": "circle",
-            "radius": 4
+            "type": "rectangle",
+            "width": 12,
+            "height": 16,
+            "showMeasurements": false
         },
         "explanation": [
-            "Radien r är halva diametern: r = 8 / 2 = 4 meter",
-            "Formel: A = pi × r²",
-            "A = 3.14 × 4² = 3.14 × 16 = 50.24 m²"
+            "Låt bredden vara x cm och längden x + 4 cm.",
+            "Arean ger x(x + 4) = 192.",
+            "x² + 4x - 192 = 0.",
+            "Faktorisera: (x + 16)(x - 12) = 0.",
+            "Den positiva lösningen är x = 12. Längden är 16 cm.",
+            "De nya sidlängderna blir 14 cm och 18 cm.",
+            "Den nya arean blir 14 × 18 = 252 cm²."
+        ]
+    },
+    {
+        "text": "En kvadrat har diagonalen 14 cm. Beräkna kvadratens area utan att avrunda sidlängden.",
+        "answer": ["98"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "hard",
+        "geometry": {
+            "type": "rectangle",
+            "width": 14,
+            "height": 14,
+            "showMeasurements": false
+        },
+        "explanation": [
+            "Låt kvadratens sida vara x cm.",
+            "Pythagoras sats ger x² + x² = 14².",
+            "2x² = 196.",
+            "x² = 98.",
+            "Eftersom arean är x² blir kvadratens area exakt 98 cm²."
+        ]
+    },
+    {
+        "text": "En cirkelformad damm har radien 6 meter. Runt dammen byggs en jämnbred gång som är 2 meter bred. Beräkna gångens area. Använd pi ≈ 3,14.",
+        "answer": ["87.92", "87,92"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "hard",
+        "geometry": {
+            "type": "circle",
+            "radius": 6,
+            "showMeasurements": false
+        },
+        "explanation": [
+            "Dammens radie är 6 meter.",
+            "Den yttre radien inklusive gången är 6 + 2 = 8 meter.",
+            "Den yttre cirkelns area är 3,14 × 8² = 200,96 m².",
+            "Dammens area är 3,14 × 6² = 113,04 m².",
+            "Gångens area blir 200,96 - 113,04 = 87,92 m²."
+        ]
+    },
+    {
+        "text": "En rektangel har omkretsen 52 cm och diagonalen 20 cm. Beräkna rektangelns area utan att först lösa ut båda sidlängderna var för sig.",
+        "answer": ["120"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt sidlängderna vara x och y.",
+            "Omkretsen ger 2x + 2y = 52, alltså x + y = 26.",
+            "Diagonalen ger x² + y² = 20² = 400.",
+            "Kvadrera summan: (x + y)² = x² + 2xy + y².",
+            "26² = 400 + 2xy.",
+            "676 = 400 + 2xy.",
+            "276 = 2xy, alltså xy = 138.",
+            "Arean är därför 138 cm²."
+        ]
+    },
+    {
+        "text": "En rektangulär trädgård har arean 240 m². Längden är 2 meter mindre än dubbla bredden. Beräkna trädgårdens area om bredden ökas med 3 meter och längden minskas med 2 meter.",
+        "answer": ["280"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "hard",
+        "geometry": {
+            "type": "rectangle",
+            "width": 12,
+            "height": 20,
+            "showMeasurements": false
+        },
+        "explanation": [
+            "Låt bredden vara x meter. Längden är 2x - 2 meter.",
+            "Arean ger x(2x - 2) = 240.",
+            "2x² - 2x - 240 = 0.",
+            "Dividera med 2: x² - x - 120 = 0.",
+            "Faktorisera: (x - 12)(x + 10) = 0.",
+            "Den positiva lösningen är x = 12 meter.",
+            "Längden är 2 × 12 - 2 = 22 meter.",
+            "De nya måtten blir 15 meter och 20 meter.",
+            "Den nya arean blir 15 × 20 = 300 m²."
+        ]
+    },
+    {
+        "text": "En kvadratisk plåt har en cirkelformad öppning i mitten. Kvadratens sida är 20 cm och öppningens diameter är 12 cm. Beräkna plåtens återstående area. Använd pi ≈ 3,14.",
+        "answer": ["286.96", "286,96"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "hard",
+        "geometry": {
+            "type": "rectangle",
+            "width": 20,
+            "height": 20,
+            "showMeasurements": false
+        },
+        "explanation": [
+            "Kvadratens area är 20 × 20 = 400 cm².",
+            "Öppningens radie är 12 / 2 = 6 cm.",
+            "Cirkelns area är 3,14 × 6² = 113,04 cm².",
+            "Den återstående arean är 400 - 113,04 = 286,96 cm²."
+        ]
+    },
+    {
+        "text": "En rektangulär park har omkretsen 100 meter. Om längden minskas med 5 meter och bredden ökas med 5 meter blir parken kvadratisk. Beräkna parkens ursprungliga area.",
+        "answer": ["600"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "hard",
+        "explanation": [
+            "Låt längden vara l och bredden vara b.",
+            "Omkretsen ger l + b = 50.",
+            "Efter förändringen blir längden l - 5 och bredden b + 5.",
+            "Eftersom den nya formen är en kvadrat gäller l - 5 = b + 5.",
+            "Därför är l - b = 10.",
+            "Vi har ekvationssystemet l + b = 50 och l - b = 10.",
+            "Adderar vi ekvationerna får vi 2l = 60, alltså l = 30.",
+            "Då är b = 20.",
+            "Den ursprungliga arean är 30 × 20 = 600 m²."
+        ]
+    },
+    {
+        "text": "En rektangel har sidlängderna x cm och (18 - x) cm. Bestäm det största möjliga värdet på rektangelns area och ange vilka sidlängder som ger denna area.",
+        "answer": ["81"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "hard",
+        "explanation": [
+            "Arean kan skrivas A = x(18 - x).",
+            "Utveckla: A = 18x - x².",
+            "Skriv om uttrycket: A = -(x² - 18x).",
+            "Kvadratkomplettera: A = -(x - 9)² + 81.",
+            "Eftersom (x - 9)² aldrig kan vara negativt är arean som störst när kvadraten är 0.",
+            "Det sker när x = 9.",
+            "Båda sidlängderna blir 9 cm och den största arean är 81 cm²."
+        ]
+    },
+    {
+        "text": "En cirkel är inskriven i en kvadrat med sidan 10 cm. Beräkna arean av den del av kvadraten som ligger utanför cirkeln. Använd pi ≈ 3,14.",
+        "answer": ["21.5", "21,5"],
+        "type": "single",
+        "category": "Geometri - Area",
+        "difficulty": "hard",
+        "geometry": {
+            "type": "circle",
+            "radius": 5,
+            "showMeasurements": false
+        },
+        "explanation": [
+            "Kvadratens area är 10² = 100 cm².",
+            "Eftersom cirkeln är inskriven är diametern 10 cm och radien 5 cm.",
+            "Cirkelns area är 3,14 × 5² = 78,5 cm².",
+            "Området utanför cirkeln men innanför kvadraten är 100 - 78,5 = 21,5 cm²."
         ]
     }
 ]

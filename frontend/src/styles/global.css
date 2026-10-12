@@ -545,6 +545,10 @@ a.badge[aria-current="page"] {
     overflow-wrap: anywhere;
 }
 
+.geometry-svg--no-measurements text {
+    display: none;
+}
+
 .geometry-container,
 .statistics-container {
     display: flex;
