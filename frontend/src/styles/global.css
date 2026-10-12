@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Inter:wght@400;500;600;700&display=swap");
 
-/* =====================================================
-   DESIGN TOKENS
-   Alla färger, radier och skuggor definieras här.
-   Kontrastvärden (mot angiven bakgrund) är uträknade enligt WCAG 2.1.
-===================================================== */
 
 :root {
     /* Yta */
@@ -69,10 +64,6 @@
     --tap: 44px;
 }
 
-
-/* =====================================================
-   BAS
-===================================================== */
 
 *,
 *::before,
@@ -174,11 +165,6 @@ svg {
     transform: translateY(0);
 }
 
-
-/* =====================================================
-   SIDLAYOUT
-===================================================== */
-
 .page {
     width: 100%;
     max-width: var(--page-width);
@@ -217,9 +203,6 @@ svg {
 }
 
 
-/* =====================================================
-   KORT
-===================================================== */
 
 .card {
     padding: 32px;
@@ -231,9 +214,6 @@ svg {
 }
 
 
-/* =====================================================
-   KNAPPAR
-===================================================== */
 
 .btn {
     display: inline-flex;
@@ -324,11 +304,6 @@ svg {
     gap: 10px;
 }
 
-
-/* =====================================================
-   MÄRKEN (kategori, svårighetsgrad)
-===================================================== */
-
 .badge {
     display: inline-flex;
     align-items: center;
@@ -416,11 +391,6 @@ a.badge[aria-current="page"] {
     outline-offset: 1px;
 }
 
-
-/* =====================================================
-   FORMULÄR
-===================================================== */
-
 .answer-fields {
     display: flex;
     flex-wrap: wrap;
@@ -480,11 +450,6 @@ a.badge[aria-current="page"] {
     border-color: var(--focus);
     box-shadow: 0 0 0 4px rgba(29, 78, 216, 0.2);
 }
-
-
-/* =====================================================
-   ÅTERKOPPLING (rätt / fel / tomt svar)
-===================================================== */
 
 .feedback-slot {
     width: 100%;
@@ -566,11 +531,6 @@ a.badge[aria-current="page"] {
         transform: translateY(0);
     }
 }
-
-
-/* =====================================================
-   FRÅGA, FIGURER OCH UTRÄKNING
-===================================================== */
 
 .question-text {
     color: var(--ink);
@@ -673,11 +633,6 @@ a.badge[aria-current="page"] {
     font-size: 0.98rem;
     line-height: 1.6;
 }
-
-
-/* =====================================================
-   REDUCERAD RÖRELSE
-===================================================== */
 
 @media (prefers-reduced-motion: reduce) {
 
