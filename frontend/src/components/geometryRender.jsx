@@ -462,8 +462,16 @@ const GeometryRender = ({ geometry }) => {
         const startY = 190;
 
         return (
-            <svg viewBox="0 0 300 240" className="geometry-svg" role="group" aria-label="Figur till uppgiften">
-
+            <svg
+                viewBox="0 0 300 240"
+                className={`geometry-svg ${
+                    geometry.showMeasurements === false
+                        ? "geometry-svg--no-measurements"
+                        : ""
+                }`}
+                role="group"
+                aria-label="Figur till uppgiften"
+            >
                 <defs>
                     <marker
                         id="pythagoras-arrow"
