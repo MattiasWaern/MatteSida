@@ -1,238 +1,80 @@
-import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useMemo } from "react";
+import { Link, useParams } from "react-router-dom";
 import questions from "../data/index.js";
-import GeometryRender from "../components/geometryRender";
-import GraphRender from "../components/graphRender";
-import { isAnswerCorrect } from "../utils/checkAnswer";
-import StatisticsRender from "../components/statisticsRender";
+import { difficulties, difficultyLabel, getCategory } from "../data/categories.js";
+import QuestionPanel from "../components/QuestionPanel.jsx";
+import useRandomQuestion from "../utils/useRandomQuestion.js";
 import "../styles/math.css";
 
-function MathQuiz() {
+// En övningsomgång. Monteras om (via key) när område eller nivå byts.
+function QuizSession({ list }) {
+    const { question, serial, next } = useRandomQuestion(list);
 
-    const [answer1, setAnswer1] = useState("");
-    const [answer2, setAnswer2] = useState("");
-    const [result, setResult] = useState("");
-    const [explanation, setExplanation] = useState([]);
-    const { category, difficulty } = useParams();
-    const categoryNames = {
-        "linjara-ekvationer": "Linjära ekvationer",
-        "linjara-funktioner": "Linjära funktioner",
-        "parallella-linjer": "Parallella och vinkelräta linjer",
-        "andragradsekvationer": "Andragradsekvationer",
-        "ekvationssystem": "Ekvationssystem",
-        "geometriarea": "Geometri - Area",
-        "geometricirkel": "Geometri - Cirkel",
-        "geometripythagoras": "Geometri - Pythagoras",
-        "geometrivolym": "Geometri - Volym",
-        "statistik": "Statistik"
-    };
-
-    const selectedCategory = categoryNames[category]
-
-    // 1. Filtrera frågorna
-    const filteredQuestions = questions.filter((question) => {
-
-        const categoryMatch =
-            !category || question.category === selectedCategory;
-
-        const difficultyMatch =
-            !difficulty || question.difficulty === difficulty;
-
-        return categoryMatch && difficultyMatch;
-    });
-
-
-    const [randomQuestion, setRandomQuestion] = useState(null);
-
-
-
-    useEffect(() => {
-
-        if (filteredQuestions.length === 0) {
-            setRandomQuestion(null);
-            return;
-        }
-
-        const randomIndex = Math.floor(
-            Math.random() * filteredQuestions.length
-        );
-
-        setRandomQuestion(filteredQuestions[randomIndex]);
-
-        setAnswer1("");
-        setAnswer2("");
-        setResult("");
-        setExplanation([]);
-
-    }, [category, difficulty]);
-
-
-    //Nästa fråga
-    function nextQuestion() {
-
-        const randomIndex = Math.floor(
-            Math.random() * filteredQuestions.length
-        );
-
-        setRandomQuestion(filteredQuestions[randomIndex]);
-
-        setAnswer1("");
-        setAnswer2("");
-        setResult("");
-        setExplanation([]);
-    }
-
-
-function checkAnswer() {
-    setResult(
-        isAnswerCorrect(randomQuestion, answer1, answer2) ? "Rätt!" : "Fel!"
-    );
+    return <QuestionPanel key={serial} question={question} onNext={next} />;
 }
 
-    function showExplanation() {
+function MathQuiz() {
+    const { category, difficulty } = useParams();
 
-        setExplanation(
-            randomQuestion.explanation.map((step, id) => (
-                <p key={id}>
-                    {step}
-                </p>
-            ))
+    const selected = getCategory(category);
+
+    const list = useMemo(() => {
+        if (!selected) return [];
+
+        return questions.filter(
+            (question) =>
+                question.category === selected.category &&
+                (!difficulty || question.difficulty === difficulty)
         );
-    }
+    }, [selected, difficulty]);
 
-
-    // Om inga frågor hittades
-    if (!randomQuestion) {
-        return (
-            <div className="container">
-                <section className="math-quiz">
-                    <h2>Inga frågor hittades</h2>
-                    <p>
-                        Det finns inga frågor för den här kategorin och svårighetsgraden.
-                    </p>
-                </section>
-            </div>
-        );
-    }
-
-
-    const difficultyClass =
-        randomQuestion.difficulty?.toLowerCase() === "easy"
-            ? "diff-easy"
-            : randomQuestion.difficulty?.toLowerCase() === "medium"
-            ? "diff-medium"
-            : "diff-hard";
+    const title = selected?.label ?? "Okänt område";
 
     return (
-        <div className="container">
+        <div className="page page--narrow quiz-page">
 
-            <section className="math-quiz">
+            <header className="quiz-header">
+                <p className="eyebrow">Öva</p>
+                <h1 className="page-title">{title}</h1>
 
-                <h2>Lös {randomQuestion.category}</h2>
+                <nav aria-label="Svårighetsgrad" className="level-switcher">
+                    <ul>
+                        {difficulties.map((level) => (
+                            <li key={level.slug}>
+                                <Link
+                                    to={`/quiz/${category}/${level.slug}`}
+                                    className={`badge badge--${level.slug}`}
+                                    aria-current={level.slug === difficulty ? "page" : undefined}
+                                >
+                                    {level.label}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
 
-                <div className="tags">
-
-                    <h3>
-                        {randomQuestion.category}
-                    </h3>
-
-                    <h4 className={difficultyClass}>
-                        {randomQuestion.difficulty}
-                    </h4>
-
-                </div>
-
-                {randomQuestion.graph && (
-                    <div className="geometry-container">
-                        <GraphRender graph={randomQuestion.graph} />
-                    </div>
+                {list.length > 0 && (
+                    <p className="quiz-count">
+                        {list.length} uppgifter på nivån {difficultyLabel(difficulty).toLowerCase()}
+                    </p>
                 )}
+            </header>
 
-                {randomQuestion.geometry && (
-                    <div className="geometry-container">
-                        <GeometryRender geometry={randomQuestion.geometry} />
+            <section className="card" aria-label="Uppgift">
+                {list.length === 0 ? (
+                    <div className="quiz-empty">
+                        <h2>Inga uppgifter här än</h2>
+                        <p>
+                            Det finns inga uppgifter för det här området och den här nivån.
+                            Prova en annan nivå eller välj ett annat område.
+                        </p>
+                        <Link to="/" className="btn btn-primary">
+                            Till startsidan
+                        </Link>
                     </div>
-                )}               
-
-                {randomQuestion.statistics && (
-                    <div className="statistics-container">
-                        <StatisticsRender
-                            statistics={randomQuestion.statistics}
-                        />
-                    </div>
-                )}                
-
-                <p className="question-text">
-                    {randomQuestion.text}
-                </p>
-
-
-                {randomQuestion.type === "single" && (
-                    <input
-                        type="text"
-                        value={answer1}
-                        onChange={(event) =>
-                            setAnswer1(event.target.value)
-                        }
-                        placeholder="Ditt svar"
-                    />
+                ) : (
+                    <QuizSession key={`${category}/${difficulty}`} list={list} />
                 )}
-
-                {randomQuestion.type === "multiple" && (
-                    <div className="answer-row">
-                        <input
-                            type="text"
-                            value={answer1}
-                            onChange={(event) =>
-                                setAnswer1(event.target.value)
-                            }
-                            placeholder="x₁"
-                        />
-
-                        <input
-                            type="text"
-                            value={answer2}
-                            onChange={(event) =>
-                                setAnswer2(event.target.value)
-                            }
-                            placeholder="x₂"
-                        />
-                    </div>
-                )}
-
-
-                <div className="button-row">
-
-                    <button className="btn-primary" onClick={checkAnswer}>
-                        Kontrollera
-                    </button>
-
-                    <button className="btn-secondary" onClick={nextQuestion}>
-                        Nästa fråga
-                    </button>
-
-                    <button className="btn-secondary" onClick={showExplanation}>
-                        Visa uträkning
-                    </button>
-
-                </div>
-
-
-                <p id="results">
-                    {result}
-                </p>
-
-
-                <div className="explanation">
-
-                    <h4>
-                        Såhär löser du:
-                    </h4>
-
-                    {explanation}
-
-                </div>
-
             </section>
 
         </div>

@@ -1,321 +1,93 @@
+/* Startsidan. Gemensamma komponenter finns i global.css */
 
-
-/* Huvudcontainer */
-main {
+.home {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 24px 60px;
-    min-height: calc(100vh - 300px);
-    background-color: #fdfcf9;
-    background-size: 24px 24px;
+    gap: 48px;
 }
 
-/* Titel */
-main h1 {
-    margin: 0 0 8px 0;
-    color: #1e293b;
-    font-family: "Inter", system-ui, sans-serif;
-    font-size: 2.2rem;
+.hero {
+    padding-top: 8px;
+}
+
+.hero-actions {
+    margin-top: 24px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+
+    color: var(--ink);
+
+    font-family: var(--font-display);
+    font-size: 1.5rem;
     font-weight: 700;
-    letter-spacing: -0.5px;
-    align-content: center;
-    justify-content: center;
+}
+
+.try-card {
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.try-card .section-title {
     text-align: center;
 }
 
-/* Question container */
-.question-container {
-    padding: 32px;
-    margin: 24px 0;
-    background: #ffffff;
-    border-radius: 16px;
-    border: 2px solid #e7e2d6;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-    transition: box-shadow 0.2s ease;
-}
+/* OMRÅDEN */
 
-.question-container:hover {
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-}
+.area-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
 
-.question-text {
-    margin: 0 0 16px 0;
-    color: #1e293b;
-    font-family: "Inter", system-ui, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.6;
-}
-
-.question-meta {
     margin: 0;
-    padding-top: 16px;
-    border-top: 2px solid #f1f0ec;
-    color: #64748b;
-    font-family: "Inter", system-ui, sans-serif;
-    font-size: 0.85rem;
-    font-weight: 500;
+    padding: 0;
+
+    list-style: none;
 }
 
-/* Answer inputs */
-.answer-input {
-    width: 100%;
-    max-width: 400px;
-    padding: 12px 16px;
-    margin: 8px 0 4px 0;
-    background: #f8f7f4;
-    border: 2px solid #e7e2d6;
-    border-radius: 8px;
-    font-family: "Inter", system-ui, sans-serif;
-    font-size: 1rem;
-    color: #1e293b;
-    transition: all 0.2s ease;
-}
-
-.answer-input:focus {
-    outline: none;
-    border-color: #2563eb;
-    background: #ffffff;
-    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.08);
-}
-
-.answer-input::placeholder {
-    color: #94a3b8;
-}
-
-.answer-row {
+.area-card {
     display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin: 8px 0 4px 0;
+    flex-direction: column;
+    gap: 6px;
+
+    padding: 20px;
+
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
 }
 
-.answer-row .answer-input {
-    max-width: 180px;
+.area-card h3 {
+    color: var(--ink);
+
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
 }
-.statistics-container {
-    width: 100%;
+
+.area-card p {
+    color: var(--muted);
+    font-size: 0.92rem;
+}
+
+.area-card .area-count {
+    margin-top: auto;
+    padding-top: 6px;
+
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.area-levels {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px 0;
+    gap: 6px;
+
+    margin-top: 6px;
 }
 
-.statistics-svg {
-    width: 300px;
-    height: 230px;
-    max-width: 100%;
-}
-
-.statistics-table {
-    border-collapse: collapse;
-    min-width: 280px;
-    margin: 20px auto;
-}
-
-.statistics-table th,
-.statistics-table td {
-    padding: 10px 18px;
-    border: 1px solid #cbd5e1;
-    text-align: center;
-}
-
-.statistics-table th {
-    background: #eff6ff;
-    font-weight: 600;
-}
-.answer-row .answer-input:first-child::before {
-    content: "x₁ = ";
-}
-
-/* Button group */
-.button-group {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin: 20px 0 16px 0;
-}
-
-.btn-primary {
-    padding: 12px 28px;
-    background: #2563eb;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-family: "Inter", system-ui, sans-serif;
-    font-weight: 600;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.btn-primary:hover {
-    background: #1d4ed8;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
-}
-
-.btn-primary:active {
-    transform: translateY(0);
-}
-
-.btn-secondary {
-    padding: 12px 28px;
-    background: #f8f7f4;
-    color: #1e293b;
-    border: 2px solid #e7e2d6;
-    border-radius: 8px;
-    font-family: "Inter", system-ui, sans-serif;
-    font-weight: 600;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.btn-secondary:hover {
-    background: #e7e2d6;
-    border-color: #d4cec0;
-    transform: translateY(-2px);
-}
-
-.btn-secondary:active {
-    transform: translateY(0);
-}
-
-/* Result message */
-.result {
-    padding: 16px 20px;
-    margin: 16px 0 0 0;
-    border-radius: 8px;
-    font-family: "Inter", system-ui, sans-serif;
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-
-/* Dynamiska resultatfärger - dessa sätts av React baserat på innehåll */
-.result:contains("Rätt") {
-    background: #dcfce7;
-    border: 2px solid #86efac;
-    color: #166534;
-}
-
-.result:contains("Fel") {
-    background: #fee2e2;
-    border: 2px solid #fca5a5;
-    color: #991b1b;
-}
-
-/* Explanation */
-.explanation {
-    padding: 24px 28px;
-    margin: 16px 0 0 0;
-    background: #f8f7f4;
-    border-radius: 12px;
-    border-left: 4px solid #2563eb;
-    border: 2px solid #e7e2d6;
-    border-left-width: 4px;
-}
-
-.explanation h4 {
-    margin: 0 0 16px 0;
-    color: #1e293b;
-    font-family: "Inter", system-ui, sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.explanation h4::before {
-    content: "📝 ";
-}
-
-.explanation p {
-    margin: 8px 0;
-    color: #334155;
-    font-family: "Inter", system-ui, sans-serif;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    padding: 4px 0;
-}
-
-.explanation p:last-child {
-    margin-bottom: 0;
-}
-
-/* Loading state */
-main:has(.loading) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-}
-
-/* Responsiv design */
-@media (max-width: 768px) {
-    main {
-        padding: 24px 16px 40px;
-    }
-
-    main h1 {
-        font-size: 1.8rem;
-    }
-
-    .question-container {
-        padding: 20px;
-    }
-
-    .question-text {
-        font-size: 1.2rem;
-    }
-
-    .answer-input {
-        max-width: 100%;
-    }
-
-    .answer-row .answer-input {
-        max-width: 100%;
-        flex: 1;
-    }
-
-    .answer-row {
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .button-group {
-        flex-direction: column;
-    }
-
-    .btn-primary,
-    .btn-secondary {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .explanation {
-        padding: 16px 20px;
-    }
-}
-
-/* Extra liten skärm */
-@media (max-width: 480px) {
-    main h1 {
-        font-size: 1.5rem;
-    }
-
-    .question-text {
-        font-size: 1rem;
-    }
-
-    .question-meta {
-        font-size: 0.75rem;
-    }
-}
-
-/* Radbrytningar (\n) i frågetexter, t.ex. ekvationssystem */
-.question-text {
-    white-space: pre-line;
+.area-levels .badge {
+    flex: 1;
 }

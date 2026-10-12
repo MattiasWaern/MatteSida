@@ -15,7 +15,7 @@ const GeometryRender = ({ geometry }) => {
         const topY = baseY - heightPx;
 
         return (
-            <svg viewBox="0 0 300 240" className="geometry-svg">
+            <svg viewBox="0 0 300 240" className="geometry-svg" role="group" aria-label="Figur till uppgiften">
 
                 <defs>
                     <marker
@@ -113,7 +113,7 @@ const GeometryRender = ({ geometry }) => {
         const centerY = 115;
 
         return (
-            <svg viewBox="0 0 300 240" className="geometry-svg">
+            <svg viewBox="0 0 300 240" className="geometry-svg" role="group" aria-label="Figur till uppgiften">
 
                 <defs>
                     <marker
@@ -216,7 +216,7 @@ const GeometryRender = ({ geometry }) => {
         const y = 100 - rectangleHeight / 2;
 
         return (
-            <svg viewBox="0 0 300 240" className="geometry-svg">
+            <svg viewBox="0 0 300 240" className="geometry-svg" role="group" aria-label="Figur till uppgiften">
 
                 <defs>
                     <marker
@@ -313,7 +313,7 @@ const GeometryRender = ({ geometry }) => {
         const bottomY = topY + h;
 
         return (
-            <svg viewBox="0 0 300 240" className="geometry-svg">
+            <svg viewBox="0 0 300 240" className="geometry-svg" role="group" aria-label="Figur till uppgiften">
 
                 <defs>
                     <marker
@@ -429,7 +429,7 @@ const GeometryRender = ({ geometry }) => {
         const startY = 190;
 
         return (
-            <svg viewBox="0 0 300 240" className="geometry-svg">
+            <svg viewBox="0 0 300 240" className="geometry-svg" role="group" aria-label="Figur till uppgiften">
 
                 <defs>
                     <marker

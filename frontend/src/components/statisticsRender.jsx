@@ -12,6 +12,8 @@ const statisticsRender = ({ statistics }) => {
             <svg
                 viewBox="0 0 300 230"
                 className="statistics-svg"
+                role="img"
+                aria-label={`Stapeldiagram. ${data.map((item) => `${item.label}: ${item.value}`).join(", ")}`}
             >
                 {/* Y-axel */}
                 <line
@@ -117,6 +119,8 @@ const statisticsRender = ({ statistics }) => {
             <svg
                 viewBox="0 0 300 230"
                 className="statistics-svg"
+                role="img"
+                aria-label={`Linjediagram. ${data.map((item) => `${item.label}: ${item.value}`).join(", ")}`}
             >
 
                 {/* Y-axel */}
@@ -279,6 +283,8 @@ const statisticsRender = ({ statistics }) => {
             <svg
                 viewBox="0 0 300 230"
                 className="statistics-svg"
+                role="img"
+                aria-label={`Cirkeldiagram. ${data.map((item) => `${item.label}: ${item.value}`).join(", ")}`}
             >
 
                 <g transform="translate(0,10)">

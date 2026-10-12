@@ -1,165 +1,192 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import questions from "../data/index.js";
-import GeometryRender from "../components/geometryRender";
-import GraphRender from "../components/graphRender";
-import { isAnswerCorrect } from "../utils/checkAnswer";
-import StatisticsRender from "../components/statisticsRender";
+import AnswerFields from "../components/AnswerFields.jsx";
+import QuestionFigure from "../components/QuestionFigure.jsx";
+import { isAnswerCorrect, normalize } from "../utils/checkAnswer";
 import "../styles/prov.css";
+
+const QUESTION_COUNT = 20;
+const EXAM_MINUTES = 60;
+const EXAM_SECONDS = EXAM_MINUTES * 60;
+const POINTS_PER_QUESTION = 2;
+const LOW_TIME_SECONDS = 5 * 60;
+
+// Fisher–Yates. (sort(() => Math.random() - 0.5) ger ojämn blandning)
+function shuffle(list) {
+    const copy = [...list];
+
+    for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+
+    return copy;
+}
+
+function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const rest = seconds % 60;
+
+    return `${String(minutes).padStart(2, "0")}:${String(rest).padStart(2, "0")}`;
+}
+
+// Meddelande för skärmläsare vid vissa tidpunkter
+function timeNotice(seconds) {
+    if (seconds <= 60) return "Mindre än 1 minut kvar.";
+    if (seconds <= 300) return "Mindre än 5 minuter kvar.";
+    if (seconds <= 600) return "Mindre än 10 minuter kvar.";
+    return "";
+}
+
+function hasAnswer(answer) {
+    return (
+        !!answer &&
+        (normalize(answer.answer1) !== "" || normalize(answer.answer2) !== "")
+    );
+}
+
+function answerText(answer) {
+    if (!answer) return "";
+
+    return [answer.answer1, answer.answer2]
+        .filter((value) => normalize(value) !== "")
+        .join(", ");
+}
 
 function Prov() {
     const [started, setStarted] = useState(false);
     const [finished, setFinished] = useState(false);
 
     const [examQuestions, setExamQuestions] = useState([]);
-    const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(0);
 
     const [answers, setAnswers] = useState({});
-    const [markedQuestions, setMarkedQuestions] = useState([]);
+    const [marked, setMarked] = useState([]);
 
-    const [timeLeft, setTimeLeft] = useState(60 * 60); // 60 minuter
+    const [endsAt, setEndsAt] = useState(0);
+    const [timeLeft, setTimeLeft] = useState(EXAM_SECONDS);
+
+    const [confirming, setConfirming] = useState(false);
+    const [onlyWrong, setOnlyWrong] = useState(false);
+
+    const dialogRef = useRef(null);
 
 
     function startExam() {
-        const shuffledQuestions = [...questions]
-            .sort(() => Math.random() - 0.5)
-            .slice(0, 20); // antal frågor
-
-        setExamQuestions(shuffledQuestions);
-        setCurrentQuestion(0);
+        setExamQuestions(shuffle(questions).slice(0, QUESTION_COUNT));
+        setCurrentIndex(0);
         setAnswers({});
-        setMarkedQuestions([]);
-        setTimeLeft(60 * 60);
+        setMarked([]);
+        setConfirming(false);
+        setOnlyWrong(false);
+
+        setTimeLeft(EXAM_SECONDS);
+        setEndsAt(Date.now() + EXAM_SECONDS * 1000);
 
         setStarted(true);
         setFinished(false);
     }
 
 
+    // Tiden räknas mot en sluttid och inte genom att räkna ticks. Då går
+    // klockan rätt även om fliken pausas (t.ex. i Safari på iPad).
     useEffect(() => {
-        if (!started || finished) return;
-
-        if (timeLeft <= 0) {
-            submitExam();
-            return;
-        }
+        if (!started || finished) return undefined;
 
         const timer = setInterval(() => {
-            setTimeLeft((time) => time - 1);
+            const remaining = Math.max(
+                0,
+                Math.ceil((endsAt - Date.now()) / 1000)
+            );
+
+            setTimeLeft(remaining);
+
+            if (remaining === 0) {
+                setConfirming(false);
+                setFinished(true);
+            }
         }, 1000);
 
         return () => clearInterval(timer);
-    }, [started, finished, timeLeft]);
+    }, [started, finished, endsAt]);
 
 
-    function formatTime(seconds) {
-        const minutes = Math.floor(seconds / 60);
-        const remainingSeconds = seconds % 60;
+    // Bekräftelserutan är ett riktigt <dialog> (fokusfälla + Esc ingår)
+    useEffect(() => {
+        const dialog = dialogRef.current;
 
-        return `${String(minutes).padStart(2, "0")}:${String(
-            remainingSeconds
-        ).padStart(2, "0")}`;
-    }
+        if (!dialog) return;
+
+        if (confirming && !dialog.open) dialog.showModal();
+        if (!confirming && dialog.open) dialog.close();
+    }, [confirming]);
 
 
-    function handleAnswer(value, answerNumber = 1) {
-        setAnswers((previousAnswers) => ({
-            ...previousAnswers,
-
-            [currentQuestion]: {
-                ...previousAnswers[currentQuestion],
+    function handleAnswer(value, answerNumber) {
+        setAnswers((previous) => ({
+            ...previous,
+            [currentIndex]: {
+                ...previous[currentIndex],
                 [`answer${answerNumber}`]: value,
             },
         }));
     }
 
-
-    const question = examQuestions[currentQuestion];
-
-
     function toggleMark() {
-        setMarkedQuestions((previous) => {
-            if (previous.includes(currentQuestion)) {
-                return previous.filter(
-                    (questionIndex) => questionIndex !== currentQuestion
-                );
-            }
-
-            return [...previous, currentQuestion];
-        });
+        setMarked((previous) =>
+            previous.includes(currentIndex)
+                ? previous.filter((index) => index !== currentIndex)
+                : [...previous, currentIndex]
+        );
     }
 
-
     function submitExam() {
+        setConfirming(false);
         setFinished(true);
     }
 
 
-    function calculateScore() {
-        let score = 0;
-
-        examQuestions.forEach((question, index) => {
-            const userAnswer = answers[index];
-
-            if (!userAnswer) return;
-
-            if (isAnswerCorrect(question, userAnswer.answer1, userAnswer.answer2)) {
-                score++;
-            }
-        });
-
-        return score;
-    }
-
+    /* ---------- STARTSKÄRM ---------- */
 
     if (!started) {
         return (
-            <div className="prov-container">
-                <section className="prov-start">
+            <div className="page page--narrow">
+                <section className="card exam-start" aria-labelledby="exam-title">
 
-                    <h1>Matematik 2</h1>
+                    <p className="eyebrow">Matematik 2</p>
+                    <h1 id="exam-title" className="page-title">Prov</h1>
 
-                    <h2>Prov</h2>
-
-                    <p>
-                        Testa dina kunskaper inom matematik 2.
+                    <p className="lead">
+                        Testa dina kunskaper med uppgifter från alla områden.
                     </p>
 
-                    <div className="prov-info">
-
-                        <div>
-                            <strong>20</strong>
+                    <ul className="exam-info">
+                        <li>
+                            <strong>{QUESTION_COUNT}</strong>
                             <span>Uppgifter</span>
-                        </div>
-
-                        <div>
-                            <strong>60</strong>
+                        </li>
+                        <li>
+                            <strong>{EXAM_MINUTES}</strong>
                             <span>Minuter</span>
-                        </div>
+                        </li>
+                        <li>
+                            <strong>{POINTS_PER_QUESTION}</strong>
+                            <span>Poäng per uppgift</span>
+                        </li>
+                    </ul>
 
-                        <div>
-                            <strong>2</strong>
-                            <span>Poäng / uppgift</span>
-                        </div>
-
-                    </div>
-
-                    <div className="prov-rules">
-
-                        <h3>Innan du börjar</h3>
+                    <div className="exam-rules">
+                        <h2>Innan du börjar</h2>
 
                         <ul>
-                            <li>Du har 60 minuter på dig.</li>
-                            <li>Du kan gå tillbaka till tidigare frågor.</li>
+                            <li>Du har {EXAM_MINUTES} minuter på dig.</li>
+                            <li>Du kan gå tillbaka till tidigare uppgifter.</li>
+                            <li>Du kan markera uppgifter som du vill återkomma till.</li>
                             <li>Dina svar rättas när du lämnar in provet.</li>
-                            <li>Du kan markera frågor som du vill återkomma till.</li>
                         </ul>
-
                     </div>
 
-                    <button
-                        className="prov-start-button"
-                        onClick={startExam}
-                    >
+                    <button type="button" className="btn btn-primary btn-large" onClick={startExam}>
                         Starta prov
                     </button>
 
@@ -169,336 +196,330 @@ function Prov() {
     }
 
 
+    /* ---------- RESULTAT ---------- */
+
     if (finished) {
-        const score = calculateScore();
+        const results = examQuestions.map((question, index) => {
+            const answer = answers[index];
+
+            return {
+                question,
+                index,
+                answer,
+                answered: hasAnswer(answer),
+                correct:
+                    hasAnswer(answer) &&
+                    isAnswerCorrect(question, answer.answer1, answer.answer2),
+            };
+        });
+
+        const score = results.filter((item) => item.correct).length;
+        const answeredTotal = results.filter((item) => item.answered).length;
+        const percent = Math.round((score / examQuestions.length) * 100);
+
+        const visibleResults = onlyWrong
+            ? results.filter((item) => !item.correct)
+            : results;
 
         return (
-            <div className="prov-container">
+            <div className="page page--narrow">
+                <section className="card exam-result" aria-labelledby="result-title">
 
-                <section className="prov-result">
+                    <p className="eyebrow">Matematik 2</p>
+                    <h1 id="result-title" className="page-title">Provresultat</h1>
 
-                    <h1>Provresultat</h1>
-
-                    <div className="score">
+                    <div className="score" role="status">
                         <strong>
                             {score} / {examQuestions.length}
                         </strong>
-
-                        <span>
-                            {Math.round(
-                                (score / examQuestions.length) * 100
-                            )}%
-                        </span>
+                        <span>{percent} % rätt</span>
                     </div>
 
-                    <h3>
-                        Du svarade på{" "}
-                        {Object.keys(answers).length} av{" "}
-                        {examQuestions.length} frågor.
-                    </h3>
+                    <p className="score-note">
+                        Du svarade på {answeredTotal} av {examQuestions.length} uppgifter.
+                    </p>
 
-                    <div className="result-list">
+                    <div className="result-tools">
+                        <label className="check">
+                            <input
+                                type="checkbox"
+                                checked={onlyWrong}
+                                onChange={(event) => setOnlyWrong(event.target.checked)}
+                            />
+                            <span>Visa bara uppgifter jag missade</span>
+                        </label>
 
-                        {examQuestions.map((question, index) => {
+                        <button type="button" className="btn btn-primary" onClick={startExam}>
+                            Gör om provet
+                        </button>
+                    </div>
 
-                            const userAnswer = answers[index];
+                    {visibleResults.length === 0 ? (
+                        <p className="result-empty">Du hade alla rätt. Snyggt jobbat!</p>
+                    ) : (
+                        <ol className="result-list">
+                            {visibleResults.map((item) => {
+                                const state = item.correct
+                                    ? "correct"
+                                    : item.answered
+                                    ? "wrong"
+                                    : "skipped";
 
-                            let correct = false;
+                                const stateLabel = {
+                                    correct: "Rätt",
+                                    wrong: "Fel",
+                                    skipped: "Inte besvarad",
+                                }[state];
 
-                            if (userAnswer) {
-                                correct = isAnswerCorrect(
-                                    question,
-                                    userAnswer.answer1,
-                                    userAnswer.answer2
+                                const stateIcon = { correct: "✓", wrong: "✕", skipped: "–" }[state];
+
+                                return (
+                                    <li
+                                        key={item.index}
+                                        value={item.index + 1}
+                                        className={`result-item result-item--${state}`}
+                                    >
+                                        <p className="result-state">
+                                            <span aria-hidden="true">{stateIcon}</span>
+                                            <span>
+                                                Uppgift {item.index + 1}: {stateLabel}
+                                            </span>
+                                        </p>
+
+                                        <p className="result-question">{item.question.text}</p>
+
+                                        <p>
+                                            <strong>Ditt svar:</strong>{" "}
+                                            {item.answered ? answerText(item.answer) : "Inget svar"}
+                                        </p>
+
+                                        <p>
+                                            <strong>Rätt svar:</strong>{" "}
+                                            {item.question.answer.join(", ")}
+                                        </p>
+
+                                        <details className="result-solution">
+                                            <summary>Visa uträkning</summary>
+
+                                            {item.question.explanation.map((step, stepIndex) => (
+                                                <p key={stepIndex}>{step}</p>
+                                            ))}
+                                        </details>
+                                    </li>
                                 );
-                            }
-
-                            return (
-                                <div
-                                    key={index}
-                                    className={
-                                        correct
-                                            ? "result-item correct"
-                                            : "result-item incorrect"
-                                    }
-                                >
-                                    <strong>
-                                        {index + 1}.{" "}
-                                        {correct ? "Rätt" : "Fel"}
-                                    </strong>
-
-                                    <p>
-                                        {question.text}
-                                    </p>
-
-                                    <p>
-                                        <strong>Ditt svar:</strong>{" "}
-                                        {userAnswer?.answer1 || "Ej besvarad"}
-                                    </p>
-
-                                    <p>
-                                        <strong>Rätt svar:</strong>{" "}
-                                        {question.answer.join(", ")}
-                                    </p>
-                                </div>
-                            );
-                        })}
-
-                    </div>
-
-                    <button
-                        className="prov-start-button"
-                        onClick={startExam}
-                    >
-                        Gör om provet
-                    </button>
+                            })}
+                        </ol>
+                    )}
 
                 </section>
-
             </div>
         );
     }
 
+
+    /* ---------- PÅGÅENDE PROV ---------- */
+
+    const question = examQuestions[currentIndex];
+
     if (!question) return null;
 
-    const currentAnswer = answers[currentQuestion] || {};
+    const current = answers[currentIndex] ?? {};
+    const answeredCount = examQuestions.filter((_, index) => hasAnswer(answers[index])).length;
+    const unanswered = examQuestions.length - answeredCount;
+    const isLast = currentIndex === examQuestions.length - 1;
+    const isMarked = marked.includes(currentIndex);
+    const lowTime = timeLeft <= LOW_TIME_SECONDS;
 
     return (
-        <div className="prov-container">
+        <div className="page prov-page">
 
-            <section className="prov">
+            <div className="card exam">
 
-                <header className="prov-header">
-
+                <header className="exam-header">
                     <div>
-                        <h1>Matematik 2</h1>
-                        <span>
-                            Uppgift {currentQuestion + 1} av{" "}
-                            {examQuestions.length}
+                        <h1>Prov i Matematik 2</h1>
+                        <p>
+                            Uppgift {currentIndex + 1} av {examQuestions.length}
+                        </p>
+                    </div>
+
+                    <div className={`timer ${lowTime ? "timer--low" : ""}`}>
+                        <span className="timer-label">Tid kvar</span>
+                        <span className="timer-value" role="timer" aria-label="Tid kvar">
+                            {formatTime(timeLeft)}
                         </span>
+                        {lowTime && <span className="timer-note">Lite tid kvar</span>}
                     </div>
-
-                    <div className="timer">
-                        {formatTime(timeLeft)}
-                    </div>
-
                 </header>
 
+                {/* Tidsmeddelanden till skärmläsare */}
+                <p className="sr-only" role="status" aria-live="polite">
+                    {timeNotice(timeLeft)}
+                </p>
 
-                <div className="prov-content">
+                <div className="exam-body">
 
-                    <main className="prov-question">
+                    <section className="exam-question" aria-label={`Uppgift ${currentIndex + 1}`}>
 
-                        <div className="question-top">
-
-                            <span>
-                                {question.category}
-                            </span>
+                        <div className="exam-question-top">
+                            <span className="badge badge--category">{question.category}</span>
 
                             <button
-                                className={
-                                    markedQuestions.includes(
-                                        currentQuestion
-                                    )
-                                        ? "marked"
-                                        : ""
-                                }
+                                type="button"
+                                className="btn btn-outline btn-small mark-button"
+                                aria-pressed={isMarked}
                                 onClick={toggleMark}
                             >
-                                Markera
+                                <span aria-hidden="true">⚑</span>
+                                {isMarked ? "Markerad" : "Markera för senare"}
                             </button>
-
                         </div>
 
+                        <h2 className="question-text">{question.text}</h2>
 
-                        {question.graph && (
-                            <div className="geometry-container">
-                                <GraphRender graph={question.graph} />
-                            </div>
-                        )}
+                        <QuestionFigure question={question} />
 
-                        {question.geometry && (
-                            <div className="geometry-container">
-                                <GeometryRender
-                                    geometry={question.geometry}
-                                />
-                            </div>
-                        )}
+                        <AnswerFields
+                            key={currentIndex}
+                            question={question}
+                            values={[current.answer1, current.answer2]}
+                            onChange={(index, value) => handleAnswer(value, index + 1)}
+                        />
 
-
-                        {question.statistics && (
-                            <div className="statistics-container">
-                                <StatisticsRender
-                                    statistics={question.statistics}
-                                />
-                            </div>
-                        )}
-
-
-                        <h2 className="question-text">
-                            {question.text}
-                        </h2>
-
-
-                        {question.type === "single" && (
-                            <input
-                                type="text"
-                                value={currentAnswer.answer1 || ""}
-                                onChange={(event) =>
-                                    handleAnswer(
-                                        event.target.value
-                                    )
-                                }
-                                placeholder="Skriv ditt svar"
-                            />
-                        )}
-
-
-                        {question.type === "multiple" && (
-                            <div className="answer-row">
-
-                                <input
-                                    type="text"
-                                    value={
-                                        currentAnswer.answer1 || ""
-                                    }
-                                    onChange={(event) =>
-                                        handleAnswer(
-                                            event.target.value,
-                                            1
-                                        )
-                                    }
-                                    placeholder="x₁"
-                                />
-
-                                <input
-                                    type="text"
-                                    value={
-                                        currentAnswer.answer2 || ""
-                                    }
-                                    onChange={(event) =>
-                                        handleAnswer(
-                                            event.target.value,
-                                            2
-                                        )
-                                    }
-                                    placeholder="x₂"
-                                />
-
-                            </div>
-                        )}
-
-
-                        <div className="navigation-buttons">
-
+                        <div className="exam-nav">
                             <button
-                                disabled={currentQuestion === 0}
-                                onClick={() =>
-                                    setCurrentQuestion(
-                                        currentQuestion - 1
-                                    )
-                                }
+                                type="button"
+                                className="btn btn-outline"
+                                disabled={currentIndex === 0}
+                                onClick={() => setCurrentIndex(currentIndex - 1)}
                             >
                                 ← Föregående
                             </button>
 
-
-                            {currentQuestion <
-                            examQuestions.length - 1 ? (
-
+                            {isLast ? (
                                 <button
-                                    onClick={() =>
-                                        setCurrentQuestion(
-                                            currentQuestion + 1
-                                        )
-                                    }
-                                >
-                                    Nästa →
-                                </button>
-
-                            ) : (
-
-                                <button
-                                    className="submit-button"
-                                    onClick={submitExam}
+                                    type="button"
+                                    className="btn btn-primary"
+                                    onClick={() => setConfirming(true)}
                                 >
                                     Lämna in prov
                                 </button>
-
+                            ) : (
+                                <button
+                                    type="button"
+                                    className="btn btn-primary"
+                                    onClick={() => setCurrentIndex(currentIndex + 1)}
+                                >
+                                    Nästa →
+                                </button>
                             )}
-
                         </div>
 
-                    </main>
+                    </section>
 
 
-                    <aside className="prov-sidebar">
+                    <aside className="exam-sidebar" aria-label="Översikt">
 
-                        <h3>Uppgifter</h3>
+                        <h2>Uppgifter</h2>
 
-                        <div className="question-grid">
+                        <p className="sidebar-count">
+                            {answeredCount} av {examQuestions.length} besvarade
+                        </p>
 
-                            {examQuestions.map(
-                                (_, index) => {
+                        <nav aria-label="Uppgiftsnavigering">
+                            <ul className="question-grid">
+                                {examQuestions.map((_, index) => {
+                                    const answered = hasAnswer(answers[index]);
+                                    const isCurrent = currentIndex === index;
+                                    const flagged = marked.includes(index);
 
-                                    const answered =
-                                        answers[index];
-
-                                    const marked =
-                                        markedQuestions.includes(
-                                            index
-                                        );
+                                    const classes = [
+                                        "question-number",
+                                        isCurrent ? "is-current" : "",
+                                        answered ? "is-answered" : "",
+                                        flagged ? "is-marked" : "",
+                                    ]
+                                        .filter(Boolean)
+                                        .join(" ");
 
                                     return (
-                                        <button
-                                            key={index}
-                                            className={`
-                                                question-number
-                                                ${
-                                                    currentQuestion ===
-                                                    index
-                                                        ? "active"
-                                                        : ""
-                                                }
-                                                ${
-                                                    answered
-                                                        ? "answered"
-                                                        : ""
-                                                }
-                                                ${
-                                                    marked
-                                                        ? "marked"
-                                                        : ""
-                                                }
-                                            `}
-                                            onClick={() =>
-                                                setCurrentQuestion(
-                                                    index
-                                                )
-                                            }
-                                        >
-                                            {index + 1}
-                                        </button>
+                                        <li key={index}>
+                                            <button
+                                                type="button"
+                                                className={classes}
+                                                aria-current={isCurrent ? "step" : undefined}
+                                                aria-label={`Uppgift ${index + 1}, ${
+                                                    answered ? "besvarad" : "inte besvarad"
+                                                }${flagged ? ", markerad" : ""}`}
+                                                onClick={() => setCurrentIndex(index)}
+                                            >
+                                                {index + 1}
+                                            </button>
+                                        </li>
                                     );
-                                }
-                            )}
+                                })}
+                            </ul>
+                        </nav>
 
-                        </div>
+                        <ul className="legend">
+                            <li>
+                                <span className="legend-swatch legend-swatch--answered" aria-hidden="true"></span>
+                                Besvarad
+                            </li>
+                            <li>
+                                <span className="legend-swatch" aria-hidden="true"></span>
+                                Inte besvarad
+                            </li>
+                            <li>
+                                <span className="legend-swatch legend-swatch--marked" aria-hidden="true"></span>
+                                Markerad
+                            </li>
+                        </ul>
 
-
-                        <div className="legend">
-
-                            <p>🟩Besvarad</p>
-                            <p>⬛Ej besvarad</p>
-                            <p>🟨Markerad</p>
-
-                        </div>
+                        <button
+                            type="button"
+                            className="btn btn-secondary submit-early"
+                            onClick={() => setConfirming(true)}
+                        >
+                            Lämna in prov
+                        </button>
 
                     </aside>
 
                 </div>
 
-            </section>
+            </div>
+
+
+            {/* Bekräfta innan provet lämnas in */}
+            <dialog
+                ref={dialogRef}
+                className="confirm-dialog"
+                aria-labelledby="confirm-title"
+                onClose={() => setConfirming(false)}
+            >
+                <h2 id="confirm-title">Lämna in provet?</h2>
+
+                <p>
+                    Du har besvarat {answeredCount} av {examQuestions.length} uppgifter.
+                    {unanswered > 0 && ` ${unanswered} saknar svar.`} Du kan inte ändra
+                    något efter att du har lämnat in.
+                </p>
+
+                <div className="btn-row">
+                    <button
+                        type="button"
+                        className="btn btn-outline"
+                        onClick={() => setConfirming(false)}
+                    >
+                        Fortsätt med provet
+                    </button>
+
+                    <button type="button" className="btn btn-primary" onClick={submitExam}>
+                        Lämna in
+                    </button>
+                </div>
+            </dialog>
 
         </div>
     );
