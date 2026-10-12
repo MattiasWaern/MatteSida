@@ -24,12 +24,11 @@ function Home() {
                 <p className="eyebrow">Matematik 2</p>
 
                 <h1 id="home-title" className="page-title">
-                    Öva matte i din egen takt
+                    Öva matte i din egen takt Annika
                 </h1>
 
                 <p className="lead">
-                    Lös uppgifter inom tio områden, se uträkningen steg för steg
-                    och testa dig själv med ett riktigt prov.
+                    Lös hundratals uppgifter inom {categories.length} områden
                 </p>
 
                 <div className="btn-row hero-actions">
