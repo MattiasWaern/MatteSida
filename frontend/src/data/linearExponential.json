@@ -1,402 +1,417 @@
 [
   {
-    "text": "En linjär modell är y = 10 + 2x. Beräkna y när x = 3.",
+    "text": "En mängd börjar på 100 och ökar med 10 enheter varje månad. Vad är mängden efter 4 månader?",
     "answer": [
-      "16"
+      "140"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "easy",
     "explanation": [
-      "En linjär modell har konstant ökning.",
-      "y = 10 + 2 · 3 = 16."
+      "Samma antal adderas varje månad, så modellen är linjär.",
+      "100 + 4·10 = 140."
     ]
   },
   {
-    "text": "En linjär modell är y = 11 + 3x. Beräkna y när x = 3.",
+    "text": "En mängd börjar på 150 och ökar med 15 enheter varje månad. Vad är mängden efter 4 månader?",
     "answer": [
-      "20"
+      "210"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "easy",
     "explanation": [
-      "En linjär modell har konstant ökning.",
-      "y = 11 + 3 · 3 = 20."
+      "Samma antal adderas varje månad, så modellen är linjär.",
+      "150 + 4·15 = 210."
     ]
   },
   {
-    "text": "En linjär modell är y = 12 + 4x. Beräkna y när x = 3.",
+    "text": "En mängd börjar på 200 och ökar med 20 enheter varje månad. Vad är mängden efter 4 månader?",
     "answer": [
-      "24"
+      "280"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "easy",
     "explanation": [
-      "En linjär modell har konstant ökning.",
-      "y = 12 + 4 · 3 = 24."
+      "Samma antal adderas varje månad, så modellen är linjär.",
+      "200 + 4·20 = 280."
     ]
   },
   {
-    "text": "En linjär modell är y = 13 + 5x. Beräkna y när x = 3.",
+    "text": "En mängd börjar på 250 och ökar med 25 enheter varje månad. Vad är mängden efter 4 månader?",
     "answer": [
-      "28"
+      "350"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "easy",
     "explanation": [
-      "En linjär modell har konstant ökning.",
-      "y = 13 + 5 · 3 = 28."
+      "Samma antal adderas varje månad, så modellen är linjär.",
+      "250 + 4·25 = 350."
     ]
   },
   {
-    "text": "En linjär modell är y = 14 + 6x. Beräkna y när x = 3.",
+    "text": "En mängd börjar på 300 och ökar med 30 enheter varje månad. Vad är mängden efter 4 månader?",
     "answer": [
-      "32"
+      "420"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "easy",
     "explanation": [
-      "En linjär modell har konstant ökning.",
-      "y = 14 + 6 · 3 = 32."
+      "Samma antal adderas varje månad, så modellen är linjär.",
+      "300 + 4·30 = 420."
     ]
   },
   {
-    "text": "En linjär modell är y = 15 + 7x. Beräkna y när x = 3.",
+    "text": "En mängd börjar på 450 och ökar med 10 % per månad. Vad är mängden efter 2 månader?",
     "answer": [
-      "36"
+      "544,5"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "easy",
     "explanation": [
-      "En linjär modell har konstant ökning.",
-      "y = 15 + 7 · 3 = 36."
+      "Samma procent varje månad betyder exponentiell modell.",
+      "450·1,1² = 544,5."
     ]
   },
   {
-    "text": "En linjär modell är y = 16 + 8x. Beräkna y när x = 3.",
+    "text": "En mängd börjar på 500 och ökar med 10 % per månad. Vad är mängden efter 2 månader?",
     "answer": [
-      "40"
+      "605"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "easy",
     "explanation": [
-      "En linjär modell har konstant ökning.",
-      "y = 16 + 8 · 3 = 40."
+      "Samma procent varje månad betyder exponentiell modell.",
+      "500·1,1² = 605."
     ]
   },
   {
-    "text": "En linjär modell är y = 17 + 9x. Beräkna y när x = 3.",
+    "text": "En mängd börjar på 550 och ökar med 10 % per månad. Vad är mängden efter 2 månader?",
     "answer": [
-      "44"
+      "665,5"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "easy",
     "explanation": [
-      "En linjär modell har konstant ökning.",
-      "y = 17 + 9 · 3 = 44."
+      "Samma procent varje månad betyder exponentiell modell.",
+      "550·1,1² = 665,5."
     ]
   },
   {
-    "text": "En linjär modell är y = 18 + 10x. Beräkna y när x = 3.",
+    "text": "En mängd börjar på 600 och ökar med 10 % per månad. Vad är mängden efter 2 månader?",
     "answer": [
-      "48"
+      "726"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "easy",
     "explanation": [
-      "En linjär modell har konstant ökning.",
-      "y = 18 + 10 · 3 = 48."
+      "Samma procent varje månad betyder exponentiell modell.",
+      "600·1,1² = 726."
     ]
   },
   {
-    "text": "En linjär modell är y = 19 + 11x. Beräkna y när x = 3.",
+    "text": "En mängd börjar på 650 och ökar med 10 % per månad. Vad är mängden efter 2 månader?",
     "answer": [
-      "52"
+      "786,5"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "easy",
     "explanation": [
-      "En linjär modell har konstant ökning.",
-      "y = 19 + 11 · 3 = 52."
+      "Samma procent varje månad betyder exponentiell modell.",
+      "650·1,1² = 786,5."
     ]
   },
   {
-    "text": "En exponentiell modell är y = 10 · 2^x. Beräkna y när x = 3.",
+    "text": "En linjär modell är L(t) = 50 + 10t. En exponentiell modell är E(t) = 50·1,1^t. Bestäm L(4) − E(4), avrundat till två decimaler.",
     "answer": [
-      "80"
+      "16,79"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "medium",
     "explanation": [
-      "En exponentiell modell har konstant förändringsfaktor.",
-      "y = 10 · 2^3 = 80."
+      "L(4) = 50+4·10 = 90.",
+      "E(4) = 50·1,1⁴ = 73,21.",
+      "Skillnaden = 16,79."
     ]
   },
   {
-    "text": "En exponentiell modell är y = 11 · 2^x. Beräkna y när x = 3.",
+    "text": "En linjär modell är L(t) = 60 + 11t. En exponentiell modell är E(t) = 60·1,1^t. Bestäm L(4) − E(4), avrundat till två decimaler.",
     "answer": [
-      "88"
+      "16,15"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "medium",
     "explanation": [
-      "En exponentiell modell har konstant förändringsfaktor.",
-      "y = 11 · 2^3 = 88."
+      "L(4) = 60+4·11 = 104.",
+      "E(4) = 60·1,1⁴ = 87,85.",
+      "Skillnaden = 16,15."
     ]
   },
   {
-    "text": "En exponentiell modell är y = 12 · 2^x. Beräkna y när x = 3.",
+    "text": "En linjär modell är L(t) = 70 + 12t. En exponentiell modell är E(t) = 70·1,1^t. Bestäm L(4) − E(4), avrundat till två decimaler.",
     "answer": [
-      "96"
+      "15,51"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "medium",
     "explanation": [
-      "En exponentiell modell har konstant förändringsfaktor.",
-      "y = 12 · 2^3 = 96."
+      "L(4) = 70+4·12 = 118.",
+      "E(4) = 70·1,1⁴ = 102,49.",
+      "Skillnaden = 15,51."
     ]
   },
   {
-    "text": "En exponentiell modell är y = 13 · 2^x. Beräkna y när x = 3.",
+    "text": "En linjär modell är L(t) = 80 + 13t. En exponentiell modell är E(t) = 80·1,1^t. Bestäm L(4) − E(4), avrundat till två decimaler.",
     "answer": [
-      "104"
+      "14,87"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "medium",
     "explanation": [
-      "En exponentiell modell har konstant förändringsfaktor.",
-      "y = 13 · 2^3 = 104."
+      "L(4) = 80+4·13 = 132.",
+      "E(4) = 80·1,1⁴ = 117,13.",
+      "Skillnaden = 14,87."
     ]
   },
   {
-    "text": "En exponentiell modell är y = 14 · 2^x. Beräkna y när x = 3.",
+    "text": "En linjär modell är L(t) = 90 + 14t. En exponentiell modell är E(t) = 90·1,1^t. Bestäm L(4) − E(4), avrundat till två decimaler.",
     "answer": [
-      "112"
+      "14,23"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "medium",
     "explanation": [
-      "En exponentiell modell har konstant förändringsfaktor.",
-      "y = 14 · 2^3 = 112."
+      "L(4) = 90+4·14 = 146.",
+      "E(4) = 90·1,1⁴ = 131,77.",
+      "Skillnaden = 14,23."
     ]
   },
   {
-    "text": "En exponentiell modell är y = 15 · 2^x. Beräkna y när x = 3.",
+    "text": "En serie har värdena 200, 220, 240, 260 vid fyra på varandra följande tidpunkter. Bestäm värdet vid nästa tidpunkt.",
     "answer": [
-      "120"
+      "280"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "medium",
     "explanation": [
-      "En exponentiell modell har konstant förändringsfaktor.",
-      "y = 15 · 2^3 = 120."
+      "Differensen är konstant: +20.",
+      "Det är en linjär modell.",
+      "Nästa värde är 280."
     ]
   },
   {
-    "text": "En exponentiell modell är y = 16 · 2^x. Beräkna y när x = 3.",
+    "text": "En serie har värdena 220, 240, 260, 280 vid fyra på varandra följande tidpunkter. Bestäm värdet vid nästa tidpunkt.",
     "answer": [
-      "128"
+      "300"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "medium",
     "explanation": [
-      "En exponentiell modell har konstant förändringsfaktor.",
-      "y = 16 · 2^3 = 128."
+      "Differensen är konstant: +20.",
+      "Det är en linjär modell.",
+      "Nästa värde är 300."
     ]
   },
   {
-    "text": "En exponentiell modell är y = 17 · 2^x. Beräkna y när x = 3.",
+    "text": "En serie har värdena 240, 260, 280, 300 vid fyra på varandra följande tidpunkter. Bestäm värdet vid nästa tidpunkt.",
     "answer": [
-      "136"
+      "320"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "medium",
     "explanation": [
-      "En exponentiell modell har konstant förändringsfaktor.",
-      "y = 17 · 2^3 = 136."
+      "Differensen är konstant: +20.",
+      "Det är en linjär modell.",
+      "Nästa värde är 320."
     ]
   },
   {
-    "text": "En exponentiell modell är y = 18 · 2^x. Beräkna y när x = 3.",
+    "text": "En serie har värdena 260, 280, 300, 320 vid fyra på varandra följande tidpunkter. Bestäm värdet vid nästa tidpunkt.",
     "answer": [
-      "144"
+      "340"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "medium",
     "explanation": [
-      "En exponentiell modell har konstant förändringsfaktor.",
-      "y = 18 · 2^3 = 144."
+      "Differensen är konstant: +20.",
+      "Det är en linjär modell.",
+      "Nästa värde är 340."
     ]
   },
   {
-    "text": "En exponentiell modell är y = 19 · 2^x. Beräkna y när x = 3.",
+    "text": "En serie har värdena 280, 300, 320, 340 vid fyra på varandra följande tidpunkter. Bestäm värdet vid nästa tidpunkt.",
     "answer": [
-      "152"
+      "360"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "medium",
     "explanation": [
-      "En exponentiell modell har konstant förändringsfaktor.",
-      "y = 19 · 2^3 = 152."
+      "Differensen är konstant: +20.",
+      "Det är en linjär modell.",
+      "Nästa värde är 360."
     ]
   },
   {
-    "text": "Jämför L(x) = 100 + 10x och E(x) = 100 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "text": "En investering växer exponentiellt enligt E(t) = 1000·1,2^t. En annan modell ger konstant värdet 2000. Efter hur många hela år är E(t) större än den konstanta modellen?",
     "answer": [
-      "24"
+      "4"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "hard",
     "explanation": [
-      "L(2) = 100 + 10 · 2 = 120.",
-      "E(2) = 100 · 1,2² = 144.",
-      "Skillnaden E(2) − L(2) = 24."
+      "Ställ upp 1000·1,2^t > 2000.",
+      "Det ger 1,2^t > 2.",
+      "t > lg(2)/lg(1,2) ≈ 3,8.",
+      "Första hela år är 4."
     ]
   },
   {
-    "text": "Jämför L(x) = 110 + 11x och E(x) = 110 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "text": "En investering växer exponentiellt enligt E(t) = 1100·1,2^t. En annan modell ger konstant värdet 2200. Efter hur många hela år är E(t) större än den konstanta modellen?",
     "answer": [
-      "26,4"
+      "4"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "hard",
     "explanation": [
-      "L(2) = 110 + 11 · 2 = 132.",
-      "E(2) = 110 · 1,2² = 158,4.",
-      "Skillnaden E(2) − L(2) = 26,4."
+      "Ställ upp 1100·1,2^t > 2200.",
+      "Det ger 1,2^t > 2.",
+      "t > lg(2)/lg(1,2) ≈ 3,8.",
+      "Första hela år är 4."
     ]
   },
   {
-    "text": "Jämför L(x) = 120 + 12x och E(x) = 120 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "text": "En investering växer exponentiellt enligt E(t) = 1200·1,2^t. En annan modell ger konstant värdet 2400. Efter hur många hela år är E(t) större än den konstanta modellen?",
     "answer": [
-      "28,8"
+      "4"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "hard",
     "explanation": [
-      "L(2) = 120 + 12 · 2 = 144.",
-      "E(2) = 120 · 1,2² = 172,8.",
-      "Skillnaden E(2) − L(2) = 28,8."
+      "Ställ upp 1200·1,2^t > 2400.",
+      "Det ger 1,2^t > 2.",
+      "t > lg(2)/lg(1,2) ≈ 3,8.",
+      "Första hela år är 4."
     ]
   },
   {
-    "text": "Jämför L(x) = 130 + 13x och E(x) = 130 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "text": "En investering växer exponentiellt enligt E(t) = 1300·1,2^t. En annan modell ger konstant värdet 2600. Efter hur många hela år är E(t) större än den konstanta modellen?",
     "answer": [
-      "31,2"
+      "4"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "hard",
     "explanation": [
-      "L(2) = 130 + 13 · 2 = 156.",
-      "E(2) = 130 · 1,2² = 187,2.",
-      "Skillnaden E(2) − L(2) = 31,2."
+      "Ställ upp 1300·1,2^t > 2600.",
+      "Det ger 1,2^t > 2.",
+      "t > lg(2)/lg(1,2) ≈ 3,8.",
+      "Första hela år är 4."
     ]
   },
   {
-    "text": "Jämför L(x) = 140 + 14x och E(x) = 140 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "text": "En investering växer exponentiellt enligt E(t) = 1400·1,2^t. En annan modell ger konstant värdet 2800. Efter hur många hela år är E(t) större än den konstanta modellen?",
     "answer": [
-      "33,6"
+      "4"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "hard",
     "explanation": [
-      "L(2) = 140 + 14 · 2 = 168.",
-      "E(2) = 140 · 1,2² = 201,6.",
-      "Skillnaden E(2) − L(2) = 33,6."
+      "Ställ upp 1400·1,2^t > 2800.",
+      "Det ger 1,2^t > 2.",
+      "t > lg(2)/lg(1,2) ≈ 3,8.",
+      "Första hela år är 4."
     ]
   },
   {
-    "text": "Jämför L(x) = 150 + 15x och E(x) = 150 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "text": "Två modeller är L(t) = 300 + 45t och E(t) = 300·1,15^t. Bestäm första positiva heltalet t då E(t) > L(t).",
     "answer": [
-      "36"
+      "2"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "hard",
     "explanation": [
-      "L(2) = 150 + 15 · 2 = 180.",
-      "E(2) = 150 · 1,2² = 216.",
-      "Skillnaden E(2) − L(2) = 36."
+      "Jämför modellerna för positiva heltal t: 300·1,15^t > 300 + 45t.",
+      "Detta kan undersökas med en värdetabell eller graf.",
+      "Vid t = 1 är E(t) ≤ L(t), men vid t = 2 är E(t) > L(t)."
     ]
   },
   {
-    "text": "Jämför L(x) = 160 + 16x och E(x) = 160 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "text": "Två modeller är L(t) = 320 + 48t och E(t) = 320·1,15^t. Bestäm första positiva heltalet t då E(t) > L(t).",
     "answer": [
-      "38,4"
+      "2"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "hard",
     "explanation": [
-      "L(2) = 160 + 16 · 2 = 192.",
-      "E(2) = 160 · 1,2² = 230,4.",
-      "Skillnaden E(2) − L(2) = 38,4."
+      "Jämför modellerna för positiva heltal t: 320·1,15^t > 320 + 48t.",
+      "Detta kan undersökas med en värdetabell eller graf.",
+      "Vid t = 1 är E(t) ≤ L(t), men vid t = 2 är E(t) > L(t)."
     ]
   },
   {
-    "text": "Jämför L(x) = 170 + 17x och E(x) = 170 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "text": "Två modeller är L(t) = 340 + 51t och E(t) = 340·1,15^t. Bestäm första positiva heltalet t då E(t) > L(t).",
     "answer": [
-      "40,8"
+      "2"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "hard",
     "explanation": [
-      "L(2) = 170 + 17 · 2 = 204.",
-      "E(2) = 170 · 1,2² = 244,8.",
-      "Skillnaden E(2) − L(2) = 40,8."
+      "Jämför modellerna för positiva heltal t: 340·1,15^t > 340 + 51t.",
+      "Detta kan undersökas med en värdetabell eller graf.",
+      "Vid t = 1 är E(t) ≤ L(t), men vid t = 2 är E(t) > L(t)."
     ]
   },
   {
-    "text": "Jämför L(x) = 180 + 18x och E(x) = 180 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "text": "Två modeller är L(t) = 360 + 54t och E(t) = 360·1,15^t. Bestäm första positiva heltalet t då E(t) > L(t).",
     "answer": [
-      "43,2"
+      "2"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "hard",
     "explanation": [
-      "L(2) = 180 + 18 · 2 = 216.",
-      "E(2) = 180 · 1,2² = 259,2.",
-      "Skillnaden E(2) − L(2) = 43,2."
+      "Jämför modellerna för positiva heltal t: 360·1,15^t > 360 + 54t.",
+      "Detta kan undersökas med en värdetabell eller graf.",
+      "Vid t = 1 är E(t) ≤ L(t), men vid t = 2 är E(t) > L(t)."
     ]
   },
   {
-    "text": "Jämför L(x) = 190 + 19x och E(x) = 190 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "text": "Två modeller är L(t) = 380 + 57t och E(t) = 380·1,15^t. Bestäm första positiva heltalet t då E(t) > L(t).",
     "answer": [
-      "45,6"
+      "2"
     ],
     "type": "single",
     "category": "Linjära och exponentiella metoder",
     "difficulty": "hard",
     "explanation": [
-      "L(2) = 190 + 19 · 2 = 228.",
-      "E(2) = 190 · 1,2² = 273,6.",
-      "Skillnaden E(2) − L(2) = 45,6."
+      "Jämför modellerna för positiva heltal t: 380·1,15^t > 380 + 57t.",
+      "Detta kan undersökas med en värdetabell eller graf.",
+      "Vid t = 1 är E(t) ≤ L(t), men vid t = 2 är E(t) > L(t)."
     ]
   }
 ]

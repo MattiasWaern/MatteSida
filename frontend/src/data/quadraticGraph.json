@@ -1,180 +1,50 @@
 [
   {
-    "text": "Grafen visar f(x) = 1(x - (-2))² + (-2). Vilket y-värde har parabelns extrempunkt?",
+    "text": "Grafen visar f(x) = 1(x − (-2))² + (-1). Är extrempunkten en maximi- eller minimipunkt?",
     "answer": [
-      "-2"
+      "minimipunkt"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
     "difficulty": "easy",
     "explanation": [
-      "Funktionen är skriven på formen a(x − h)² + k.",
-      "Extrempunkten är (-2, -2), alltså är y-värdet -2."
+      "Koefficienten framför kvadraten är 1.",
+      "Positiv koefficient ger minimipunkt, negativ ger maximipunkt."
     ],
     "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
       "yMax": 16,
       "parabolas": [
         {
           "a": 1,
           "h": -2,
-          "k": -2
+          "k": -1
         }
       ]
     }
   },
   {
-    "text": "Grafen visar f(x) = -1(x - (-1))² + (-2). Vilket y-värde har parabelns extrempunkt?",
+    "text": "Grafen visar f(x) = -1(x − (-1))² + (0). Är extrempunkten en maximi- eller minimipunkt?",
     "answer": [
-      "-2"
+      "maximipunkt"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
     "difficulty": "easy",
     "explanation": [
-      "Funktionen är skriven på formen a(x − h)² + k.",
-      "Extrempunkten är (-1, -2), alltså är y-värdet -2."
+      "Koefficienten framför kvadraten är -1.",
+      "Positiv koefficient ger minimipunkt, negativ ger maximipunkt."
     ],
     "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
       "yMax": 16,
       "parabolas": [
         {
           "a": -1,
-          "h": -1,
-          "k": -2
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = 1(x - (0))² + (-2). Vilket y-värde har parabelns extrempunkt?",
-    "answer": [
-      "-2"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "easy",
-    "explanation": [
-      "Funktionen är skriven på formen a(x − h)² + k.",
-      "Extrempunkten är (0, -2), alltså är y-värdet -2."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": 1,
-          "h": 0,
-          "k": -2
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = -1(x - (1))² + (-2). Vilket y-värde har parabelns extrempunkt?",
-    "answer": [
-      "-2"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "easy",
-    "explanation": [
-      "Funktionen är skriven på formen a(x − h)² + k.",
-      "Extrempunkten är (1, -2), alltså är y-värdet -2."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": -1,
-          "h": 1,
-          "k": -2
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = 1(x - (2))² + (-2). Vilket y-värde har parabelns extrempunkt?",
-    "answer": [
-      "-2"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "easy",
-    "explanation": [
-      "Funktionen är skriven på formen a(x − h)² + k.",
-      "Extrempunkten är (2, -2), alltså är y-värdet -2."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": 1,
-          "h": 2,
-          "k": -2
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = -1(x - (-2))² + (0). Vilket y-värde har parabelns extrempunkt?",
-    "answer": [
-      "0"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "easy",
-    "explanation": [
-      "Funktionen är skriven på formen a(x − h)² + k.",
-      "Extrempunkten är (-2, 0), alltså är y-värdet 0."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": -1,
-          "h": -2,
-          "k": 0
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = 1(x - (-1))² + (0). Vilket y-värde har parabelns extrempunkt?",
-    "answer": [
-      "0"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "easy",
-    "explanation": [
-      "Funktionen är skriven på formen a(x − h)² + k.",
-      "Extrempunkten är (-1, 0), alltså är y-värdet 0."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": 1,
           "h": -1,
           "k": 0
         }
@@ -182,163 +52,215 @@
     }
   },
   {
-    "text": "Grafen visar f(x) = -1(x - (0))² + (0). Vilket y-värde har parabelns extrempunkt?",
+    "text": "Grafen visar f(x) = 2(x − (0))² + (1). Är extrempunkten en maximi- eller minimipunkt?",
     "answer": [
-      "0"
+      "minimipunkt"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
     "difficulty": "easy",
     "explanation": [
-      "Funktionen är skriven på formen a(x − h)² + k.",
-      "Extrempunkten är (0, 0), alltså är y-värdet 0."
+      "Koefficienten framför kvadraten är 2.",
+      "Positiv koefficient ger minimipunkt, negativ ger maximipunkt."
     ],
     "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
       "yMax": 16,
       "parabolas": [
         {
-          "a": -1,
+          "a": 2,
           "h": 0,
-          "k": 0
+          "k": 1
         }
       ]
     }
   },
   {
-    "text": "Grafen visar f(x) = 1(x - (1))² + (0). Vilket y-värde har parabelns extrempunkt?",
+    "text": "Grafen visar f(x) = -2(x − (1))² + (2). Är extrempunkten en maximi- eller minimipunkt?",
     "answer": [
-      "0"
+      "maximipunkt"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
     "difficulty": "easy",
     "explanation": [
-      "Funktionen är skriven på formen a(x − h)² + k.",
-      "Extrempunkten är (1, 0), alltså är y-värdet 0."
+      "Koefficienten framför kvadraten är -2.",
+      "Positiv koefficient ger minimipunkt, negativ ger maximipunkt."
     ],
     "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
+      "yMax": 16,
+      "parabolas": [
+        {
+          "a": -2,
+          "h": 1,
+          "k": 2
+        }
+      ]
+    }
+  },
+  {
+    "text": "Grafen visar f(x) = 1(x − (2))² + (-1). Vilket x-värde har extrempunkten?",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "easy",
+    "explanation": [
+      "I formen a(x − h)² + k ligger extrempunkten vid x = h.",
+      "Här är h = 2."
+    ],
+    "graph": {
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
       "yMax": 16,
       "parabolas": [
         {
           "a": 1,
-          "h": 1,
-          "k": 0
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = -1(x - (2))² + (0). Vilket y-värde har parabelns extrempunkt?",
-    "answer": [
-      "0"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "easy",
-    "explanation": [
-      "Funktionen är skriven på formen a(x − h)² + k.",
-      "Extrempunkten är (2, 0), alltså är y-värdet 0."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": -1,
           "h": 2,
-          "k": 0
+          "k": -1
         }
       ]
     }
   },
   {
-    "text": "Grafen visar f(x) = 1(x - (-2))² + (-2). Vilket x-värde har extrempunkten?",
+    "text": "Grafen visar f(x) = -1(x − (-2))² + (0). Vilket x-värde har extrempunkten?",
     "answer": [
       "-2"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "explanation": [
-      "På formen a(x − h)² + k är extrempunktens x-koordinat h.",
+      "I formen a(x − h)² + k ligger extrempunkten vid x = h.",
       "Här är h = -2."
     ],
     "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
       "yMax": 16,
       "parabolas": [
         {
-          "a": 1,
+          "a": -1,
           "h": -2,
-          "k": -2
+          "k": 0
         }
       ]
     }
   },
   {
-    "text": "Grafen visar f(x) = 2(x - (-1))² + (-2). Vilket x-värde har extrempunkten?",
+    "text": "Grafen visar f(x) = 2(x − (-1))² + (1). Vilket x-värde har extrempunkten?",
     "answer": [
       "-1"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "explanation": [
-      "På formen a(x − h)² + k är extrempunktens x-koordinat h.",
+      "I formen a(x − h)² + k ligger extrempunkten vid x = h.",
       "Här är h = -1."
     ],
     "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
       "yMax": 16,
       "parabolas": [
         {
           "a": 2,
           "h": -1,
-          "k": -2
+          "k": 1
         }
       ]
     }
   },
   {
-    "text": "Grafen visar f(x) = -1(x - (0))² + (-2). Vilket x-värde har extrempunkten?",
+    "text": "Grafen visar f(x) = -2(x − (0))² + (2). Vilket y-värde har extrempunkten?",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "easy",
+    "explanation": [
+      "Extrempunktens y-värde är k i formen a(x − h)² + k.",
+      "Här är k = 2."
+    ],
+    "graph": {
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
+      "yMax": 16,
+      "parabolas": [
+        {
+          "a": -2,
+          "h": 0,
+          "k": 2
+        }
+      ]
+    }
+  },
+  {
+    "text": "Grafen visar f(x) = 1(x − (1))² + (-1). Vilket y-värde har extrempunkten?",
+    "answer": [
+      "-1"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "easy",
+    "explanation": [
+      "Extrempunktens y-värde är k i formen a(x − h)² + k.",
+      "Här är k = -1."
+    ],
+    "graph": {
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
+      "yMax": 16,
+      "parabolas": [
+        {
+          "a": 1,
+          "h": 1,
+          "k": -1
+        }
+      ]
+    }
+  },
+  {
+    "text": "Grafen visar f(x) = -1(x − (2))² + (0). Vilket y-värde har extrempunkten?",
     "answer": [
       "0"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "explanation": [
-      "På formen a(x − h)² + k är extrempunktens x-koordinat h.",
-      "Här är h = 0."
+      "Extrempunktens y-värde är k i formen a(x − h)² + k.",
+      "Här är k = 0."
     ],
     "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
       "yMax": 16,
       "parabolas": [
         {
           "a": -1,
-          "h": 0,
-          "k": -2
+          "h": 2,
+          "k": 0
         }
       ]
     }
   },
   {
-    "text": "Grafen visar f(x) = -2(x - (1))² + (-2). Vilket x-värde har extrempunkten?",
+    "text": "Bestäm extrempunktens y-värde för f(x) = 1x² + (4)x + (5).",
     "answer": [
       "1"
     ],
@@ -346,25 +268,12 @@
     "category": "Andragradsfunktionens graf",
     "difficulty": "medium",
     "explanation": [
-      "På formen a(x − h)² + k är extrempunktens x-koordinat h.",
-      "Här är h = 1."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": -2,
-          "h": 1,
-          "k": -2
-        }
-      ]
-    }
+      "Symmetrilinjen är x = −b/(2a) = -2.",
+      "Sätt in x = -2 i funktionen: y = 1."
+    ]
   },
   {
-    "text": "Grafen visar f(x) = 3(x - (2))² + (-2). Vilket x-värde har extrempunkten?",
+    "text": "Bestäm extrempunktens y-värde för f(x) = -1x² + (-2)x + (1).",
     "answer": [
       "2"
     ],
@@ -372,25 +281,64 @@
     "category": "Andragradsfunktionens graf",
     "difficulty": "medium",
     "explanation": [
-      "På formen a(x − h)² + k är extrempunktens x-koordinat h.",
-      "Här är h = 2."
+      "Symmetrilinjen är x = −b/(2a) = -1.",
+      "Sätt in x = -1 i funktionen: y = 2."
+    ]
+  },
+  {
+    "text": "Bestäm extrempunktens y-värde för f(x) = 2x² + (0)x + (3).",
+    "answer": [
+      "3"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "medium",
+    "explanation": [
+      "Symmetrilinjen är x = −b/(2a) = 0.",
+      "Sätt in x = 0 i funktionen: y = 3."
+    ]
+  },
+  {
+    "text": "Bestäm extrempunktens y-värde för f(x) = -2x² + (4)x + (2).",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "medium",
+    "explanation": [
+      "Symmetrilinjen är x = −b/(2a) = 1.",
+      "Sätt in x = 1 i funktionen: y = 4."
+    ]
+  },
+  {
+    "text": "Funktionen f(x) = 1(x − (2))² + (1) har extrempunkt. Vad är f(4)?",
+    "answer": [
+      "5"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "medium",
+    "explanation": [
+      "Sätt in x = 4: x − (2) = 2.",
+      "f(x) = 1·4 + 1 = 5."
     ],
     "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
       "yMax": 16,
       "parabolas": [
         {
-          "a": 3,
+          "a": 1,
           "h": 2,
-          "k": -2
+          "k": 1
         }
       ]
     }
   },
   {
-    "text": "Grafen visar f(x) = 1(x - (-2))² + (0). Vilket x-värde har extrempunkten?",
+    "text": "Funktionen f(x) = -1(x − (-2))² + (2) har extrempunkt. Vad är f(0)?",
     "answer": [
       "-2"
     ],
@@ -398,129 +346,103 @@
     "category": "Andragradsfunktionens graf",
     "difficulty": "medium",
     "explanation": [
-      "På formen a(x − h)² + k är extrempunktens x-koordinat h.",
-      "Här är h = -2."
+      "Sätt in x = 0: x − (-2) = 2.",
+      "f(x) = -1·4 + 2 = -2."
     ],
     "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
       "yMax": 16,
       "parabolas": [
         {
-          "a": 1,
+          "a": -1,
           "h": -2,
-          "k": 0
+          "k": 2
         }
       ]
     }
   },
   {
-    "text": "Grafen visar f(x) = 2(x - (-1))² + (0). Vilket x-värde har extrempunkten?",
+    "text": "Funktionen f(x) = 2(x − (-1))² + (3) har extrempunkt. Vad är f(1)?",
     "answer": [
-      "-1"
+      "11"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
     "difficulty": "medium",
     "explanation": [
-      "På formen a(x − h)² + k är extrempunktens x-koordinat h.",
-      "Här är h = -1."
+      "Sätt in x = 1: x − (-1) = 2.",
+      "f(x) = 2·4 + 3 = 11."
     ],
     "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
+      "xMin": -7,
+      "xMax": 7,
+      "yMin": -15,
       "yMax": 16,
       "parabolas": [
         {
           "a": 2,
           "h": -1,
-          "k": 0
+          "k": 3
         }
       ]
     }
   },
   {
-    "text": "Grafen visar f(x) = -1(x - (0))² + (0). Vilket x-värde har extrempunkten?",
+    "text": "Parabeln f(x) = -2(x − (0))² + (4) flyttas 3 steg uppåt. Vilket y-värde får den nya extrempunkten?",
     "answer": [
-      "0"
+      "7"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
     "difficulty": "medium",
     "explanation": [
-      "På formen a(x − h)² + k är extrempunktens x-koordinat h.",
-      "Här är h = 0."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": -1,
-          "h": 0,
-          "k": 0
-        }
-      ]
-    }
+      "En vertikal förskjutning uppåt adderar 3 till alla y-värden.",
+      "Nytt y-värde = 4 + 3 = 7."
+    ]
   },
   {
-    "text": "Grafen visar f(x) = -2(x - (1))² + (0). Vilket x-värde har extrempunkten?",
+    "text": "Parabeln f(x) = 1(x − (1))² + (1) flyttas 3 steg uppåt. Vilket y-värde får den nya extrempunkten?",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "medium",
+    "explanation": [
+      "En vertikal förskjutning uppåt adderar 3 till alla y-värden.",
+      "Nytt y-värde = 1 + 3 = 4."
+    ]
+  },
+  {
+    "text": "Parabeln f(x) = -1(x − (2))² + (2) flyttas 3 steg uppåt. Vilket y-värde får den nya extrempunkten?",
+    "answer": [
+      "5"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "medium",
+    "explanation": [
+      "En vertikal förskjutning uppåt adderar 3 till alla y-värden.",
+      "Nytt y-värde = 2 + 3 = 5."
+    ]
+  },
+  {
+    "text": "En parabel har extrempunkt (-2, 1) och passerar (0, 5). Bestäm koefficienten a i f(x) = a(x − h)² + k.",
     "answer": [
       "1"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "explanation": [
-      "På formen a(x − h)² + k är extrempunktens x-koordinat h.",
-      "Här är h = 1."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": -2,
-          "h": 1,
-          "k": 0
-        }
-      ]
-    }
+      "Använd punkten: 5 = a·(0 − (-2))² + 1.",
+      "4 = 4a, alltså a = 1."
+    ]
   },
   {
-    "text": "Grafen visar f(x) = 3(x - (2))² + (0). Vilket x-värde har extrempunkten?",
-    "answer": [
-      "2"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "medium",
-    "explanation": [
-      "På formen a(x − h)² + k är extrempunktens x-koordinat h.",
-      "Här är h = 2."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": 3,
-          "h": 2,
-          "k": 0
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = 1(x - (-2))² + (-2). Beräkna f(0).",
+    "text": "En parabel har extrempunkt (-1, 2) och passerar (1, 10). Bestäm koefficienten a i f(x) = a(x − h)² + k.",
     "answer": [
       "2"
     ],
@@ -528,51 +450,80 @@
     "category": "Andragradsfunktionens graf",
     "difficulty": "hard",
     "explanation": [
-      "Sätt x = 0 i uttrycket.",
-      "f(0) = 1 · (0 − (-2))² + (-2) = 2."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": 1,
-          "h": -2,
-          "k": -2
-        }
-      ]
-    }
+      "Använd punkten: 10 = a·(1 − (-1))² + 2.",
+      "8 = 4a, alltså a = 2."
+    ]
   },
   {
-    "text": "Grafen visar f(x) = 2(x - (-1))² + (-2). Beräkna f(1).",
+    "text": "En parabel har extrempunkt (0, 3) och passerar (2, -1). Bestäm koefficienten a i f(x) = a(x − h)² + k.",
     "answer": [
-      "6"
+      "-1"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
     "difficulty": "hard",
     "explanation": [
-      "Sätt x = 1 i uttrycket.",
-      "f(1) = 2 · (1 − (-1))² + (-2) = 6."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": 2,
-          "h": -1,
-          "k": -2
-        }
-      ]
-    }
+      "Använd punkten: -1 = a·(2 − (0))² + 3.",
+      "-4 = 4a, alltså a = -1."
+    ]
   },
   {
-    "text": "Grafen visar f(x) = -1(x - (0))² + (-2). Beräkna f(2).",
+    "text": "En parabel har extrempunkt (1, 1) och passerar (3, -7). Bestäm koefficienten a i f(x) = a(x − h)² + k.",
+    "answer": [
+      "-2"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "hard",
+    "explanation": [
+      "Använd punkten: -7 = a·(3 − (1))² + 1.",
+      "-8 = 4a, alltså a = -2."
+    ]
+  },
+  {
+    "text": "För f(x) = 1x² + (-4)x + (6), bestäm funktionens största eller minsta värde.",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "hard",
+    "explanation": [
+      "Extrempunkten ligger vid x = −b/(2a) = 2.",
+      "Beräkna f(2) = 2.",
+      "Eftersom a ≠ 0 är detta funktionens extremvärde."
+    ]
+  },
+  {
+    "text": "För f(x) = 2x² + (8)x + (11), bestäm funktionens största eller minsta värde.",
+    "answer": [
+      "3"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "hard",
+    "explanation": [
+      "Extrempunkten ligger vid x = −b/(2a) = -2.",
+      "Beräkna f(-2) = 3.",
+      "Eftersom a ≠ 0 är detta funktionens extremvärde."
+    ]
+  },
+  {
+    "text": "För f(x) = -1x² + (-2)x + (0), bestäm funktionens största eller minsta värde.",
+    "answer": [
+      "1"
+    ],
+    "type": "single",
+    "category": "Andragradsfunktionens graf",
+    "difficulty": "hard",
+    "explanation": [
+      "Extrempunkten ligger vid x = −b/(2a) = -1.",
+      "Beräkna f(-1) = 1.",
+      "Eftersom a ≠ 0 är detta funktionens extremvärde."
+    ]
+  },
+  {
+    "text": "En parabel har symmetrilinjen x = 0 och går genom punkterna (0, 2) och (2, -6). Vad är f(-2)?",
     "answer": [
       "-6"
     ],
@@ -580,203 +531,37 @@
     "category": "Andragradsfunktionens graf",
     "difficulty": "hard",
     "explanation": [
-      "Sätt x = 2 i uttrycket.",
-      "f(2) = -1 · (2 − (0))² + (-2) = -6."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": -1,
-          "h": 0,
-          "k": -2
-        }
-      ]
-    }
+      "Punkter lika långt från symmetrilinjen har samma funktionsvärde.",
+      "-2 och 2 ligger båda 2 enheter från x = 0.",
+      "Därför är f(-2) = -6."
+    ]
   },
   {
-    "text": "Grafen visar f(x) = -2(x - (1))² + (-2). Beräkna f(3).",
+    "text": "En parabel har symmetrilinjen x = 1 och går genom punkterna (1, 3) och (3, 7). Vad är f(-1)?",
     "answer": [
-      "-10"
+      "7"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
     "difficulty": "hard",
     "explanation": [
-      "Sätt x = 3 i uttrycket.",
-      "f(3) = -2 · (3 − (1))² + (-2) = -10."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": -2,
-          "h": 1,
-          "k": -2
-        }
-      ]
-    }
+      "Punkter lika långt från symmetrilinjen har samma funktionsvärde.",
+      "-1 och 3 ligger båda 2 enheter från x = 1.",
+      "Därför är f(-1) = 7."
+    ]
   },
   {
-    "text": "Grafen visar f(x) = 3(x - (2))² + (-2). Beräkna f(4).",
+    "text": "En parabel har symmetrilinjen x = 2 och går genom punkterna (2, 1) och (4, 9). Vad är f(0)?",
     "answer": [
-      "10"
+      "9"
     ],
     "type": "single",
     "category": "Andragradsfunktionens graf",
     "difficulty": "hard",
     "explanation": [
-      "Sätt x = 4 i uttrycket.",
-      "f(4) = 3 · (4 − (2))² + (-2) = 10."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": 3,
-          "h": 2,
-          "k": -2
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = 1(x - (-2))² + (0). Beräkna f(0).",
-    "answer": [
-      "4"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "hard",
-    "explanation": [
-      "Sätt x = 0 i uttrycket.",
-      "f(0) = 1 · (0 − (-2))² + (0) = 4."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": 1,
-          "h": -2,
-          "k": 0
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = 2(x - (-1))² + (0). Beräkna f(1).",
-    "answer": [
-      "8"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "hard",
-    "explanation": [
-      "Sätt x = 1 i uttrycket.",
-      "f(1) = 2 · (1 − (-1))² + (0) = 8."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": 2,
-          "h": -1,
-          "k": 0
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = -1(x - (0))² + (0). Beräkna f(2).",
-    "answer": [
-      "-4"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "hard",
-    "explanation": [
-      "Sätt x = 2 i uttrycket.",
-      "f(2) = -1 · (2 − (0))² + (0) = -4."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": -1,
-          "h": 0,
-          "k": 0
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = -2(x - (1))² + (0). Beräkna f(3).",
-    "answer": [
-      "-8"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "hard",
-    "explanation": [
-      "Sätt x = 3 i uttrycket.",
-      "f(3) = -2 · (3 − (1))² + (0) = -8."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": -2,
-          "h": 1,
-          "k": 0
-        }
-      ]
-    }
-  },
-  {
-    "text": "Grafen visar f(x) = 3(x - (2))² + (0). Beräkna f(4).",
-    "answer": [
-      "12"
-    ],
-    "type": "single",
-    "category": "Andragradsfunktionens graf",
-    "difficulty": "hard",
-    "explanation": [
-      "Sätt x = 4 i uttrycket.",
-      "f(4) = 3 · (4 − (2))² + (0) = 12."
-    ],
-    "graph": {
-      "xMin": -6,
-      "xMax": 6,
-      "yMin": -14,
-      "yMax": 16,
-      "parabolas": [
-        {
-          "a": 3,
-          "h": 2,
-          "k": 0
-        }
-      ]
-    }
+      "Punkter lika långt från symmetrilinjen har samma funktionsvärde.",
+      "0 och 4 ligger båda 2 enheter från x = 2.",
+      "Därför är f(0) = 9."
+    ]
   }
 ]

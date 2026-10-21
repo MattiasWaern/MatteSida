@@ -1,392 +1,412 @@
 [
   {
-    "text": "En biobiljett kostar 20 kr. Vad kostar 2 biljetter?",
+    "text": "En bolls höjd (meter) ges av h(t) = −1(t − 2)² + 10. Vilken är bollens största höjd?",
     "answer": [
-      "40"
+      "10"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "easy",
     "explanation": [
-      "Multiplicera pris per biljett med antalet.",
-      "20 · 2 = 40 kr."
+      "Funktionen är på extrempunktsform.",
+      "Negativ koefficient ger maximihöjden 10 meter."
     ]
   },
   {
-    "text": "En biobiljett kostar 25 kr. Vad kostar 3 biljetter?",
+    "text": "En bolls höjd (meter) ges av h(t) = −2(t − 3)² + 11. Vilken är bollens största höjd?",
     "answer": [
-      "75"
+      "11"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "easy",
     "explanation": [
-      "Multiplicera pris per biljett med antalet.",
-      "25 · 3 = 75 kr."
+      "Funktionen är på extrempunktsform.",
+      "Negativ koefficient ger maximihöjden 11 meter."
     ]
   },
   {
-    "text": "En biobiljett kostar 30 kr. Vad kostar 4 biljetter?",
+    "text": "En bolls höjd (meter) ges av h(t) = −3(t − 4)² + 12. Vilken är bollens största höjd?",
     "answer": [
-      "120"
+      "12"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "easy",
     "explanation": [
-      "Multiplicera pris per biljett med antalet.",
-      "30 · 4 = 120 kr."
+      "Funktionen är på extrempunktsform.",
+      "Negativ koefficient ger maximihöjden 12 meter."
     ]
   },
   {
-    "text": "En biobiljett kostar 35 kr. Vad kostar 5 biljetter?",
+    "text": "En bolls höjd (meter) ges av h(t) = −4(t − 5)² + 13. Vilken är bollens största höjd?",
     "answer": [
-      "175"
+      "13"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "easy",
     "explanation": [
-      "Multiplicera pris per biljett med antalet.",
-      "35 · 5 = 175 kr."
+      "Funktionen är på extrempunktsform.",
+      "Negativ koefficient ger maximihöjden 13 meter."
     ]
   },
   {
-    "text": "En biobiljett kostar 40 kr. Vad kostar 6 biljetter?",
+    "text": "En vara kostar 400 kr och ökar med 10 % per år. Vad är priset efter 2 år? Avrunda till två decimaler.",
     "answer": [
-      "240"
+      "484"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "easy",
     "explanation": [
-      "Multiplicera pris per biljett med antalet.",
-      "40 · 6 = 240 kr."
+      "Förändringsfaktorn är 1 + 10/100 = 1,1.",
+      "Pris efter två år = 400·1,1² = 484 kr."
     ]
   },
   {
-    "text": "En biobiljett kostar 45 kr. Vad kostar 7 biljetter?",
+    "text": "En vara kostar 450 kr och ökar med 15 % per år. Vad är priset efter 2 år? Avrunda till två decimaler.",
     "answer": [
-      "315"
+      "595,12"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "easy",
     "explanation": [
-      "Multiplicera pris per biljett med antalet.",
-      "45 · 7 = 315 kr."
+      "Förändringsfaktorn är 1 + 15/100 = 1,15.",
+      "Pris efter två år = 450·1,15² = 595,12 kr."
     ]
   },
   {
-    "text": "En biobiljett kostar 50 kr. Vad kostar 8 biljetter?",
+    "text": "En vara kostar 500 kr och ökar med 20 % per år. Vad är priset efter 2 år? Avrunda till två decimaler.",
     "answer": [
-      "400"
+      "720"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "easy",
     "explanation": [
-      "Multiplicera pris per biljett med antalet.",
-      "50 · 8 = 400 kr."
+      "Förändringsfaktorn är 1 + 20/100 = 1,2.",
+      "Pris efter två år = 500·1,2² = 720 kr."
     ]
   },
   {
-    "text": "En biobiljett kostar 55 kr. Vad kostar 9 biljetter?",
+    "text": "En tank innehåller 1700 liter och fylls på med 150 liter per timme. Hur många liter finns efter 3 timmar?",
     "answer": [
-      "495"
+      "2150"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "easy",
     "explanation": [
-      "Multiplicera pris per biljett med antalet.",
-      "55 · 9 = 495 kr."
+      "Linjär modell: V(t) = 1700 + 150t.",
+      "V(3) = 2150."
     ]
   },
   {
-    "text": "En biobiljett kostar 60 kr. Vad kostar 10 biljetter?",
+    "text": "En tank innehåller 1800 liter och fylls på med 160 liter per timme. Hur många liter finns efter 3 timmar?",
     "answer": [
-      "600"
+      "2280"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "easy",
     "explanation": [
-      "Multiplicera pris per biljett med antalet.",
-      "60 · 10 = 600 kr."
+      "Linjär modell: V(t) = 1800 + 160t.",
+      "V(3) = 2280."
     ]
   },
   {
-    "text": "En biobiljett kostar 65 kr. Vad kostar 11 biljetter?",
+    "text": "En tank innehåller 1900 liter och fylls på med 170 liter per timme. Hur många liter finns efter 3 timmar?",
     "answer": [
-      "715"
+      "2410"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "easy",
     "explanation": [
-      "Multiplicera pris per biljett med antalet.",
-      "65 · 11 = 715 kr."
+      "Linjär modell: V(t) = 1900 + 170t.",
+      "V(3) = 2410."
     ]
   },
   {
-    "text": "En rektangulär trädgård är 8 m lång och 3 m bred. Hur stor är arean i m²?",
+    "text": "En rektangel har arean 60 m². Längden är 4 m större än bredden. Bestäm bredden i meter.",
     "answer": [
-      "24"
+      "6"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "medium",
     "explanation": [
-      "Area för en rektangel = längd · bredd.",
-      "8 · 3 = 24 m²."
+      "Sätt bredden till x och längden till x + 4.",
+      "x(x + 4) = 60 ger x² + 4x − 60 = 0.",
+      "Den positiva lösningen är x = 6."
     ]
   },
   {
-    "text": "En rektangulär trädgård är 9 m lång och 4 m bred. Hur stor är arean i m²?",
+    "text": "En rektangel har arean 77 m². Längden är 4 m större än bredden. Bestäm bredden i meter.",
     "answer": [
-      "36"
+      "7"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "medium",
     "explanation": [
-      "Area för en rektangel = längd · bredd.",
-      "9 · 4 = 36 m²."
+      "Sätt bredden till x och längden till x + 4.",
+      "x(x + 4) = 77 ger x² + 4x − 77 = 0.",
+      "Den positiva lösningen är x = 7."
     ]
   },
   {
-    "text": "En rektangulär trädgård är 10 m lång och 5 m bred. Hur stor är arean i m²?",
+    "text": "En rektangel har arean 96 m². Längden är 4 m större än bredden. Bestäm bredden i meter.",
     "answer": [
-      "50"
+      "8"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "medium",
     "explanation": [
-      "Area för en rektangel = längd · bredd.",
-      "10 · 5 = 50 m²."
+      "Sätt bredden till x och längden till x + 4.",
+      "x(x + 4) = 96 ger x² + 4x − 96 = 0.",
+      "Den positiva lösningen är x = 8."
     ]
   },
   {
-    "text": "En rektangulär trädgård är 11 m lång och 6 m bred. Hur stor är arean i m²?",
+    "text": "En rektangel har arean 117 m². Längden är 4 m större än bredden. Bestäm bredden i meter.",
     "answer": [
-      "66"
+      "9"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "medium",
     "explanation": [
-      "Area för en rektangel = längd · bredd.",
-      "11 · 6 = 66 m²."
+      "Sätt bredden till x och längden till x + 4.",
+      "x(x + 4) = 117 ger x² + 4x − 117 = 0.",
+      "Den positiva lösningen är x = 9."
     ]
   },
   {
-    "text": "En rektangulär trädgård är 12 m lång och 7 m bred. Hur stor är arean i m²?",
+    "text": "En population börjar på 500 individer och ökar med 20 % varje år. Efter hur många hela år är populationen första gången minst 720?",
     "answer": [
-      "84"
+      "2"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "medium",
     "explanation": [
-      "Area för en rektangel = längd · bredd.",
-      "12 · 7 = 84 m²."
+      "Ställ upp 500·1,2^t ≥ 720.",
+      "Efter 2 år når populationen gränsen.",
+      "Kontrollera även år 1, då den fortfarande ligger under."
     ]
   },
   {
-    "text": "En rektangulär trädgård är 13 m lång och 8 m bred. Hur stor är arean i m²?",
+    "text": "En population börjar på 550 individer och ökar med 20 % varje år. Efter hur många hela år är populationen första gången minst 950,4?",
     "answer": [
-      "104"
+      "3"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "medium",
     "explanation": [
-      "Area för en rektangel = längd · bredd.",
-      "13 · 8 = 104 m²."
+      "Ställ upp 550·1,2^t ≥ 950,4.",
+      "Efter 3 år når populationen gränsen.",
+      "Kontrollera även år 2, då den fortfarande ligger under."
     ]
   },
   {
-    "text": "En rektangulär trädgård är 14 m lång och 9 m bred. Hur stor är arean i m²?",
+    "text": "En population börjar på 600 individer och ökar med 20 % varje år. Efter hur många hela år är populationen första gången minst 1244,16?",
     "answer": [
-      "126"
+      "4"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "medium",
     "explanation": [
-      "Area för en rektangel = längd · bredd.",
-      "14 · 9 = 126 m²."
+      "Ställ upp 600·1,2^t ≥ 1244,16.",
+      "Efter 4 år når populationen gränsen.",
+      "Kontrollera även år 3, då den fortfarande ligger under."
     ]
   },
   {
-    "text": "En rektangulär trädgård är 15 m lång och 10 m bred. Hur stor är arean i m²?",
+    "text": "En förening köper 11 likadana biljetter för 170 kr styck och får 10 % rabatt på hela köpet. Vad betalar de?",
     "answer": [
-      "150"
+      "1683"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "medium",
     "explanation": [
-      "Area för en rektangel = längd · bredd.",
-      "15 · 10 = 150 m²."
+      "Ordinarie pris = 11·170 kr.",
+      "Rabattfaktor = 0,90. Totalt = 1683 kr."
     ]
   },
   {
-    "text": "En rektangulär trädgård är 16 m lång och 11 m bred. Hur stor är arean i m²?",
+    "text": "En förening köper 12 likadana biljetter för 180 kr styck och får 10 % rabatt på hela köpet. Vad betalar de?",
     "answer": [
-      "176"
+      "1944"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "medium",
     "explanation": [
-      "Area för en rektangel = längd · bredd.",
-      "16 · 11 = 176 m²."
+      "Ordinarie pris = 12·180 kr.",
+      "Rabattfaktor = 0,90. Totalt = 1944 kr."
     ]
   },
   {
-    "text": "En rektangulär trädgård är 17 m lång och 12 m bred. Hur stor är arean i m²?",
+    "text": "En förening köper 13 likadana biljetter för 190 kr styck och får 10 % rabatt på hela köpet. Vad betalar de?",
     "answer": [
-      "204"
+      "2223"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "medium",
     "explanation": [
-      "Area för en rektangel = längd · bredd.",
-      "17 · 12 = 204 m²."
+      "Ordinarie pris = 13·190 kr.",
+      "Rabattfaktor = 0,90. Totalt = 2223 kr."
     ]
   },
   {
-    "text": "Ett belopp på 100 kr ökar med 10 % per år. Hur mycket är det efter 2 år? Avrunda till två decimaler.",
+    "text": "En rektangulär odling har omkretsen 42 m. Längden är 5 m större än bredden. Att täcka odlingen kostar 20 kr/m². Bestäm totalkostnaden.",
     "answer": [
-      "121"
+      "2080"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "hard",
     "explanation": [
-      "Förändringsfaktorn är 1,1.",
-      "Beräkna 100 · 1,1^2 = 121 kr."
+      "Låt bredden vara x, längden x + 5. Då gäller 2x + 2(x + 5) = 42.",
+      "x = 8, längden = 13 och arean = 104 m².",
+      "Totalkostnad = 104·20 = 2080 kr."
     ]
   },
   {
-    "text": "Ett belopp på 120 kr ökar med 20 % per år. Hur mycket är det efter 3 år? Avrunda till två decimaler.",
+    "text": "En rektangulär odling har omkretsen 46 m. Längden är 5 m större än bredden. Att täcka odlingen kostar 25 kr/m². Bestäm totalkostnaden.",
     "answer": [
-      "207,36"
+      "3150"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "hard",
     "explanation": [
-      "Förändringsfaktorn är 1,2.",
-      "Beräkna 120 · 1,2^3 = 207,36 kr."
+      "Låt bredden vara x, längden x + 5. Då gäller 2x + 2(x + 5) = 46.",
+      "x = 9, längden = 14 och arean = 126 m².",
+      "Totalkostnad = 126·25 = 3150 kr."
     ]
   },
   {
-    "text": "Ett belopp på 140 kr ökar med 10 % per år. Hur mycket är det efter 4 år? Avrunda till två decimaler.",
+    "text": "En rektangulär odling har omkretsen 50 m. Längden är 5 m större än bredden. Att täcka odlingen kostar 30 kr/m². Bestäm totalkostnaden.",
     "answer": [
-      "204,97"
+      "4500"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "hard",
     "explanation": [
-      "Förändringsfaktorn är 1,1.",
-      "Beräkna 140 · 1,1^4 = 204,97 kr."
+      "Låt bredden vara x, längden x + 5. Då gäller 2x + 2(x + 5) = 50.",
+      "x = 10, längden = 15 och arean = 150 m².",
+      "Totalkostnad = 150·30 = 4500 kr."
     ]
   },
   {
-    "text": "Ett belopp på 160 kr ökar med 20 % per år. Hur mycket är det efter 2 år? Avrunda till två decimaler.",
+    "text": "En rektangulär odling har omkretsen 54 m. Längden är 5 m större än bredden. Att täcka odlingen kostar 35 kr/m². Bestäm totalkostnaden.",
     "answer": [
-      "230,4"
+      "6160"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "hard",
     "explanation": [
-      "Förändringsfaktorn är 1,2.",
-      "Beräkna 160 · 1,2^2 = 230,4 kr."
+      "Låt bredden vara x, längden x + 5. Då gäller 2x + 2(x + 5) = 54.",
+      "x = 11, längden = 16 och arean = 176 m².",
+      "Totalkostnad = 176·35 = 6160 kr."
     ]
   },
   {
-    "text": "Ett belopp på 180 kr ökar med 10 % per år. Hur mycket är det efter 3 år? Avrunda till två decimaler.",
+    "text": "Två sparanden ges av A(t) = 1000·1,05^t och B(t) = 800·1,15^t. Efter hur många hela år är B(t) för första gången större än A(t)?",
     "answer": [
-      "239,58"
+      "3"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "hard",
     "explanation": [
-      "Förändringsfaktorn är 1,1.",
-      "Beräkna 180 · 1,1^3 = 239,58 kr."
+      "Ställ upp 800·1,15^t > 1000·1,05^t.",
+      "Dividera: (1,15/1,05)^t > 1,25.",
+      "Logaritmera: t > lg(1,25)/lg(1,15/1,05) ≈ 2,45.",
+      "Första hela året är 3."
     ]
   },
   {
-    "text": "Ett belopp på 200 kr ökar med 20 % per år. Hur mycket är det efter 4 år? Avrunda till två decimaler.",
+    "text": "Två sparanden ges av A(t) = 1000·1,05^t och B(t) = 800·1,15^t. Efter hur många hela år är B(t) för första gången större än A(t)?",
     "answer": [
-      "414,72"
+      "3"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "hard",
     "explanation": [
-      "Förändringsfaktorn är 1,2.",
-      "Beräkna 200 · 1,2^4 = 414,72 kr."
+      "Ställ upp 800·1,15^t > 1000·1,05^t.",
+      "Dividera: (1,15/1,05)^t > 1,25.",
+      "Logaritmera: t > lg(1,25)/lg(1,15/1,05) ≈ 2,45.",
+      "Första hela året är 3."
     ]
   },
   {
-    "text": "Ett belopp på 220 kr ökar med 10 % per år. Hur mycket är det efter 2 år? Avrunda till två decimaler.",
+    "text": "Två sparanden ges av A(t) = 1000·1,05^t och B(t) = 800·1,15^t. Efter hur många hela år är B(t) för första gången större än A(t)?",
     "answer": [
-      "266,2"
+      "3"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "hard",
     "explanation": [
-      "Förändringsfaktorn är 1,1.",
-      "Beräkna 220 · 1,1^2 = 266,2 kr."
+      "Ställ upp 800·1,15^t > 1000·1,05^t.",
+      "Dividera: (1,15/1,05)^t > 1,25.",
+      "Logaritmera: t > lg(1,25)/lg(1,15/1,05) ≈ 2,45.",
+      "Första hela året är 3."
     ]
   },
   {
-    "text": "Ett belopp på 240 kr ökar med 20 % per år. Hur mycket är det efter 3 år? Avrunda till två decimaler.",
+    "text": "En boll följer h(t) = −(t − 5)² + 33, där t är sekunder. Under hur många sekunder är bollen på minst 24 meters höjd?",
     "answer": [
-      "414,72"
+      "6"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "hard",
     "explanation": [
-      "Förändringsfaktorn är 1,2.",
-      "Beräkna 240 · 1,2^3 = 414,72 kr."
+      "Lös −(t − 5)² + 33 ≥ 24.",
+      "(t − 5)² ≤ 9 ger 2 ≤ t ≤ 8.",
+      "Tidsintervallet är 6 sekunder."
     ]
   },
   {
-    "text": "Ett belopp på 260 kr ökar med 10 % per år. Hur mycket är det efter 4 år? Avrunda till två decimaler.",
+    "text": "En boll följer h(t) = −(t − 5)² + 34, där t är sekunder. Under hur många sekunder är bollen på minst 25 meters höjd?",
     "answer": [
-      "380,67"
+      "6"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "hard",
     "explanation": [
-      "Förändringsfaktorn är 1,1.",
-      "Beräkna 260 · 1,1^4 = 380,67 kr."
+      "Lös −(t − 5)² + 34 ≥ 25.",
+      "(t − 5)² ≤ 9 ger 2 ≤ t ≤ 8.",
+      "Tidsintervallet är 6 sekunder."
     ]
   },
   {
-    "text": "Ett belopp på 280 kr ökar med 20 % per år. Hur mycket är det efter 2 år? Avrunda till två decimaler.",
+    "text": "En boll följer h(t) = −(t − 5)² + 35, där t är sekunder. Under hur många sekunder är bollen på minst 26 meters höjd?",
     "answer": [
-      "403,2"
+      "6"
     ],
     "type": "single",
     "category": "Problemlösning",
     "difficulty": "hard",
     "explanation": [
-      "Förändringsfaktorn är 1,2.",
-      "Beräkna 280 · 1,2^2 = 403,2 kr."
+      "Lös −(t − 5)² + 35 ≥ 26.",
+      "(t − 5)² ≤ 9 ger 2 ≤ t ≤ 8.",
+      "Tidsintervallet är 6 sekunder."
     ]
   }
 ]
