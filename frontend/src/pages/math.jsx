@@ -1,6 +1,7 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import questions from "../data/index.js";
+import { lessons } from "../data/lessons.js";
 import { difficulties, difficultyLabel, getCategory } from "../data/categories.js";
 import QuestionPanel from "../components/QuestionPanel.jsx";
 import useRandomQuestion from "../utils/useRandomQuestion.js";
@@ -29,6 +30,8 @@ function MathQuiz() {
     }, [selected, difficulty]);
 
     const title = selected?.label ?? "Okänt område";
+    const lesson = lessons[category];
+    const [showTheory, setShowTheory] = useState(true);
 
     return (
         <div className="page page--narrow quiz-page">
@@ -60,6 +63,20 @@ function MathQuiz() {
                 )}
             </header>
 
+            {lesson && (
+                <section className="card lesson-card" aria-label="Genomgång">
+                    <div className="lesson-heading">
+                        <h2>Genomgång: {lesson.title}</h2>
+                        <button type="button" className="btn btn-secondary" onClick={() => setShowTheory(value => !value)} aria-expanded={showTheory}>
+                            {showTheory ? "Dölj genomgång" : "Visa genomgång"}
+                        </button>
+                    </div>
+                    {showTheory && <div className="lesson-body">
+                        <ol>{lesson.points.map((point, i) => <li key={i}>{point}</li>)}</ol>
+                        <p><strong>Exempel:</strong> {lesson.example}</p>
+                    </div>}
+                </section>
+            )}
             <section className="card" aria-label="Uppgift">
                 {list.length === 0 ? (
                     <div className="quiz-empty">

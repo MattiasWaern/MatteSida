@@ -16,6 +16,8 @@ const GraphRender = ({ graph }) => {
         yMax = 6,
         lines = [],
         points = [],
+        parabolas = [],
+        exponentials = [],
     } = graph;
 
     const W = 340;
@@ -28,8 +30,10 @@ const GraphRender = ({ graph }) => {
     const px = (x) => pad + (x - xMin) * sx;
     const py = (y) => H - pad - (y - yMin) * sy;
 
-    const range = (min, max) =>
-        Array.from({ length: max - min + 1 }, (_, i) => min + i);
+    const range = (min, max) => {
+        const step = max - min > 30 ? Math.ceil((max - min) / 12) : 1;
+        return Array.from({ length: Math.floor((max - min) / step) + 1 }, (_, i) => min + i * step);
+    };
 
     const xs = range(Math.ceil(xMin), Math.floor(xMax));
     const ys = range(Math.ceil(yMin), Math.floor(yMax));
@@ -86,8 +90,8 @@ const GraphRender = ({ graph }) => {
                 <line x1={px(0)} y1={H - pad} x2={px(0)} y2={pad - 8} stroke="#1e2a44" strokeWidth="2" />
             )}
 
-            <text x={W - pad + 12} y={py(0) + 4} fontSize="13" fontWeight="700" fill="#1e2a44">x</text>
-            <text x={px(0) + 8} y={pad - 10} fontSize="13" fontWeight="700" fill="#1e2a44">y</text>
+            <text x={W - pad + 12} y={py(Math.max(yMin, Math.min(yMax, 0))) + 4} fontSize="13" fontWeight="700" fill="#1e2a44">x</text>
+            <text x={px(Math.max(xMin, Math.min(xMax, 0))) + 8} y={pad - 10} fontSize="13" fontWeight="700" fill="#1e2a44">y</text>
 
             {/* Siffror på axlarna */}
             {xs.filter((x) => x !== 0 && x % stepX === 0).map((x) => (
@@ -112,6 +116,29 @@ const GraphRender = ({ graph }) => {
                         strokeLinecap="round"
                     />
                 ))}
+            </g>
+
+            {/* Statiska SVG-kurvor för andragrads- och exponentialfunktioner */}
+            <g clipPath={`url(#${clipId})`}>
+                {parabolas.map((curve, i) => {
+                    const a = curve.a ?? 1;
+                    const b = curve.b ?? (-2 * a * (curve.h ?? 0));
+                    const c = curve.c ?? (a * (curve.h ?? 0) ** 2 + (curve.k ?? 0));
+                    const steps = 180;
+                    const d = Array.from({ length: steps + 1 }, (_, j) => {
+                        const x = xMin + (xMax - xMin) * j / steps;
+                        return `${j === 0 ? "M" : "L"}${px(x).toFixed(2)},${py(a*x*x+b*x+c).toFixed(2)}`;
+                    }).join(" ");
+                    return <path key={`q${i}`} d={d} fill="none" stroke={COLORS[i % COLORS.length]} strokeWidth="3" />;
+                })}
+                {exponentials.map((curve, i) => {
+                    const steps = 180;
+                    const d = Array.from({ length: steps + 1 }, (_, j) => {
+                        const x = xMin + (xMax - xMin) * j / steps;
+                        return `${j === 0 ? "M" : "L"}${px(x).toFixed(2)},${py(curve.a * Math.pow(curve.b, x)).toFixed(2)}`;
+                    }).join(" ");
+                    return <path key={`e${i}`} d={d} fill="none" stroke={COLORS[(i + 1) % COLORS.length]} strokeWidth="3" />;
+                })}
             </g>
 
             {/* Linjeetiketter */}

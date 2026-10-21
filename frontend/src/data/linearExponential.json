@@ -1,0 +1,417 @@
+[
+  {
+    "text": "En mängd börjar på 100 och ökar med 10 enheter varje månad. Vad är mängden efter 4 månader?",
+    "answer": [
+      "140"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "Samma antal adderas varje månad, så modellen är linjär.",
+      "100 + 4·10 = 140."
+    ]
+  },
+  {
+    "text": "En mängd börjar på 150 och ökar med 15 enheter varje månad. Vad är mängden efter 4 månader?",
+    "answer": [
+      "210"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "Samma antal adderas varje månad, så modellen är linjär.",
+      "150 + 4·15 = 210."
+    ]
+  },
+  {
+    "text": "En mängd börjar på 200 och ökar med 20 enheter varje månad. Vad är mängden efter 4 månader?",
+    "answer": [
+      "280"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "Samma antal adderas varje månad, så modellen är linjär.",
+      "200 + 4·20 = 280."
+    ]
+  },
+  {
+    "text": "En mängd börjar på 250 och ökar med 25 enheter varje månad. Vad är mängden efter 4 månader?",
+    "answer": [
+      "350"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "Samma antal adderas varje månad, så modellen är linjär.",
+      "250 + 4·25 = 350."
+    ]
+  },
+  {
+    "text": "En mängd börjar på 300 och ökar med 30 enheter varje månad. Vad är mängden efter 4 månader?",
+    "answer": [
+      "420"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "Samma antal adderas varje månad, så modellen är linjär.",
+      "300 + 4·30 = 420."
+    ]
+  },
+  {
+    "text": "En mängd börjar på 450 och ökar med 10 % per månad. Vad är mängden efter 2 månader?",
+    "answer": [
+      "544,5"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "Samma procent varje månad betyder exponentiell modell.",
+      "450·1,1² = 544,5."
+    ]
+  },
+  {
+    "text": "En mängd börjar på 500 och ökar med 10 % per månad. Vad är mängden efter 2 månader?",
+    "answer": [
+      "605"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "Samma procent varje månad betyder exponentiell modell.",
+      "500·1,1² = 605."
+    ]
+  },
+  {
+    "text": "En mängd börjar på 550 och ökar med 10 % per månad. Vad är mängden efter 2 månader?",
+    "answer": [
+      "665,5"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "Samma procent varje månad betyder exponentiell modell.",
+      "550·1,1² = 665,5."
+    ]
+  },
+  {
+    "text": "En mängd börjar på 600 och ökar med 10 % per månad. Vad är mängden efter 2 månader?",
+    "answer": [
+      "726"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "Samma procent varje månad betyder exponentiell modell.",
+      "600·1,1² = 726."
+    ]
+  },
+  {
+    "text": "En mängd börjar på 650 och ökar med 10 % per månad. Vad är mängden efter 2 månader?",
+    "answer": [
+      "786,5"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "Samma procent varje månad betyder exponentiell modell.",
+      "650·1,1² = 786,5."
+    ]
+  },
+  {
+    "text": "En linjär modell är L(t) = 50 + 10t. En exponentiell modell är E(t) = 50·1,1^t. Bestäm L(4) − E(4), avrundat till två decimaler.",
+    "answer": [
+      "16,79"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "L(4) = 50+4·10 = 90.",
+      "E(4) = 50·1,1⁴ = 73,21.",
+      "Skillnaden = 16,79."
+    ]
+  },
+  {
+    "text": "En linjär modell är L(t) = 60 + 11t. En exponentiell modell är E(t) = 60·1,1^t. Bestäm L(4) − E(4), avrundat till två decimaler.",
+    "answer": [
+      "16,15"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "L(4) = 60+4·11 = 104.",
+      "E(4) = 60·1,1⁴ = 87,85.",
+      "Skillnaden = 16,15."
+    ]
+  },
+  {
+    "text": "En linjär modell är L(t) = 70 + 12t. En exponentiell modell är E(t) = 70·1,1^t. Bestäm L(4) − E(4), avrundat till två decimaler.",
+    "answer": [
+      "15,51"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "L(4) = 70+4·12 = 118.",
+      "E(4) = 70·1,1⁴ = 102,49.",
+      "Skillnaden = 15,51."
+    ]
+  },
+  {
+    "text": "En linjär modell är L(t) = 80 + 13t. En exponentiell modell är E(t) = 80·1,1^t. Bestäm L(4) − E(4), avrundat till två decimaler.",
+    "answer": [
+      "14,87"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "L(4) = 80+4·13 = 132.",
+      "E(4) = 80·1,1⁴ = 117,13.",
+      "Skillnaden = 14,87."
+    ]
+  },
+  {
+    "text": "En linjär modell är L(t) = 90 + 14t. En exponentiell modell är E(t) = 90·1,1^t. Bestäm L(4) − E(4), avrundat till två decimaler.",
+    "answer": [
+      "14,23"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "L(4) = 90+4·14 = 146.",
+      "E(4) = 90·1,1⁴ = 131,77.",
+      "Skillnaden = 14,23."
+    ]
+  },
+  {
+    "text": "En serie har värdena 200, 220, 240, 260 vid fyra på varandra följande tidpunkter. Bestäm värdet vid nästa tidpunkt.",
+    "answer": [
+      "280"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "Differensen är konstant: +20.",
+      "Det är en linjär modell.",
+      "Nästa värde är 280."
+    ]
+  },
+  {
+    "text": "En serie har värdena 220, 240, 260, 280 vid fyra på varandra följande tidpunkter. Bestäm värdet vid nästa tidpunkt.",
+    "answer": [
+      "300"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "Differensen är konstant: +20.",
+      "Det är en linjär modell.",
+      "Nästa värde är 300."
+    ]
+  },
+  {
+    "text": "En serie har värdena 240, 260, 280, 300 vid fyra på varandra följande tidpunkter. Bestäm värdet vid nästa tidpunkt.",
+    "answer": [
+      "320"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "Differensen är konstant: +20.",
+      "Det är en linjär modell.",
+      "Nästa värde är 320."
+    ]
+  },
+  {
+    "text": "En serie har värdena 260, 280, 300, 320 vid fyra på varandra följande tidpunkter. Bestäm värdet vid nästa tidpunkt.",
+    "answer": [
+      "340"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "Differensen är konstant: +20.",
+      "Det är en linjär modell.",
+      "Nästa värde är 340."
+    ]
+  },
+  {
+    "text": "En serie har värdena 280, 300, 320, 340 vid fyra på varandra följande tidpunkter. Bestäm värdet vid nästa tidpunkt.",
+    "answer": [
+      "360"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "Differensen är konstant: +20.",
+      "Det är en linjär modell.",
+      "Nästa värde är 360."
+    ]
+  },
+  {
+    "text": "En investering växer exponentiellt enligt E(t) = 1000·1,2^t. En annan modell ger konstant värdet 2000. Efter hur många hela år är E(t) större än den konstanta modellen?",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "Ställ upp 1000·1,2^t > 2000.",
+      "Det ger 1,2^t > 2.",
+      "t > lg(2)/lg(1,2) ≈ 3,8.",
+      "Första hela år är 4."
+    ]
+  },
+  {
+    "text": "En investering växer exponentiellt enligt E(t) = 1100·1,2^t. En annan modell ger konstant värdet 2200. Efter hur många hela år är E(t) större än den konstanta modellen?",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "Ställ upp 1100·1,2^t > 2200.",
+      "Det ger 1,2^t > 2.",
+      "t > lg(2)/lg(1,2) ≈ 3,8.",
+      "Första hela år är 4."
+    ]
+  },
+  {
+    "text": "En investering växer exponentiellt enligt E(t) = 1200·1,2^t. En annan modell ger konstant värdet 2400. Efter hur många hela år är E(t) större än den konstanta modellen?",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "Ställ upp 1200·1,2^t > 2400.",
+      "Det ger 1,2^t > 2.",
+      "t > lg(2)/lg(1,2) ≈ 3,8.",
+      "Första hela år är 4."
+    ]
+  },
+  {
+    "text": "En investering växer exponentiellt enligt E(t) = 1300·1,2^t. En annan modell ger konstant värdet 2600. Efter hur många hela år är E(t) större än den konstanta modellen?",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "Ställ upp 1300·1,2^t > 2600.",
+      "Det ger 1,2^t > 2.",
+      "t > lg(2)/lg(1,2) ≈ 3,8.",
+      "Första hela år är 4."
+    ]
+  },
+  {
+    "text": "En investering växer exponentiellt enligt E(t) = 1400·1,2^t. En annan modell ger konstant värdet 2800. Efter hur många hela år är E(t) större än den konstanta modellen?",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "Ställ upp 1400·1,2^t > 2800.",
+      "Det ger 1,2^t > 2.",
+      "t > lg(2)/lg(1,2) ≈ 3,8.",
+      "Första hela år är 4."
+    ]
+  },
+  {
+    "text": "Två modeller är L(t) = 300 + 45t och E(t) = 300·1,15^t. Bestäm första positiva heltalet t då E(t) > L(t).",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "Jämför modellerna för positiva heltal t: 300·1,15^t > 300 + 45t.",
+      "Detta kan undersökas med en värdetabell eller graf.",
+      "Vid t = 1 är E(t) ≤ L(t), men vid t = 2 är E(t) > L(t)."
+    ]
+  },
+  {
+    "text": "Två modeller är L(t) = 320 + 48t och E(t) = 320·1,15^t. Bestäm första positiva heltalet t då E(t) > L(t).",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "Jämför modellerna för positiva heltal t: 320·1,15^t > 320 + 48t.",
+      "Detta kan undersökas med en värdetabell eller graf.",
+      "Vid t = 1 är E(t) ≤ L(t), men vid t = 2 är E(t) > L(t)."
+    ]
+  },
+  {
+    "text": "Två modeller är L(t) = 340 + 51t och E(t) = 340·1,15^t. Bestäm första positiva heltalet t då E(t) > L(t).",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "Jämför modellerna för positiva heltal t: 340·1,15^t > 340 + 51t.",
+      "Detta kan undersökas med en värdetabell eller graf.",
+      "Vid t = 1 är E(t) ≤ L(t), men vid t = 2 är E(t) > L(t)."
+    ]
+  },
+  {
+    "text": "Två modeller är L(t) = 360 + 54t och E(t) = 360·1,15^t. Bestäm första positiva heltalet t då E(t) > L(t).",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "Jämför modellerna för positiva heltal t: 360·1,15^t > 360 + 54t.",
+      "Detta kan undersökas med en värdetabell eller graf.",
+      "Vid t = 1 är E(t) ≤ L(t), men vid t = 2 är E(t) > L(t)."
+    ]
+  },
+  {
+    "text": "Två modeller är L(t) = 380 + 57t och E(t) = 380·1,15^t. Bestäm första positiva heltalet t då E(t) > L(t).",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "Jämför modellerna för positiva heltal t: 380·1,15^t > 380 + 57t.",
+      "Detta kan undersökas med en värdetabell eller graf.",
+      "Vid t = 1 är E(t) ≤ L(t), men vid t = 2 är E(t) > L(t)."
+    ]
+  }
+]

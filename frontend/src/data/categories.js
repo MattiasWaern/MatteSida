@@ -62,6 +62,48 @@ export const categories = [
         label: "Statistik",
         blurb: "Diagram, medelvärde, median och procent.",
     },
+    {
+        slug: "andragradsfunktionens-graf",
+        category: "Andragradsfunktionens graf",
+        label: "Andragradsfunktionens graf",
+        blurb: "Parabler, extrempunkter och grafens form.",
+    },
+    {
+        slug: "nollstallen-symmetrilinje",
+        category: "Nollställen och symmetrilinje",
+        label: "Nollställen och symmetrilinje",
+        blurb: "Rötter, symmetriaxel och extrempunkt.",
+    },
+    {
+        slug: "problemlosning",
+        category: "Problemlösning",
+        label: "Problemlösning",
+        blurb: "Tolka textproblem och välj rätt ekvation.",
+    },
+    {
+        slug: "rationella-exponenter",
+        category: "Potenser med rationella exponenter",
+        label: "Potenser med rationella exponenter",
+        blurb: "Bråkexponenter och rötter.",
+    },
+    {
+        slug: "exponentialfunktioner",
+        category: "Exponentialfunktioner",
+        label: "Exponentialfunktioner",
+        blurb: "Förändringsfaktor och exponentiell tillväxt.",
+    },
+    {
+        slug: "logaritmer",
+        category: "Logaritmer",
+        label: "Logaritmer",
+        blurb: "Tiologaritmer och exponentekvationer.",
+    },
+    {
+        slug: "linjara-exponentiella-metoder",
+        category: "Linjära och exponentiella metoder",
+        label: "Linjära och exponentiella metoder",
+        blurb: "Välj modell och jämför förändring.",
+    },
 ];
 
 export const difficulties = [
