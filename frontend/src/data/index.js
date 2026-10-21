@@ -1,3 +1,10 @@
+import quadraticGraph from './quadraticGraph.json';
+import rootsSymmetry from './rootsSymmetry.json';
+import wordProblems from './wordProblems.json';
+import rationalPowers from './rationalPowers.json';
+import exponentialFunctions from './exponentialFunctions.json';
+import logarithms from './logarithms.json';
+import linearExponential from './linearExponential.json';
 import statistik from './statistic.json';      
 import andragrad from './andragrad.json';
 import linjara from './linjara.json';
@@ -19,7 +26,14 @@ const questions = [
     ...geometriPythagoras,
     ...geometriArea,
     ...geometriVolym,
-    ...geometriCirkel
+    ...geometriCirkel,
+    ...quadraticGraph,
+    ...rootsSymmetry,
+    ...wordProblems,
+    ...rationalPowers,
+    ...exponentialFunctions,
+    ...logarithms,
+    ...linearExponential
 ]
 
 

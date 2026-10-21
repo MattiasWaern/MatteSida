@@ -1,0 +1,402 @@
+[
+  {
+    "text": "En linjär modell är y = 10 + 2x. Beräkna y när x = 3.",
+    "answer": [
+      "16"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "En linjär modell har konstant ökning.",
+      "y = 10 + 2 · 3 = 16."
+    ]
+  },
+  {
+    "text": "En linjär modell är y = 11 + 3x. Beräkna y när x = 3.",
+    "answer": [
+      "20"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "En linjär modell har konstant ökning.",
+      "y = 11 + 3 · 3 = 20."
+    ]
+  },
+  {
+    "text": "En linjär modell är y = 12 + 4x. Beräkna y när x = 3.",
+    "answer": [
+      "24"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "En linjär modell har konstant ökning.",
+      "y = 12 + 4 · 3 = 24."
+    ]
+  },
+  {
+    "text": "En linjär modell är y = 13 + 5x. Beräkna y när x = 3.",
+    "answer": [
+      "28"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "En linjär modell har konstant ökning.",
+      "y = 13 + 5 · 3 = 28."
+    ]
+  },
+  {
+    "text": "En linjär modell är y = 14 + 6x. Beräkna y när x = 3.",
+    "answer": [
+      "32"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "En linjär modell har konstant ökning.",
+      "y = 14 + 6 · 3 = 32."
+    ]
+  },
+  {
+    "text": "En linjär modell är y = 15 + 7x. Beräkna y när x = 3.",
+    "answer": [
+      "36"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "En linjär modell har konstant ökning.",
+      "y = 15 + 7 · 3 = 36."
+    ]
+  },
+  {
+    "text": "En linjär modell är y = 16 + 8x. Beräkna y när x = 3.",
+    "answer": [
+      "40"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "En linjär modell har konstant ökning.",
+      "y = 16 + 8 · 3 = 40."
+    ]
+  },
+  {
+    "text": "En linjär modell är y = 17 + 9x. Beräkna y när x = 3.",
+    "answer": [
+      "44"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "En linjär modell har konstant ökning.",
+      "y = 17 + 9 · 3 = 44."
+    ]
+  },
+  {
+    "text": "En linjär modell är y = 18 + 10x. Beräkna y när x = 3.",
+    "answer": [
+      "48"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "En linjär modell har konstant ökning.",
+      "y = 18 + 10 · 3 = 48."
+    ]
+  },
+  {
+    "text": "En linjär modell är y = 19 + 11x. Beräkna y när x = 3.",
+    "answer": [
+      "52"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "easy",
+    "explanation": [
+      "En linjär modell har konstant ökning.",
+      "y = 19 + 11 · 3 = 52."
+    ]
+  },
+  {
+    "text": "En exponentiell modell är y = 10 · 2^x. Beräkna y när x = 3.",
+    "answer": [
+      "80"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "En exponentiell modell har konstant förändringsfaktor.",
+      "y = 10 · 2^3 = 80."
+    ]
+  },
+  {
+    "text": "En exponentiell modell är y = 11 · 2^x. Beräkna y när x = 3.",
+    "answer": [
+      "88"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "En exponentiell modell har konstant förändringsfaktor.",
+      "y = 11 · 2^3 = 88."
+    ]
+  },
+  {
+    "text": "En exponentiell modell är y = 12 · 2^x. Beräkna y när x = 3.",
+    "answer": [
+      "96"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "En exponentiell modell har konstant förändringsfaktor.",
+      "y = 12 · 2^3 = 96."
+    ]
+  },
+  {
+    "text": "En exponentiell modell är y = 13 · 2^x. Beräkna y när x = 3.",
+    "answer": [
+      "104"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "En exponentiell modell har konstant förändringsfaktor.",
+      "y = 13 · 2^3 = 104."
+    ]
+  },
+  {
+    "text": "En exponentiell modell är y = 14 · 2^x. Beräkna y när x = 3.",
+    "answer": [
+      "112"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "En exponentiell modell har konstant förändringsfaktor.",
+      "y = 14 · 2^3 = 112."
+    ]
+  },
+  {
+    "text": "En exponentiell modell är y = 15 · 2^x. Beräkna y när x = 3.",
+    "answer": [
+      "120"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "En exponentiell modell har konstant förändringsfaktor.",
+      "y = 15 · 2^3 = 120."
+    ]
+  },
+  {
+    "text": "En exponentiell modell är y = 16 · 2^x. Beräkna y när x = 3.",
+    "answer": [
+      "128"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "En exponentiell modell har konstant förändringsfaktor.",
+      "y = 16 · 2^3 = 128."
+    ]
+  },
+  {
+    "text": "En exponentiell modell är y = 17 · 2^x. Beräkna y när x = 3.",
+    "answer": [
+      "136"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "En exponentiell modell har konstant förändringsfaktor.",
+      "y = 17 · 2^3 = 136."
+    ]
+  },
+  {
+    "text": "En exponentiell modell är y = 18 · 2^x. Beräkna y när x = 3.",
+    "answer": [
+      "144"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "En exponentiell modell har konstant förändringsfaktor.",
+      "y = 18 · 2^3 = 144."
+    ]
+  },
+  {
+    "text": "En exponentiell modell är y = 19 · 2^x. Beräkna y när x = 3.",
+    "answer": [
+      "152"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "medium",
+    "explanation": [
+      "En exponentiell modell har konstant förändringsfaktor.",
+      "y = 19 · 2^3 = 152."
+    ]
+  },
+  {
+    "text": "Jämför L(x) = 100 + 10x och E(x) = 100 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "answer": [
+      "24"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "L(2) = 100 + 10 · 2 = 120.",
+      "E(2) = 100 · 1,2² = 144.",
+      "Skillnaden E(2) − L(2) = 24."
+    ]
+  },
+  {
+    "text": "Jämför L(x) = 110 + 11x och E(x) = 110 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "answer": [
+      "26,4"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "L(2) = 110 + 11 · 2 = 132.",
+      "E(2) = 110 · 1,2² = 158,4.",
+      "Skillnaden E(2) − L(2) = 26,4."
+    ]
+  },
+  {
+    "text": "Jämför L(x) = 120 + 12x och E(x) = 120 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "answer": [
+      "28,8"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "L(2) = 120 + 12 · 2 = 144.",
+      "E(2) = 120 · 1,2² = 172,8.",
+      "Skillnaden E(2) − L(2) = 28,8."
+    ]
+  },
+  {
+    "text": "Jämför L(x) = 130 + 13x och E(x) = 130 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "answer": [
+      "31,2"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "L(2) = 130 + 13 · 2 = 156.",
+      "E(2) = 130 · 1,2² = 187,2.",
+      "Skillnaden E(2) − L(2) = 31,2."
+    ]
+  },
+  {
+    "text": "Jämför L(x) = 140 + 14x och E(x) = 140 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "answer": [
+      "33,6"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "L(2) = 140 + 14 · 2 = 168.",
+      "E(2) = 140 · 1,2² = 201,6.",
+      "Skillnaden E(2) − L(2) = 33,6."
+    ]
+  },
+  {
+    "text": "Jämför L(x) = 150 + 15x och E(x) = 150 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "answer": [
+      "36"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "L(2) = 150 + 15 · 2 = 180.",
+      "E(2) = 150 · 1,2² = 216.",
+      "Skillnaden E(2) − L(2) = 36."
+    ]
+  },
+  {
+    "text": "Jämför L(x) = 160 + 16x och E(x) = 160 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "answer": [
+      "38,4"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "L(2) = 160 + 16 · 2 = 192.",
+      "E(2) = 160 · 1,2² = 230,4.",
+      "Skillnaden E(2) − L(2) = 38,4."
+    ]
+  },
+  {
+    "text": "Jämför L(x) = 170 + 17x och E(x) = 170 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "answer": [
+      "40,8"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "L(2) = 170 + 17 · 2 = 204.",
+      "E(2) = 170 · 1,2² = 244,8.",
+      "Skillnaden E(2) − L(2) = 40,8."
+    ]
+  },
+  {
+    "text": "Jämför L(x) = 180 + 18x och E(x) = 180 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "answer": [
+      "43,2"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "L(2) = 180 + 18 · 2 = 216.",
+      "E(2) = 180 · 1,2² = 259,2.",
+      "Skillnaden E(2) − L(2) = 43,2."
+    ]
+  },
+  {
+    "text": "Jämför L(x) = 190 + 19x och E(x) = 190 · 1,2^x. Hur mycket större är E(2) än L(2)?",
+    "answer": [
+      "45,6"
+    ],
+    "type": "single",
+    "category": "Linjära och exponentiella metoder",
+    "difficulty": "hard",
+    "explanation": [
+      "L(2) = 190 + 19 · 2 = 228.",
+      "E(2) = 190 · 1,2² = 273,6.",
+      "Skillnaden E(2) − L(2) = 45,6."
+    ]
+  }
+]

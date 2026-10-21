@@ -1,0 +1,392 @@
+[
+  {
+    "text": "Beräkna (4)^(1/2).",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "easy",
+    "explanation": [
+      "Exponent 1/2 betyder kvadratrot.",
+      "√4 = 2."
+    ]
+  },
+  {
+    "text": "Beräkna (9)^(1/2).",
+    "answer": [
+      "3"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "easy",
+    "explanation": [
+      "Exponent 1/2 betyder kvadratrot.",
+      "√9 = 3."
+    ]
+  },
+  {
+    "text": "Beräkna (16)^(1/2).",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "easy",
+    "explanation": [
+      "Exponent 1/2 betyder kvadratrot.",
+      "√16 = 4."
+    ]
+  },
+  {
+    "text": "Beräkna (25)^(1/2).",
+    "answer": [
+      "5"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "easy",
+    "explanation": [
+      "Exponent 1/2 betyder kvadratrot.",
+      "√25 = 5."
+    ]
+  },
+  {
+    "text": "Beräkna (36)^(1/2).",
+    "answer": [
+      "6"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "easy",
+    "explanation": [
+      "Exponent 1/2 betyder kvadratrot.",
+      "√36 = 6."
+    ]
+  },
+  {
+    "text": "Beräkna (49)^(1/2).",
+    "answer": [
+      "7"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "easy",
+    "explanation": [
+      "Exponent 1/2 betyder kvadratrot.",
+      "√49 = 7."
+    ]
+  },
+  {
+    "text": "Beräkna (64)^(1/2).",
+    "answer": [
+      "8"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "easy",
+    "explanation": [
+      "Exponent 1/2 betyder kvadratrot.",
+      "√64 = 8."
+    ]
+  },
+  {
+    "text": "Beräkna (81)^(1/2).",
+    "answer": [
+      "9"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "easy",
+    "explanation": [
+      "Exponent 1/2 betyder kvadratrot.",
+      "√81 = 9."
+    ]
+  },
+  {
+    "text": "Beräkna (100)^(1/2).",
+    "answer": [
+      "10"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "easy",
+    "explanation": [
+      "Exponent 1/2 betyder kvadratrot.",
+      "√100 = 10."
+    ]
+  },
+  {
+    "text": "Beräkna (121)^(1/2).",
+    "answer": [
+      "11"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "easy",
+    "explanation": [
+      "Exponent 1/2 betyder kvadratrot.",
+      "√121 = 11."
+    ]
+  },
+  {
+    "text": "Beräkna (8)^(2/3).",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "medium",
+    "explanation": [
+      "Exponent 2/3 betyder kubikrot och sedan upphöjt till 2.",
+      "(8)^(2/3) = 2² = 4."
+    ]
+  },
+  {
+    "text": "Beräkna (27)^(2/3).",
+    "answer": [
+      "9"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "medium",
+    "explanation": [
+      "Exponent 2/3 betyder kubikrot och sedan upphöjt till 2.",
+      "(27)^(2/3) = 3² = 9."
+    ]
+  },
+  {
+    "text": "Beräkna (64)^(2/3).",
+    "answer": [
+      "16"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "medium",
+    "explanation": [
+      "Exponent 2/3 betyder kubikrot och sedan upphöjt till 2.",
+      "(64)^(2/3) = 4² = 16."
+    ]
+  },
+  {
+    "text": "Beräkna (125)^(2/3).",
+    "answer": [
+      "25"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "medium",
+    "explanation": [
+      "Exponent 2/3 betyder kubikrot och sedan upphöjt till 2.",
+      "(125)^(2/3) = 5² = 25."
+    ]
+  },
+  {
+    "text": "Beräkna (216)^(2/3).",
+    "answer": [
+      "36"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "medium",
+    "explanation": [
+      "Exponent 2/3 betyder kubikrot och sedan upphöjt till 2.",
+      "(216)^(2/3) = 6² = 36."
+    ]
+  },
+  {
+    "text": "Beräkna (343)^(2/3).",
+    "answer": [
+      "49"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "medium",
+    "explanation": [
+      "Exponent 2/3 betyder kubikrot och sedan upphöjt till 2.",
+      "(343)^(2/3) = 7² = 49."
+    ]
+  },
+  {
+    "text": "Beräkna (512)^(2/3).",
+    "answer": [
+      "64"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "medium",
+    "explanation": [
+      "Exponent 2/3 betyder kubikrot och sedan upphöjt till 2.",
+      "(512)^(2/3) = 8² = 64."
+    ]
+  },
+  {
+    "text": "Beräkna (729)^(2/3).",
+    "answer": [
+      "81"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "medium",
+    "explanation": [
+      "Exponent 2/3 betyder kubikrot och sedan upphöjt till 2.",
+      "(729)^(2/3) = 9² = 81."
+    ]
+  },
+  {
+    "text": "Beräkna (1000)^(2/3).",
+    "answer": [
+      "100"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "medium",
+    "explanation": [
+      "Exponent 2/3 betyder kubikrot och sedan upphöjt till 2.",
+      "(1000)^(2/3) = 10² = 100."
+    ]
+  },
+  {
+    "text": "Beräkna (1331)^(2/3).",
+    "answer": [
+      "121"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "medium",
+    "explanation": [
+      "Exponent 2/3 betyder kubikrot och sedan upphöjt till 2.",
+      "(1331)^(2/3) = 11² = 121."
+    ]
+  },
+  {
+    "text": "Beräkna (4)^(3/2).",
+    "answer": [
+      "8"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta kvadratroten först och upphöj sedan till 3.",
+      "(4)^(3/2) = 2³ = 8."
+    ]
+  },
+  {
+    "text": "Beräkna (9)^(3/2).",
+    "answer": [
+      "27"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta kvadratroten först och upphöj sedan till 3.",
+      "(9)^(3/2) = 3³ = 27."
+    ]
+  },
+  {
+    "text": "Beräkna (16)^(3/2).",
+    "answer": [
+      "64"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta kvadratroten först och upphöj sedan till 3.",
+      "(16)^(3/2) = 4³ = 64."
+    ]
+  },
+  {
+    "text": "Beräkna (25)^(3/2).",
+    "answer": [
+      "125"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta kvadratroten först och upphöj sedan till 3.",
+      "(25)^(3/2) = 5³ = 125."
+    ]
+  },
+  {
+    "text": "Beräkna (36)^(3/2).",
+    "answer": [
+      "216"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta kvadratroten först och upphöj sedan till 3.",
+      "(36)^(3/2) = 6³ = 216."
+    ]
+  },
+  {
+    "text": "Beräkna (49)^(3/2).",
+    "answer": [
+      "343"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta kvadratroten först och upphöj sedan till 3.",
+      "(49)^(3/2) = 7³ = 343."
+    ]
+  },
+  {
+    "text": "Beräkna (64)^(3/2).",
+    "answer": [
+      "512"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta kvadratroten först och upphöj sedan till 3.",
+      "(64)^(3/2) = 8³ = 512."
+    ]
+  },
+  {
+    "text": "Beräkna (81)^(3/2).",
+    "answer": [
+      "729"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta kvadratroten först och upphöj sedan till 3.",
+      "(81)^(3/2) = 9³ = 729."
+    ]
+  },
+  {
+    "text": "Beräkna (100)^(3/2).",
+    "answer": [
+      "1000"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta kvadratroten först och upphöj sedan till 3.",
+      "(100)^(3/2) = 10³ = 1000."
+    ]
+  },
+  {
+    "text": "Beräkna (121)^(3/2).",
+    "answer": [
+      "1331"
+    ],
+    "type": "single",
+    "category": "Potenser med rationella exponenter",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta kvadratroten först och upphöj sedan till 3.",
+      "(121)^(3/2) = 11³ = 1331."
+    ]
+  }
+]

@@ -50,3 +50,11 @@
     max-width: 44ch;
     color: var(--muted);
 }
+
+/* Genomgångar för de nya områdena */
+.lesson-card { margin-bottom: 1.5rem; }
+.lesson-heading { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.lesson-heading h2 { margin: 0; font-size: 1.25rem; }
+.lesson-body { line-height: 1.7; }
+.lesson-body li { margin: .65rem 0; }
+.lesson-body p { margin-bottom: 0; }

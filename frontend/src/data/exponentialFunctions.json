@@ -1,0 +1,752 @@
+[
+  {
+    "text": "f(x) = 2 · 2^x. Beräkna f(2).",
+    "answer": [
+      "8"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "easy",
+    "explanation": [
+      "Sätt in x = 2.",
+      "2 · 2^2 = 8."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 10,
+      "exponentials": [
+        {
+          "a": 2,
+          "b": 2
+        }
+      ]
+    }
+  },
+  {
+    "text": "f(x) = 3 · 3^x. Beräkna f(2).",
+    "answer": [
+      "27"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "easy",
+    "explanation": [
+      "Sätt in x = 2.",
+      "3 · 3^2 = 27."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 31.049999999999997,
+      "exponentials": [
+        {
+          "a": 3,
+          "b": 3
+        }
+      ]
+    }
+  },
+  {
+    "text": "f(x) = 4 · 4^x. Beräkna f(2).",
+    "answer": [
+      "64"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "easy",
+    "explanation": [
+      "Sätt in x = 2.",
+      "4 · 4^2 = 64."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 73.6,
+      "exponentials": [
+        {
+          "a": 4,
+          "b": 4
+        }
+      ]
+    }
+  },
+  {
+    "text": "f(x) = 5 · 5^x. Beräkna f(2).",
+    "answer": [
+      "125"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "easy",
+    "explanation": [
+      "Sätt in x = 2.",
+      "5 · 5^2 = 125."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 143.75,
+      "exponentials": [
+        {
+          "a": 5,
+          "b": 5
+        }
+      ]
+    }
+  },
+  {
+    "text": "f(x) = 6 · 2^x. Beräkna f(2).",
+    "answer": [
+      "24"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "easy",
+    "explanation": [
+      "Sätt in x = 2.",
+      "6 · 2^2 = 24."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 27.599999999999998,
+      "exponentials": [
+        {
+          "a": 6,
+          "b": 2
+        }
+      ]
+    }
+  },
+  {
+    "text": "f(x) = 7 · 3^x. Beräkna f(2).",
+    "answer": [
+      "63"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "easy",
+    "explanation": [
+      "Sätt in x = 2.",
+      "7 · 3^2 = 63."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 72.44999999999999,
+      "exponentials": [
+        {
+          "a": 7,
+          "b": 3
+        }
+      ]
+    }
+  },
+  {
+    "text": "f(x) = 8 · 4^x. Beräkna f(2).",
+    "answer": [
+      "128"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "easy",
+    "explanation": [
+      "Sätt in x = 2.",
+      "8 · 4^2 = 128."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 147.2,
+      "exponentials": [
+        {
+          "a": 8,
+          "b": 4
+        }
+      ]
+    }
+  },
+  {
+    "text": "f(x) = 9 · 5^x. Beräkna f(2).",
+    "answer": [
+      "225"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "easy",
+    "explanation": [
+      "Sätt in x = 2.",
+      "9 · 5^2 = 225."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 258.75,
+      "exponentials": [
+        {
+          "a": 9,
+          "b": 5
+        }
+      ]
+    }
+  },
+  {
+    "text": "f(x) = 10 · 2^x. Beräkna f(2).",
+    "answer": [
+      "40"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "easy",
+    "explanation": [
+      "Sätt in x = 2.",
+      "10 · 2^2 = 40."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 46.0,
+      "exponentials": [
+        {
+          "a": 10,
+          "b": 2
+        }
+      ]
+    }
+  },
+  {
+    "text": "f(x) = 11 · 3^x. Beräkna f(2).",
+    "answer": [
+      "99"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "easy",
+    "explanation": [
+      "Sätt in x = 2.",
+      "11 · 3^2 = 99."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 113.85,
+      "exponentials": [
+        {
+          "a": 11,
+          "b": 3
+        }
+      ]
+    }
+  },
+  {
+    "text": "En population är 100 och ökar med 5 % per år. Hur stor är den efter 2 år? Avrunda till två decimaler.",
+    "answer": [
+      "110,25"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "medium",
+    "explanation": [
+      "Förändringsfaktor = 1 + 5/100 = 1,05.",
+      "100 · 1,05² = 110,25."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 126.7875,
+      "exponentials": [
+        {
+          "a": 100,
+          "b": 1.05
+        }
+      ]
+    }
+  },
+  {
+    "text": "En population är 100 och ökar med 10 % per år. Hur stor är den efter 2 år? Avrunda till två decimaler.",
+    "answer": [
+      "121"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "medium",
+    "explanation": [
+      "Förändringsfaktor = 1 + 10/100 = 1,1.",
+      "100 · 1,1² = 121."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 139.14999999999998,
+      "exponentials": [
+        {
+          "a": 100,
+          "b": 1.1
+        }
+      ]
+    }
+  },
+  {
+    "text": "En population är 100 och ökar med 15 % per år. Hur stor är den efter 2 år? Avrunda till två decimaler.",
+    "answer": [
+      "132,25"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "medium",
+    "explanation": [
+      "Förändringsfaktor = 1 + 15/100 = 1,15.",
+      "100 · 1,15² = 132,25."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 152.08749999999998,
+      "exponentials": [
+        {
+          "a": 100,
+          "b": 1.15
+        }
+      ]
+    }
+  },
+  {
+    "text": "En population är 100 och ökar med 20 % per år. Hur stor är den efter 2 år? Avrunda till två decimaler.",
+    "answer": [
+      "144"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "medium",
+    "explanation": [
+      "Förändringsfaktor = 1 + 20/100 = 1,2.",
+      "100 · 1,2² = 144."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 165.6,
+      "exponentials": [
+        {
+          "a": 100,
+          "b": 1.2
+        }
+      ]
+    }
+  },
+  {
+    "text": "En population är 100 och ökar med 25 % per år. Hur stor är den efter 2 år? Avrunda till två decimaler.",
+    "answer": [
+      "156,25"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "medium",
+    "explanation": [
+      "Förändringsfaktor = 1 + 25/100 = 1,25.",
+      "100 · 1,25² = 156,25."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 179.6875,
+      "exponentials": [
+        {
+          "a": 100,
+          "b": 1.25
+        }
+      ]
+    }
+  },
+  {
+    "text": "En population är 100 och ökar med 30 % per år. Hur stor är den efter 2 år? Avrunda till två decimaler.",
+    "answer": [
+      "169"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "medium",
+    "explanation": [
+      "Förändringsfaktor = 1 + 30/100 = 1,3.",
+      "100 · 1,3² = 169."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 194.35,
+      "exponentials": [
+        {
+          "a": 100,
+          "b": 1.3
+        }
+      ]
+    }
+  },
+  {
+    "text": "En population är 100 och ökar med 35 % per år. Hur stor är den efter 2 år? Avrunda till två decimaler.",
+    "answer": [
+      "182,25"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "medium",
+    "explanation": [
+      "Förändringsfaktor = 1 + 35/100 = 1,35.",
+      "100 · 1,35² = 182,25."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 209.58749999999998,
+      "exponentials": [
+        {
+          "a": 100,
+          "b": 1.35
+        }
+      ]
+    }
+  },
+  {
+    "text": "En population är 100 och ökar med 40 % per år. Hur stor är den efter 2 år? Avrunda till två decimaler.",
+    "answer": [
+      "196"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "medium",
+    "explanation": [
+      "Förändringsfaktor = 1 + 40/100 = 1,4.",
+      "100 · 1,4² = 196."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 225.39999999999998,
+      "exponentials": [
+        {
+          "a": 100,
+          "b": 1.4
+        }
+      ]
+    }
+  },
+  {
+    "text": "En population är 100 och ökar med 45 % per år. Hur stor är den efter 2 år? Avrunda till två decimaler.",
+    "answer": [
+      "210,25"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "medium",
+    "explanation": [
+      "Förändringsfaktor = 1 + 45/100 = 1,45.",
+      "100 · 1,45² = 210,25."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 241.7875,
+      "exponentials": [
+        {
+          "a": 100,
+          "b": 1.45
+        }
+      ]
+    }
+  },
+  {
+    "text": "En population är 100 och ökar med 50 % per år. Hur stor är den efter 2 år? Avrunda till två decimaler.",
+    "answer": [
+      "225"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "medium",
+    "explanation": [
+      "Förändringsfaktor = 1 + 50/100 = 1,5.",
+      "100 · 1,5² = 225."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 258.75,
+      "exponentials": [
+        {
+          "a": 100,
+          "b": 1.5
+        }
+      ]
+    }
+  },
+  {
+    "text": "Modellen är f(x) = 40 · 0,5^x. Beräkna f(3).",
+    "answer": [
+      "5"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "hard",
+    "explanation": [
+      "Beräkna potensen 0,5^3.",
+      "Multiplicera med 40: 5."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 10,
+      "exponentials": [
+        {
+          "a": 40,
+          "b": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "text": "Modellen är f(x) = 50 · 2^x. Beräkna f(4).",
+    "answer": [
+      "800"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "hard",
+    "explanation": [
+      "Beräkna potensen 2^4.",
+      "Multiplicera med 50: 800."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 919.9999999999999,
+      "exponentials": [
+        {
+          "a": 50,
+          "b": 2
+        }
+      ]
+    }
+  },
+  {
+    "text": "Modellen är f(x) = 60 · 0,5^x. Beräkna f(5).",
+    "answer": [
+      "1,88"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "hard",
+    "explanation": [
+      "Beräkna potensen 0,5^5.",
+      "Multiplicera med 60: 1,88."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 10,
+      "exponentials": [
+        {
+          "a": 60,
+          "b": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "text": "Modellen är f(x) = 70 · 2^x. Beräkna f(3).",
+    "answer": [
+      "560"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "hard",
+    "explanation": [
+      "Beräkna potensen 2^3.",
+      "Multiplicera med 70: 560."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 644.0,
+      "exponentials": [
+        {
+          "a": 70,
+          "b": 2
+        }
+      ]
+    }
+  },
+  {
+    "text": "Modellen är f(x) = 80 · 0,5^x. Beräkna f(4).",
+    "answer": [
+      "5"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "hard",
+    "explanation": [
+      "Beräkna potensen 0,5^4.",
+      "Multiplicera med 80: 5."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 10,
+      "exponentials": [
+        {
+          "a": 80,
+          "b": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "text": "Modellen är f(x) = 90 · 2^x. Beräkna f(5).",
+    "answer": [
+      "2880"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "hard",
+    "explanation": [
+      "Beräkna potensen 2^5.",
+      "Multiplicera med 90: 2880."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 3311.9999999999995,
+      "exponentials": [
+        {
+          "a": 90,
+          "b": 2
+        }
+      ]
+    }
+  },
+  {
+    "text": "Modellen är f(x) = 100 · 0,5^x. Beräkna f(3).",
+    "answer": [
+      "12,5"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "hard",
+    "explanation": [
+      "Beräkna potensen 0,5^3.",
+      "Multiplicera med 100: 12,5."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 14.374999999999998,
+      "exponentials": [
+        {
+          "a": 100,
+          "b": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "text": "Modellen är f(x) = 110 · 2^x. Beräkna f(4).",
+    "answer": [
+      "1760"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "hard",
+    "explanation": [
+      "Beräkna potensen 2^4.",
+      "Multiplicera med 110: 1760."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 2023.9999999999998,
+      "exponentials": [
+        {
+          "a": 110,
+          "b": 2
+        }
+      ]
+    }
+  },
+  {
+    "text": "Modellen är f(x) = 120 · 0,5^x. Beräkna f(5).",
+    "answer": [
+      "3,75"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "hard",
+    "explanation": [
+      "Beräkna potensen 0,5^5.",
+      "Multiplicera med 120: 3,75."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 10,
+      "exponentials": [
+        {
+          "a": 120,
+          "b": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "text": "Modellen är f(x) = 130 · 2^x. Beräkna f(3).",
+    "answer": [
+      "1040"
+    ],
+    "type": "single",
+    "category": "Exponentialfunktioner",
+    "difficulty": "hard",
+    "explanation": [
+      "Beräkna potensen 2^3.",
+      "Multiplicera med 130: 1040."
+    ],
+    "graph": {
+      "xMin": 0,
+      "xMax": 5,
+      "yMin": 0,
+      "yMax": 1196.0,
+      "exponentials": [
+        {
+          "a": 130,
+          "b": 2
+        }
+      ]
+    }
+  }
+]

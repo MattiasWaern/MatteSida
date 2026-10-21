@@ -1,0 +1,392 @@
+[
+  {
+    "text": "Beräkna lg(10).",
+    "answer": [
+      "1"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "easy",
+    "explanation": [
+      "lg betyder logaritm med bas 10.",
+      "10^1 = 10, alltså lg(10) = 1."
+    ]
+  },
+  {
+    "text": "Beräkna lg(100).",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "easy",
+    "explanation": [
+      "lg betyder logaritm med bas 10.",
+      "10^2 = 100, alltså lg(100) = 2."
+    ]
+  },
+  {
+    "text": "Beräkna lg(1000).",
+    "answer": [
+      "3"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "easy",
+    "explanation": [
+      "lg betyder logaritm med bas 10.",
+      "10^3 = 1000, alltså lg(1000) = 3."
+    ]
+  },
+  {
+    "text": "Beräkna lg(10000).",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "easy",
+    "explanation": [
+      "lg betyder logaritm med bas 10.",
+      "10^4 = 10000, alltså lg(10000) = 4."
+    ]
+  },
+  {
+    "text": "Beräkna lg(100000).",
+    "answer": [
+      "5"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "easy",
+    "explanation": [
+      "lg betyder logaritm med bas 10.",
+      "10^5 = 100000, alltså lg(100000) = 5."
+    ]
+  },
+  {
+    "text": "Beräkna lg(10).",
+    "answer": [
+      "1"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "easy",
+    "explanation": [
+      "lg betyder logaritm med bas 10.",
+      "10^1 = 10, alltså lg(10) = 1."
+    ]
+  },
+  {
+    "text": "Beräkna lg(100).",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "easy",
+    "explanation": [
+      "lg betyder logaritm med bas 10.",
+      "10^2 = 100, alltså lg(100) = 2."
+    ]
+  },
+  {
+    "text": "Beräkna lg(1000).",
+    "answer": [
+      "3"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "easy",
+    "explanation": [
+      "lg betyder logaritm med bas 10.",
+      "10^3 = 1000, alltså lg(1000) = 3."
+    ]
+  },
+  {
+    "text": "Beräkna lg(10000).",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "easy",
+    "explanation": [
+      "lg betyder logaritm med bas 10.",
+      "10^4 = 10000, alltså lg(10000) = 4."
+    ]
+  },
+  {
+    "text": "Beräkna lg(100000).",
+    "answer": [
+      "5"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "easy",
+    "explanation": [
+      "lg betyder logaritm med bas 10.",
+      "10^5 = 100000, alltså lg(100000) = 5."
+    ]
+  },
+  {
+    "text": "Lös ekvationen lg(x) = 1. Ange x.",
+    "answer": [
+      "10"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "medium",
+    "explanation": [
+      "lg(x) = 1 betyder x = 10^1.",
+      "x = 10."
+    ]
+  },
+  {
+    "text": "Lös ekvationen lg(x) = 2. Ange x.",
+    "answer": [
+      "100"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "medium",
+    "explanation": [
+      "lg(x) = 2 betyder x = 10^2.",
+      "x = 100."
+    ]
+  },
+  {
+    "text": "Lös ekvationen lg(x) = 3. Ange x.",
+    "answer": [
+      "1000"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "medium",
+    "explanation": [
+      "lg(x) = 3 betyder x = 10^3.",
+      "x = 1000."
+    ]
+  },
+  {
+    "text": "Lös ekvationen lg(x) = 4. Ange x.",
+    "answer": [
+      "10000"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "medium",
+    "explanation": [
+      "lg(x) = 4 betyder x = 10^4.",
+      "x = 10000."
+    ]
+  },
+  {
+    "text": "Lös ekvationen lg(x) = 1. Ange x.",
+    "answer": [
+      "10"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "medium",
+    "explanation": [
+      "lg(x) = 1 betyder x = 10^1.",
+      "x = 10."
+    ]
+  },
+  {
+    "text": "Lös ekvationen lg(x) = 2. Ange x.",
+    "answer": [
+      "100"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "medium",
+    "explanation": [
+      "lg(x) = 2 betyder x = 10^2.",
+      "x = 100."
+    ]
+  },
+  {
+    "text": "Lös ekvationen lg(x) = 3. Ange x.",
+    "answer": [
+      "1000"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "medium",
+    "explanation": [
+      "lg(x) = 3 betyder x = 10^3.",
+      "x = 1000."
+    ]
+  },
+  {
+    "text": "Lös ekvationen lg(x) = 4. Ange x.",
+    "answer": [
+      "10000"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "medium",
+    "explanation": [
+      "lg(x) = 4 betyder x = 10^4.",
+      "x = 10000."
+    ]
+  },
+  {
+    "text": "Lös ekvationen lg(x) = 1. Ange x.",
+    "answer": [
+      "10"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "medium",
+    "explanation": [
+      "lg(x) = 1 betyder x = 10^1.",
+      "x = 10."
+    ]
+  },
+  {
+    "text": "Lös ekvationen lg(x) = 2. Ange x.",
+    "answer": [
+      "100"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "medium",
+    "explanation": [
+      "lg(x) = 2 betyder x = 10^2.",
+      "x = 100."
+    ]
+  },
+  {
+    "text": "Lös ekvationen 10^x = 10. Ange x.",
+    "answer": [
+      "1"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta tiologaritmen på båda sidor.",
+      "x = lg(10) = 1."
+    ]
+  },
+  {
+    "text": "Lös ekvationen 10^x = 100. Ange x.",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta tiologaritmen på båda sidor.",
+      "x = lg(100) = 2."
+    ]
+  },
+  {
+    "text": "Lös ekvationen 10^x = 1000. Ange x.",
+    "answer": [
+      "3"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta tiologaritmen på båda sidor.",
+      "x = lg(1000) = 3."
+    ]
+  },
+  {
+    "text": "Lös ekvationen 10^x = 10000. Ange x.",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta tiologaritmen på båda sidor.",
+      "x = lg(10000) = 4."
+    ]
+  },
+  {
+    "text": "Lös ekvationen 10^x = 10. Ange x.",
+    "answer": [
+      "1"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta tiologaritmen på båda sidor.",
+      "x = lg(10) = 1."
+    ]
+  },
+  {
+    "text": "Lös ekvationen 10^x = 100. Ange x.",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta tiologaritmen på båda sidor.",
+      "x = lg(100) = 2."
+    ]
+  },
+  {
+    "text": "Lös ekvationen 10^x = 1000. Ange x.",
+    "answer": [
+      "3"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta tiologaritmen på båda sidor.",
+      "x = lg(1000) = 3."
+    ]
+  },
+  {
+    "text": "Lös ekvationen 10^x = 10000. Ange x.",
+    "answer": [
+      "4"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta tiologaritmen på båda sidor.",
+      "x = lg(10000) = 4."
+    ]
+  },
+  {
+    "text": "Lös ekvationen 10^x = 10. Ange x.",
+    "answer": [
+      "1"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta tiologaritmen på båda sidor.",
+      "x = lg(10) = 1."
+    ]
+  },
+  {
+    "text": "Lös ekvationen 10^x = 100. Ange x.",
+    "answer": [
+      "2"
+    ],
+    "type": "single",
+    "category": "Logaritmer",
+    "difficulty": "hard",
+    "explanation": [
+      "Ta tiologaritmen på båda sidor.",
+      "x = lg(100) = 2."
+    ]
+  }
+]
